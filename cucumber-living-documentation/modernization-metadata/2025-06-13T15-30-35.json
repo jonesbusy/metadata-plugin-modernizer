@@ -1,0 +1,14 @@
+{
+  "pluginName": "cucumber-living-documentation",
+  "pluginRepository": "https://github.com/jenkinsci/cucumber-living-documentation-plugin.git",
+  "pluginVersion": "3.2",
+  "rpuBaseline": "2.73",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "key": "2025-06-13T15-30-35.json",
+  "path": "metadata-plugin-modernizer/cucumber-living-documentation/modernization-metadata"
+}
