@@ -36,15 +36,15 @@ def update_pr_status(file_path):
 
         pr = g.get_repo(f"{owner}/{repo}").get_pull(int(pr_num))
         status = 'merged' if pr.merged else pr.state
-        metadata['status'] = status
+        metadata['pullRequestStatus'] = status
 
         with open(file_path, 'w') as f:
             json.dump(metadata, f, indent=2)
 
-        logging.info(f"Updated status to '{status}' in {file_path}")
+        logging.info(f"Updated pullRequestStatus to '{status}' in {file_path}")
 
     except Exception as e:
-        logging.error(f"Failed to update PR status for {file_path}: {e}")
+        logging.error(f"Failed to update pullRequestStatus for {file_path}: {e}")
 
 # Find all 'modernization-metadata' folders anywhere under root_dir
 def find_all_metadata_dirs(root_dir='.'):
