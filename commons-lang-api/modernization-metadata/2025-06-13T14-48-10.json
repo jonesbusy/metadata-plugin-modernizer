@@ -1,0 +1,14 @@
+{
+  "pluginName": "commons-lang-api",
+  "pluginRepository": "https://github.com/jenkinsci/commons-lang-api-plugin.git",
+  "pluginVersion": "2.6.0",
+  "rpuBaseline": "2.289",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "key": "2025-06-13T14-48-10.json",
+  "path": "metadata-plugin-modernizer/commons-lang-api/modernization-metadata"
+}
