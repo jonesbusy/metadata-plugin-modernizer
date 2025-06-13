@@ -11,5 +11,6 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
   "pullRequestUrl": "https://github.com/jenkinsci/tuleap-oauth-plugin/pull/495",
   "key": "2025-06-12T12-50-21.json",
-  "path": "metadata-plugin-modernizer\\tuleap-oauth\\modernization-metadata"
+  "path": "metadata-plugin-modernizer\\tuleap-oauth\\modernization-metadata",
+  "status": "closed"
 }
