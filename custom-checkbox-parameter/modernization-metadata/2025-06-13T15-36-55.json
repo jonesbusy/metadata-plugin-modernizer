@@ -1,0 +1,14 @@
+{
+  "pluginName": "custom-checkbox-parameter",
+  "pluginRepository": "https://github.com/jenkinsci/custom-checkbox-parameter-plugin.git",
+  "pluginVersion": "1.4",
+  "rpuBaseline": "2.277",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "key": "2025-06-13T15-36-55.json",
+  "path": "metadata-plugin-modernizer/custom-checkbox-parameter/modernization-metadata"
+}
