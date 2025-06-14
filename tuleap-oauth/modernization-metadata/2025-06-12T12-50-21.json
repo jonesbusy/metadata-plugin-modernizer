@@ -32,5 +32,6 @@
     "Tests (ubuntu-22.04) with coverage": "cancelled",
     "Tests (windows-2022) with coverage": "failure",
     "Build and archive": "success"
-  }
+  },
+  "checkRunsSummary": "failure"
 }
