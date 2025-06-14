@@ -44,10 +44,10 @@ def update_pr_status(file_path):
 
         checks_summary = {check.name: check.conclusion for check in check_runs}
         metadata['checkRuns'] = checks_summary
+        metadata['checkRunsSummary'] = summarize_check_runs(checks_summary)
 
         logging.info(f"Check runs for PR #{pr_num}: {checks_summary}")
-
-
+        logging.info(f"Check runs summary for PR #{pr_num}: {metadata['checkRunsSummary']}")
 
         with open(file_path, 'w') as f:
             json.dump(metadata, f, indent=2)
@@ -56,6 +56,18 @@ def update_pr_status(file_path):
 
     except Exception as e:
         logging.error(f"Failed to update pullRequestStatus for {file_path}: {e}")
+
+def summarize_check_runs(checks_summary):
+    conclusions = list(checks_summary.values())
+
+    if any(c is None for c in conclusions):
+        return 'pending'
+    elif any(c in ['failure', 'timed_out', 'cancelled'] for c in conclusions):
+        return 'failure'
+    elif all(c == 'success' for c in conclusions):
+        return 'success'
+    else:
+        return 'neutral'  # fallback if mixed states like 'neutral', 'skipped', etc.
 
 # Find all 'modernization-metadata' folders anywhere under root_dir
 def find_all_metadata_dirs(root_dir='.'):
