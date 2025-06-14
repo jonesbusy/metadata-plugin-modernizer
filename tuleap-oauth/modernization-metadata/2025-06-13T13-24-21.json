@@ -12,5 +12,12 @@
   "pullRequestUrl": "https://github.com/Raunak80Madan/tuleap-oauth-plugin/pull/8",
   "pullRequestStatus": "closed",
   "key": "2025-06-13T13-24-21.json",
-  "path": "metadata-plugin-modernizer\\tuleap-oauth\\modernization-metadata"
+  "path": "metadata-plugin-modernizer\\tuleap-oauth\\modernization-metadata",
+  "checkRuns": {
+    "Jenkins Security Scan": "success",
+    "security-scan / scan": "success",
+    "Build and archive": "success",
+    "Tests (ubuntu-22.04) with coverage": "failure",
+    "Tests (windows-2022) with coverage": "cancelled"
+  }
 }
