@@ -38,6 +38,17 @@ def update_pr_status(file_path):
         status = 'merged' if pr.merged else pr.state
         metadata['pullRequestStatus'] = status
 
+        # Get Check Runs status
+        commit = pr.base.repo.get_commit(pr.head.sha)
+        check_runs = commit.get_check_runs()
+
+        checks_summary = {check.name: check.conclusion for check in check_runs}
+        metadata['checkRuns'] = checks_summary
+
+        logging.info(f"Check runs for PR #{pr_num}: {checks_summary}")
+
+
+
         with open(file_path, 'w') as f:
             json.dump(metadata, f, indent=2)
 
