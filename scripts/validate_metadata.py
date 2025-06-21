@@ -126,7 +126,7 @@ def validate_metadata(file_path):
 # Process changed JSON files in the PR
 files = pr.get_files()
 for file in files:
-    if file.filename.endswith('.json') and 'modernization-metadata' in file.filename:
+    if file.filename.endswith('.json') and '/modernization-metadata/' in file.filename:
         validate_metadata(file.filename)
 
 pr.create_issue_comment("Metadata validation passed! PR is ready for auto-merge.")
