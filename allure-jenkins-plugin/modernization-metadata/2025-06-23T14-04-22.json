@@ -1,0 +1,21 @@
+{
+  "pluginName": "allure-jenkins-plugin",
+  "pluginRepository": "https://github.com/jenkinsci/allure-plugin.git",
+  "pluginVersion": "2.32.0",
+  "rpuBaseline": "2.387",
+  "migrationName": "Setup dependabot",
+  "migrationDescription": "Setup dependabot for the Jenkins plugin if it doesn\u0027t exist.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+  "pullRequestUrl": "https://github.com/jenkinsci/allure-plugin/pull/388",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 10,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2025-06-23T14-04-22.json",
+  "path": "metadata-plugin-modernizer/allure-jenkins-plugin/modernization-metadata"
+}
