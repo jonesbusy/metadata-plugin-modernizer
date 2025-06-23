@@ -1,0 +1,37 @@
+name: Auto-Enable Auto-Merge on Fork PRs
+
+on:
+  check_suite:
+    types: [completed]
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  enable-auto-merge:
+    if: github.event.check_suite.conclusion == 'success'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Authenticate GitHub CLI
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
+      - name: Get PR number for commit
+        id: find_pr
+        run: |
+          PR_NUMBER=$(gh api repos/${{ github.repository }}/commits/${{ github.event.check_suite.head_sha }}/pulls --jq '.[0].number')
+          if [[ -z "$PR_NUMBER" || "$PR_NUMBER" == "null" ]]; then
+            echo "No PR found for this commit."
+            echo "found=no" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "Found PR #$PR_NUMBER"
+          echo "pr_number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
+          echo "found=yes" >> "$GITHUB_OUTPUT"
+
+      - name: Enable Auto-Merge
+        if: steps.find_pr.outputs.found == 'yes'
+        run: |
+          gh pr merge "${{ steps.find_pr.outputs.pr_number }}" --auto --merge
