@@ -1,51 +1,32 @@
-name: Auto-Enable Auto-Merge on Success
+name: Auto-Merge PR After Checks
 
 on:
-  workflow_run:
-    workflows: ["Validate Metadata PR"]
-    types:
-      - completed
+  pull_request_target:
+    types: [opened, synchronize, reopened]
 
 permissions:
+  contents: write
   pull-requests: write
-  contents: read
 
 jobs:
   auto-merge:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set up GitHub CLI
-        run: echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+      - name: Checkout PR content
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
 
-      - name: Get PR number from branch
-        id: pr-context
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_TARGET_REPO: ${{ github.repository }}
-          PR_BRANCH: |-
-            ${{
-              (github.event.workflow_run.head_repository.owner.login != github.event.workflow_run.repository.owner.login)
-                && format('{0}:{1}', github.event.workflow_run.head_repository.owner.login, github.event.workflow_run.head_branch)
-                || github.event.workflow_run.head_branch
-            }}
-        run: |
-          echo "Looking for PR from branch: $PR_BRANCH"
-          gh pr view --repo "$PR_TARGET_REPO" "$PR_BRANCH" --json number --jq ".number" > pr_number.txt
-          PR_NUMBER=$(cat pr_number.txt)
-          if [[ -z "$PR_NUMBER" || "$PR_NUMBER" == "null" ]]; then
-            echo "No PR found."
-            echo "found=no" >> $GITHUB_OUTPUT
-            exit 0
-          fi
-          echo "Found PR #$PR_NUMBER"
-          echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
-          echo "found=yes" >> $GITHUB_OUTPUT
+      - name: Wait for all required checks
+        uses: ahmadnassri/action-workflow-run-wait@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          sha: ${{ github.event.pull_request.head.sha }}
 
-      - name: Enable Auto-Merge
-        if: steps.pr-context.outputs.found == 'yes'
+      - name: Enable GitHub Auto-Merge
         uses: peter-evans/enable-pull-request-automerge@v3
         with:
-          pull-request-number: ${{ steps.pr-context.outputs.pr_number }}
+          pull-request-number: ${{ github.event.pull_request.number }}
           merge-method: merge
