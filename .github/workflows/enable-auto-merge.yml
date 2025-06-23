@@ -2,7 +2,7 @@ name: Auto-Enable Auto-Merge on Success
 
 on:
   workflow_run:
-    workflows: ["validate-metadata"] 
+    workflows: ["Validate Metadata PR"] 
     types:
       - completed
 
