@@ -33,5 +33,7 @@
     "Tests (windows-2022) with coverage": "failure",
     "Build and archive": "success"
   },
-  "checkRunsSummary": "failure"
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "07db5b3a4bf0890397540e1a205ece15f9d1779a"
 }
