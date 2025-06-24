@@ -12,8 +12,18 @@ jobs:
   track-prs:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Set up SSH for deploy key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+      - name: Checkout repository with SSH
         uses: actions/checkout@v4
+        with:
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+
 
       - name: Set up Python
         uses: actions/setup-python@v5
