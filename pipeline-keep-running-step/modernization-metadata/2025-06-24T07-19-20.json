@@ -1,0 +1,21 @@
+{
+  "pluginName": "pipeline-keep-running-step",
+  "pluginRepository": "https://github.com/jenkinsci/pipeline-keep-running-step-plugin.git",
+  "pluginVersion": "1.3",
+  "rpuBaseline": "2.479",
+  "migrationName": "Add CODEOWNERS file",
+  "migrationDescription": "Adds a CODEOWNERS file to a Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
+  "pullRequestUrl": "https://github.com/jenkinsci/pipeline-keep-running-step-plugin/pull/8",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2025-06-24T07-19-20.json",
+  "path": "metadata-plugin-modernizer/pipeline-keep-running-step/modernization-metadata"
+}
