@@ -46,16 +46,33 @@ def update_pr_status(file_path):
         metadata['checkRuns'] = checks_summary
         metadata['checkRunsSummary'] = summarize_check_runs(checks_summary)
 
+        # Get default branch and latest commit sha
+        default_branch, latest_commit_sha = get_default_branch_info(repo)
+        metadata['defaultBranch'] = default_branch
+        metadata['defaultBranchLatestCommitSha'] = latest_commit_sha
+
         logging.info(f"Check runs for PR #{pr_num}: {checks_summary}")
         logging.info(f"Check runs summary for PR #{pr_num}: {metadata['checkRunsSummary']}")
+        logging.info(f"Default branch: {default_branch}, latest commit SHA: {latest_commit_sha}")
 
+        # Write updated metadata back to the file
         with open(file_path, 'w') as f:
             json.dump(metadata, f, indent=2)
 
-        logging.info(f"Updated pullRequestStatus to '{status}' in {file_path}")
+        logging.info(f"Updated pull request status and branch info in {file_path}")
 
     except Exception as e:
-        logging.error(f"Failed to update pullRequestStatus for {file_path}: {e}")
+        logging.error(f"Failed to update pull request status and branch info for {file_path}: {e}")
+
+def get_default_branch_info(repo):
+    try:
+        default_branch = repo.default_branch
+        latest_commit_sha = repo.get_branch(default_branch).commit.sha
+        return default_branch, latest_commit_sha
+    except Exception as e:
+        logging.error(f"Failed to get default branch info for repo {repo.full_name}: {e}")
+        return None, None
+
 
 def summarize_check_runs(checks_summary):
     conclusions = list(checks_summary.values())
