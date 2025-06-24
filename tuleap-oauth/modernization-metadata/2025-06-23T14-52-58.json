@@ -18,11 +18,10 @@
   "key": "2025-06-23T14-52-58.json",
   "path": "metadata-plugin-modernizer\\tuleap-oauth\\modernization-metadata",
   "checkRuns": {
-    "Jenkins Security Scan": "success",
-    "security-scan / scan": "success",
-    "Tests (ubuntu-22.04) with coverage": "failure",
+    "security-scan / scan": null,
+    "Build and archive": null,
     "Tests (windows-2022) with coverage": "cancelled",
-    "Build and archive": "success"
+    "Tests (ubuntu-22.04) with coverage": "failure"
   },
-  "checkRunsSummary": "failure"
+  "checkRunsSummary": "pending"
 }
