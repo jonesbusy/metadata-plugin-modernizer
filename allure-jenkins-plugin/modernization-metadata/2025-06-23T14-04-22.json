@@ -4,7 +4,7 @@
   "pluginVersion": "2.32.0",
   "rpuBaseline": "2.387",
   "migrationName": "Setup dependabot",
-  "migrationDescription": "Setup dependabot for the Jenkins plugin if it doesn\u0027t exist.",
+  "migrationDescription": "Setup dependabot for the Jenkins plugin if it doesn't exist.",
   "tags": [
     "skip-verification",
     "chore"
@@ -17,5 +17,9 @@
   "deletions": 0,
   "changedFiles": 1,
   "key": "2025-06-23T14-04-22.json",
-  "path": "metadata-plugin-modernizer/allure-jenkins-plugin/modernization-metadata"
+  "path": "metadata-plugin-modernizer/allure-jenkins-plugin/modernization-metadata",
+  "checkRuns": {
+    "build": "success"
+  },
+  "checkRunsSummary": "success"
 }

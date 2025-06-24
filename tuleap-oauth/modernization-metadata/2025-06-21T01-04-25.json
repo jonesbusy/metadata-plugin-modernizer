@@ -19,10 +19,10 @@
   "path": "metadata-plugin-modernizer\\tuleap-oauth\\modernization-metadata",
   "checkRuns": {
     "Jenkins Security Scan": "success",
-    "Build and archive": "success",
     "security-scan / scan": "success",
+    "Tests (ubuntu-22.04) with coverage": "failure",
     "Tests (windows-2022) with coverage": "cancelled",
-    "Tests (ubuntu-22.04) with coverage": "failure"
+    "Build and archive": "success"
   },
   "checkRunsSummary": "failure"
 }
