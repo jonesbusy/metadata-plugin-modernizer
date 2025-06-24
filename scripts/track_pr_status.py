@@ -31,15 +31,16 @@ def update_pr_status(file_path):
 
     try:
         parts = pr_url.split('/')
-        owner, repo, pr_num = parts[3], parts[4], parts[6]
-        logging.info(f"Extracted PR: {owner}/{repo}#{pr_num}")
+        owner, repo_name, pr_num = parts[3], parts[4], parts[6]
+        logging.info(f"Extracted PR: {owner}/{repo_name}#{pr_num}")
 
-        pr = g.get_repo(f"{owner}/{repo}").get_pull(int(pr_num))
+        repo = g.get_repo(f"{owner}/{repo_name}")
+        pr = repo.get_pull(int(pr_num))
         status = 'merged' if pr.merged else pr.state
         metadata['pullRequestStatus'] = status
 
         # Get Check Runs status
-        commit = pr.base.repo.get_commit(pr.head.sha)
+        commit = repo.get_commit(pr.head.sha)
         check_runs = commit.get_check_runs()
 
         checks_summary = {check.name: check.conclusion for check in check_runs}
