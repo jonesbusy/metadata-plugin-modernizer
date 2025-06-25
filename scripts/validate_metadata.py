@@ -27,8 +27,8 @@ schema = {
         "migrationDescription": {"type": "string", "minLength": 1},
         "tags": {"type": "array", "items": {"type": "string"}},
         "migrationId": {"type": "string", "pattern": "^io\\.jenkins\\.tools\\.pluginmodernizer\\..+$"},
-        "pullRequestUrl": {"type": "string", "format": "uri", "pattern": "^https://github.com/[^/]+/[^/]+/pull/[0-9]+$"},
-        "pullRequestStatus": {"type": "string", "enum": ["open", "closed", "merged"]},
+        "pullRequestUrl": {"type": "string", "anyOf": [{"pattern": "^$"}, {"format": "uri", "pattern": "^https://github.com/[^/]+/[^/]+/pull/[0-9]+$"}]},
+        "pullRequestStatus": {"type": "string", "anyOf": [{"pattern": "^$"}, {"enum": ["open", "closed", "merged"]}]},
         "dryRun": {"type": "boolean"},
         "additions": {"type": "integer", "minimum": 0},
         "deletions": {"type": "integer", "minimum": 0},
@@ -108,23 +108,26 @@ def validate_metadata(file_path):
         pr.create_issue_comment(f"Invalid plugin repository '{metadata['pluginRepository']}' in {file_path}")
         raise ValueError("Invalid plugin repository")
 
-    # Validate PR URL
-    pr_url = metadata['pullRequestUrl']
-    pr_match = re.match(r'https://github.com/([^/]+)/([^/]+)/pull/([0-9]+)', pr_url)
-    if not pr_match:
-        pr.create_issue_comment(f"Invalid PR URL '{pr_url}' in {file_path}")
-        raise ValueError("Invalid PR URL")
-    
-    owner, repo, pr_num = pr_match.groups()
-    try:
-        plugin_pr = g.get_repo(f"{owner}/{repo}").get_pull(int(pr_num))
-        status = 'merged' if plugin_pr.merged else plugin_pr.state
-        if metadata['pullRequestStatus'] != status:
-            pr.create_issue_comment(f"PR status mismatch in {file_path}: metadata says '{metadata['pullRequestStatus']}', but actual status is '{status}'")
-            raise ValueError("PR status mismatch")
-    except:
-        pr.create_issue_comment(f"Unable to fetch PR '{pr_url}' in {file_path}")
-        raise ValueError("Invalid PR")
+    # Validate PR URL and Status only if pullRequestUrl is not empty
+    pr_url = metadata.get('pullRequestUrl', '')
+    pr_status = metadata.get('pullRequestStatus', '')
+
+    if pr_url:
+        pr_match = re.match(r'https://github.com/([^/]+)/([^/]+)/pull/([0-9]+)', pr_url)
+        if not pr_match:
+            pr.create_issue_comment(f"Invalid PR URL '{pr_url}' in {file_path}")
+            raise ValueError("Invalid PR URL")
+        
+        owner, repo, pr_num = pr_match.groups()
+        try:
+            plugin_pr = g.get_repo(f"{owner}/{repo}").get_pull(int(pr_num))
+            actual_status = 'merged' if plugin_pr.merged else plugin_pr.state
+            if pr_status and pr_status != actual_status:
+                pr.create_issue_comment(f"PR status mismatch in {file_path}: metadata says '{pr_status}', but actual status is '{actual_status}'")
+                raise ValueError("PR status mismatch")
+        except:
+            pr.create_issue_comment(f"Unable to fetch PR '{pr_url}' in {file_path}")
+            raise ValueError("Invalid PR")
 
 # Process changed JSON files in the PR
 files = pr.get_files()
