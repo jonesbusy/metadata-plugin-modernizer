@@ -1,3 +1,4 @@
+# This workflow uses pull_request_target but doesn't checks out PR code from fork, therefore safe to use
 name: Auto-Merge PR After Checks
 
 on:
@@ -13,20 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout PR content
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.pull_request.head.ref }}
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-
-      - name: Wait for all required checks
-        uses: ahmadnassri/action-workflow-run-wait@v1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          sha: ${{ github.event.pull_request.head.sha }}
-
-      - name: Enable GitHub Auto-Merge
-        uses: peter-evans/enable-pull-request-automerge@v3
-        with:
-          pull-request-number: ${{ github.event.pull_request.number }}
-          merge-method: merge
+      - name: Enable GitHub Auto-Merge 
+        run: gh pr merge ${{ github.event.pull_request.html_url }} --merge --auto
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
