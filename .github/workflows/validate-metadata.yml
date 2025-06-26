@@ -1,4 +1,4 @@
-name: Validate Metadata PR
+name: Validate Metadata
 
 on:
   pull_request:
