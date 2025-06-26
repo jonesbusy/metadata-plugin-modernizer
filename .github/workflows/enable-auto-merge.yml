@@ -15,6 +15,6 @@ jobs:
 
     steps:
       - name: Enable GitHub Auto-Merge 
-        run: gh pr merge ${{ github.event.pull_request.html_url }} --merge --auto
+        run: gh pr merge ${{ github.event.pull_request.html_url }} --merge --auto --delete-branch
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
