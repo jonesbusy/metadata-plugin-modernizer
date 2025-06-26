@@ -11,7 +11,7 @@
   ],
   "migrationId": "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
   "pullRequestUrl": "https://github.com/jenkinsci/pipeline-keep-running-step-plugin/pull/8",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 1,
   "deletions": 0,
@@ -37,5 +37,5 @@
   },
   "checkRunsSummary": "success",
   "defaultBranch": "master",
-  "defaultBranchLatestCommitSha": "98ffa3572e2adc23652e4e0a427ffd8290099626"
+  "defaultBranchLatestCommitSha": "a47bacad965e6b0a539082a5a643b55b2654776e"
 }
