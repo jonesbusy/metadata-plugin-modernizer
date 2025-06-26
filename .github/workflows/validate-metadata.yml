@@ -1,6 +1,9 @@
 name: Validate Metadata
 
 on:
+  push: 
+    branches: 
+      - automation/update-pr-status
   pull_request:
     branches: [main]
     paths:
