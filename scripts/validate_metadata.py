@@ -17,7 +17,7 @@ pr = repo.get_pull(int(pr_number))
 # JSON schema for metadata validation
 schema = {
     "type": "object",
-    "required": ["pluginName", "pluginRepository", "pluginVersion", "rpuBaseline", "migrationName", "migrationDescription", "tags", "migrationId", "pullRequestUrl", "pullRequestStatus", "dryRun", "additions", "deletions", "changedFiles", "key", "path"],
+    "required": ["pluginName", "pluginRepository", "pluginVersion", "rpuBaseline", "migrationName", "migrationDescription", "tags", "migrationId", "migrationStatus", "pullRequestUrl", "pullRequestStatus", "dryRun", "additions", "deletions", "changedFiles", "key", "path"],
     "properties": {
         "pluginName": {"type": "string", "pattern": "^[a-zA-Z0-9-]+$"},
         "pluginRepository": {"type": "string", "format": "uri", "pattern": "^https://github.com/[^/]+/.+\\.git$"},
@@ -27,6 +27,7 @@ schema = {
         "migrationDescription": {"type": "string", "minLength": 1},
         "tags": {"type": "array", "items": {"type": "string"}},
         "migrationId": {"type": "string", "pattern": "^io\\.jenkins\\.tools\\.pluginmodernizer\\..+$"},
+        "migrationStatus": {"type": "string", "enum": ["success", "fail"]},
         "pullRequestUrl": {"type": "string", "anyOf": [{"pattern": "^$"}, {"format": "uri", "pattern": "^https://github.com/[^/]+/[^/]+/pull/[0-9]+$"}]},
         "pullRequestStatus": {"type": "string", "anyOf": [{"pattern": "^$"}, {"enum": ["open", "closed", "merged"]}]},
         "dryRun": {"type": "boolean"},
