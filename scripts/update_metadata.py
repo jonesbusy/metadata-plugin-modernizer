@@ -51,14 +51,14 @@ def update_pr_status(file_path):
         if metadata.get('checkRuns') != sorted_checks:
             metadata['checkRuns'] = sorted_checks
             metadata['checkRunsSummary'] = summarize_check_runs(sorted_checks)
+            logging.info(f"Check runs updated for PR #{pr_num}: {sorted_checks}")
+            logging.info(f"Check runs summary updated for PR #{pr_num}: {metadata['checkRunsSummary']}")
 
         # Get default branch and latest commit sha
         default_branch, latest_commit_sha = get_default_branch_info(repo)
         metadata['defaultBranch'] = default_branch
         metadata['defaultBranchLatestCommitSha'] = latest_commit_sha
 
-        logging.info(f"Check runs for PR #{pr_num}: {checks_summary}")
-        logging.info(f"Check runs summary for PR #{pr_num}: {metadata['checkRunsSummary']}")
         logging.info(f"Default branch: {default_branch}, latest commit SHA: {latest_commit_sha}")
 
         # Write updated metadata back to the file
