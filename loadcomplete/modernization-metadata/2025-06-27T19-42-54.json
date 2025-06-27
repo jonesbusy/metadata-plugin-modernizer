@@ -1,0 +1,21 @@
+{
+  "pluginName": "loadcomplete",
+  "pluginRepository": "https://github.com/jenkinsci/loadcomplete-plugin.git",
+  "pluginVersion": "1.0",
+  "rpuBaseline": "2.492",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/loadcomplete-plugin/pull/8",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 28,
+  "deletions": 17,
+  "changedFiles": 3,
+  "key": "2025-06-27T19-42-54.json",
+  "path": "metadata-plugin-modernizer\\loadcomplete\\modernization-metadata"
+}
