@@ -43,9 +43,14 @@ def update_pr_status(file_path):
         commit = repo.get_commit(pr.head.sha)
         check_runs = commit.get_check_runs()
 
-        checks_summary = {check.name: check.conclusion for check in check_runs}
-        metadata['checkRuns'] = checks_summary
-        metadata['checkRunsSummary'] = summarize_check_runs(checks_summary)
+        sorted_checks = {
+            check.name: check.conclusion
+            for check in sorted(check_runs, key=lambda c: c.name)
+        }
+        # Only update if changed
+        if metadata.get('checkRuns') != sorted_checks:
+            metadata['checkRuns'] = sorted_checks
+            metadata['checkRunsSummary'] = summarize_check_runs(sorted_checks)
 
         # Get default branch and latest commit sha
         default_branch, latest_commit_sha = get_default_branch_info(repo)

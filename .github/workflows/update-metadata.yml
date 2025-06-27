@@ -1,4 +1,4 @@
-name: Update PR Status and Branch Info
+name: Update Metadata
 
 on:
   schedule:
@@ -10,10 +10,10 @@ permissions:
     pull-requests: write
 
 jobs:
-  track-prs:
+  update-metadata:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up SSH for deploy keyAdd commentMore actions
+      - name: Set up SSH for deploy key
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_ed25519
@@ -33,10 +33,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run tracking script
+      - name: Run updation script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/track_pr_status.py
+        run: python scripts/update_metadata.py
 
       - name: Create or update PR with changes
         env:
