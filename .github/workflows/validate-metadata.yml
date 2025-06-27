@@ -27,7 +27,22 @@ jobs:
       - name: Install dependencies
         run: pip install requests PyGithub jsonschema
 
+      - name: Get PR number (only for push event)
+        if: github.event_name == 'push'
+        id: get_pr
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_NUMBER=$(gh pr view --json number -q .number || echo "")
+          echo "PR_NUMBER=$PR_NUMBER" >> $GITHUB_ENV
+          echo "PR Number: $PR_NUMBER"
+
+      - name: Set PR number from pull_request event
+        if: github.event_name == 'pull_request'
+        run: echo "PR_NUMBER=${{ github.event.number }}" >> $GITHUB_ENV
+
       - name: Validate metadata
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ env.PR_NUMBER }}
         run: python scripts/validate_metadata.py

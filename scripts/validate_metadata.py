@@ -11,7 +11,7 @@ if not token:
     raise EnvironmentError("GITHUB TOKEN is not found.")
 g = Github(token)
 repo = g.get_repo('Raunak80Madan/metadata-plugin-modernizer')
-pr_number = os.getenv('GITHUB_REF').split('/')[-2]
+pr_number = os.getenv("PR_NUMBER")
 pr = repo.get_pull(int(pr_number))
 
 # JSON schema for metadata validation
