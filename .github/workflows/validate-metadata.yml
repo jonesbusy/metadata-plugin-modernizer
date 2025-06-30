@@ -8,12 +8,19 @@ on:
     branches: [main]
     paths:
         - '**/modernization-metadata/**'
+  issue_comment:
+    types: [created]
 
 permissions:
   pull-requests: write
 
 jobs:
   validate-metadata:
+    if: |
+      github.event_name == 'pull_request' ||
+      (github.event_name == 'issue_comment' &&
+       github.event.issue.pull_request &&
+       contains(github.event.comment.body, 'run-checks'))
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -40,6 +47,10 @@ jobs:
       - name: Set PR number from pull_request event
         if: github.event_name == 'pull_request'
         run: echo "PR_NUMBER=${{ github.event.number }}" >> $GITHUB_ENV
+
+      - name: Set PR number from issue_comment event
+        if: github.event_name == 'issue_comment'
+        run: echo "PR_NUMBER=${{ github.event.issue.number }}" >> $GITHUB_ENV
 
       - name: Validate metadata
         env:
