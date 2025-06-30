@@ -7,8 +7,8 @@ from github import Github
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
-# Authenticate with GitHub using GITHUB_TOKEN
-token = os.getenv('GITHUB_TOKEN')
+# Authenticate with GitHub using GH_TOKEN
+token = os.getenv('GH_TOKEN')
 if not token:
     logging.error("GITHUB_TOKEN not found.")
     exit(1)

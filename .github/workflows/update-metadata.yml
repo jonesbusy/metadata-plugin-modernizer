@@ -26,7 +26,7 @@ jobs:
 
       - name: Run updation script
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_metadata.py
 
       - name: Create or update PR with changes
@@ -51,8 +51,7 @@ jobs:
           gh pr create --title "chore: update PR statuses and branch info" \
                        --body "Automated update of metadata files" \
                        --head "$BRANCH_NAME" \
-                       --base main || exit 0
+                       --base main || \
           gh pr edit "$BRANCH_NAME" --title "chore: update PR statuses and branch info" \
-                                    --body "Automated update of metadata files" || exit 0
-          git push origin "$BRANCH_NAME" --force
+                                    --body "Automated update of metadata files" 
                      
