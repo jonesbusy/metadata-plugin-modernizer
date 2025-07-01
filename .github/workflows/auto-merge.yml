@@ -12,5 +12,3 @@ permissions:
 jobs:
   call-auto-merge:
     uses: CodexRaunak/plugin-modernizer-tool/.github/workflows/auto-merge.yml@metadata-workflow-implementation
-    secrets:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
