@@ -6,10 +6,9 @@ on:
     paths:
         - '**/modernization-metadata/**'
 
+permissions:
+  pull-requests: write
+
 jobs:
-  validate-metadata:
+  call-validate-metadata:
     uses: CodexRaunak/plugin-modernizer-tool/.github/workflows/validate-metadata.yml@metadata-workflow-implementation
-    with:
-      pr_number: ${{ github.event.pull_request.number }}
-    secrets:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
