@@ -1,0 +1,13 @@
+# This workflow uses pull_request_target but doesn't checks out PR code from fork, therefore safe to use
+name: Auto-Merge PR After Checks
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  call-auto-merge:
+    uses: CodexRaunak/plugin-modernizer-tool/.github/workflows/auto-merge.yml@metadata-workflow-implementation
