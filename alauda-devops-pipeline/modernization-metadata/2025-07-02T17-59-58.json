@@ -1,0 +1,21 @@
+{
+  "pluginName": "alauda-devops-pipeline",
+  "pluginRepository": "https://github.com/jenkinsci/alauda-devops-pipeline-plugin.git",
+  "pluginVersion": "2.3.2",
+  "rpuBaseline": "2.83",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-07-02T17-59-58.json",
+  "path": "metadata-plugin-modernizer/alauda-devops-pipeline/modernization-metadata"
+}
