@@ -11,4 +11,4 @@ permissions:
 
 jobs:
   call-auto-merge:
-    uses: CodexRaunak/plugin-modernizer-tool/.github/workflows/auto-merge.yml@metadata-workflow-implementation
+    uses: jenkins-infra/plugin-modernizer-tool/.github/workflows/auto-merge.yml@main
