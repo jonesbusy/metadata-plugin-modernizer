@@ -1,0 +1,21 @@
+{
+  "pluginName": "autonomiq",
+  "pluginRepository": "https://github.com/jenkinsci/autonomiq-plugin.git",
+  "pluginVersion": "1.22",
+  "rpuBaseline": "2.492",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/autonomiq-plugin/pull/116",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 18,
+  "deletions": 29,
+  "changedFiles": 3,
+  "key": "2025-07-02T19-17-57.json",
+  "path": "metadata-plugin-modernizer/autonomiq/modernization-metadata"
+}
