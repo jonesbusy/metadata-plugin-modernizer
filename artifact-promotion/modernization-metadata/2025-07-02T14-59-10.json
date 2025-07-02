@@ -1,0 +1,22 @@
+{
+  "pluginName": "artifact-promotion",
+  "pluginRepository": "https://github.com/jenkinsci/artifact-promotion-plugin.git",
+  "pluginVersion": "0.5.2",
+  "rpuBaseline": "2.462",
+  "migrationName": "Setup dependabot",
+  "migrationDescription": "Setup dependabot for the Jenkins plugin if it doesn\u0027t exist.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/artifact-promotion-plugin/pull/37",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 10,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2025-07-02T14-59-10.json",
+  "path": "metadata-plugin-modernizer/artifact-promotion/modernization-metadata"
+}
