@@ -9,13 +9,14 @@
     "dependencies"
   ],
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/Raunak80Madan/tuleap-oauth-plugin/pull/10",
   "pullRequestStatus": "open",
   "dryRun": false,
   "additions": 55,
-  "deletions": 64,
+  "deletions": 65,
   "changedFiles": 12,
-  "key": "2025-06-21T01-04-25.json",
+  "key": "2025-07-01T14-29-10.json",
   "path": "metadata-plugin-modernizer\\tuleap-oauth\\modernization-metadata",
   "checkRuns": {
     "Build and archive": "success",
