@@ -1,0 +1,21 @@
+{
+  "pluginName": "ansible-tower",
+  "pluginRepository": "https://github.com/jenkinsci/ansible-tower-plugin.git",
+  "pluginVersion": "0.17.0",
+  "rpuBaseline": "2.492",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/ansible-tower-plugin/pull/27",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 12,
+  "deletions": 24,
+  "changedFiles": 2,
+  "key": "2025-07-02T18-29-44.json",
+  "path": "metadata-plugin-modernizer/ansible-tower/modernization-metadata"
+}
