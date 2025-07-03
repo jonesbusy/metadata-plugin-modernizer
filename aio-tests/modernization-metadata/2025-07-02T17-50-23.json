@@ -17,5 +17,11 @@
   "deletions": 15,
   "changedFiles": 1,
   "key": "2025-07-02T17-50-23.json",
-  "path": "metadata-plugin-modernizer/aio-tests/modernization-metadata"
+  "path": "metadata-plugin-modernizer/aio-tests/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": "failure"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "2a89fdce4a83ca0b49714be00d36e78862be7459"
 }

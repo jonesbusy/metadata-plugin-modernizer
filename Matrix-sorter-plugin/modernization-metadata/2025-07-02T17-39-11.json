@@ -17,5 +17,11 @@
   "deletions": 6,
   "changedFiles": 2,
   "key": "2025-07-02T17-39-11.json",
-  "path": "metadata-plugin-modernizer/Matrix-sorter-plugin/modernization-metadata"
+  "path": "metadata-plugin-modernizer/Matrix-sorter-plugin/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": "failure"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "0639e074187e6b016098c62b67ae5d831a213c8c"
 }
