@@ -3,8 +3,9 @@ import os
 import pandas as pd
 from collections import Counter
 
-# Directory containing JSON files
-json_dir = "metadata-plugin-modernizer"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+json_dir = os.path.abspath(os.path.join(script_dir, ".."))
+
 
 # Collect data from all JSON files in modernization-metadata directories
 data_list = []
@@ -18,6 +19,10 @@ for root, dirs, files in os.walk(json_dir):
 
 # Create a DataFrame for analysis
 df = pd.DataFrame(data_list)
+if df.empty:
+    print("[WARN] No data found. Exiting early.")
+    exit(0)
+
 
 # Create overall reports directory if it doesn't exist
 os.makedirs("reports", exist_ok=True)
@@ -34,6 +39,8 @@ for plugin_name, group_df in grouped:
         report_path = os.path.join(report_dir, "failed_migrations.csv")
         report_columns = ["migrationId", "migrationStatus", "pullRequestUrl", "checkRunsSummary"]
         failed_migrations[report_columns].to_csv(report_path, index=False)
+        print(f"[INFO] Generated failed_migrations.csv for plugin '{plugin_name}' at: {report_path}")
+
 
 # Report 2: Overall Summary Report (Markdown)
 total_migrations = len(df)
@@ -60,3 +67,5 @@ summary_path = os.path.join(json_dir, "reports", "summary.md")
 os.makedirs(os.path.dirname(summary_path), exist_ok=True)  
 with open(summary_path, "w") as f:
     f.write(summary)
+
+print(f"[INFO] Summary report generated at: {summary_path}")
