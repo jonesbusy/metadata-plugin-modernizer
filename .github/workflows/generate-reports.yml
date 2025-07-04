@@ -7,7 +7,7 @@ on:
 permissions:
     contents: write
     pull-requests: write  
-    
+
 jobs:
   generate-reports:
     runs-on: ubuntu-latest
@@ -32,6 +32,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           BRANCH_NAME="automation/reports"
+          git checkout -b "$BRANCH_NAME"
           git add .
           git commit -m "Update modernization reports" || echo "No changes to commit"
           git push origin "$BRANCH_NAME" --force
