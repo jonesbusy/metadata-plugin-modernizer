@@ -1,0 +1,27 @@
+{
+  "pluginName": "build-token-trigger",
+  "pluginRepository": "https://github.com/jenkinsci/build-token-trigger-plugin.git",
+  "pluginVersion": "1.0.0",
+  "rpuBaseline": "2.492",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/build-token-trigger-plugin/pull/5",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 18,
+  "deletions": 8,
+  "changedFiles": 2,
+  "key": "2025-07-02T20-54-35.json",
+  "path": "metadata-plugin-modernizer/build-token-trigger/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": "failure"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "e13818cec1a3151f1aa0a917133f5ff1c0bd629d"
+}
