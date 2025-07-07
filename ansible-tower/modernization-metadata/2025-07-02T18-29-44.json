@@ -19,7 +19,18 @@
   "key": "2025-07-02T18-29-44.json",
   "path": "metadata-plugin-modernizer/ansible-tower/modernization-metadata",
   "checkRuns": {
-    "Jenkins": "failure"
+    "CPD": "success",
+    "CheckStyle": "success",
+    "Code Coverage": "success",
+    "ESLint": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "failure",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "failure",
+    "Tests / linux-21 / Build (linux-21)": "success"
   },
   "checkRunsSummary": "failure",
   "defaultBranch": "master",
