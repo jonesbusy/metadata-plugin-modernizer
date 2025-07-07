@@ -1,0 +1,22 @@
+{
+  "pluginName": "syslog-logger",
+  "pluginRepository": "https://github.com/jenkinsci/syslog-logger-plugin.git",
+  "pluginVersion": "1.0.5",
+  "rpuBaseline": "1.625",
+  "migrationName": "Add CODEOWNERS file",
+  "migrationDescription": "Adds a CODEOWNERS file to a Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-07-07T08-14-40.json",
+  "path": "metadata-plugin-modernizer/syslog-logger/modernization-metadata"
+}
