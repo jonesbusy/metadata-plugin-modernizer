@@ -1,0 +1,2 @@
+migrationId,migrationStatus,pullRequestUrl,checkRunsSummary
+io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion,fail,,
