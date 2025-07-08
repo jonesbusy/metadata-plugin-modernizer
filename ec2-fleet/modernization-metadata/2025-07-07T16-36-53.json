@@ -4,7 +4,7 @@
   "pluginVersion": "3.2.0",
   "rpuBaseline": "2.277",
   "migrationName": "Setup dependabot",
-  "migrationDescription": "Setup dependabot for the Jenkins plugin if it doesn\u0027t exist.",
+  "migrationDescription": "Setup dependabot for the Jenkins plugin if it doesn't exist.",
   "tags": [
     "skip-verification",
     "chore"
@@ -18,5 +18,24 @@
   "deletions": 0,
   "changedFiles": 1,
   "key": "2025-07-07T16-36-53.json",
-  "path": "metadata-plugin-modernizer/ec2-fleet/modernization-metadata"
+  "path": "metadata-plugin-modernizer/ec2-fleet/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "Code Coverage": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-8 / Build (linux-8)": "success",
+    "Tests / windows-8 / Build (windows-8)": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "de2ba9626ee2f7e2b0814420750bec38aa8112b4"
 }
