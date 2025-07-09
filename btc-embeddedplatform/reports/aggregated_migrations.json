@@ -1,0 +1,32 @@
+{
+  "pluginName": "btc-embeddedplatform",
+  "pluginRepository": "https://github.com/jenkinsci/btc-embeddedplatform-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "25.1.3",
+      "rpuBaseline": "2.492",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/btc-embeddedplatform-plugin/pull/11",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 5,
+      "deletions": 15,
+      "changedFiles": 1,
+      "key": "2025-07-02T20-40-49.json",
+      "path": "metadata-plugin-modernizer/btc-embeddedplatform/modernization-metadata",
+      "checkRuns": {
+        "Jenkins": "failure"
+      },
+      "checkRunsSummary": "failure",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "5d5661aa610dd3209eb0f33b589a3e35731883b9",
+      "timestamp": "2025-07-02T20-40-49"
+    }
+  ]
+}
