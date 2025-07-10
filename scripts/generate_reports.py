@@ -37,7 +37,7 @@ for plugin_name, group_df in grouped:
         os.makedirs(report_dir, exist_ok=True)
         # Save the failure report
         report_path = os.path.join(report_dir, "failed_migrations.csv")
-        report_columns = ["migrationId", "migrationStatus", "pullRequestUrl", "checkRunsSummary"]
+        report_columns = ["migrationId", "migrationStatus"]
         failed_migrations[report_columns].to_csv(report_path, index=False)
         print(f"[INFO] Generated failed_migrations.csv for plugin '{plugin_name}' at: {report_path}")
 
@@ -59,7 +59,7 @@ failed_plugins_list = "\n".join([
 ]) if failed_plugins else "No plugins with failed migrations."
 
 # Pull Request statistics 
-unique_prs = df.drop_duplicates(subset=["pullRequestUrl"])
+unique_prs = df[df["pullRequestUrl"] != ""].drop_duplicates(subset=["pullRequestUrl"])
 total_prs = len(unique_prs)
 pr_status_counts = Counter(unique_prs["pullRequestStatus"])
 merged_prs = pr_status_counts.get("merged", 0)
