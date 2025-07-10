@@ -1,0 +1,22 @@
+{
+  "pluginName": "custom-build-properties",
+  "pluginRepository": "https://github.com/jenkinsci/custom-build-properties-plugin.git",
+  "pluginVersion": "2.90.v4c63458e3ec8",
+  "rpuBaseline": "2.479",
+  "migrationName": "Migrate to JUnit 5",
+  "migrationDescription": "Migrate tests to JUnit5.",
+  "tags": [
+    "testing",
+    "migration"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJUnit5",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/custom-build-properties-plugin/pull/64",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 43,
+  "deletions": 40,
+  "changedFiles": 2,
+  "key": "2025-07-10T15-25-15.json",
+  "path": "metadata-plugin-modernizer/custom-build-properties/modernization-metadata"
+}
