@@ -51,9 +51,16 @@ success_rate = ((total_migrations - failed_migrations_count) / total_migrations 
 failure_by_recipe = Counter(df[df["migrationStatus"] == "fail"]["migrationId"]).most_common()
 failure_table = "\n".join([f"- {recipe}: {count} failures" for recipe, count in failure_by_recipe])
 
+# List of plugins with at least one failed migration
+failed_plugins = sorted(df[df["migrationStatus"] == "fail"]["pluginName"].unique())
+failed_plugins_list = "\n".join([
+    f"- [{plugin}]({os.path.join("..", plugin, 'reports', 'failed_migrations.csv')})"
+    for plugin in failed_plugins
+]) if failed_plugins else "No plugins with failed migrations."
+
 summary = f"""
 # Jenkins Plugin Modernizer Report
-Generated on: {pd.Timestamp.now().strftime('%Y-%m-%d %H:%M:%S')}
+Generated on: {pd.Timestamp.now(tz='UTC').strftime('%Y-%m-%d %H:%M:%S UTC')}
 
 ## Overview
 - **Total Migrations**: {total_migrations}
@@ -62,6 +69,9 @@ Generated on: {pd.Timestamp.now().strftime('%Y-%m-%d %H:%M:%S')}
 
 ## Failures by Recipe
 {failure_table if failure_by_recipe else "No failures recorded."}
+
+## Plugins with Failed Migrations
+{failed_plugins_list}
 """
 summary_path = os.path.join(json_dir, "reports", "summary.md")
 os.makedirs(os.path.dirname(summary_path), exist_ok=True)  
