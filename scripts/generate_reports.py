@@ -58,6 +58,27 @@ failed_plugins_list = "\n".join([
     for plugin in failed_plugins
 ]) if failed_plugins else "No plugins with failed migrations."
 
+# Pull Request statistics 
+unique_prs = df.drop_duplicates(subset=["pullRequestUrl"])
+total_prs = len(unique_prs)
+pr_status_counts = Counter(unique_prs["pullRequestStatus"])
+merged_prs = pr_status_counts.get("merged", 0)
+open_prs = pr_status_counts.get("open", 0)
+closed_prs = pr_status_counts.get("closed", 0)
+merge_rate = (merged_prs / total_prs * 100) if total_prs > 0 else 0
+open_rate = (open_prs / total_prs * 100) if total_prs > 0 else 0
+closed_rate = (closed_prs / total_prs * 100) if total_prs > 0 else 0
+
+# PR statistics table
+pr_stats_table = f"""
+| Status | Count | Percentage |
+|--------|-------|------------|
+| Total PRs | {total_prs} | - |
+| Open PRs | {open_prs} | {open_rate:.2f}% |
+| Closed PRs | {closed_prs} | {closed_rate:.2f}% |
+| Merged PRs | {merged_prs} | {merge_rate:.2f}% |
+"""
+
 summary = f"""
 # Jenkins Plugin Modernizer Report
 Generated on: {pd.Timestamp.now(tz='UTC').strftime('%Y-%m-%d %H:%M:%S UTC')}
@@ -72,6 +93,11 @@ Generated on: {pd.Timestamp.now(tz='UTC').strftime('%Y-%m-%d %H:%M:%S UTC')}
 
 ## Plugins with Failed Migrations
 {failed_plugins_list}
+
+## Pull Request Statistics
+{pr_stats_table}
+
+*Note: No. of Migrations != No. of PRs. A migration applied may trigger force push on already opened PR.*
 """
 summary_path = os.path.join(json_dir, "reports", "summary.md")
 os.makedirs(os.path.dirname(summary_path), exist_ok=True)  
