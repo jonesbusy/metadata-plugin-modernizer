@@ -59,7 +59,8 @@ failed_plugins_list = "\n".join([
 ]) if failed_plugins else "No plugins with failed migrations."
 
 # Pull Request statistics 
-unique_prs = df[df["pullRequestUrl"] != ""].drop_duplicates(subset=["pullRequestUrl"])
+unique_prs = df[(df["pullRequestUrl"] != "") & (df["pullRequestStatus"] != "") & (pd.notna(df["pullRequestUrl"])) & (pd.notna(df["pullRequestStatus"]))]
+unique_prs = unique_prs.drop_duplicates(subset=["pullRequestUrl"])
 total_prs = len(unique_prs)
 pr_status_counts = Counter(unique_prs["pullRequestStatus"])
 merged_prs = pr_status_counts.get("merged", 0)
