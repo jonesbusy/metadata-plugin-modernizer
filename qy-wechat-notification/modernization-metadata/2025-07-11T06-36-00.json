@@ -1,0 +1,21 @@
+{
+  "pluginName": "qy-wechat-notification",
+  "pluginRepository": "https://github.com/jenkinsci/qy-wechat-notification-plugin.git",
+  "pluginVersion": "1.1.3",
+  "rpuBaseline": "2.492",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/qy-wechat-notification-plugin/pull/12",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 5,
+  "deletions": 5,
+  "changedFiles": 2,
+  "key": "2025-07-11T06-36-00.json",
+  "path": "metadata-plugin-modernizer/qy-wechat-notification/modernization-metadata"
+}
