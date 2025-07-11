@@ -1,0 +1,22 @@
+{
+  "pluginName": "qy-wechat-notification",
+  "pluginRepository": "https://github.com/jenkinsci/qy-wechat-notification-plugin.git",
+  "pluginVersion": "1.1.3",
+  "rpuBaseline": "2.346",
+  "migrationName": "Setup dependabot",
+  "migrationDescription": "Setup dependabot for the Jenkins plugin if it doesn\u0027t exist.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/qy-wechat-notification-plugin/pull/15",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 10,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2025-07-11T06-46-12.json",
+  "path": "metadata-plugin-modernizer/qy-wechat-notification/modernization-metadata"
+}
