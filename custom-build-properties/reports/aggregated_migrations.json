@@ -1,0 +1,48 @@
+{
+  "pluginName": "custom-build-properties",
+  "pluginRepository": "https://github.com/jenkinsci/custom-build-properties-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "2.90.v4c63458e3ec8",
+      "rpuBaseline": "2.479",
+      "migrationName": "Migrate to JUnit 5",
+      "migrationDescription": "Migrate tests to JUnit5.",
+      "tags": [
+        "testing",
+        "migration"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJUnit5",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/custom-build-properties-plugin/pull/64",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 43,
+      "deletions": 40,
+      "changedFiles": 2,
+      "key": "2025-07-10T15-25-15.json",
+      "path": "metadata-plugin-modernizer/custom-build-properties/modernization-metadata",
+      "timestamp": "2025-07-10T15-25-15"
+    },
+    {
+      "pluginVersion": "2.90.v4c63458e3ec8",
+      "rpuBaseline": "2.479",
+      "migrationName": "Add CODEOWNERS file",
+      "migrationDescription": "Adds a CODEOWNERS file to a Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/custom-build-properties-plugin/pull/63",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-07-10T15-18-21.json",
+      "path": "metadata-plugin-modernizer/custom-build-properties/modernization-metadata",
+      "timestamp": "2025-07-10T15-18-21"
+    }
+  ]
+}
