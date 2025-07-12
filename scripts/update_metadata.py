@@ -15,7 +15,7 @@ if not token:
 
 g = Github(token)
 
-def update_pr_status(file_path):
+def update_metadata(file_path):
     logging.info(f"Processing file: {file_path}")
     try:
         with open(file_path, 'r') as f:
@@ -117,4 +117,4 @@ for metadata_dir in metadata_dirs:
         for file in files:
             if file.endswith('.json'):
                 file_path = os.path.join(root, file)
-                update_pr_status(file_path)
+                update_metadata(file_path)

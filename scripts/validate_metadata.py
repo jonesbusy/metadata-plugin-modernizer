@@ -39,7 +39,7 @@ schema = {
     }
 }
 
-# migration IDs 
+# migration IDs
 valid_migration_ids = [
     "io.jenkins.tools.pluginmodernizer.FetchMetadata,"
     "io.jenkins.tools.pluginmodernizer.MergeGitIgnoreRecipe",
@@ -53,6 +53,8 @@ valid_migration_ids = [
     "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
     "io.jenkins.tools.pluginmodernizer.UpgradeParentVersion",
     "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+    "io.jenkins.tools.pluginmodernizer.UpgradeParent4Version",
+    "io.jenkins.tools.pluginmodernizer.UpgradeParent5Version",
     "io.jenkins.tools.pluginmodernizer.UpgradeBomVersion",
     "io.jenkins.tools.pluginmodernizer.RemoveDependencyVersionOverride",
     "io.jenkins.tools.pluginmodernizer.RemoveDevelopersTag",
@@ -118,7 +120,7 @@ def validate_metadata(file_path):
         if not pr_match:
             pr.create_issue_comment(f"Invalid PR URL '{pr_url}' in {file_path}")
             raise ValueError("Invalid PR URL")
-        
+
         owner, repo, pr_num = pr_match.groups()
         try:
             plugin_pr = g.get_repo(f"{owner}/{repo}").get_pull(int(pr_num))
