@@ -1,3 +1,3 @@
-migrationId,migrationStatus,pullRequestUrl,checkRunsSummary
-io.jenkins.tools.pluginmodernizer.AddCodeOwner,fail,,
-io.jenkins.tools.pluginmodernizer.SetupDependabot,fail,,
+migrationId,migrationStatus
+io.jenkins.tools.pluginmodernizer.AddCodeOwner,fail
+io.jenkins.tools.pluginmodernizer.SetupDependabot,fail
