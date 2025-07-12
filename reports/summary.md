@@ -1,14 +1,14 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-07-10 21:24:11 UTC
+Generated on: 2025-07-12 02:23:48 UTC
 
 ## Overview
-- **Total Migrations**: 91
-- **Failed Migrations**: 26
-- **Success Rate**: 71.43%
+- **Total Migrations**: 100
+- **Failed Migrations**: 27
+- **Success Rate**: 73.00%
 
 ## Failures by Recipe
-- io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 23 failures
+- io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 24 failures
 - io.jenkins.tools.pluginmodernizer.AddCodeOwner: 1 failures
 - io.jenkins.tools.pluginmodernizer.SetupDependabot: 1 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 1 failures
@@ -32,6 +32,7 @@ Generated on: 2025-07-10 21:24:11 UTC
 - [aws-sqs-trigger](../aws-sqs-trigger/reports/failed_migrations.csv)
 - [azure-acs](../azure-acs/reports/failed_migrations.csv)
 - [backlog](../backlog/reports/failed_migrations.csv)
+- [backup](../backup/reports/failed_migrations.csv)
 - [build-health-cache-updater](../build-health-cache-updater/reports/failed_migrations.csv)
 - [ec2-fleet](../ec2-fleet/reports/failed_migrations.csv)
 - [jira-steps](../jira-steps/reports/failed_migrations.csv)
@@ -42,10 +43,10 @@ Generated on: 2025-07-10 21:24:11 UTC
 
 | Status | Count | Percentage |
 |--------|-------|------------|
-| Total PRs | 44 | - |
-| Open PRs | 37 | 84.09% |
-| Closed PRs | 3 | 6.82% |
-| Merged PRs | 2 | 4.55% |
+| Total PRs | 49 | - |
+| Open PRs | 44 | 89.80% |
+| Closed PRs | 3 | 6.12% |
+| Merged PRs | 2 | 4.08% |
 
 
 *Note: No. of Migrations != No. of PRs. A migration applied may trigger force push on already opened PR.*
