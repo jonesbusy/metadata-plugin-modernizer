@@ -1,0 +1,13 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+  "totalApplications": 1,
+  "successCount": 1,
+  "failureCount": 0,
+  "plugins": [
+    {
+      "pluginName": "qy-wechat-notification",
+      "status": "success",
+      "timestamp": "2025-07-11T06-40-12"
+    }
+  ]
+}

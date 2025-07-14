@@ -1,0 +1,48 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+  "totalApplications": 8,
+  "successCount": 6,
+  "failureCount": 1,
+  "plugins": [
+    {
+      "pluginName": "buildtriggerbadge",
+      "status": "success",
+      "timestamp": "2025-07-11T06-49-50"
+    },
+    {
+      "pluginName": "qy-wechat-notification",
+      "status": "success",
+      "timestamp": "2025-07-11T06-46-12"
+    },
+    {
+      "pluginName": "ec2-fleet",
+      "status": "success",
+      "timestamp": "2025-07-07T16-36-53"
+    },
+    {
+      "pluginName": "compuware-topaz-for-total-test",
+      "status": "success",
+      "timestamp": "2025-07-07T08-34-55"
+    },
+    {
+      "pluginName": "syslog-logger",
+      "status": "fail",
+      "timestamp": "2025-07-07T08-10-17"
+    },
+    {
+      "pluginName": "jms-messaging",
+      "status": "success",
+      "timestamp": "2025-07-03T14-18-30"
+    },
+    {
+      "pluginName": "artifact-promotion",
+      "status": "success",
+      "timestamp": "2025-07-02T14-59-10"
+    },
+    {
+      "pluginName": "allure-jenkins-plugin",
+      "status": "",
+      "timestamp": "2025-06-23T14-04-22"
+    }
+  ]
+}

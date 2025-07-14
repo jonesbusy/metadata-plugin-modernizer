@@ -1,6 +1,6 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-07-12 02:23:48 UTC
+Generated on: 2025-07-14 02:28:01 UTC
 
 ## Overview
 - **Total Migrations**: 100
@@ -9,9 +9,9 @@ Generated on: 2025-07-12 02:23:48 UTC
 
 ## Failures by Recipe
 - io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 24 failures
+- io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 1 failures
 - io.jenkins.tools.pluginmodernizer.AddCodeOwner: 1 failures
 - io.jenkins.tools.pluginmodernizer.SetupDependabot: 1 failures
-- io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 1 failures
 
 ## Plugins with Failed Migrations
 - [alauda-devops-credentials-provider](../alauda-devops-credentials-provider/reports/failed_migrations.csv)
@@ -44,9 +44,9 @@ Generated on: 2025-07-12 02:23:48 UTC
 | Status | Count | Percentage |
 |--------|-------|------------|
 | Total PRs | 49 | - |
-| Open PRs | 44 | 89.80% |
+| Open PRs | 41 | 83.67% |
 | Closed PRs | 3 | 6.12% |
-| Merged PRs | 2 | 4.08% |
+| Merged PRs | 5 | 10.20% |
 
 
 *Note: No. of Migrations != No. of PRs. A migration applied may trigger force push on already opened PR.*
