@@ -1,0 +1,21 @@
+{
+  "pluginName": "bmc-change-manager-imstm",
+  "pluginRepository": "https://github.com/jenkinsci/bmc-change-manager-imstm-plugin.git",
+  "pluginVersion": "48.v6bd42382a2ee",
+  "rpuBaseline": "2.492",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/pull/23",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 7,
+  "deletions": 7,
+  "changedFiles": 1,
+  "key": "2025-07-15T13-36-22.json",
+  "path": "metadata-plugin-modernizer/bmc-change-manager-imstm/modernization-metadata"
+}
