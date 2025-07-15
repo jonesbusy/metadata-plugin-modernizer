@@ -1,0 +1,22 @@
+{
+  "pluginName": "bmc-change-manager-imstm",
+  "pluginRepository": "https://github.com/jenkinsci/bmc-change-manager-imstm-plugin.git",
+  "pluginVersion": "48.v6bd42382a2ee",
+  "rpuBaseline": "2.346",
+  "migrationName": "Setup dependabot",
+  "migrationDescription": "Setup dependabot for the Jenkins plugin if it doesn\u0027t exist.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/pull/25",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 10,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2025-07-15T14-04-09.json",
+  "path": "metadata-plugin-modernizer/bmc-change-manager-imstm/modernization-metadata"
+}
