@@ -1,0 +1,22 @@
+{
+  "pluginName": "bmc-change-manager-imstm",
+  "pluginRepository": "https://github.com/jenkinsci/bmc-change-manager-imstm-plugin.git",
+  "pluginVersion": "48.v6bd42382a2ee",
+  "rpuBaseline": "2.346",
+  "migrationName": "Add CODEOWNERS file",
+  "migrationDescription": "Adds a CODEOWNERS file to a Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/pull/24",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2025-07-15T13-59-53.json",
+  "path": "metadata-plugin-modernizer/bmc-change-manager-imstm/modernization-metadata"
+}
