@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
-  "totalApplications": 8,
-  "successCount": 6,
+  "totalApplications": 9,
+  "successCount": 7,
   "failureCount": 1,
   "plugins": [
+    {
+      "pluginName": "bmc-change-manager-imstm",
+      "status": "success",
+      "timestamp": "2025-07-15T14-04-09"
+    },
     {
       "pluginName": "buildtriggerbadge",
       "status": "success",
