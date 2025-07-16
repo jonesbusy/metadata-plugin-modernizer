@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
-  "totalApplications": 80,
-  "successCount": 40,
+  "totalApplications": 81,
+  "successCount": 41,
   "failureCount": 24,
   "plugins": [
+    {
+      "pluginName": "bmc-change-manager-imstm",
+      "status": "success",
+      "timestamp": "2025-07-15T13-36-22"
+    },
     {
       "pluginName": "backup",
       "status": "fail",
