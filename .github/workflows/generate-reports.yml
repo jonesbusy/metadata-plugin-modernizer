@@ -10,4 +10,4 @@ permissions:
 
 jobs:
   call-generate-reports:
-    uses: jenkins-infra/plugin-modernizer-tool/.github/workflows/generate-reports.yml@main
+    uses: CodexRaunak/plugin-modernizer-tool/.github/workflows/generate-reports.yml@cleanup-metadata

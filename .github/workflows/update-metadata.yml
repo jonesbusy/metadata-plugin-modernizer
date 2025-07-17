@@ -11,4 +11,4 @@ permissions:
 
 jobs:
   call-update-metadata:
-    uses: jenkins-infra/plugin-modernizer-tool/.github/workflows/update-metadata.yml@main
+    uses: CodexRaunak/plugin-modernizer-tool/.github/workflows/update-metadata.yml@cleanup-metadata

@@ -10,4 +10,4 @@ permissions:
 
 jobs:
   call-consolidate:
-    uses: jenkins-infra/plugin-modernizer-tool/.github/workflows/consolidate-metadata.yml@main
+    uses: CodexRaunak/plugin-modernizer-tool/.github/workflows/consolidate-metadata.yml@cleanup-metadata
