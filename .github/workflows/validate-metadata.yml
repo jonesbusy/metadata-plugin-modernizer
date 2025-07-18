@@ -11,4 +11,4 @@ permissions:
 
 jobs:
   call-validate-metadata:
-    uses: CodexRaunak/plugin-modernizer-tool/.github/workflows/validate-metadata.yml@cleanup-metadata
+    uses: jenkins-infra/plugin-modernizer-tool/.github/workflows/validate-metadata.yml@main
