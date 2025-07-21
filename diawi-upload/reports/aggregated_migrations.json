@@ -1,0 +1,34 @@
+{
+  "pluginName": "diawi-upload",
+  "pluginRepository": "https://github.com/jenkinsci/diawi-upload-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1.5",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.235",
+      "effectiveBaseline": "2.235",
+      "jenkinsVersion": "2.235.2",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/diawi-upload-plugin/pull/5",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 12,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-07-21T14-47-47.json",
+      "path": "metadata-plugin-modernizer/diawi-upload/modernization-metadata",
+      "checkRuns": {},
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "c05e804da7e0936abace103e3da1e80c06944728",
+      "timestamp": "2025-07-21T14-47-47"
+    }
+  ]
+}
