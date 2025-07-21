@@ -1,9 +1,34 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
-  "totalApplications": 81,
-  "successCount": 41,
-  "failureCount": 24,
+  "totalApplications": 86,
+  "successCount": 45,
+  "failureCount": 25,
   "plugins": [
+    {
+      "pluginName": "figlet-buildstep",
+      "status": "success",
+      "timestamp": "2025-07-21T16-53-16"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-21T15-33-19"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-21T14-40-37"
+    },
+    {
+      "pluginName": "blackduck-coverity-on-polaris",
+      "status": "fail",
+      "timestamp": "2025-07-21T13-34-53"
+    },
+    {
+      "pluginName": "requests",
+      "status": "success",
+      "timestamp": "2025-07-21T13-27-04"
+    },
     {
       "pluginName": "bmc-change-manager-imstm",
       "status": "success",
