@@ -15,11 +15,18 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/figlet-buildstep-plugin/pull/109",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 12,
   "deletions": 0,
   "changedFiles": 1,
   "key": "2025-07-21T16-25-06.json",
-  "path": "metadata-plugin-modernizer/figlet-buildstep/modernization-metadata"
+  "path": "metadata-plugin-modernizer/figlet-buildstep/modernization-metadata",
+  "checkRuns": {
+    "Jenkins Security Scan": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "f78240c3a488468bfffedd0a45a71e6be4dabe96"
 }
