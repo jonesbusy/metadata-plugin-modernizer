@@ -1,0 +1,13 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion",
+  "totalApplications": 1,
+  "successCount": 0,
+  "failureCount": 1,
+  "plugins": [
+    {
+      "pluginName": "ec2-fleet",
+      "status": "fail",
+      "timestamp": "2025-07-07T16-47-18"
+    }
+  ]
+}

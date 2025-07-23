@@ -1,0 +1,13 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateToJUnit5",
+  "totalApplications": 1,
+  "successCount": 1,
+  "failureCount": 0,
+  "plugins": [
+    {
+      "pluginName": "custom-build-properties",
+      "status": "success",
+      "timestamp": "2025-07-10T15-25-15"
+    }
+  ]
+}

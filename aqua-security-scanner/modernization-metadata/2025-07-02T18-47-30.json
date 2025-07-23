@@ -1,0 +1,27 @@
+{
+  "pluginName": "aqua-security-scanner",
+  "pluginRepository": "https://github.com/jenkinsci/aqua-security-scanner-plugin.git",
+  "pluginVersion": "3.2.8",
+  "rpuBaseline": "2.492",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/aqua-security-scanner-plugin/pull/73",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 19,
+  "deletions": 38,
+  "changedFiles": 2,
+  "key": "2025-07-02T18-47-30.json",
+  "path": "metadata-plugin-modernizer/aqua-security-scanner/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": "failure"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "3c44e241cee595328728e4a4925049ad8c37b863"
+}

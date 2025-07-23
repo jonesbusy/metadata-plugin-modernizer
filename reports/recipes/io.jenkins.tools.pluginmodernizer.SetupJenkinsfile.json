@@ -1,0 +1,343 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+  "totalApplications": 67,
+  "successCount": 9,
+  "failureCount": 58,
+  "plugins": [
+    {
+      "pluginName": "hyper-slaves",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-42-51"
+    },
+    {
+      "pluginName": "hyper-commons",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-40-02"
+    },
+    {
+      "pluginName": "humio",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-36-32"
+    },
+    {
+      "pluginName": "http-post",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-31-45"
+    },
+    {
+      "pluginName": "htmlresource",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-29-11"
+    },
+    {
+      "pluginName": "housekeeper",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-25-26"
+    },
+    {
+      "pluginName": "heavy-job",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-22-58"
+    },
+    {
+      "pluginName": "hckrnews",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-20-07"
+    },
+    {
+      "pluginName": "harvest",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-17-03"
+    },
+    {
+      "pluginName": "google-git-notes-publisher",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-09-14"
+    },
+    {
+      "pluginName": "google-analytics-usage-reporter",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-04-00"
+    },
+    {
+      "pluginName": "github-organization-folder",
+      "status": "fail",
+      "timestamp": "2025-07-21T16-58-25"
+    },
+    {
+      "pluginName": "github-issues",
+      "status": "fail",
+      "timestamp": "2025-07-21T16-54-33"
+    },
+    {
+      "pluginName": "gitcolony-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-21T16-50-18"
+    },
+    {
+      "pluginName": "gitbucket",
+      "status": "fail",
+      "timestamp": "2025-07-21T16-47-34"
+    },
+    {
+      "pluginName": "git-userContent",
+      "status": "fail",
+      "timestamp": "2025-07-21T16-44-09"
+    },
+    {
+      "pluginName": "gallio",
+      "status": "fail",
+      "timestamp": "2025-07-21T16-39-11"
+    },
+    {
+      "pluginName": "fxcop-runner",
+      "status": "fail",
+      "timestamp": "2025-07-21T16-36-16"
+    },
+    {
+      "pluginName": "fogbugz",
+      "status": "fail",
+      "timestamp": "2025-07-21T16-33-04"
+    },
+    {
+      "pluginName": "files-found-trigger",
+      "status": "fail",
+      "timestamp": "2025-07-21T16-27-59"
+    },
+    {
+      "pluginName": "figlet-buildstep",
+      "status": "success",
+      "timestamp": "2025-07-21T16-25-06"
+    },
+    {
+      "pluginName": "failedJobDeactivator",
+      "status": "fail",
+      "timestamp": "2025-07-21T16-22-33"
+    },
+    {
+      "pluginName": "ezwall",
+      "status": "fail",
+      "timestamp": "2025-07-21T16-18-15"
+    },
+    {
+      "pluginName": "extreme-feedback",
+      "status": "fail",
+      "timestamp": "2025-07-21T16-11-52"
+    },
+    {
+      "pluginName": "exclusive-label-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-21T16-07-30"
+    },
+    {
+      "pluginName": "environment-manager",
+      "status": "fail",
+      "timestamp": "2025-07-21T16-03-43"
+    },
+    {
+      "pluginName": "environment-filter-utils",
+      "status": "success",
+      "timestamp": "2025-07-21T16-00-55"
+    },
+    {
+      "pluginName": "emotional-jenkins-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-21T15-54-52"
+    },
+    {
+      "pluginName": "emmacoveragecolumn",
+      "status": "fail",
+      "timestamp": "2025-07-21T15-52-26"
+    },
+    {
+      "pluginName": "ecs-publisher",
+      "status": "fail",
+      "timestamp": "2025-07-21T15-47-46"
+    },
+    {
+      "pluginName": "eclipse-update-site",
+      "status": "fail",
+      "timestamp": "2025-07-21T15-41-55"
+    },
+    {
+      "pluginName": "easyqa",
+      "status": "fail",
+      "timestamp": "2025-07-21T15-36-01"
+    },
+    {
+      "pluginName": "ease-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-21T15-27-22"
+    },
+    {
+      "pluginName": "dropdown-viewstabbar-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-21T15-14-14"
+    },
+    {
+      "pluginName": "dos-trigger",
+      "status": "fail",
+      "timestamp": "2025-07-21T15-10-13"
+    },
+    {
+      "pluginName": "disable-github-multibranch-status",
+      "status": "fail",
+      "timestamp": "2025-07-21T15-04-36"
+    },
+    {
+      "pluginName": "disable-failed-job",
+      "status": "fail",
+      "timestamp": "2025-07-21T15-00-41"
+    },
+    {
+      "pluginName": "dingding-json-pusher",
+      "status": "fail",
+      "timestamp": "2025-07-21T14-54-35"
+    },
+    {
+      "pluginName": "diawi-upload",
+      "status": "success",
+      "timestamp": "2025-07-21T14-47-47"
+    },
+    {
+      "pluginName": "dependency-queue-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-21T14-36-22"
+    },
+    {
+      "pluginName": "daily-quote",
+      "status": "fail",
+      "timestamp": "2025-07-21T14-23-46"
+    },
+    {
+      "pluginName": "customized-build-message",
+      "status": "fail",
+      "timestamp": "2025-07-21T14-20-49"
+    },
+    {
+      "pluginName": "custom-job-icon",
+      "status": "fail",
+      "timestamp": "2025-07-21T14-17-32"
+    },
+    {
+      "pluginName": "curseforge-publisher",
+      "status": "fail",
+      "timestamp": "2025-07-21T14-14-00"
+    },
+    {
+      "pluginName": "cron-shelve",
+      "status": "fail",
+      "timestamp": "2025-07-21T14-08-33"
+    },
+    {
+      "pluginName": "copado",
+      "status": "fail",
+      "timestamp": "2025-07-21T14-01-53"
+    },
+    {
+      "pluginName": "coordinator",
+      "status": "fail",
+      "timestamp": "2025-07-21T13-58-45"
+    },
+    {
+      "pluginName": "continuum",
+      "status": "fail",
+      "timestamp": "2025-07-21T13-53-21"
+    },
+    {
+      "pluginName": "compuware-zadviser-api",
+      "status": "success",
+      "timestamp": "2025-07-21T13-47-49"
+    },
+    {
+      "pluginName": "compuware-xpediter-code-coverage",
+      "status": "success",
+      "timestamp": "2025-07-21T13-44-05"
+    },
+    {
+      "pluginName": "compuware-topaz-utilities",
+      "status": "success",
+      "timestamp": "2025-07-21T13-39-21"
+    },
+    {
+      "pluginName": "compuware-common-configuration",
+      "status": "success",
+      "timestamp": "2025-07-21T13-29-21"
+    },
+    {
+      "pluginName": "comments-remover",
+      "status": "fail",
+      "timestamp": "2025-07-21T13-23-13"
+    },
+    {
+      "pluginName": "codescene",
+      "status": "fail",
+      "timestamp": "2025-07-21T13-16-14"
+    },
+    {
+      "pluginName": "codecommit-url-helper",
+      "status": "fail",
+      "timestamp": "2025-07-21T13-10-52"
+    },
+    {
+      "pluginName": "codebeamer-xunit-importer",
+      "status": "fail",
+      "timestamp": "2025-07-21T13-07-32"
+    },
+    {
+      "pluginName": "codebeamer-result-trend-updater",
+      "status": "fail",
+      "timestamp": "2025-07-21T13-04-00"
+    },
+    {
+      "pluginName": "cloudcoreo-deploytime",
+      "status": "fail",
+      "timestamp": "2025-07-21T12-53-40"
+    },
+    {
+      "pluginName": "chromedriver",
+      "status": "fail",
+      "timestamp": "2025-07-21T12-43-53"
+    },
+    {
+      "pluginName": "chosen-views-tabbar",
+      "status": "fail",
+      "timestamp": "2025-07-21T12-40-26"
+    },
+    {
+      "pluginName": "chef-tracking",
+      "status": "fail",
+      "timestamp": "2025-07-21T12-37-25"
+    },
+    {
+      "pluginName": "changelog-history",
+      "status": "fail",
+      "timestamp": "2025-07-21T12-34-14"
+    },
+    {
+      "pluginName": "byteguard-build-actions",
+      "status": "fail",
+      "timestamp": "2025-07-21T12-25-21"
+    },
+    {
+      "pluginName": "build-metrics",
+      "status": "fail",
+      "timestamp": "2025-07-21T12-18-10"
+    },
+    {
+      "pluginName": "boot-clj",
+      "status": "fail",
+      "timestamp": "2025-07-21T12-05-16"
+    },
+    {
+      "pluginName": "backup",
+      "status": "success",
+      "timestamp": "2025-07-11T18-48-02"
+    },
+    {
+      "pluginName": "artifact-promotion",
+      "status": "success",
+      "timestamp": "2025-07-02T14-25-22"
+    }
+  ]
+}

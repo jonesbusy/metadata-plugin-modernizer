@@ -1,0 +1,79 @@
+{
+  "pluginName": "backup",
+  "pluginRepository": "https://github.com/jenkinsci/backup-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1.6.1",
+      "rpuBaseline": "2.426",
+      "migrationName": "Add CODEOWNERS file",
+      "migrationDescription": "Adds a CODEOWNERS file to a Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/backup-plugin/pull/13",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-07-11T18-58-03.json",
+      "path": "metadata-plugin-modernizer/backup/modernization-metadata",
+      "checkRuns": {},
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "3b38e3a06ba01443d0ec0b740c24273ecaefe942",
+      "timestamp": "2025-07-11T18-58-03"
+    },
+    {
+      "pluginVersion": "1.6.1",
+      "rpuBaseline": "2.426",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/backup-plugin/pull/12",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 12,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-07-11T18-48-02.json",
+      "path": "metadata-plugin-modernizer/backup/modernization-metadata",
+      "checkRuns": {
+        "Jenkins": "failure",
+        "Tests / linux-21 / Build (linux-21)": "failure"
+      },
+      "checkRunsSummary": "failure",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "3b38e3a06ba01443d0ec0b740c24273ecaefe942",
+      "timestamp": "2025-07-11T18-48-02"
+    },
+    {
+      "pluginVersion": "1.6.1",
+      "rpuBaseline": "2.426",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-11T18-45-16.json",
+      "path": "metadata-plugin-modernizer/backup/modernization-metadata",
+      "timestamp": "2025-07-11T18-45-16"
+    }
+  ]
+}

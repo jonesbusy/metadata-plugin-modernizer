@@ -1,0 +1,48 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
+  "totalApplications": 8,
+  "successCount": 6,
+  "failureCount": 1,
+  "plugins": [
+    {
+      "pluginName": "bmc-change-manager-imstm",
+      "status": "success",
+      "timestamp": "2025-07-15T13-59-53"
+    },
+    {
+      "pluginName": "backup",
+      "status": "success",
+      "timestamp": "2025-07-11T18-58-03"
+    },
+    {
+      "pluginName": "qy-wechat-notification",
+      "status": "success",
+      "timestamp": "2025-07-11T06-43-35"
+    },
+    {
+      "pluginName": "custom-build-properties",
+      "status": "success",
+      "timestamp": "2025-07-10T15-18-21"
+    },
+    {
+      "pluginName": "compuware-topaz-for-total-test",
+      "status": "success",
+      "timestamp": "2025-07-07T08-31-58"
+    },
+    {
+      "pluginName": "syslog-logger",
+      "status": "fail",
+      "timestamp": "2025-07-07T08-14-40"
+    },
+    {
+      "pluginName": "artifact-promotion",
+      "status": "success",
+      "timestamp": "2025-07-02T15-31-05"
+    },
+    {
+      "pluginName": "pipeline-keep-running-step",
+      "status": "",
+      "timestamp": "2025-06-24T07-19-20"
+    }
+  ]
+}
