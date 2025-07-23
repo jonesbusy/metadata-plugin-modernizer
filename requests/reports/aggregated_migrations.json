@@ -1,0 +1,37 @@
+{
+  "pluginName": "requests",
+  "pluginRepository": "https://github.com/jenkinsci/requests-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "3.5",
+      "jenkinsBaseline": "2.462",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.462",
+      "jenkinsVersion": "2.462.3",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/requests-plugin/pull/15",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 41,
+      "deletions": 46,
+      "changedFiles": 11,
+      "key": "2025-07-21T13-27-04.json",
+      "path": "metadata-plugin-modernizer/requests/modernization-metadata",
+      "checkRuns": {
+        "Jenkins": "failure",
+        "Jenkins Security Scan": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "failure",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "97510551ea481f402f8f0626bcd175377f494d5e",
+      "timestamp": "2025-07-21T13-27-04"
+    }
+  ]
+}
