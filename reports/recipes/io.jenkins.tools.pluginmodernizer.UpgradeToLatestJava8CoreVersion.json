@@ -1,0 +1,13 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava8CoreVersion",
+  "totalApplications": 1,
+  "successCount": 1,
+  "failureCount": 0,
+  "plugins": [
+    {
+      "pluginName": "TestFairy",
+      "status": "success",
+      "timestamp": "2025-07-24T08-33-27"
+    }
+  ]
+}
