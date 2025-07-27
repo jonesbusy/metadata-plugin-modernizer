@@ -1,0 +1,24 @@
+{
+  "pluginName": "mariadb-api",
+  "pluginRepository": "https://github.com/jenkinsci/mariadb-api-plugin.git",
+  "pluginVersion": "3.5.3-129.v941f87fa_d251",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.1",
+  "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+  "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/mariadb-api-plugin/pull/76",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 3,
+  "deletions": 3,
+  "changedFiles": 1,
+  "key": "2025-07-27T10-11-39.json",
+  "path": "metadata-plugin-modernizer/mariadb-api/modernization-metadata"
+}
