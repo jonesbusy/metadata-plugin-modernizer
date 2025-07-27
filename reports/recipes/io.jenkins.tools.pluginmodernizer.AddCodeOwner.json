@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
-  "totalApplications": 8,
-  "successCount": 6,
+  "totalApplications": 9,
+  "successCount": 7,
   "failureCount": 1,
   "plugins": [
+    {
+      "pluginName": "cloudbees-enabler",
+      "status": "success",
+      "timestamp": "2025-07-26T10-08-46"
+    },
     {
       "pluginName": "bmc-change-manager-imstm",
       "status": "success",

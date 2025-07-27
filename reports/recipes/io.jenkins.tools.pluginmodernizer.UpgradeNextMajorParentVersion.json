@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
-  "totalApplications": 88,
-  "successCount": 47,
+  "totalApplications": 89,
+  "successCount": 48,
   "failureCount": 25,
   "plugins": [
+    {
+      "pluginName": "cloudbees-enabler",
+      "status": "success",
+      "timestamp": "2025-07-26T10-00-07"
+    },
     {
       "pluginName": "tuleap-oauth",
       "status": "success",
