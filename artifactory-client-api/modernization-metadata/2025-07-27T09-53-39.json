@@ -1,0 +1,24 @@
+{
+  "pluginName": "artifactory-client-api",
+  "pluginRepository": "https://github.com/jenkinsci/artifactory-client-api-plugin.git",
+  "pluginVersion": "2.19.0-92.v57b_50df9c76f",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.3",
+  "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+  "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/artifactory-client-api-plugin/pull/65",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 2,
+  "deletions": 2,
+  "changedFiles": 1,
+  "key": "2025-07-27T09-53-39.json",
+  "path": "metadata-plugin-modernizer/artifactory-client-api/modernization-metadata"
+}
