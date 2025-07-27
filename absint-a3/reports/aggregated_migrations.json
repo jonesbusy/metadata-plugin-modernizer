@@ -24,6 +24,10 @@
       "changedFiles": 1,
       "key": "2025-07-23T08-03-50.json",
       "path": "metadata-plugin-modernizer/absint-a3/modernization-metadata",
+      "checkRuns": {},
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "c4e51d2f24d4c9b6028440a4bbabd42aa0d21738",
       "timestamp": "2025-07-23T08-03-50"
     }
   ]

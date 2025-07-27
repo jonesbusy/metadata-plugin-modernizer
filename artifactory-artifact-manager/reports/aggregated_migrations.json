@@ -1,0 +1,50 @@
+{
+  "pluginName": "artifactory-artifact-manager",
+  "pluginRepository": "https://github.com/jenkinsci/artifactory-artifact-manager-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "237.v4000e4b_72cfd",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/artifactory-artifact-manager-plugin/pull/123",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2025-07-27T10-17-46.json",
+      "path": "metadata-plugin-modernizer/artifactory-artifact-manager/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "7ac71af917554ba8e39ac55e9ed6abf8ec53ced5",
+      "timestamp": "2025-07-27T10-17-46"
+    }
+  ]
+}

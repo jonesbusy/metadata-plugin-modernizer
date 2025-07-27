@@ -24,6 +24,10 @@
       "changedFiles": 1,
       "key": "2025-07-22T09-27-56.json",
       "path": "metadata-plugin-modernizer/zephyr-enterprise-test-management/modernization-metadata",
+      "checkRuns": {},
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "34ad87b63d2165bfc03b0a85f787d2543b7baeb8",
       "timestamp": "2025-07-22T09-27-56"
     },
     {
@@ -48,6 +52,10 @@
       "changedFiles": 1,
       "key": "2025-07-22T08-13-56.json",
       "path": "metadata-plugin-modernizer/zephyr-enterprise-test-management/modernization-metadata",
+      "checkRuns": {},
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "34ad87b63d2165bfc03b0a85f787d2543b7baeb8",
       "timestamp": "2025-07-22T08-13-56"
     },
     {
@@ -72,6 +80,10 @@
       "changedFiles": 1,
       "key": "2025-07-22T07-40-54.json",
       "path": "metadata-plugin-modernizer/zephyr-enterprise-test-management/modernization-metadata",
+      "checkRuns": {},
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "34ad87b63d2165bfc03b0a85f787d2543b7baeb8",
       "timestamp": "2025-07-22T07-40-54"
     }
   ]

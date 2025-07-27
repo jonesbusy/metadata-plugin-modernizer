@@ -24,6 +24,12 @@
       "changedFiles": 1,
       "key": "2025-07-22T17-25-38.json",
       "path": "metadata-plugin-modernizer/jenkinsci-appspider-plugin/modernization-metadata",
+      "checkRuns": {
+        "build": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "7da5558b94b836047ac52e8efc3a6a4463641382",
       "timestamp": "2025-07-22T17-25-38"
     },
     {
@@ -48,6 +54,12 @@
       "changedFiles": 1,
       "key": "2025-07-21T18-19-05.json",
       "path": "metadata-plugin-modernizer/jenkinsci-appspider-plugin/modernization-metadata",
+      "checkRuns": {
+        "build": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "7da5558b94b836047ac52e8efc3a6a4463641382",
       "timestamp": "2025-07-21T18-19-05"
     }
   ]

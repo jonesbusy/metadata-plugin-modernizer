@@ -24,6 +24,10 @@
       "changedFiles": 1,
       "key": "2025-07-21T17-34-14.json",
       "path": "metadata-plugin-modernizer/humbug/modernization-metadata",
+      "checkRuns": {},
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "f1bdcfc6b197fd8e767d3109f4b0055c673236e1",
       "timestamp": "2025-07-21T17-34-14"
     }
   ]
