@@ -1,0 +1,24 @@
+{
+  "pluginName": "commons-math3-api",
+  "pluginRepository": "https://github.com/jenkinsci/commons-math3-api-plugin.git",
+  "pluginVersion": "3.6.1-38.vb_753c9382184",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.1",
+  "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+  "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/commons-math3-api-plugin/pull/38",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 3,
+  "deletions": 3,
+  "changedFiles": 1,
+  "key": "2025-07-27T09-58-36.json",
+  "path": "metadata-plugin-modernizer/commons-math3-api/modernization-metadata"
+}
