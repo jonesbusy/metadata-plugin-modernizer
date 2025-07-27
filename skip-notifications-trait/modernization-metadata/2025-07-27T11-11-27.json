@@ -20,5 +20,26 @@
   "deletions": 2,
   "changedFiles": 1,
   "key": "2025-07-27T11-11-27.json",
-  "path": "metadata-plugin-modernizer/skip-notifications-trait/modernization-metadata"
+  "path": "metadata-plugin-modernizer/skip-notifications-trait/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "Code Coverage": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-21 / Build (linux-21)": "success",
+    "Tests / windows-17 / Build (windows-17)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "2974c30529ed81a27a3d0785325baf2966ecce92"
 }

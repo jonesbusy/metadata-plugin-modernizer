@@ -14,11 +14,31 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/gson-api-plugin/pull/85",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 3,
   "deletions": 3,
   "changedFiles": 1,
   "key": "2025-07-27T10-02-07.json",
-  "path": "metadata-plugin-modernizer/gson-api/modernization-metadata"
+  "path": "metadata-plugin-modernizer/gson-api/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-21 / Build (linux-21)": "success",
+    "Tests / windows-17 / Build (windows-17)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "b3d0c48aab4a61ad9c8d5d8af14d75d737fd662a"
 }
