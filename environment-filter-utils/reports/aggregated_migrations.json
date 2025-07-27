@@ -24,6 +24,13 @@
       "changedFiles": 1,
       "key": "2025-07-23T12-06-27.json",
       "path": "metadata-plugin-modernizer/environment-filter-utils/modernization-metadata",
+      "checkRuns": {
+        "Jenkins Security Scan": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "a21afdacb6213d2ba65ba3a30339021a22e5f751",
       "timestamp": "2025-07-23T12-06-27"
     },
     {
@@ -48,6 +55,13 @@
       "changedFiles": 1,
       "key": "2025-07-22T19-18-20.json",
       "path": "metadata-plugin-modernizer/environment-filter-utils/modernization-metadata",
+      "checkRuns": {
+        "Jenkins Security Scan": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "a21afdacb6213d2ba65ba3a30339021a22e5f751",
       "timestamp": "2025-07-22T19-18-20"
     },
     {

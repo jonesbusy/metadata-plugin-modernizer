@@ -24,6 +24,10 @@
       "changedFiles": 1,
       "key": "2025-07-22T14-39-27.json",
       "path": "metadata-plugin-modernizer/parasoft-findings/modernization-metadata",
+      "checkRuns": {},
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "31e4e285fab60047f7c0c7907ad3a0245a63e4a1",
       "timestamp": "2025-07-22T14-39-27"
     },
     {
@@ -48,6 +52,10 @@
       "changedFiles": 1,
       "key": "2025-07-21T20-36-01.json",
       "path": "metadata-plugin-modernizer/parasoft-findings/modernization-metadata",
+      "checkRuns": {},
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "31e4e285fab60047f7c0c7907ad3a0245a63e4a1",
       "timestamp": "2025-07-21T20-36-01"
     }
   ]

@@ -24,6 +24,10 @@
       "changedFiles": 1,
       "key": "2025-07-22T15-21-51.json",
       "path": "metadata-plugin-modernizer/openid4java/modernization-metadata",
+      "checkRuns": {},
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "9857a31049c020a0f9ceaaea4958d8337f892f94",
       "timestamp": "2025-07-22T15-21-51"
     },
     {
@@ -48,6 +52,10 @@
       "changedFiles": 1,
       "key": "2025-07-21T20-16-43.json",
       "path": "metadata-plugin-modernizer/openid4java/modernization-metadata",
+      "checkRuns": {},
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "9857a31049c020a0f9ceaaea4958d8337f892f94",
       "timestamp": "2025-07-21T20-16-43"
     }
   ]

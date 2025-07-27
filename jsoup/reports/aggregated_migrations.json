@@ -1,0 +1,49 @@
+{
+  "pluginName": "jsoup",
+  "pluginRepository": "https://github.com/jenkinsci/jsoup-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1.21.1-52.v96e4041b_60fd",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/jsoup-plugin/pull/28",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "key": "2025-07-27T10-06-49.json",
+      "path": "metadata-plugin-modernizer/jsoup/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "fc578e6e26102ee0d7fb93821ea206c18f3bdcd1",
+      "timestamp": "2025-07-27T10-06-49"
+    }
+  ]
+}
