@@ -1,0 +1,24 @@
+{
+  "pluginName": "TestFairy",
+  "pluginRepository": "https://github.com/jenkinsci/testfairy-plugin.git",
+  "pluginVersion": "6-325.vf39d32b268fe",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "1.596",
+  "jenkinsVersion": "1.596",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/testfairy-plugin/pull/40",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 8,
+  "deletions": 18,
+  "changedFiles": 2,
+  "key": "2025-07-28T18-02-28.json",
+  "path": "metadata-plugin-modernizer/TestFairy/modernization-metadata"
+}
