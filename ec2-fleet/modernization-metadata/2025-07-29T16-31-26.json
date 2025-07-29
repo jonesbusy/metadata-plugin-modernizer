@@ -1,0 +1,25 @@
+{
+  "pluginName": "ec2-fleet",
+  "pluginRepository": "https://github.com/jenkinsci/ec2-fleet-plugin.git",
+  "pluginVersion": "3.2.0",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.479",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Add CODEOWNERS file",
+  "migrationDescription": "Adds a CODEOWNERS file to a Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/ec2-fleet-plugin/pull/472",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2025-07-29T16-31-26.json",
+  "path": "metadata-plugin-modernizer/ec2-fleet/modernization-metadata"
+}
