@@ -20,5 +20,9 @@
   "deletions": 34,
   "changedFiles": 6,
   "key": "2025-07-29T16-35-40.json",
-  "path": "metadata-plugin-modernizer/kryptowire/modernization-metadata"
+  "path": "metadata-plugin-modernizer/kryptowire/modernization-metadata",
+  "checkRuns": {},
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "42b92e3fa7765b4347db0a8991b0345fa3b524a6"
 }
