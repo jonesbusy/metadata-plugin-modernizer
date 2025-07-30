@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
-  "totalApplications": 399,
+  "totalApplications": 400,
   "successCount": 63,
-  "failureCount": 336,
+  "failureCount": 337,
   "plugins": [
+    {
+      "pluginName": "kryptowire",
+      "status": "fail",
+      "timestamp": "2025-07-29T16-57-49"
+    },
     {
       "pluginName": "TestFairy",
       "status": "fail",
