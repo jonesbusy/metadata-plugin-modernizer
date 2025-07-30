@@ -1,9 +1,34 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
-  "totalApplications": 89,
-  "successCount": 48,
-  "failureCount": 25,
+  "totalApplications": 94,
+  "successCount": 51,
+  "failureCount": 27,
   "plugins": [
+    {
+      "pluginName": "ec2-fleet",
+      "status": "success",
+      "timestamp": "2025-07-29T16-07-59"
+    },
+    {
+      "pluginName": "kryptowire",
+      "status": "fail",
+      "timestamp": "2025-07-29T15-57-07"
+    },
+    {
+      "pluginName": "ec2-fleet",
+      "status": "fail",
+      "timestamp": "2025-07-29T13-43-24"
+    },
+    {
+      "pluginName": "TestFairy",
+      "status": "success",
+      "timestamp": "2025-07-28T18-02-28"
+    },
+    {
+      "pluginName": "badge",
+      "status": "success",
+      "timestamp": "2025-07-28T12-58-57"
+    },
     {
       "pluginName": "cloudbees-enabler",
       "status": "success",

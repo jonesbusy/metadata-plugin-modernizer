@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava8CoreVersion",
-  "totalApplications": 1,
-  "successCount": 1,
+  "totalApplications": 2,
+  "successCount": 2,
   "failureCount": 0,
   "plugins": [
+    {
+      "pluginName": "kryptowire",
+      "status": "success",
+      "timestamp": "2025-07-29T16-35-40"
+    },
     {
       "pluginName": "TestFairy",
       "status": "success",
