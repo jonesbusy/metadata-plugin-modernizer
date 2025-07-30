@@ -14,11 +14,22 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/badge-plugin/pull/282",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "closed",
   "dryRun": false,
   "additions": 3,
   "deletions": 21,
   "changedFiles": 1,
   "key": "2025-07-28T12-58-57.json",
-  "path": "metadata-plugin-modernizer/badge/modernization-metadata"
+  "path": "metadata-plugin-modernizer/badge/modernization-metadata",
+  "checkRuns": {
+    "Code Coverage": "success",
+    "Coverage on Ubuntu": "success",
+    "Jenkins": "failure",
+    "Jenkins Security Scan": "success",
+    "Tests / linux-21 / Build (linux-21)": "failure",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "77879544122f6f0427d80773ff9b4d360852a64d"
 }
