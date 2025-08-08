@@ -1,0 +1,20 @@
+{
+  "pluginName": "lucene-search",
+  "pluginRepository": "https://github.com/jenkinsci/lucene-search-plugin.git",
+  "pluginVersion": "425.v2ccf4cc3a_d55",
+  "rpuBaseline": "2.361",
+  "migrationName": "Upgrade BOM version",
+  "migrationDescription": "Upgrade the bom version to latest available for the current BOM.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeBomVersion",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-06-17T18-29-24.json",
+  "path": "metadata-plugin-modernizer\\lucene-search\\modernization-metadata"
+}
