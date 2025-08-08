@@ -1,0 +1,25 @@
+{
+  "pluginName": "hyper-commons",
+  "pluginRepository": "https://github.com/jenkinsci/hyper-commons-plugin.git",
+  "pluginVersion": "0.1.5",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.7",
+  "effectiveBaseline": "2.7",
+  "jenkinsVersion": "2.7.1",
+  "migrationName": "Setup the Jenkinsfile",
+  "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-07-23T13-15-46.json",
+  "path": "metadata-plugin-modernizer/hyper-commons/modernization-metadata"
+}
