@@ -17,5 +17,9 @@
   "deletions": 17,
   "changedFiles": 2,
   "key": "2025-07-07T08-01-28.json",
-  "path": "metadata-plugin-modernizer/syslog-logger/modernization-metadata"
+  "path": "metadata-plugin-modernizer/syslog-logger/modernization-metadata",
+  "checkRuns": {},
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "c49b6e77bf3f94e6f0ab7d1d32e2371f56059a56"
 }

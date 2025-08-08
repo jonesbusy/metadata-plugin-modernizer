@@ -1,0 +1,22 @@
+{
+  "pluginName": "buildtriggerbadge",
+  "pluginRepository": "https://github.com/jenkinsci/buildtriggerbadge-plugin.git",
+  "pluginVersion": "251.vdf6ef853f3f5",
+  "rpuBaseline": "2.277",
+  "migrationName": "Setup dependabot",
+  "migrationDescription": "Setup dependabot for the Jenkins plugin if it doesn\u0027t exist.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+  "migrationStatus": "success",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-07-11T06-49-50.json",
+  "path": "metadata-plugin-modernizer/buildtriggerbadge/modernization-metadata"
+}

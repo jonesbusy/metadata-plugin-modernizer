@@ -11,11 +11,19 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/compuware-topaz-for-total-test-plugin/pull/69",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 6,
   "deletions": 9,
   "changedFiles": 2,
   "key": "2025-07-07T08-28-09.json",
-  "path": "metadata-plugin-modernizer/compuware-topaz-for-total-test/modernization-metadata"
+  "path": "metadata-plugin-modernizer/compuware-topaz-for-total-test/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": "failure",
+    "Jenkins Security Scan": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "a171e4b6f3dc8dd5e460d8aea1af0927ee0b0463"
 }
