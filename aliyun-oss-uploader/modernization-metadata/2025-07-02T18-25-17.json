@@ -1,0 +1,27 @@
+{
+  "pluginName": "aliyun-oss-uploader",
+  "pluginRepository": "https://github.com/jenkinsci/aliyun-oss-uploader-plugin.git",
+  "pluginVersion": "1.4",
+  "rpuBaseline": "2.492",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/aliyun-oss-uploader-plugin/pull/10",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 16,
+  "deletions": 20,
+  "changedFiles": 1,
+  "key": "2025-07-02T18-25-17.json",
+  "path": "metadata-plugin-modernizer/aliyun-oss-uploader/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": "failure"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "e3e3cc421d646d1817f236a372a2d241974954a4"
+}
