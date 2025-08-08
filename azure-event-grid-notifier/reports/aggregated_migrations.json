@@ -1,0 +1,32 @@
+{
+  "pluginName": "azure-event-grid-notifier",
+  "pluginRepository": "https://github.com/jenkinsci/azure-event-grid-notifier-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "0.1",
+      "rpuBaseline": "2.492",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/azure-event-grid-notifier-plugin/pull/8",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 6,
+      "deletions": 14,
+      "changedFiles": 2,
+      "key": "2025-07-02T20-17-31.json",
+      "path": "metadata-plugin-modernizer/azure-event-grid-notifier/modernization-metadata",
+      "checkRuns": {
+        "Jenkins": "failure"
+      },
+      "checkRunsSummary": "failure",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "5b73174b60f7471a70e6a14a3870ccc6b4c24926",
+      "timestamp": "2025-07-02T20-17-31"
+    }
+  ]
+}
