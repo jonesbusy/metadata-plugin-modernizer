@@ -1,0 +1,18 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion",
+  "totalApplications": 2,
+  "successCount": 0,
+  "failureCount": 2,
+  "plugins": [
+    {
+      "pluginName": "matlab",
+      "status": "fail",
+      "timestamp": "2025-08-01T16-35-50"
+    },
+    {
+      "pluginName": "ec2-fleet",
+      "status": "fail",
+      "timestamp": "2025-07-07T16-47-18"
+    }
+  ]
+}

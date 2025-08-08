@@ -1,0 +1,27 @@
+{
+  "pluginName": "Matrix-sorter-plugin",
+  "pluginRepository": "https://github.com/jenkinsci/Matrix-sorter-plugin.git",
+  "pluginVersion": "1.3",
+  "rpuBaseline": "2.492",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/Matrix-sorter-plugin/pull/4",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 21,
+  "deletions": 6,
+  "changedFiles": 2,
+  "key": "2025-07-02T17-39-11.json",
+  "path": "metadata-plugin-modernizer/Matrix-sorter-plugin/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": "failure"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "0639e074187e6b016098c62b67ae5d831a213c8c"
+}

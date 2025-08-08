@@ -1,0 +1,34 @@
+{
+  "pluginName": "humbug",
+  "pluginRepository": "https://github.com/jenkinsci/humbug-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "0.1.4",
+      "jenkinsBaseline": "",
+      "targetBaseline": "1.653",
+      "effectiveBaseline": "1.653",
+      "jenkinsVersion": "1.653",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/humbug-plugin/pull/6",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 4,
+      "deletions": 4,
+      "changedFiles": 1,
+      "key": "2025-07-21T17-34-14.json",
+      "path": "metadata-plugin-modernizer/humbug/modernization-metadata",
+      "checkRuns": {},
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "f1bdcfc6b197fd8e767d3109f4b0055c673236e1",
+      "timestamp": "2025-07-21T17-34-14"
+    }
+  ]
+}
