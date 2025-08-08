@@ -1,0 +1,41 @@
+{
+  "pluginName": "bmc-change-manager-imstm",
+  "pluginRepository": "https://github.com/jenkinsci/bmc-change-manager-imstm-plugin.git",
+  "pluginVersion": "48.v6bd42382a2ee",
+  "rpuBaseline": "2.492",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/pull/23",
+  "pullRequestStatus": "merged",
+  "dryRun": false,
+  "additions": 7,
+  "deletions": 7,
+  "changedFiles": 1,
+  "key": "2025-07-15T13-36-22.json",
+  "path": "metadata-plugin-modernizer/bmc-change-manager-imstm/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "Code Coverage": "success",
+    "ESLint": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-21 / Build (linux-21)": "success",
+    "Tests / windows-17 / Build (windows-17)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "12c841920f7d60a58d15a3e063414351de956043"
+}
