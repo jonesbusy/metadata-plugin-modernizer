@@ -1,0 +1,22 @@
+{
+  "pluginName": "compuware-topaz-for-total-test",
+  "pluginRepository": "https://github.com/jenkinsci/compuware-topaz-for-total-test-plugin.git",
+  "pluginVersion": "2.4.16",
+  "rpuBaseline": "2.462",
+  "migrationName": "Add CODEOWNERS file",
+  "migrationDescription": "Adds a CODEOWNERS file to a Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
+  "migrationStatus": "success",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-07-07T08-31-58.json",
+  "path": "metadata-plugin-modernizer/compuware-topaz-for-total-test/modernization-metadata"
+}
