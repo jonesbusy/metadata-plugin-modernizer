@@ -1,0 +1,37 @@
+{
+  "pluginName": "advanced-installer-msi-builder",
+  "pluginRepository": "https://github.com/jenkinsci/advanced-installer-msi-builder-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "3.0.0",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.462",
+      "effectiveBaseline": "2.462",
+      "jenkinsVersion": "2.462.3",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/advanced-installer-msi-builder-plugin/pull/13",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 12,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-07-23T08-06-08.json",
+      "path": "metadata-plugin-modernizer/advanced-installer-msi-builder/modernization-metadata",
+      "checkRuns": {
+        "Jenkins Security Scan": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "4bb3f2dc2cb41d4b77874fe6ff5d92b20c5ec79a",
+      "timestamp": "2025-07-23T08-06-08"
+    }
+  ]
+}

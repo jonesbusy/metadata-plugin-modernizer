@@ -1,0 +1,50 @@
+{
+  "pluginName": "database-mariadb",
+  "pluginRepository": "https://github.com/jenkinsci/database-mariadb-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "134.v4287ed4a_ccd6",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/database-mariadb-plugin/pull/87",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2025-07-27T10-25-36.json",
+      "path": "metadata-plugin-modernizer/database-mariadb/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-17 / Build (linux-17)": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "626f5b6c011430ff82b1d938a6493c58ec371e9f",
+      "timestamp": "2025-07-27T10-25-36"
+    }
+  ]
+}
