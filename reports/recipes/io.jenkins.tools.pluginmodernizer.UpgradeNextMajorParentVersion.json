@@ -1,9 +1,24 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
-  "totalApplications": 94,
-  "successCount": 51,
-  "failureCount": 27,
+  "totalApplications": 97,
+  "successCount": 52,
+  "failureCount": 29,
   "plugins": [
+    {
+      "pluginName": "matlab",
+      "status": "fail",
+      "timestamp": "2025-08-01T16-38-10"
+    },
+    {
+      "pluginName": "matlab",
+      "status": "fail",
+      "timestamp": "2025-08-01T16-31-41"
+    },
+    {
+      "pluginName": "reverse-proxy-auth-plugin",
+      "status": "success",
+      "timestamp": "2025-07-31T13-34-59"
+    },
     {
       "pluginName": "ec2-fleet",
       "status": "success",

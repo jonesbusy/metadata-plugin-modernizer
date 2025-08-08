@@ -1,9 +1,24 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
-  "totalApplications": 400,
+  "totalApplications": 403,
   "successCount": 63,
-  "failureCount": 337,
+  "failureCount": 340,
   "plugins": [
+    {
+      "pluginName": "kryptowire",
+      "status": "fail",
+      "timestamp": "2025-07-30T14-34-13"
+    },
+    {
+      "pluginName": "kryptowire",
+      "status": "fail",
+      "timestamp": "2025-07-30T09-48-09"
+    },
+    {
+      "pluginName": "kryptowire",
+      "status": "fail",
+      "timestamp": "2025-07-30T08-29-31"
+    },
     {
       "pluginName": "kryptowire",
       "status": "fail",
