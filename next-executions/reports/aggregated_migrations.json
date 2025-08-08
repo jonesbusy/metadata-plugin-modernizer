@@ -1,0 +1,50 @@
+{
+  "pluginName": "next-executions",
+  "pluginRepository": "https://github.com/jenkinsci/next-executions-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "424.v631378313e29",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/next-executions-plugin/pull/177",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2025-07-27T10-51-37.json",
+      "path": "metadata-plugin-modernizer/next-executions/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "57aa1b40702f281523a8e3d5d456d7062b30371c",
+      "timestamp": "2025-07-27T10-51-37"
+    }
+  ]
+}
