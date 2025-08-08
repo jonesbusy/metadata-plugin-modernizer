@@ -1,0 +1,43 @@
+{
+  "pluginName": "custom-build-properties",
+  "pluginRepository": "https://github.com/jenkinsci/custom-build-properties-plugin.git",
+  "pluginVersion": "2.90.v4c63458e3ec8",
+  "rpuBaseline": "2.479",
+  "migrationName": "Add CODEOWNERS file",
+  "migrationDescription": "Adds a CODEOWNERS file to a Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/custom-build-properties-plugin/pull/63",
+  "pullRequestStatus": "merged",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2025-07-10T15-18-21.json",
+  "path": "metadata-plugin-modernizer/custom-build-properties/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "Code Coverage": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-17 / Build (linux-17)": "success",
+    "Tests / windows-17 / Build (windows-17)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "be083a0e238534d0b2061f32b0e260093639069e"
+}
