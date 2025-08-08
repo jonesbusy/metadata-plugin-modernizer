@@ -1,0 +1,25 @@
+{
+  "pluginName": "changelog-history",
+  "pluginRepository": "https://github.com/jenkinsci/changelog-history-plugin.git",
+  "pluginVersion": "1.7",
+  "jenkinsBaseline": "",
+  "targetBaseline": "1.580",
+  "effectiveBaseline": "1.580",
+  "jenkinsVersion": "1.580.3",
+  "migrationName": "Setup the Jenkinsfile",
+  "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-07-21T12-34-14.json",
+  "path": "metadata-plugin-modernizer/changelog-history/modernization-metadata"
+}

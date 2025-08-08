@@ -1,0 +1,129 @@
+{
+  "pluginName": "figlet-buildstep",
+  "pluginRepository": "https://github.com/jenkinsci/figlet-buildstep-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "0.2",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-23T12-23-12.json",
+      "path": "metadata-plugin-modernizer/figlet-buildstep/modernization-metadata",
+      "timestamp": "2025-07-23T12-23-12"
+    },
+    {
+      "pluginVersion": "0.2",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-22T18-57-55.json",
+      "path": "metadata-plugin-modernizer/figlet-buildstep/modernization-metadata",
+      "timestamp": "2025-07-22T18-57-55"
+    },
+    {
+      "pluginVersion": "0.2",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/figlet-buildstep-plugin/pull/110",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 3,
+      "deletions": 3,
+      "changedFiles": 1,
+      "key": "2025-07-21T16-53-16.json",
+      "path": "metadata-plugin-modernizer/figlet-buildstep/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "392489caf4adb99ac47dbb342524dad68160d1f9",
+      "timestamp": "2025-07-21T16-53-16"
+    },
+    {
+      "pluginVersion": "0.2",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.479",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/figlet-buildstep-plugin/pull/109",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 12,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-07-21T16-25-06.json",
+      "path": "metadata-plugin-modernizer/figlet-buildstep/modernization-metadata",
+      "checkRuns": {
+        "Jenkins Security Scan": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "392489caf4adb99ac47dbb342524dad68160d1f9",
+      "timestamp": "2025-07-21T16-25-06"
+    }
+  ]
+}
