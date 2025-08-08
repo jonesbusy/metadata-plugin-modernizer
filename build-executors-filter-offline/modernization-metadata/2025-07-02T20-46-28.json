@@ -1,0 +1,27 @@
+{
+  "pluginName": "build-executors-filter-offline",
+  "pluginRepository": "https://github.com/jenkinsci/build-executors-filter-offline-plugin.git",
+  "pluginVersion": "1.1",
+  "rpuBaseline": "2.492",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/build-executors-filter-offline-plugin/pull/5",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 11,
+  "deletions": 14,
+  "changedFiles": 2,
+  "key": "2025-07-02T20-46-28.json",
+  "path": "metadata-plugin-modernizer/build-executors-filter-offline/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": "failure"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "eaa37ff69d35f87bc7b02802501d4bbfead5a817"
+}

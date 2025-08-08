@@ -1,0 +1,28 @@
+{
+  "pluginName": "kryptowire",
+  "pluginRepository": "https://github.com/jenkinsci/kryptowire-plugin.git",
+  "pluginVersion": "0.2",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.346",
+  "effectiveBaseline": "1.642",
+  "jenkinsVersion": "1.642.3",
+  "migrationName": "Upgrade to latest LTS core version supporting Java 8",
+  "migrationDescription": "Upgrade to latest LTS core version supporting Java 8.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava8CoreVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/kryptowire-plugin/pull/3",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 26,
+  "deletions": 34,
+  "changedFiles": 6,
+  "key": "2025-07-29T16-35-40.json",
+  "path": "metadata-plugin-modernizer/kryptowire/modernization-metadata",
+  "checkRuns": {},
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "42b92e3fa7765b4347db0a8991b0345fa3b524a6"
+}

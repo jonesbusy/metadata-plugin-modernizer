@@ -1,0 +1,26 @@
+{
+  "pluginName": "openstack-cloud",
+  "pluginRepository": "https://github.com/jenkinsci/openstack-cloud-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1456.v1c7380506a_ed",
+      "rpuBaseline": "2.504",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-06-27T20-16-23.json",
+      "path": "metadata-plugin-modernizer\\openstack-cloud\\modernization-metadata",
+      "timestamp": "2025-06-27T20-16-23"
+    }
+  ]
+}

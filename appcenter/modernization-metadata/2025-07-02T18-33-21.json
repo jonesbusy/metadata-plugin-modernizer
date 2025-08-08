@@ -1,0 +1,21 @@
+{
+  "pluginName": "appcenter",
+  "pluginRepository": "https://github.com/jenkinsci/appcenter-plugin.git",
+  "pluginVersion": "0.11.1",
+  "rpuBaseline": "2.222",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-07-02T18-33-21.json",
+  "path": "metadata-plugin-modernizer/appcenter/modernization-metadata"
+}
