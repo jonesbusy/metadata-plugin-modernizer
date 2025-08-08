@@ -1,0 +1,30 @@
+{
+  "pluginName": "audit2db",
+  "pluginRepository": "https://github.com/jenkinsci/audit2db-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "0.5",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.73",
+      "effectiveBaseline": "2.73",
+      "jenkinsVersion": "2.73.3",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-23T08-31-01.json",
+      "path": "metadata-plugin-modernizer/audit2db/modernization-metadata",
+      "timestamp": "2025-07-23T08-31-01"
+    }
+  ]
+}

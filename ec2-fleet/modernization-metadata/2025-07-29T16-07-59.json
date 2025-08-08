@@ -1,0 +1,42 @@
+{
+  "pluginName": "ec2-fleet",
+  "pluginRepository": "https://github.com/jenkinsci/ec2-fleet-plugin.git",
+  "pluginVersion": "3.2.0",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.3",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/ec2-fleet-plugin/pull/470",
+  "pullRequestStatus": "merged",
+  "dryRun": false,
+  "additions": 6,
+  "deletions": 34,
+  "changedFiles": 3,
+  "key": "2025-07-29T16-07-59.json",
+  "path": "metadata-plugin-modernizer/ec2-fleet/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-17 / Build (linux-17)": "success",
+    "Tests / linux-21 / Build (linux-21)": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "619d63bec9d894ce9e869a847ef1df74780d29f8"
+}
