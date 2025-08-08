@@ -1,0 +1,24 @@
+{
+  "pluginName": "TestComplete",
+  "pluginRepository": "https://github.com/jenkinsci/testcomplete-plugin.git",
+  "pluginVersion": "2.9.2",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.361",
+  "jenkinsVersion": "2.361.4",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/testcomplete-plugin/pull/25",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 13,
+  "deletions": 10,
+  "changedFiles": 3,
+  "key": "2025-07-21T10-08-39.json",
+  "path": "metadata-plugin-modernizer/TestComplete/modernization-metadata"
+}

@@ -1,0 +1,24 @@
+{
+  "pluginName": "matlab",
+  "pluginRepository": "https://github.com/jenkinsci/matlab-plugin.git",
+  "pluginVersion": "970.v2a_b_10cc96e58",
+  "jenkinsBaseline": "2.387",
+  "targetBaseline": "2.387",
+  "effectiveBaseline": "2.387",
+  "jenkinsVersion": "2.387.3",
+  "migrationName": "Upgrade to latest LTS core version supporting Java 11",
+  "migrationDescription": "Upgrade to latest LTS core version supporting Java 11.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-08-01T16-35-50.json",
+  "path": "metadata-plugin-modernizer/matlab/modernization-metadata"
+}
