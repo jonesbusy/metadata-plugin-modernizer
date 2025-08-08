@@ -1,0 +1,43 @@
+{
+  "pluginName": "ansible-tower",
+  "pluginRepository": "https://github.com/jenkinsci/ansible-tower-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "0.17.0",
+      "rpuBaseline": "2.492",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/ansible-tower-plugin/pull/27",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 12,
+      "deletions": 24,
+      "changedFiles": 2,
+      "key": "2025-07-02T18-29-44.json",
+      "path": "metadata-plugin-modernizer/ansible-tower/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "failure",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "failure",
+        "Tests / linux-21 / Build (linux-21)": "success"
+      },
+      "checkRunsSummary": "failure",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "83f67ed4f2a63a05d0a4eba58eb2e74d89effa65",
+      "timestamp": "2025-07-02T18-29-44"
+    }
+  ]
+}
