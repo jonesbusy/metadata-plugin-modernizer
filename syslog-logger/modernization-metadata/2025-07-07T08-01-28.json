@@ -1,0 +1,25 @@
+{
+  "pluginName": "syslog-logger",
+  "pluginRepository": "https://github.com/jenkinsci/syslog-logger-plugin.git",
+  "pluginVersion": "1.0.5",
+  "rpuBaseline": "2.479",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/syslog-logger-plugin/pull/2",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 10,
+  "deletions": 17,
+  "changedFiles": 2,
+  "key": "2025-07-07T08-01-28.json",
+  "path": "metadata-plugin-modernizer/syslog-logger/modernization-metadata",
+  "checkRuns": {},
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "c49b6e77bf3f94e6f0ab7d1d32e2371f56059a56"
+}

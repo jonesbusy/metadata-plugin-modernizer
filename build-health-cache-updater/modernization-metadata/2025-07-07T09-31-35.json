@@ -1,0 +1,21 @@
+{
+  "pluginName": "build-health-cache-updater",
+  "pluginRepository": "https://github.com/jenkinsci/build-health-cache-updater-plugin.git",
+  "pluginVersion": "1.1",
+  "rpuBaseline": "2.138",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-07-07T09-31-35.json",
+  "path": "metadata-plugin-modernizer\\build-health-cache-updater\\modernization-metadata"
+}
