@@ -1,0 +1,29 @@
+{
+  "pluginName": "partyparrotstatus",
+  "pluginRepository": "https://github.com/jenkinsci/partyparrotstatus-plugin.git",
+  "pluginVersion": "1.0",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.7",
+  "effectiveBaseline": "2.7",
+  "jenkinsVersion": "2.7.3",
+  "migrationName": "Setup the Jenkinsfile",
+  "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/partyparrotstatus-plugin/pull/1",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2025-07-21T20-38-27.json",
+  "path": "metadata-plugin-modernizer/partyparrotstatus/modernization-metadata",
+  "checkRuns": {},
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "7eafe2c0a974fae5213be9074d551415ed07e5aa"
+}
