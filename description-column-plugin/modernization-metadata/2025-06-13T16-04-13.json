@@ -1,0 +1,14 @@
+{
+  "pluginName": "description-column-plugin",
+  "pluginRepository": "https://github.com/jenkinsci/description-column-plugin.git",
+  "pluginVersion": "1.3",
+  "rpuBaseline": "1.625",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "key": "2025-06-13T16-04-13.json",
+  "path": "metadata-plugin-modernizer/description-column-plugin/modernization-metadata"
+}
