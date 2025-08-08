@@ -1,18 +1,18 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-07-30 02:28:59 UTC
+Generated on: 2025-08-08 02:29:46 UTC
 
 ## Overview
-- **Total Migrations**: 561
-- **Failed Migrations**: 371
-- **Success Rate**: 33.87%
+- **Total Migrations**: 568
+- **Failed Migrations**: 377
+- **Success Rate**: 33.63%
 
 ## Failures by Recipe
-- io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 337 failures
-- io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 27 failures
+- io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 340 failures
+- io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 29 failures
+- io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 2 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 2 failures
 - io.jenkins.tools.pluginmodernizer.MigrateToJUnit5: 2 failures
-- io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 1 failures
 - io.jenkins.tools.pluginmodernizer.AddCodeOwner: 1 failures
 - io.jenkins.tools.pluginmodernizer.SetupDependabot: 1 failures
 
@@ -148,6 +148,7 @@ Generated on: 2025-07-30 02:28:59 UTC
 - [loadcomplete](../loadcomplete/reports/failed_migrations.csv)
 - [mailmap-resolver](../mailmap-resolver/reports/failed_migrations.csv)
 - [marathon](../marathon/reports/failed_migrations.csv)
+- [matlab](../matlab/reports/failed_migrations.csv)
 - [mdtool](../mdtool/reports/failed_migrations.csv)
 - [mentor-questa-vrm](../mentor-questa-vrm/reports/failed_migrations.csv)
 - [metrics-graphite](../metrics-graphite/reports/failed_migrations.csv)
@@ -229,10 +230,10 @@ Generated on: 2025-07-30 02:28:59 UTC
 
 | Status | Count | Percentage |
 |--------|-------|------------|
-| Total PRs | 137 | - |
-| Open PRs | 86 | 62.77% |
-| Closed PRs | 4 | 2.92% |
-| Merged PRs | 47 | 34.31% |
+| Total PRs | 138 | - |
+| Open PRs | 81 | 58.70% |
+| Closed PRs | 5 | 3.62% |
+| Merged PRs | 52 | 37.68% |
 
 
 *Note: No. of Migrations != No. of PRs. A migration applied may trigger force push on already opened PR.*
