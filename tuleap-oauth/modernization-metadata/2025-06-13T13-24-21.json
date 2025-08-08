@@ -20,5 +20,7 @@
     "Tests (ubuntu-22.04) with coverage": "failure",
     "Tests (windows-2022) with coverage": "cancelled"
   },
-  "checkRunsSummary": "failure"
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "858ece1547c0a4b74bb7f5fdab8f5d91a5ec7bef"
 }
