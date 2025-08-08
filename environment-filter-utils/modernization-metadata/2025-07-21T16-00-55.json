@@ -15,7 +15,7 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/environment-filter-utils-plugin/pull/4",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "closed",
   "dryRun": false,
   "additions": 12,
   "deletions": 0,
@@ -28,5 +28,5 @@
   },
   "checkRunsSummary": "success",
   "defaultBranch": "master",
-  "defaultBranchLatestCommitSha": "a21afdacb6213d2ba65ba3a30339021a22e5f751"
+  "defaultBranchLatestCommitSha": "c0054371f4af6201799d4c2242ca25e43107cd04"
 }

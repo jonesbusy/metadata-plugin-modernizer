@@ -1,17 +1,18 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-07-27 11:29:01 UTC
+Generated on: 2025-08-08 02:29:46 UTC
 
 ## Overview
-- **Total Migrations**: 551
-- **Failed Migrations**: 366
-- **Success Rate**: 33.58%
+- **Total Migrations**: 568
+- **Failed Migrations**: 377
+- **Success Rate**: 33.63%
 
 ## Failures by Recipe
-- io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 336 failures
-- io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 25 failures
+- io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 340 failures
+- io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 29 failures
+- io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 2 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 2 failures
-- io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 1 failures
+- io.jenkins.tools.pluginmodernizer.MigrateToJUnit5: 2 failures
 - io.jenkins.tools.pluginmodernizer.AddCodeOwner: 1 failures
 - io.jenkins.tools.pluginmodernizer.SetupDependabot: 1 failures
 
@@ -56,6 +57,7 @@ Generated on: 2025-07-27 11:29:01 UTC
 - [boot-clj](../boot-clj/reports/failed_migrations.csv)
 - [build-health-cache-updater](../build-health-cache-updater/reports/failed_migrations.csv)
 - [build-metrics](../build-metrics/reports/failed_migrations.csv)
+- [buildtriggerbadge](../buildtriggerbadge/reports/failed_migrations.csv)
 - [byteguard-build-actions](../byteguard-build-actions/reports/failed_migrations.csv)
 - [changelog-history](../changelog-history/reports/failed_migrations.csv)
 - [chef-tracking](../chef-tracking/reports/failed_migrations.csv)
@@ -146,6 +148,7 @@ Generated on: 2025-07-27 11:29:01 UTC
 - [loadcomplete](../loadcomplete/reports/failed_migrations.csv)
 - [mailmap-resolver](../mailmap-resolver/reports/failed_migrations.csv)
 - [marathon](../marathon/reports/failed_migrations.csv)
+- [matlab](../matlab/reports/failed_migrations.csv)
 - [mdtool](../mdtool/reports/failed_migrations.csv)
 - [mentor-questa-vrm](../mentor-questa-vrm/reports/failed_migrations.csv)
 - [metrics-graphite](../metrics-graphite/reports/failed_migrations.csv)
@@ -227,10 +230,10 @@ Generated on: 2025-07-27 11:29:01 UTC
 
 | Status | Count | Percentage |
 |--------|-------|------------|
-| Total PRs | 132 | - |
-| Open PRs | 81 | 61.36% |
-| Closed PRs | 4 | 3.03% |
-| Merged PRs | 47 | 35.61% |
+| Total PRs | 138 | - |
+| Open PRs | 81 | 58.70% |
+| Closed PRs | 5 | 3.62% |
+| Merged PRs | 52 | 37.68% |
 
 
 *Note: No. of Migrations != No. of PRs. A migration applied may trigger force push on already opened PR.*
