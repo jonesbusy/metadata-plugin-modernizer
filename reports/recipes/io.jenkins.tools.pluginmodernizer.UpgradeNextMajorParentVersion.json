@@ -1,9 +1,89 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
-  "totalApplications": 81,
-  "successCount": 41,
-  "failureCount": 24,
+  "totalApplications": 97,
+  "successCount": 52,
+  "failureCount": 29,
   "plugins": [
+    {
+      "pluginName": "matlab",
+      "status": "fail",
+      "timestamp": "2025-08-01T16-38-10"
+    },
+    {
+      "pluginName": "matlab",
+      "status": "fail",
+      "timestamp": "2025-08-01T16-31-41"
+    },
+    {
+      "pluginName": "reverse-proxy-auth-plugin",
+      "status": "success",
+      "timestamp": "2025-07-31T13-34-59"
+    },
+    {
+      "pluginName": "ec2-fleet",
+      "status": "success",
+      "timestamp": "2025-07-29T16-07-59"
+    },
+    {
+      "pluginName": "kryptowire",
+      "status": "fail",
+      "timestamp": "2025-07-29T15-57-07"
+    },
+    {
+      "pluginName": "ec2-fleet",
+      "status": "fail",
+      "timestamp": "2025-07-29T13-43-24"
+    },
+    {
+      "pluginName": "TestFairy",
+      "status": "success",
+      "timestamp": "2025-07-28T18-02-28"
+    },
+    {
+      "pluginName": "badge",
+      "status": "success",
+      "timestamp": "2025-07-28T12-58-57"
+    },
+    {
+      "pluginName": "cloudbees-enabler",
+      "status": "success",
+      "timestamp": "2025-07-26T10-00-07"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-22T19-48-15"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-22T13-44-46"
+    },
+    {
+      "pluginName": "figlet-buildstep",
+      "status": "success",
+      "timestamp": "2025-07-21T16-53-16"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-21T15-33-19"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-21T14-40-37"
+    },
+    {
+      "pluginName": "blackduck-coverity-on-polaris",
+      "status": "fail",
+      "timestamp": "2025-07-21T13-34-53"
+    },
+    {
+      "pluginName": "requests",
+      "status": "success",
+      "timestamp": "2025-07-21T13-27-04"
+    },
     {
       "pluginName": "bmc-change-manager-imstm",
       "status": "success",
