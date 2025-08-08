@@ -21,5 +21,9 @@
   "deletions": 0,
   "changedFiles": 1,
   "key": "2025-07-22T10-41-07.json",
-  "path": "metadata-plugin-modernizer/vectorcast-coverage/modernization-metadata"
+  "path": "metadata-plugin-modernizer/vectorcast-coverage/modernization-metadata",
+  "checkRuns": {},
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "a24f16e877236c0da2958ce9de02a4f76ea5b97a"
 }

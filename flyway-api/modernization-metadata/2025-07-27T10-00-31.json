@@ -1,0 +1,24 @@
+{
+  "pluginName": "flyway-api",
+  "pluginRepository": "https://github.com/jenkinsci/flyway-api-plugin.git",
+  "pluginVersion": "11.10.4-327.v1483260fa_599",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.3",
+  "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+  "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 2,
+  "deletions": 2,
+  "changedFiles": 1,
+  "key": "2025-07-27T10-00-31.json",
+  "path": "metadata-plugin-modernizer/flyway-api/modernization-metadata"
+}
