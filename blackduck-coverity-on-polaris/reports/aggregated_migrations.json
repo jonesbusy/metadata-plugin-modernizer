@@ -1,0 +1,60 @@
+{
+  "pluginName": "blackduck-coverity-on-polaris",
+  "pluginRepository": "https://github.com/jenkinsci/blackduck-coverity-on-polaris-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "2.0.1",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.440",
+      "effectiveBaseline": "2.440",
+      "jenkinsVersion": "2.440.3",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/blackduck-coverity-on-polaris-plugin/pull/8",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 12,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-07-23T09-04-16.json",
+      "path": "metadata-plugin-modernizer/blackduck-coverity-on-polaris/modernization-metadata",
+      "checkRuns": {
+        "Jenkins Security Scan": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "b7cc4a46ea3e831074d76f4a215b6a3f03eded34",
+      "timestamp": "2025-07-23T09-04-16"
+    },
+    {
+      "pluginVersion": "2.0.1",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.440",
+      "effectiveBaseline": "2.440",
+      "jenkinsVersion": "2.440.3",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-21T13-34-53.json",
+      "path": "metadata-plugin-modernizer/blackduck-coverity-on-polaris/modernization-metadata",
+      "timestamp": "2025-07-21T13-34-53"
+    }
+  ]
+}
