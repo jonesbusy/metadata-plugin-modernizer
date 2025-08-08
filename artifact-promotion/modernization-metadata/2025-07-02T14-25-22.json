@@ -1,0 +1,29 @@
+{
+  "pluginName": "artifact-promotion",
+  "pluginRepository": "https://github.com/jenkinsci/artifact-promotion-plugin.git",
+  "pluginVersion": "0.5.2",
+  "rpuBaseline": "2.462",
+  "migrationName": "Setup the Jenkinsfile",
+  "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/artifact-promotion-plugin/pull/36",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 12,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2025-07-02T14-25-22.json",
+  "path": "metadata-plugin-modernizer/artifact-promotion/modernization-metadata",
+  "checkRuns": {
+    "Jenkins Security Scan": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "67053bd004f61d0bd5494d17333db36e0b12c678"
+}

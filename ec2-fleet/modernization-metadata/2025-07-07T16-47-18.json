@@ -1,0 +1,21 @@
+{
+  "pluginName": "ec2-fleet",
+  "pluginRepository": "https://github.com/jenkinsci/ec2-fleet-plugin.git",
+  "pluginVersion": "3.2.0",
+  "rpuBaseline": "2.277",
+  "migrationName": "Upgrade to latest LTS core version supporting Java 11",
+  "migrationDescription": "Upgrade to latest LTS core version supporting Java 11.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-07-07T16-47-18.json",
+  "path": "metadata-plugin-modernizer/ec2-fleet/modernization-metadata"
+}
