@@ -1,0 +1,14 @@
+{
+  "pluginName": "bitbucket-filter-project-trait",
+  "pluginRepository": "https://github.com/jenkinsci/bitbucket-filter-project-trait-plugin.git",
+  "pluginVersion": "1.0",
+  "rpuBaseline": "2.7",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "key": "2025-06-13T13-40-18.json",
+  "path": "metadata-plugin-modernizer/bitbucket-filter-project-trait/modernization-metadata"
+}
