@@ -4,7 +4,7 @@
   "pluginVersion": "0.5.2",
   "rpuBaseline": "2.462",
   "migrationName": "Setup dependabot",
-  "migrationDescription": "Setup dependabot for the Jenkins plugin if it doesn\u0027t exist.",
+  "migrationDescription": "Setup dependabot for the Jenkins plugin if it doesn't exist.",
   "tags": [
     "skip-verification",
     "chore"
@@ -18,5 +18,12 @@
   "deletions": 0,
   "changedFiles": 1,
   "key": "2025-07-02T14-59-10.json",
-  "path": "metadata-plugin-modernizer/artifact-promotion/modernization-metadata"
+  "path": "metadata-plugin-modernizer/artifact-promotion/modernization-metadata",
+  "checkRuns": {
+    "Jenkins Security Scan": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "67053bd004f61d0bd5494d17333db36e0b12c678"
 }

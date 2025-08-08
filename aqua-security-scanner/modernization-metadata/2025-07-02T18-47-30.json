@@ -17,5 +17,11 @@
   "deletions": 38,
   "changedFiles": 2,
   "key": "2025-07-02T18-47-30.json",
-  "path": "metadata-plugin-modernizer/aqua-security-scanner/modernization-metadata"
+  "path": "metadata-plugin-modernizer/aqua-security-scanner/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": "failure"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "88cde9aabce7a76bd50eba4c3860e2d680fb1cec"
 }

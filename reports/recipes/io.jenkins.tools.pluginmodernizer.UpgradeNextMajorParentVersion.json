@@ -1,0 +1,493 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "totalApplications": 97,
+  "successCount": 52,
+  "failureCount": 29,
+  "plugins": [
+    {
+      "pluginName": "matlab",
+      "status": "fail",
+      "timestamp": "2025-08-01T16-38-10"
+    },
+    {
+      "pluginName": "matlab",
+      "status": "fail",
+      "timestamp": "2025-08-01T16-31-41"
+    },
+    {
+      "pluginName": "reverse-proxy-auth-plugin",
+      "status": "success",
+      "timestamp": "2025-07-31T13-34-59"
+    },
+    {
+      "pluginName": "ec2-fleet",
+      "status": "success",
+      "timestamp": "2025-07-29T16-07-59"
+    },
+    {
+      "pluginName": "kryptowire",
+      "status": "fail",
+      "timestamp": "2025-07-29T15-57-07"
+    },
+    {
+      "pluginName": "ec2-fleet",
+      "status": "fail",
+      "timestamp": "2025-07-29T13-43-24"
+    },
+    {
+      "pluginName": "TestFairy",
+      "status": "success",
+      "timestamp": "2025-07-28T18-02-28"
+    },
+    {
+      "pluginName": "badge",
+      "status": "success",
+      "timestamp": "2025-07-28T12-58-57"
+    },
+    {
+      "pluginName": "cloudbees-enabler",
+      "status": "success",
+      "timestamp": "2025-07-26T10-00-07"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-22T19-48-15"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-22T13-44-46"
+    },
+    {
+      "pluginName": "figlet-buildstep",
+      "status": "success",
+      "timestamp": "2025-07-21T16-53-16"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-21T15-33-19"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-21T14-40-37"
+    },
+    {
+      "pluginName": "blackduck-coverity-on-polaris",
+      "status": "fail",
+      "timestamp": "2025-07-21T13-34-53"
+    },
+    {
+      "pluginName": "requests",
+      "status": "success",
+      "timestamp": "2025-07-21T13-27-04"
+    },
+    {
+      "pluginName": "bmc-change-manager-imstm",
+      "status": "success",
+      "timestamp": "2025-07-15T13-36-22"
+    },
+    {
+      "pluginName": "backup",
+      "status": "fail",
+      "timestamp": "2025-07-11T18-45-16"
+    },
+    {
+      "pluginName": "buildtriggerbadge",
+      "status": "success",
+      "timestamp": "2025-07-11T06-53-49"
+    },
+    {
+      "pluginName": "qy-wechat-notification",
+      "status": "success",
+      "timestamp": "2025-07-11T06-36-00"
+    },
+    {
+      "pluginName": "ec2-fleet",
+      "status": "fail",
+      "timestamp": "2025-07-07T16-42-43"
+    },
+    {
+      "pluginName": "build-health-cache-updater",
+      "status": "fail",
+      "timestamp": "2025-07-07T09-31-35"
+    },
+    {
+      "pluginName": "compuware-topaz-for-total-test",
+      "status": "success",
+      "timestamp": "2025-07-07T08-28-09"
+    },
+    {
+      "pluginName": "syslog-logger",
+      "status": "success",
+      "timestamp": "2025-07-07T08-01-28"
+    },
+    {
+      "pluginName": "jira-steps",
+      "status": "fail",
+      "timestamp": "2025-07-03T22-40-37"
+    },
+    {
+      "pluginName": "buildrotator",
+      "status": "success",
+      "timestamp": "2025-07-02T21-00-09"
+    },
+    {
+      "pluginName": "build-token-trigger",
+      "status": "success",
+      "timestamp": "2025-07-02T20-54-35"
+    },
+    {
+      "pluginName": "build-health-cache-updater",
+      "status": "fail",
+      "timestamp": "2025-07-02T20-49-44"
+    },
+    {
+      "pluginName": "build-executors-filter-offline",
+      "status": "success",
+      "timestamp": "2025-07-02T20-46-28"
+    },
+    {
+      "pluginName": "build-discarder",
+      "status": "success",
+      "timestamp": "2025-07-02T20-43-18"
+    },
+    {
+      "pluginName": "btc-embeddedplatform",
+      "status": "success",
+      "timestamp": "2025-07-02T20-40-49"
+    },
+    {
+      "pluginName": "breachlock-dast",
+      "status": "success",
+      "timestamp": "2025-07-02T20-36-49"
+    },
+    {
+      "pluginName": "bitbucket-pullrequest-builder",
+      "status": "success",
+      "timestamp": "2025-07-02T20-33-11"
+    },
+    {
+      "pluginName": "beagle-security",
+      "status": "success",
+      "timestamp": "2025-07-02T20-26-16"
+    },
+    {
+      "pluginName": "backlog",
+      "status": "fail",
+      "timestamp": "2025-07-02T20-23-23"
+    },
+    {
+      "pluginName": "azure-event-grid-notifier",
+      "status": "success",
+      "timestamp": "2025-07-02T20-17-31"
+    },
+    {
+      "pluginName": "azure-acs",
+      "status": "fail",
+      "timestamp": "2025-07-02T20-10-39"
+    },
+    {
+      "pluginName": "aws-sqs-trigger",
+      "status": "fail",
+      "timestamp": "2025-07-02T20-02-44"
+    },
+    {
+      "pluginName": "aws-sam",
+      "status": "fail",
+      "timestamp": "2025-07-02T19-59-10"
+    },
+    {
+      "pluginName": "aws-parameter-store",
+      "status": "fail",
+      "timestamp": "2025-07-02T19-54-03"
+    },
+    {
+      "pluginName": "aws-lambda-cloud",
+      "status": "success",
+      "timestamp": "2025-07-02T19-49-48"
+    },
+    {
+      "pluginName": "aws-kinesis-consumer",
+      "status": "fail",
+      "timestamp": "2025-07-02T19-42-38"
+    },
+    {
+      "pluginName": "aws-device-farm",
+      "status": "success",
+      "timestamp": "2025-07-02T19-36-48"
+    },
+    {
+      "pluginName": "aws-codecommit-jobs",
+      "status": "fail",
+      "timestamp": "2025-07-02T19-26-49"
+    },
+    {
+      "pluginName": "autonomiq",
+      "status": "success",
+      "timestamp": "2025-07-02T19-17-57"
+    },
+    {
+      "pluginName": "autocancel",
+      "status": "fail",
+      "timestamp": "2025-07-02T19-13-56"
+    },
+    {
+      "pluginName": "autoaction-step",
+      "status": "success",
+      "timestamp": "2025-07-02T19-10-39"
+    },
+    {
+      "pluginName": "audit-log",
+      "status": "fail",
+      "timestamp": "2025-07-02T19-06-21"
+    },
+    {
+      "pluginName": "ascentialtest-cmd-line",
+      "status": "success",
+      "timestamp": "2025-07-02T19-02-14"
+    },
+    {
+      "pluginName": "arestocats",
+      "status": "success",
+      "timestamp": "2025-07-02T18-55-53"
+    },
+    {
+      "pluginName": "arachni-scanner",
+      "status": "fail",
+      "timestamp": "2025-07-02T18-51-57"
+    },
+    {
+      "pluginName": "aqua-security-scanner",
+      "status": "success",
+      "timestamp": "2025-07-02T18-47-30"
+    },
+    {
+      "pluginName": "apprenda",
+      "status": "success",
+      "timestamp": "2025-07-02T18-42-26"
+    },
+    {
+      "pluginName": "appray",
+      "status": "success",
+      "timestamp": "2025-07-02T18-36-55"
+    },
+    {
+      "pluginName": "appcenter",
+      "status": "fail",
+      "timestamp": "2025-07-02T18-33-21"
+    },
+    {
+      "pluginName": "ansible-tower",
+      "status": "success",
+      "timestamp": "2025-07-02T18-29-44"
+    },
+    {
+      "pluginName": "aliyun-oss-uploader",
+      "status": "success",
+      "timestamp": "2025-07-02T18-25-17"
+    },
+    {
+      "pluginName": "alibabacloud-edas",
+      "status": "fail",
+      "timestamp": "2025-07-02T18-20-49"
+    },
+    {
+      "pluginName": "alibabacloud-ecs",
+      "status": "fail",
+      "timestamp": "2025-07-02T18-17-17"
+    },
+    {
+      "pluginName": "alibabacloud-credentials",
+      "status": "fail",
+      "timestamp": "2025-07-02T18-13-26"
+    },
+    {
+      "pluginName": "alauda-pipeline",
+      "status": "fail",
+      "timestamp": "2025-07-02T18-09-38"
+    },
+    {
+      "pluginName": "alauda-kubernetes-support",
+      "status": "fail",
+      "timestamp": "2025-07-02T18-04-52"
+    },
+    {
+      "pluginName": "alauda-devops-pipeline",
+      "status": "fail",
+      "timestamp": "2025-07-02T17-59-58"
+    },
+    {
+      "pluginName": "alauda-devops-credentials-provider",
+      "status": "fail",
+      "timestamp": "2025-07-02T17-55-10"
+    },
+    {
+      "pluginName": "aio-tests",
+      "status": "success",
+      "timestamp": "2025-07-02T17-50-23"
+    },
+    {
+      "pluginName": "agent-server-parameter",
+      "status": "success",
+      "timestamp": "2025-07-02T17-45-36"
+    },
+    {
+      "pluginName": "adaptive-disconnector",
+      "status": "success",
+      "timestamp": "2025-07-02T17-42-39"
+    },
+    {
+      "pluginName": "Matrix-sorter-plugin",
+      "status": "success",
+      "timestamp": "2025-07-02T17-39-11"
+    },
+    {
+      "pluginName": "metrics-datadog",
+      "status": "success",
+      "timestamp": "2025-07-02T17-24-07"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-02T12-39-13"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-01T19-43-48"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-01T15-55-15"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-01T15-13-59"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-01T14-29-10"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-06-30T19-08-22"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-06-30T13-35-05"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-06-30T09-58-28"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-06-28T22-40-52"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-06-28T22-32-52"
+    },
+    {
+      "pluginName": "openstack-cloud",
+      "status": "fail",
+      "timestamp": "2025-06-27T20-16-23"
+    },
+    {
+      "pluginName": "loadcomplete",
+      "status": "success",
+      "timestamp": "2025-06-27T19-42-54"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-26T20-24-01"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-26T19-20-14"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-26T19-06-58"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-26T14-46-49"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-25T10-36-00"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-24T14-21-32"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-23T14-52-58"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-23T13-59-08"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-21T01-04-25"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-21T01-04-25"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-16T18-06-33"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-16T17-24-57"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-16T13-52-59"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-13T13-24-21"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-12T12-50-21"
+    },
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "",
+      "timestamp": "2025-06-11T18-28-49"
+    }
+  ]
+}

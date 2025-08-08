@@ -17,5 +17,12 @@
   "deletions": 15,
   "changedFiles": 2,
   "key": "2025-07-02T19-49-48.json",
-  "path": "metadata-plugin-modernizer/aws-lambda-cloud/modernization-metadata"
+  "path": "metadata-plugin-modernizer/aws-lambda-cloud/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": "failure",
+    "build": "success"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "32efc1e6d386bdd12346a011bdc79188ed64d87c"
 }
