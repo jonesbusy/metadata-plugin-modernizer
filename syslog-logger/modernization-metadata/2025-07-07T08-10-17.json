@@ -1,0 +1,22 @@
+{
+  "pluginName": "syslog-logger",
+  "pluginRepository": "https://github.com/jenkinsci/syslog-logger-plugin.git",
+  "pluginVersion": "1.0.5",
+  "rpuBaseline": "1.625",
+  "migrationName": "Setup dependabot",
+  "migrationDescription": "Setup dependabot for the Jenkins plugin if it doesn\u0027t exist.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-07-07T08-10-17.json",
+  "path": "metadata-plugin-modernizer/syslog-logger/modernization-metadata"
+}

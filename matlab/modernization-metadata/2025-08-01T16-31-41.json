@@ -1,0 +1,24 @@
+{
+  "pluginName": "matlab",
+  "pluginRepository": "https://github.com/jenkinsci/matlab-plugin.git",
+  "pluginVersion": "970.v2a_b_10cc96e58",
+  "jenkinsBaseline": "2.387",
+  "targetBaseline": "2.387",
+  "effectiveBaseline": "2.387",
+  "jenkinsVersion": "2.387.3",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-08-01T16-31-41.json",
+  "path": "metadata-plugin-modernizer/matlab/modernization-metadata"
+}

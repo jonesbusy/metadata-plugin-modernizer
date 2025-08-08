@@ -1,0 +1,14 @@
+name: Validate Metadata
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+        - '**/modernization-metadata/**'
+
+permissions:
+  pull-requests: write
+
+jobs:
+  call-validate-metadata:
+    uses: jenkins-infra/plugin-modernizer-tool/.github/workflows/validate-metadata.yml@main
