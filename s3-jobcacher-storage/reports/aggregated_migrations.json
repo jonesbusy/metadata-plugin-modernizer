@@ -16,7 +16,7 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/s3-jobcacher-storage-plugin/pull/30",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 2,
       "deletions": 2,
@@ -43,7 +43,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "24ff18b578397cbd17aa8ad317206034b86cac33",
+      "defaultBranchLatestCommitSha": "76eae0e148e5088c3e9fcecd1e43f85a32b632d8",
       "timestamp": "2025-07-27T11-09-21"
     }
   ]

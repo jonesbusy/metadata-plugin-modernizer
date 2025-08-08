@@ -23,6 +23,10 @@
       "changedFiles": 2,
       "key": "2025-07-28T18-02-28.json",
       "path": "metadata-plugin-modernizer/TestFairy/modernization-metadata",
+      "checkRuns": {},
+      "checkRunsSummary": "success",
+      "defaultBranch": "master",
+      "defaultBranchLatestCommitSha": "f39d32b268fe7a04b0d9d47bba7f469c4f6d8ef6",
       "timestamp": "2025-07-28T18-02-28"
     },
     {
