@@ -1,0 +1,14 @@
+{
+  "pluginName": "dagshub-branch-source",
+  "pluginRepository": "https://github.com/jenkinsci/dagshub-branch-source-plugin.git",
+  "pluginVersion": "19.v23b9b9c2c08f",
+  "rpuBaseline": "2.176",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "key": "2025-06-13T15-46-40.json",
+  "path": "metadata-plugin-modernizer/dagshub-branch-source/modernization-metadata"
+}
