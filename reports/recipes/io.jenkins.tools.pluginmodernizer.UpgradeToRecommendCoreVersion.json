@@ -1,9 +1,214 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
-  "totalApplications": 1,
-  "successCount": 1,
-  "failureCount": 0,
+  "totalApplications": 42,
+  "successCount": 40,
+  "failureCount": 2,
   "plugins": [
+    {
+      "pluginName": "skip-notifications-trait",
+      "status": "success",
+      "timestamp": "2025-07-27T11-11-27"
+    },
+    {
+      "pluginName": "s3-jobcacher-storage",
+      "status": "success",
+      "timestamp": "2025-07-27T11-09-21"
+    },
+    {
+      "pluginName": "postgresql-fingerprint-storage",
+      "status": "success",
+      "timestamp": "2025-07-27T11-06-51"
+    },
+    {
+      "pluginName": "pipeline-lib-oras",
+      "status": "success",
+      "timestamp": "2025-07-27T11-02-56"
+    },
+    {
+      "pluginName": "pipeline-npm",
+      "status": "success",
+      "timestamp": "2025-07-27T11-00-59"
+    },
+    {
+      "pluginName": "pipeline-cps-http",
+      "status": "success",
+      "timestamp": "2025-07-27T10-59-10"
+    },
+    {
+      "pluginName": "parameter-separator",
+      "status": "success",
+      "timestamp": "2025-07-27T10-57-20"
+    },
+    {
+      "pluginName": "openshift-k8s-credentials",
+      "status": "success",
+      "timestamp": "2025-07-27T10-55-30"
+    },
+    {
+      "pluginName": "nunit",
+      "status": "success",
+      "timestamp": "2025-07-27T10-53-30"
+    },
+    {
+      "pluginName": "next-executions",
+      "status": "success",
+      "timestamp": "2025-07-27T10-51-37"
+    },
+    {
+      "pluginName": "login-theme",
+      "status": "success",
+      "timestamp": "2025-07-27T10-49-47"
+    },
+    {
+      "pluginName": "locale",
+      "status": "success",
+      "timestamp": "2025-07-27T10-47-58"
+    },
+    {
+      "pluginName": "junit-attachments",
+      "status": "success",
+      "timestamp": "2025-07-27T10-46-12"
+    },
+    {
+      "pluginName": "jobcacher-oras-storage",
+      "status": "success",
+      "timestamp": "2025-07-27T10-44-24"
+    },
+    {
+      "pluginName": "jobcacher-artifactory-storage",
+      "status": "success",
+      "timestamp": "2025-07-27T10-42-28"
+    },
+    {
+      "pluginName": "jobcacher",
+      "status": "success",
+      "timestamp": "2025-07-27T10-40-32"
+    },
+    {
+      "pluginName": "jcaptcha-plugin",
+      "status": "success",
+      "timestamp": "2025-07-27T10-38-19"
+    },
+    {
+      "pluginName": "hidden-parameter",
+      "status": "success",
+      "timestamp": "2025-07-27T10-36-45"
+    },
+    {
+      "pluginName": "gitlab-kubernetes-credentials",
+      "status": "success",
+      "timestamp": "2025-07-27T10-34-49"
+    },
+    {
+      "pluginName": "flyway-runner",
+      "status": "success",
+      "timestamp": "2025-07-27T10-32-46"
+    },
+    {
+      "pluginName": "file-operations",
+      "status": "fail",
+      "timestamp": "2025-07-27T10-30-30"
+    },
+    {
+      "pluginName": "extra-tool-installers",
+      "status": "success",
+      "timestamp": "2025-07-27T10-29-13"
+    },
+    {
+      "pluginName": "extension-filter",
+      "status": "success",
+      "timestamp": "2025-07-27T10-27-20"
+    },
+    {
+      "pluginName": "database-mariadb",
+      "status": "success",
+      "timestamp": "2025-07-27T10-25-36"
+    },
+    {
+      "pluginName": "coverage-badges-extension",
+      "status": "success",
+      "timestamp": "2025-07-27T10-23-43"
+    },
+    {
+      "pluginName": "build-history-metrics-plugin",
+      "status": "success",
+      "timestamp": "2025-07-27T10-21-40"
+    },
+    {
+      "pluginName": "bitbucket-kubernetes-credentials",
+      "status": "success",
+      "timestamp": "2025-07-27T10-20-00"
+    },
+    {
+      "pluginName": "artifactory-artifact-manager",
+      "status": "success",
+      "timestamp": "2025-07-27T10-17-46"
+    },
+    {
+      "pluginName": "oss-symbols-api",
+      "status": "success",
+      "timestamp": "2025-07-27T10-13-15"
+    },
+    {
+      "pluginName": "mariadb-api",
+      "status": "success",
+      "timestamp": "2025-07-27T10-11-39"
+    },
+    {
+      "pluginName": "jnr-posix-api",
+      "status": "success",
+      "timestamp": "2025-07-27T10-10-03"
+    },
+    {
+      "pluginName": "json-path-api",
+      "status": "success",
+      "timestamp": "2025-07-27T10-08-21"
+    },
+    {
+      "pluginName": "jsoup",
+      "status": "success",
+      "timestamp": "2025-07-27T10-06-49"
+    },
+    {
+      "pluginName": "json-api",
+      "status": "success",
+      "timestamp": "2025-07-27T10-05-17"
+    },
+    {
+      "pluginName": "joda-time-api",
+      "status": "success",
+      "timestamp": "2025-07-27T10-03-42"
+    },
+    {
+      "pluginName": "gson-api",
+      "status": "success",
+      "timestamp": "2025-07-27T10-02-07"
+    },
+    {
+      "pluginName": "flyway-api",
+      "status": "fail",
+      "timestamp": "2025-07-27T10-00-31"
+    },
+    {
+      "pluginName": "commons-math3-api",
+      "status": "success",
+      "timestamp": "2025-07-27T09-58-36"
+    },
+    {
+      "pluginName": "byte-buddy-api",
+      "status": "success",
+      "timestamp": "2025-07-27T09-56-58"
+    },
+    {
+      "pluginName": "asm-api",
+      "status": "success",
+      "timestamp": "2025-07-27T09-55-20"
+    },
+    {
+      "pluginName": "artifactory-client-api",
+      "status": "success",
+      "timestamp": "2025-07-27T09-53-39"
+    },
     {
       "pluginName": "qy-wechat-notification",
       "status": "success",
