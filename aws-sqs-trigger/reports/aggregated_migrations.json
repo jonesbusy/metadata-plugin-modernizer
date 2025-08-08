@@ -1,0 +1,26 @@
+{
+  "pluginName": "aws-sqs-trigger",
+  "pluginRepository": "https://github.com/jenkinsci/aws-sqs-trigger-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1.2",
+      "rpuBaseline": "2.263",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-02T20-02-44.json",
+      "path": "metadata-plugin-modernizer/aws-sqs-trigger/modernization-metadata",
+      "timestamp": "2025-07-02T20-02-44"
+    }
+  ]
+}

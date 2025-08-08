@@ -1,0 +1,24 @@
+{
+  "pluginName": "kryptowire",
+  "pluginRepository": "https://github.com/jenkinsci/kryptowire-plugin.git",
+  "pluginVersion": "0.2",
+  "jenkinsBaseline": "",
+  "targetBaseline": "1.642",
+  "effectiveBaseline": "1.642",
+  "jenkinsVersion": "1.642.3",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-07-29T15-57-07.json",
+  "path": "metadata-plugin-modernizer/kryptowire/modernization-metadata"
+}
