@@ -1,0 +1,26 @@
+{
+  "pluginName": "jira-steps",
+  "pluginRepository": "https://github.com/jenkinsci/jira-steps-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "2.0.180.vccfe35b_5910d",
+      "rpuBaseline": "2.361",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-03T22-40-37.json",
+      "path": "metadata-plugin-modernizer\\jira-steps\\modernization-metadata",
+      "timestamp": "2025-07-03T22-40-37"
+    }
+  ]
+}
