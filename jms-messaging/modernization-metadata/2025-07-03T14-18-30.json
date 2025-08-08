@@ -1,0 +1,41 @@
+{
+  "pluginName": "jms-messaging",
+  "pluginRepository": "https://github.com/jenkinsci/jms-messaging-plugin.git",
+  "pluginVersion": "1.1.28",
+  "rpuBaseline": "2.479",
+  "migrationName": "Setup dependabot",
+  "migrationDescription": "Setup dependabot for the Jenkins plugin if it doesn't exist.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/jms-messaging-plugin/pull/305",
+  "pullRequestStatus": "merged",
+  "dryRun": false,
+  "additions": 10,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2025-07-03T14-18-30.json",
+  "path": "metadata-plugin-modernizer/jms-messaging/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "Code Coverage": "success",
+    "ESLint": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / docker && linux-17 / Build (docker && linux-17)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "ee033987b8c91d54f70fe2cc8d276d3475718f8b"
+}
