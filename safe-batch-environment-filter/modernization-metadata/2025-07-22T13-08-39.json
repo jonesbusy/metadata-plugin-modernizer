@@ -15,7 +15,7 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/safe-batch-environment-filter-plugin/pull/3",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "closed",
   "dryRun": false,
   "additions": 12,
   "deletions": 0,
@@ -28,5 +28,5 @@
   },
   "checkRunsSummary": "success",
   "defaultBranch": "main",
-  "defaultBranchLatestCommitSha": "d135b2896d3ae0d6380ba269e83b4b33e3575a4f"
+  "defaultBranchLatestCommitSha": "1d2ebd4291f5fc7e8384cbfb86f466830f894118"
 }
