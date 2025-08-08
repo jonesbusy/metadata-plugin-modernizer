@@ -1,0 +1,14 @@
+{
+  "pluginName": "configuration-as-code-secret-ssm",
+  "pluginRepository": "https://github.com/jenkinsci/configuration-as-code-secret-ssm-plugin.git",
+  "pluginVersion": "1.0.1",
+  "rpuBaseline": "2.60",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "key": "2025-06-13T15-01-44.json",
+  "path": "metadata-plugin-modernizer/configuration-as-code-secret-ssm/modernization-metadata"
+}
