@@ -10,7 +10,7 @@
   ],
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
   "pullRequestUrl": "https://github.com/Raunak80Madan/tuleap-oauth-plugin/pull/9",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "closed",
   "dryRun": false,
   "additions": 55,
   "deletions": 64,
@@ -24,5 +24,7 @@
     "Tests (windows-2022) with coverage": "cancelled",
     "Tests (ubuntu-22.04) with coverage": "failure"
   },
-  "checkRunsSummary": "failure"
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "858ece1547c0a4b74bb7f5fdab8f5d91a5ec7bef"
 }
