@@ -1,0 +1,25 @@
+{
+  "pluginName": "login-theme",
+  "pluginRepository": "https://github.com/jenkinsci/login-theme-plugin.git",
+  "pluginVersion": "284.v95044396a_484",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Migrate plugins to Java 25",
+  "migrationDescription": "Migrate plugins to Java 25 LTS.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/login-theme-plugin/pull/152",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 4,
+  "deletions": 2,
+  "changedFiles": 2,
+  "key": "2025-08-09T09-55-19.json",
+  "path": "metadata-plugin-modernizer/login-theme/modernization-metadata"
+}
