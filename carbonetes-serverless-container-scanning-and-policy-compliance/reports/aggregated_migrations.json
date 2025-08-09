@@ -1,0 +1,19 @@
+{
+  "pluginName": "carbonetes-serverless-container-scanning-and-policy-compliance",
+  "pluginRepository": "https://github.com/jenkinsci/carbonetes-serverless-container-scanning-and-policy-compliance-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1.9",
+      "rpuBaseline": "2.286",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "key": "2025-06-13T14-18-12.json",
+      "path": "metadata-plugin-modernizer/carbonetes-serverless-container-scanning-and-policy-compliance/modernization-metadata",
+      "timestamp": "2025-06-13T14-18-12"
+    }
+  ]
+}

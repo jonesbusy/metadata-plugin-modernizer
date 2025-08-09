@@ -1,0 +1,19 @@
+{
+  "pluginName": "cloudevents",
+  "pluginRepository": "https://github.com/jenkinsci/cloudevents-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1.0.0",
+      "rpuBaseline": "2.277",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "key": "2025-06-13T14-32-51.json",
+      "path": "metadata-plugin-modernizer/cloudevents/modernization-metadata",
+      "timestamp": "2025-06-13T14-32-51"
+    }
+  ]
+}
