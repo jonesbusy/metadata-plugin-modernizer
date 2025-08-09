@@ -1,0 +1,25 @@
+{
+  "pluginName": "build-history-metrics-plugin",
+  "pluginRepository": "https://github.com/jenkinsci/build-history-metrics-plugin.git",
+  "pluginVersion": "165.v1a_db_fb_13a_70e",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Migrate plugins to Java 25",
+  "migrationDescription": "Migrate plugins to Java 25 LTS.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/build-history-metrics-plugin/pull/73",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 2,
+  "deletions": 1,
+  "changedFiles": 2,
+  "key": "2025-08-09T09-18-56.json",
+  "path": "metadata-plugin-modernizer/build-history-metrics-plugin/modernization-metadata"
+}
