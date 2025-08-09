@@ -1,0 +1,25 @@
+{
+  "pluginName": "bitbucket-kubernetes-credentials",
+  "pluginRepository": "https://github.com/jenkinsci/bitbucket-kubernetes-credentials-plugin.git",
+  "pluginVersion": "569.va_1b_9b_fe8897c",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.1",
+  "migrationName": "Migrate plugins to Java 25",
+  "migrationDescription": "Migrate plugins to Java 25 LTS.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/bitbucket-kubernetes-credentials-plugin/pull/303",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 2,
+  "deletions": 1,
+  "changedFiles": 2,
+  "key": "2025-08-09T09-16-31.json",
+  "path": "metadata-plugin-modernizer/bitbucket-kubernetes-credentials/modernization-metadata"
+}
