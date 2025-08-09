@@ -1,0 +1,25 @@
+{
+  "pluginName": "asm-api",
+  "pluginRepository": "https://github.com/jenkinsci/asm-api-plugin.git",
+  "pluginVersion": "9.8-163.vb_2a_96d3f9c3c",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Migrate plugins to Java 25",
+  "migrationDescription": "Migrate plugins to Java 25 LTS.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/asm-api-plugin/pull/91",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 2,
+  "deletions": 1,
+  "changedFiles": 2,
+  "key": "2025-08-09T08-41-07.json",
+  "path": "metadata-plugin-modernizer/asm-api/modernization-metadata"
+}
