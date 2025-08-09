@@ -1,0 +1,25 @@
+{
+  "pluginName": "gitlab-kubernetes-credentials",
+  "pluginRepository": "https://github.com/jenkinsci/gitlab-kubernetes-credentials-plugin.git",
+  "pluginVersion": "484.v2fea_0cc92b_d3",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.1",
+  "migrationName": "Migrate plugins to Java 25",
+  "migrationDescription": "Migrate plugins to Java 25 LTS.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/gitlab-kubernetes-credentials-plugin/pull/254",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 4,
+  "deletions": 2,
+  "changedFiles": 2,
+  "key": "2025-08-09T09-34-26.json",
+  "path": "metadata-plugin-modernizer/gitlab-kubernetes-credentials/modernization-metadata"
+}
