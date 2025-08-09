@@ -1,0 +1,25 @@
+{
+  "pluginName": "flyway-api",
+  "pluginRepository": "https://github.com/jenkinsci/flyway-api-plugin.git",
+  "pluginVersion": "11.10.5-329.v87c0226c37d2",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.479",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.3",
+  "migrationName": "Migrate plugins to Java 25",
+  "migrationDescription": "Migrate plugins to Java 25 LTS.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/flyway-api-plugin/pull/195",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 2,
+  "deletions": 1,
+  "changedFiles": 2,
+  "key": "2025-08-09T11-32-33.json",
+  "path": "metadata-plugin-modernizer/flyway-api/modernization-metadata"
+}
