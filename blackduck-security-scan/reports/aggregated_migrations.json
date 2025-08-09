@@ -12,13 +12,32 @@
       ],
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
       "pullRequestUrl": "https://github.com/jenkinsci/blackduck-security-scan-plugin/pull/54",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "closed",
       "dryRun": false,
       "additions": 5,
       "deletions": 11,
       "changedFiles": 1,
       "key": "2025-06-19T20-39-50.json",
       "path": "metadata-plugin-modernizer\\blackduck-security-scan\\modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "failure",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-17 / Build (linux-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "failure",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "33e5c7b7a164f103215123e5e334bbde66cd5eb0",
       "timestamp": "2025-06-19T20-39-50"
     }
   ]

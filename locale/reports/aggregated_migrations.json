@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/locale-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "597.v7781ce70d4cf",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Migrate plugins to Java 25",
+      "migrationDescription": "Migrate plugins to Java 25 LTS.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/locale-plugin/pull/323",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 1,
+      "changedFiles": 2,
+      "key": "2025-08-09T09-53-19.json",
+      "path": "metadata-plugin-modernizer/locale/modernization-metadata",
+      "timestamp": "2025-08-09T09-53-19"
+    },
+    {
       "pluginVersion": "587.v7b_843928a_719",
       "jenkinsBaseline": "2.479",
       "targetBaseline": "2.492",

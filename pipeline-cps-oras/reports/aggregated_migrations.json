@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/pipeline-cps-oras-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "26.v2fc834c2e7a_9",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Migrate plugins to Java 25",
+      "migrationDescription": "Migrate plugins to Java 25 LTS.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/pipeline-cps-oras-plugin/pull/17",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 5,
+      "deletions": 5,
+      "changedFiles": 2,
+      "key": "2025-08-09T10-12-49.json",
+      "path": "metadata-plugin-modernizer/pipeline-cps-oras/modernization-metadata",
+      "timestamp": "2025-08-09T10-12-49"
+    },
+    {
       "pluginVersion": "8.v5d229eb_a_22c5",
       "rpuBaseline": "2.492",
       "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
@@ -13,13 +37,34 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/pipeline-cps-oras-plugin/pull/11",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 1,
       "changedFiles": 1,
       "key": "2025-07-01T12-36-53.json",
       "path": "metadata-plugin-modernizer/pipeline-cps-oras/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "5fed90317a0a2b0d840ed9dbf96eb9120a70f959",
       "timestamp": "2025-07-01T12-36-53"
     }
   ]
