@@ -1,0 +1,25 @@
+{
+  "pluginName": "artifactory-artifact-manager",
+  "pluginRepository": "https://github.com/jenkinsci/artifactory-artifact-manager-plugin.git",
+  "pluginVersion": "252.v944a_69ea_4873",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Migrate plugins to Java 25",
+  "migrationDescription": "Migrate plugins to Java 25 LTS.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/artifactory-artifact-manager-plugin/pull/128",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 4,
+  "deletions": 2,
+  "changedFiles": 2,
+  "key": "2025-08-09T09-14-04.json",
+  "path": "metadata-plugin-modernizer/artifactory-artifact-manager/modernization-metadata"
+}
