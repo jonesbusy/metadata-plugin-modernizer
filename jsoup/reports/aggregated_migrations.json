@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/jsoup-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "1.21.1-58.vfc578e6e2610",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Migrate plugins to Java 25",
+      "migrationDescription": "Migrate plugins to Java 25 LTS.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/jsoup-plugin/pull/29",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 1,
+      "changedFiles": 2,
+      "key": "2025-08-09T08-55-51.json",
+      "path": "metadata-plugin-modernizer/jsoup/modernization-metadata",
+      "timestamp": "2025-08-09T08-55-51"
+    },
+    {
       "pluginVersion": "1.21.1-52.v96e4041b_60fd",
       "jenkinsBaseline": "",
       "targetBaseline": "2.492",
