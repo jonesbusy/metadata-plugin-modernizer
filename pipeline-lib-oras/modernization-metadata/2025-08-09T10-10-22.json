@@ -1,0 +1,25 @@
+{
+  "pluginName": "pipeline-lib-oras",
+  "pluginRepository": "https://github.com/jenkinsci/pipeline-lib-oras-plugin.git",
+  "pluginVersion": "23.v4d7c8d889a_86",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Migrate plugins to Java 25",
+  "migrationDescription": "Migrate plugins to Java 25 LTS.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/pipeline-lib-oras-plugin/pull/13",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 5,
+  "deletions": 5,
+  "changedFiles": 2,
+  "key": "2025-08-09T10-10-22.json",
+  "path": "metadata-plugin-modernizer/pipeline-lib-oras/modernization-metadata"
+}
