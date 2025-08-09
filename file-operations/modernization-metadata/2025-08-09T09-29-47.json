@@ -1,0 +1,25 @@
+{
+  "pluginName": "file-operations",
+  "pluginRepository": "https://github.com/jenkinsci/file-operations-plugin.git",
+  "pluginVersion": "353.vf3b_9b_a_f1f7f7",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.479",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.3",
+  "migrationName": "Migrate plugins to Java 25",
+  "migrationDescription": "Migrate plugins to Java 25 LTS.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/file-operations-plugin/pull/176",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 2,
+  "deletions": 1,
+  "changedFiles": 2,
+  "key": "2025-08-09T09-29-47.json",
+  "path": "metadata-plugin-modernizer/file-operations/modernization-metadata"
+}
