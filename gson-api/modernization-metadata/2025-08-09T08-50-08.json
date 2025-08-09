@@ -15,11 +15,31 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/gson-api-plugin/pull/87",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 4,
   "deletions": 2,
   "changedFiles": 2,
   "key": "2025-08-09T08-50-08.json",
-  "path": "metadata-plugin-modernizer/gson-api/modernization-metadata"
+  "path": "metadata-plugin-modernizer/gson-api/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-21 / Build (linux-21)": "success",
+    "Tests / windows-17 / Build (windows-17)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "86b799b1d6177a05a31eba657c5fbc438e9dcbb6"
 }

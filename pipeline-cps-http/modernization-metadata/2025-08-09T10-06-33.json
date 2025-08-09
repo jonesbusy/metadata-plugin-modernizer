@@ -15,11 +15,18 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/pipeline-cps-http-plugin/pull/54",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 2,
   "deletions": 1,
   "changedFiles": 2,
   "key": "2025-08-09T10-06-33.json",
-  "path": "metadata-plugin-modernizer/pipeline-cps-http/modernization-metadata"
+  "path": "metadata-plugin-modernizer/pipeline-cps-http/modernization-metadata",
+  "checkRuns": {
+    "Jenkins Security Scan": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "71d18e2126dd409717e2f6922614eb11a655cda8"
 }
