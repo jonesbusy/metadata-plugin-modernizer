@@ -1,8 +1,8 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
-  "totalApplications": 403,
-  "successCount": 63,
-  "failureCount": 340,
+  "totalApplications": 411,
+  "successCount": 67,
+  "failureCount": 344,
   "plugins": [
     {
       "pluginName": "kryptowire",
@@ -240,6 +240,11 @@
       "timestamp": "2025-07-23T11-50-14"
     },
     {
+      "pluginName": "dynamic_extended_choice_parameter",
+      "status": "fail",
+      "timestamp": "2025-07-23T11-47-47"
+    },
+    {
       "pluginName": "dropdown-viewstabbar-plugin",
       "status": "fail",
       "timestamp": "2025-07-23T11-44-24"
@@ -330,6 +335,11 @@
       "timestamp": "2025-07-23T10-50-51"
     },
     {
+      "pluginName": "compuware-strobe-measurement",
+      "status": "success",
+      "timestamp": "2025-07-23T10-48-19"
+    },
+    {
       "pluginName": "compuware-common-configuration",
       "status": "success",
       "timestamp": "2025-07-23T10-44-59"
@@ -338,6 +348,11 @@
       "pluginName": "comments-remover",
       "status": "fail",
       "timestamp": "2025-07-23T10-40-55"
+    },
+    {
+      "pluginName": "collabnet",
+      "status": "success",
+      "timestamp": "2025-07-23T10-38-43"
     },
     {
       "pluginName": "codescene",
@@ -358,6 +373,11 @@
       "pluginName": "codebeamer-result-trend-updater",
       "status": "fail",
       "timestamp": "2025-07-23T10-27-44"
+    },
+    {
+      "pluginName": "cloudshare-docker",
+      "status": "fail",
+      "timestamp": "2025-07-23T10-24-54"
     },
     {
       "pluginName": "cloudcoreo-deploytime",
@@ -393,6 +413,11 @@
       "pluginName": "build-metrics",
       "status": "fail",
       "timestamp": "2025-07-23T09-34-46"
+    },
+    {
+      "pluginName": "browserstack-integration",
+      "status": "success",
+      "timestamp": "2025-07-23T09-21-26"
     },
     {
       "pluginName": "boot-clj",
@@ -518,6 +543,11 @@
       "pluginName": "CustomHistory",
       "status": "fail",
       "timestamp": "2025-07-23T07-55-02"
+    },
+    {
+      "pluginName": "BlazeMeterJenkinsPlugin",
+      "status": "success",
+      "timestamp": "2025-07-23T07-51-56"
     },
     {
       "pluginName": "compuware-topaz-utilities",
@@ -2008,6 +2038,16 @@
       "pluginName": "boot-clj",
       "status": "fail",
       "timestamp": "2025-07-21T12-05-16"
+    },
+    {
+      "pluginName": "bmc-rpd",
+      "status": "fail",
+      "timestamp": "2025-07-21T12-02-01"
+    },
+    {
+      "pluginName": "appetize",
+      "status": "fail",
+      "timestamp": "2025-07-21T10-57-14"
     },
     {
       "pluginName": "backup",

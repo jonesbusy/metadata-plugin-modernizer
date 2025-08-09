@@ -1,0 +1,13 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeBomVersion",
+  "totalApplications": 1,
+  "successCount": 0,
+  "failureCount": 0,
+  "plugins": [
+    {
+      "pluginName": "lucene-search",
+      "status": "",
+      "timestamp": "2025-06-17T18-29-24"
+    }
+  ]
+}
