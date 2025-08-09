@@ -1,0 +1,19 @@
+{
+  "pluginName": "computer-queue-plugin",
+  "pluginRepository": "https://github.com/jenkinsci/computer-queue-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1.7",
+      "rpuBaseline": "2.150",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "key": "2025-06-13T14-53-55.json",
+      "path": "metadata-plugin-modernizer/computer-queue-plugin/modernization-metadata",
+      "timestamp": "2025-06-13T14-53-55"
+    }
+  ]
+}

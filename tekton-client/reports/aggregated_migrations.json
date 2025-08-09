@@ -1,0 +1,26 @@
+{
+  "pluginName": "tekton-client",
+  "pluginRepository": "https://github.com/jenkinsci/tekton-client-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1.0.3",
+      "rpuBaseline": "2.492",
+      "migrationName": "Migrate to JUnit 5",
+      "migrationDescription": "Migrate tests to JUnit5.",
+      "tags": [
+        "testing",
+        "migration"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJUnit5",
+      "pullRequestUrl": "https://github.com/jenkinsci/tekton-client-plugin/pull/386",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 51,
+      "deletions": 52,
+      "changedFiles": 8,
+      "key": "2025-06-18T20-02-14.json",
+      "path": "metadata-plugin-modernizer/tekton-client/modernization-metadata",
+      "timestamp": "2025-06-18T20-02-14"
+    }
+  ]
+}

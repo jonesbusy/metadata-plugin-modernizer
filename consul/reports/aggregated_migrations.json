@@ -1,0 +1,19 @@
+{
+  "pluginName": "consul",
+  "pluginRepository": "https://github.com/jenkinsci/consul-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "2.1",
+      "rpuBaseline": "1.625",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "key": "2025-06-13T15-05-02.json",
+      "path": "metadata-plugin-modernizer/consul/modernization-metadata",
+      "timestamp": "2025-06-13T15-05-02"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pluginName": "crx-content-package-deployer",
+  "pluginRepository": "https://github.com/jenkinsci/crx-content-package-deployer-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1.9",
+      "rpuBaseline": "1.642",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "key": "2025-06-13T15-26-52.json",
+      "path": "metadata-plugin-modernizer/crx-content-package-deployer/modernization-metadata",
+      "timestamp": "2025-06-13T15-26-52"
+    }
+  ]
+}

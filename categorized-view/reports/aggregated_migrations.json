@@ -1,0 +1,21 @@
+{
+  "pluginName": "categorized-view",
+  "pluginRepository": "https://github.com/jenkinsci/categorized-view-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "193.v7d4c783474c0",
+      "rpuBaseline": "2.492",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "pullRequestUrl": "https://github.com/jenkinsci/categorized-view-plugin/pull/108",
+      "pullRequestStatus": "open",
+      "key": "2025-06-17T17-16-39.json",
+      "path": "metadata-plugin-modernizer/categorized-view/modernization-metadata",
+      "timestamp": "2025-06-17T17-16-39"
+    }
+  ]
+}

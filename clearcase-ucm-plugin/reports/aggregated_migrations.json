@@ -1,0 +1,19 @@
+{
+  "pluginName": "clearcase-ucm-plugin",
+  "pluginRepository": "https://github.com/jenkinsci/clearcase-ucm-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1344.v9da_675e312f6",
+      "rpuBaseline": "2.332",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "key": "2025-06-13T14-23-46.json",
+      "path": "metadata-plugin-modernizer/clearcase-ucm-plugin/modernization-metadata",
+      "timestamp": "2025-06-13T14-23-46"
+    }
+  ]
+}
