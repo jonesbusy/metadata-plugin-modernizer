@@ -20,5 +20,11 @@
   "deletions": 10,
   "changedFiles": 3,
   "key": "2025-07-21T10-08-39.json",
-  "path": "metadata-plugin-modernizer/TestComplete/modernization-metadata"
+  "path": "metadata-plugin-modernizer/TestComplete/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": "failure"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "830b14e8beb176f12e5b6a605685765cb0285a39"
 }

@@ -10,7 +10,28 @@
   ],
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
   "pullRequestUrl": "https://github.com/jenkinsci/categorized-view-plugin/pull/108",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "key": "2025-06-17T17-16-39.json",
-  "path": "metadata-plugin-modernizer/categorized-view/modernization-metadata"
+  "path": "metadata-plugin-modernizer/categorized-view/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "Code Coverage": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-21 / Build (linux-21)": "success",
+    "Tests / windows-17 / Build (windows-17)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "e76a78823f42d1b3bd3978154906b6cb37c98115"
 }
