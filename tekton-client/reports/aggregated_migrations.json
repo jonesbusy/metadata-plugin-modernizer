@@ -13,13 +13,27 @@
       ],
       "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJUnit5",
       "pullRequestUrl": "https://github.com/jenkinsci/tekton-client-plugin/pull/386",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "closed",
       "dryRun": false,
       "additions": 51,
       "deletions": 52,
       "changedFiles": 8,
       "key": "2025-06-18T20-02-14.json",
       "path": "metadata-plugin-modernizer/tekton-client/modernization-metadata",
+      "checkRuns": {
+        "Code Coverage": "success",
+        "Jenkins": "failure",
+        "Jenkins Security Scan": "success",
+        "Tests / linux-21 / Build (linux-21)": "failure",
+        "build (17)": "success",
+        "javadoc": "success",
+        "security-scan / scan": "success",
+        "spotbugs": "success",
+        "test (17)": "failure"
+      },
+      "checkRunsSummary": "failure",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "4292d9e3f5c7ebc4f52526c88167eb834f47831d",
       "timestamp": "2025-06-18T20-02-14"
     }
   ]

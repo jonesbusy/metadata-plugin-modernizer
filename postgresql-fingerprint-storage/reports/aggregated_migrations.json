@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/postgresql-fingerprint-storage-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "386.v7a_364c62704d",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Migrate plugins to Java 25",
+      "migrationDescription": "Migrate plugins to Java 25 LTS.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/postgresql-fingerprint-storage-plugin/pull/379",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 1,
+      "changedFiles": 2,
+      "key": "2025-08-09T10-16-15.json",
+      "path": "metadata-plugin-modernizer/postgresql-fingerprint-storage/modernization-metadata",
+      "timestamp": "2025-08-09T10-16-15"
+    },
+    {
       "pluginVersion": "356.vb_b_879da_38f38",
       "jenkinsBaseline": "2.479",
       "targetBaseline": "2.492",

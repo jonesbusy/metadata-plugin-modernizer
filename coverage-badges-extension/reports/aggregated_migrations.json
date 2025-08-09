@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/coverage-badges-extension-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "179.v6c477ce0c246",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Migrate plugins to Java 25",
+      "migrationDescription": "Migrate plugins to Java 25 LTS.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/coverage-badges-extension-plugin/pull/101",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 1,
+      "changedFiles": 2,
+      "key": "2025-08-09T09-21-03.json",
+      "path": "metadata-plugin-modernizer/coverage-badges-extension/modernization-metadata",
+      "timestamp": "2025-08-09T09-21-03"
+    },
+    {
       "pluginVersion": "157.vf5d725246222",
       "jenkinsBaseline": "2.479",
       "targetBaseline": "2.492",

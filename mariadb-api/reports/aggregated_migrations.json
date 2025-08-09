@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/mariadb-api-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "3.5.4-147.vb_6fc046ef86a_",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Migrate plugins to Java 25",
+      "migrationDescription": "Migrate plugins to Java 25 LTS.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/mariadb-api-plugin/pull/78",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 4,
+      "deletions": 2,
+      "changedFiles": 2,
+      "key": "2025-08-09T09-01-28.json",
+      "path": "metadata-plugin-modernizer/mariadb-api/modernization-metadata",
+      "timestamp": "2025-08-09T09-01-28"
+    },
+    {
       "pluginVersion": "3.5.3-129.v941f87fa_d251",
       "jenkinsBaseline": "2.479",
       "targetBaseline": "2.492",
