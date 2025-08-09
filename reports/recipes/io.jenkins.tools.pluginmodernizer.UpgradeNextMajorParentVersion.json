@@ -1,7 +1,7 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
-  "totalApplications": 97,
-  "successCount": 52,
+  "totalApplications": 143,
+  "successCount": 54,
   "failureCount": 29,
   "plugins": [
     {
@@ -83,6 +83,11 @@
       "pluginName": "requests",
       "status": "success",
       "timestamp": "2025-07-21T13-27-04"
+    },
+    {
+      "pluginName": "TestComplete",
+      "status": "success",
+      "timestamp": "2025-07-21T10-08-39"
     },
     {
       "pluginName": "bmc-change-manager-imstm",
@@ -375,6 +380,11 @@
       "timestamp": "2025-07-01T14-29-10"
     },
     {
+      "pluginName": "pipeline-cps-oras",
+      "status": "success",
+      "timestamp": "2025-07-01T12-36-53"
+    },
+    {
       "pluginName": "tuleap-oauth",
       "status": "success",
       "timestamp": "2025-06-30T19-08-22"
@@ -460,6 +470,21 @@
       "timestamp": "2025-06-21T01-04-25"
     },
     {
+      "pluginName": "blackduck-security-scan",
+      "status": "",
+      "timestamp": "2025-06-19T20-39-50"
+    },
+    {
+      "pluginName": "codesonar",
+      "status": "",
+      "timestamp": "2025-06-17T17-53-34"
+    },
+    {
+      "pluginName": "categorized-view",
+      "status": "",
+      "timestamp": "2025-06-17T17-16-39"
+    },
+    {
       "pluginName": "tuleap-oauth",
       "status": "",
       "timestamp": "2025-06-16T18-06-33"
@@ -473,6 +498,211 @@
       "pluginName": "tuleap-oauth",
       "status": "",
       "timestamp": "2025-06-16T13-52-59"
+    },
+    {
+      "pluginName": "docker-slaves",
+      "status": "",
+      "timestamp": "2025-06-13T16-20-22"
+    },
+    {
+      "pluginName": "docker-custom-build-environment",
+      "status": "",
+      "timestamp": "2025-06-13T16-16-54"
+    },
+    {
+      "pluginName": "docker-build-publish",
+      "status": "",
+      "timestamp": "2025-06-13T16-13-23"
+    },
+    {
+      "pluginName": "digitalocean-plugin",
+      "status": "",
+      "timestamp": "2025-06-13T16-09-41"
+    },
+    {
+      "pluginName": "diagnostics",
+      "status": "",
+      "timestamp": "2025-06-13T16-07-00"
+    },
+    {
+      "pluginName": "description-column-plugin",
+      "status": "",
+      "timestamp": "2025-06-13T16-04-13"
+    },
+    {
+      "pluginName": "describe-with-params",
+      "status": "",
+      "timestamp": "2025-06-13T16-01-02"
+    },
+    {
+      "pluginName": "deploy-integrationserver",
+      "status": "",
+      "timestamp": "2025-06-13T15-58-07"
+    },
+    {
+      "pluginName": "deploy-dashboard",
+      "status": "",
+      "timestamp": "2025-06-13T15-56-25"
+    },
+    {
+      "pluginName": "depbuilder",
+      "status": "",
+      "timestamp": "2025-06-13T15-53-41"
+    },
+    {
+      "pluginName": "dbforge-devops-automation-for-sqlserver",
+      "status": "",
+      "timestamp": "2025-06-13T15-50-36"
+    },
+    {
+      "pluginName": "dagshub-branch-source",
+      "status": "",
+      "timestamp": "2025-06-13T15-46-40"
+    },
+    {
+      "pluginName": "cygwin-process-killer",
+      "status": "",
+      "timestamp": "2025-06-13T15-43-27"
+    },
+    {
+      "pluginName": "custom-tools-plugin",
+      "status": "",
+      "timestamp": "2025-06-13T15-39-34"
+    },
+    {
+      "pluginName": "custom-checkbox-parameter",
+      "status": "",
+      "timestamp": "2025-06-13T15-36-55"
+    },
+    {
+      "pluginName": "cucumber-living-documentation",
+      "status": "",
+      "timestamp": "2025-06-13T15-30-35"
+    },
+    {
+      "pluginName": "crx-content-package-deployer",
+      "status": "",
+      "timestamp": "2025-06-13T15-26-52"
+    },
+    {
+      "pluginName": "countjobs-viewstabbar",
+      "status": "",
+      "timestamp": "2025-06-13T15-22-24"
+    },
+    {
+      "pluginName": "cortex-metrics",
+      "status": "",
+      "timestamp": "2025-06-13T15-18-14"
+    },
+    {
+      "pluginName": "convert-to-pipeline",
+      "status": "",
+      "timestamp": "2025-06-13T15-14-31"
+    },
+    {
+      "pluginName": "conventional-commits",
+      "status": "",
+      "timestamp": "2025-06-13T15-11-24"
+    },
+    {
+      "pluginName": "content-replace",
+      "status": "",
+      "timestamp": "2025-06-13T15-07-43"
+    },
+    {
+      "pluginName": "consul",
+      "status": "",
+      "timestamp": "2025-06-13T15-05-02"
+    },
+    {
+      "pluginName": "configuration-as-code-secret-ssm",
+      "status": "",
+      "timestamp": "2025-06-13T15-01-44"
+    },
+    {
+      "pluginName": "config-driven-pipeline",
+      "status": "",
+      "timestamp": "2025-06-13T14-59-11"
+    },
+    {
+      "pluginName": "compuware-topaz-for-enterprise-data",
+      "status": "",
+      "timestamp": "2025-06-13T14-56-16"
+    },
+    {
+      "pluginName": "computer-queue-plugin",
+      "status": "",
+      "timestamp": "2025-06-13T14-53-55"
+    },
+    {
+      "pluginName": "compress-buildlog",
+      "status": "",
+      "timestamp": "2025-06-13T14-50-46"
+    },
+    {
+      "pluginName": "commons-lang-api",
+      "status": "",
+      "timestamp": "2025-06-13T14-48-10"
+    },
+    {
+      "pluginName": "codeql",
+      "status": "",
+      "timestamp": "2025-06-13T14-45-34"
+    },
+    {
+      "pluginName": "codedx",
+      "status": "",
+      "timestamp": "2025-06-13T14-43-13"
+    },
+    {
+      "pluginName": "cmakebuilder",
+      "status": "",
+      "timestamp": "2025-06-13T14-39-36"
+    },
+    {
+      "pluginName": "cloudguard-shiftleft",
+      "status": "",
+      "timestamp": "2025-06-13T14-34-46"
+    },
+    {
+      "pluginName": "cloudevents",
+      "status": "",
+      "timestamp": "2025-06-13T14-32-51"
+    },
+    {
+      "pluginName": "cloudbees-feature-management",
+      "status": "",
+      "timestamp": "2025-06-13T14-29-53"
+    },
+    {
+      "pluginName": "cloudbees-devoptics-enabler",
+      "status": "",
+      "timestamp": "2025-06-13T14-27-06"
+    },
+    {
+      "pluginName": "clearcase-ucm-plugin",
+      "status": "",
+      "timestamp": "2025-06-13T14-23-46"
+    },
+    {
+      "pluginName": "carbonetes-serverless-container-scanning-and-policy-compliance",
+      "status": "",
+      "timestamp": "2025-06-13T14-18-12"
+    },
+    {
+      "pluginName": "ca-service-virtualization",
+      "status": "",
+      "timestamp": "2025-06-13T14-15-49"
+    },
+    {
+      "pluginName": "ca-mat-performance-benchmarking-by-broadcom",
+      "status": "",
+      "timestamp": "2025-06-13T14-12-37"
+    },
+    {
+      "pluginName": "bitbucket-filter-project-trait",
+      "status": "",
+      "timestamp": "2025-06-13T13-40-18"
     },
     {
       "pluginName": "tuleap-oauth",

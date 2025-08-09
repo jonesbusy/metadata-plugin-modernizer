@@ -1,20 +1,21 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-08-08 02:29:46 UTC
+Generated on: 2025-08-09 02:17:49 UTC
 
 ## Overview
-- **Total Migrations**: 568
-- **Failed Migrations**: 377
-- **Success Rate**: 33.63%
+- **Total Migrations**: 625
+- **Failed Migrations**: 382
+- **Success Rate**: 38.88%
 
 ## Failures by Recipe
-- io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 340 failures
+- io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 344 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 29 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 2 failures
-- io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 2 failures
 - io.jenkins.tools.pluginmodernizer.MigrateToJUnit5: 2 failures
-- io.jenkins.tools.pluginmodernizer.AddCodeOwner: 1 failures
+- io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 2 failures
 - io.jenkins.tools.pluginmodernizer.SetupDependabot: 1 failures
+- io.jenkins.tools.pluginmodernizer.AddCodeOwner: 1 failures
+- io.jenkins.tools.pluginmodernizer.MigrateToJava25: 1 failures
 
 ## Plugins with Failed Migrations
 - [CustomHistory](../CustomHistory/reports/failed_migrations.csv)
@@ -30,6 +31,7 @@ Generated on: 2025-08-08 02:29:46 UTC
 - [apifortress](../apifortress/reports/failed_migrations.csv)
 - [app-detector](../app-detector/reports/failed_migrations.csv)
 - [appcenter](../appcenter/reports/failed_migrations.csv)
+- [appetize](../appetize/reports/failed_migrations.csv)
 - [applatix](../applatix/reports/failed_migrations.csv)
 - [arachni-scanner](../arachni-scanner/reports/failed_migrations.csv)
 - [artifactory](../artifactory/reports/failed_migrations.csv)
@@ -54,6 +56,7 @@ Generated on: 2025-08-08 02:29:46 UTC
 - [block-build-final-project](../block-build-final-project/reports/failed_migrations.csv)
 - [block-queued-job](../block-queued-job/reports/failed_migrations.csv)
 - [block-same-builds](../block-same-builds/reports/failed_migrations.csv)
+- [bmc-rpd](../bmc-rpd/reports/failed_migrations.csv)
 - [boot-clj](../boot-clj/reports/failed_migrations.csv)
 - [build-health-cache-updater](../build-health-cache-updater/reports/failed_migrations.csv)
 - [build-metrics](../build-metrics/reports/failed_migrations.csv)
@@ -64,6 +67,7 @@ Generated on: 2025-08-08 02:29:46 UTC
 - [chosen-views-tabbar](../chosen-views-tabbar/reports/failed_migrations.csv)
 - [chromedriver](../chromedriver/reports/failed_migrations.csv)
 - [cloudcoreo-deploytime](../cloudcoreo-deploytime/reports/failed_migrations.csv)
+- [cloudshare-docker](../cloudshare-docker/reports/failed_migrations.csv)
 - [codebeamer-result-trend-updater](../codebeamer-result-trend-updater/reports/failed_migrations.csv)
 - [codebeamer-xunit-importer](../codebeamer-xunit-importer/reports/failed_migrations.csv)
 - [codecommit-url-helper](../codecommit-url-helper/reports/failed_migrations.csv)
@@ -83,6 +87,7 @@ Generated on: 2025-08-08 02:29:46 UTC
 - [disable-github-multibranch-status](../disable-github-multibranch-status/reports/failed_migrations.csv)
 - [dos-trigger](../dos-trigger/reports/failed_migrations.csv)
 - [dropdown-viewstabbar-plugin](../dropdown-viewstabbar-plugin/reports/failed_migrations.csv)
+- [dynamic_extended_choice_parameter](../dynamic_extended_choice_parameter/reports/failed_migrations.csv)
 - [ease-plugin](../ease-plugin/reports/failed_migrations.csv)
 - [easyqa](../easyqa/reports/failed_migrations.csv)
 - [ec2-fleet](../ec2-fleet/reports/failed_migrations.csv)
@@ -205,6 +210,7 @@ Generated on: 2025-08-08 02:29:46 UTC
 - [thucydides](../thucydides/reports/failed_migrations.csv)
 - [trac-publisher-plugin](../trac-publisher-plugin/reports/failed_migrations.csv)
 - [tracking-svn](../tracking-svn/reports/failed_migrations.csv)
+- [tuleap-oauth](../tuleap-oauth/reports/failed_migrations.csv)
 - [vagrant](../vagrant/reports/failed_migrations.csv)
 - [vault-scm-plugin](../vault-scm-plugin/reports/failed_migrations.csv)
 - [view26](../view26/reports/failed_migrations.csv)
@@ -230,10 +236,10 @@ Generated on: 2025-08-08 02:29:46 UTC
 
 | Status | Count | Percentage |
 |--------|-------|------------|
-| Total PRs | 138 | - |
-| Open PRs | 81 | 58.70% |
-| Closed PRs | 5 | 3.62% |
-| Merged PRs | 52 | 37.68% |
+| Total PRs | 148 | - |
+| Open PRs | 88 | 59.46% |
+| Closed PRs | 7 | 4.73% |
+| Merged PRs | 53 | 35.81% |
 
 
 *Note: No. of Migrations != No. of PRs. A migration applied may trigger force push on already opened PR.*

@@ -1,6 +1,6 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateToJUnit5",
-  "totalApplications": 3,
+  "totalApplications": 4,
   "successCount": 1,
   "failureCount": 2,
   "plugins": [
@@ -18,6 +18,11 @@
       "pluginName": "custom-build-properties",
       "status": "success",
       "timestamp": "2025-07-10T15-25-15"
+    },
+    {
+      "pluginName": "tekton-client",
+      "status": "",
+      "timestamp": "2025-06-18T20-02-14"
     }
   ]
 }
