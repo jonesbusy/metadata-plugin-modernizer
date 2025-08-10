@@ -1,7 +1,7 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
-  "totalApplications": 143,
-  "successCount": 54,
+  "totalApplications": 115,
+  "successCount": 40,
   "failureCount": 29,
   "plugins": [
     {
@@ -50,29 +50,9 @@
       "timestamp": "2025-07-26T10-00-07"
     },
     {
-      "pluginName": "tuleap-oauth",
-      "status": "success",
-      "timestamp": "2025-07-22T19-48-15"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "success",
-      "timestamp": "2025-07-22T13-44-46"
-    },
-    {
       "pluginName": "figlet-buildstep",
       "status": "success",
       "timestamp": "2025-07-21T16-53-16"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "success",
-      "timestamp": "2025-07-21T15-33-19"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "success",
-      "timestamp": "2025-07-21T14-40-37"
     },
     {
       "pluginName": "blackduck-coverity-on-polaris",
@@ -355,59 +335,9 @@
       "timestamp": "2025-07-02T17-24-07"
     },
     {
-      "pluginName": "tuleap-oauth",
-      "status": "success",
-      "timestamp": "2025-07-02T12-39-13"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "success",
-      "timestamp": "2025-07-01T19-43-48"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "success",
-      "timestamp": "2025-07-01T15-55-15"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "success",
-      "timestamp": "2025-07-01T15-13-59"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "success",
-      "timestamp": "2025-07-01T14-29-10"
-    },
-    {
       "pluginName": "pipeline-cps-oras",
       "status": "success",
       "timestamp": "2025-07-01T12-36-53"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "success",
-      "timestamp": "2025-06-30T19-08-22"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "success",
-      "timestamp": "2025-06-30T13-35-05"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "success",
-      "timestamp": "2025-06-30T09-58-28"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "success",
-      "timestamp": "2025-06-28T22-40-52"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "success",
-      "timestamp": "2025-06-28T22-32-52"
     },
     {
       "pluginName": "openstack-cloud",
@@ -418,56 +348,6 @@
       "pluginName": "loadcomplete",
       "status": "success",
       "timestamp": "2025-06-27T19-42-54"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "",
-      "timestamp": "2025-06-26T20-24-01"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "",
-      "timestamp": "2025-06-26T19-20-14"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "",
-      "timestamp": "2025-06-26T19-06-58"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "",
-      "timestamp": "2025-06-26T14-46-49"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "",
-      "timestamp": "2025-06-25T10-36-00"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "",
-      "timestamp": "2025-06-24T14-21-32"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "",
-      "timestamp": "2025-06-23T14-52-58"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "",
-      "timestamp": "2025-06-23T13-59-08"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "",
-      "timestamp": "2025-06-21T01-04-25"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "",
-      "timestamp": "2025-06-21T01-04-25"
     },
     {
       "pluginName": "blackduck-security-scan",
@@ -483,21 +363,6 @@
       "pluginName": "categorized-view",
       "status": "",
       "timestamp": "2025-06-17T17-16-39"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "",
-      "timestamp": "2025-06-16T18-06-33"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "",
-      "timestamp": "2025-06-16T17-24-57"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "",
-      "timestamp": "2025-06-16T13-52-59"
     },
     {
       "pluginName": "docker-slaves",
@@ -703,11 +568,6 @@
       "pluginName": "bitbucket-filter-project-trait",
       "status": "",
       "timestamp": "2025-06-13T13-40-18"
-    },
-    {
-      "pluginName": "tuleap-oauth",
-      "status": "",
-      "timestamp": "2025-06-13T13-24-21"
     },
     {
       "pluginName": "tuleap-oauth",
