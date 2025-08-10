@@ -17,13 +17,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/pipeline-npm-plugin/pull/217",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 2,
       "deletions": 1,
       "changedFiles": 2,
       "key": "2025-08-09T10-08-23.json",
       "path": "metadata-plugin-modernizer/pipeline-npm/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "7b22e1cfaf8e9f790de0b26ad37e82a8d0ad46e0",
       "timestamp": "2025-08-09T10-08-23"
     },
     {
@@ -67,7 +89,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "733b46958518bc73a9221fc9831f11740b2a1188",
+      "defaultBranchLatestCommitSha": "7b22e1cfaf8e9f790de0b26ad37e82a8d0ad46e0",
       "timestamp": "2025-07-27T11-00-59"
     }
   ]

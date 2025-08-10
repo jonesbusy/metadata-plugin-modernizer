@@ -17,13 +17,34 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/jnr-posix-api-plugin/pull/126",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 2,
       "deletions": 1,
       "changedFiles": 2,
       "key": "2025-08-09T08-59-38.json",
       "path": "metadata-plugin-modernizer/jnr-posix-api/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "78baa80551bec41f1d37f6b597fab760da54a5a4",
       "timestamp": "2025-08-09T08-59-38"
     },
     {
@@ -67,7 +88,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "50a50932c65bef3257488dfede927842b9942fc9",
+      "defaultBranchLatestCommitSha": "78baa80551bec41f1d37f6b597fab760da54a5a4",
       "timestamp": "2025-07-27T10-10-03"
     }
   ]
