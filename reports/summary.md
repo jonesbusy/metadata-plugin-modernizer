@@ -1,21 +1,21 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-08-10 02:33:57 UTC
+Generated on: 2025-08-10 11:42:48 UTC
 
 ## Overview
-- **Total Migrations**: 668
-- **Failed Migrations**: 383
-- **Success Rate**: 42.66%
+- **Total Migrations**: 639
+- **Failed Migrations**: 382
+- **Success Rate**: 40.22%
 
 ## Failures by Recipe
 - io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 344 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 29 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 2 failures
 - io.jenkins.tools.pluginmodernizer.MigrateToJUnit5: 2 failures
-- io.jenkins.tools.pluginmodernizer.MigrateToJava25: 2 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 2 failures
 - io.jenkins.tools.pluginmodernizer.SetupDependabot: 1 failures
 - io.jenkins.tools.pluginmodernizer.AddCodeOwner: 1 failures
+- io.jenkins.tools.pluginmodernizer.MigrateToJava25: 1 failures
 
 ## Plugins with Failed Migrations
 - [CustomHistory](../CustomHistory/reports/failed_migrations.csv)
@@ -210,7 +210,6 @@ Generated on: 2025-08-10 02:33:57 UTC
 - [thucydides](../thucydides/reports/failed_migrations.csv)
 - [trac-publisher-plugin](../trac-publisher-plugin/reports/failed_migrations.csv)
 - [tracking-svn](../tracking-svn/reports/failed_migrations.csv)
-- [tuleap-oauth](../tuleap-oauth/reports/failed_migrations.csv)
 - [vagrant](../vagrant/reports/failed_migrations.csv)
 - [vault-scm-plugin](../vault-scm-plugin/reports/failed_migrations.csv)
 - [view26](../view26/reports/failed_migrations.csv)
@@ -236,10 +235,10 @@ Generated on: 2025-08-10 02:33:57 UTC
 
 | Status | Count | Percentage |
 |--------|-------|------------|
-| Total PRs | 190 | - |
-| Open PRs | 84 | 44.21% |
-| Closed PRs | 9 | 4.74% |
-| Merged PRs | 97 | 51.05% |
+| Total PRs | 187 | - |
+| Open PRs | 83 | 44.39% |
+| Closed PRs | 7 | 3.74% |
+| Merged PRs | 97 | 51.87% |
 
 
 *Note: No. of Migrations != No. of PRs. A migration applied may trigger force push on already opened PR.*
