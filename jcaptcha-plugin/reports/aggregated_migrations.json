@@ -17,13 +17,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/jcaptcha-plugin/pull/23",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 2,
       "deletions": 1,
       "changedFiles": 2,
       "key": "2025-08-09T09-38-53.json",
       "path": "metadata-plugin-modernizer/jcaptcha-plugin/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "f408768bfec10fa91ebde131aea19eab3c1c870c",
       "timestamp": "2025-08-09T09-38-53"
     },
     {
@@ -67,7 +89,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "391b49be9b682d798f651e3d52358574fd3c6db3",
+      "defaultBranchLatestCommitSha": "f408768bfec10fa91ebde131aea19eab3c1c870c",
       "timestamp": "2025-07-27T10-38-19"
     }
   ]

@@ -17,13 +17,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/openshift-k8s-credentials-plugin/pull/280",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 4,
       "deletions": 2,
       "changedFiles": 2,
       "key": "2025-08-09T10-01-43.json",
       "path": "metadata-plugin-modernizer/openshift-k8s-credentials/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-17 / Build (linux-17)": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "464db79eb5ad08b399d9c03a9289339379a6d3c8",
       "timestamp": "2025-08-09T10-01-43"
     },
     {
@@ -67,7 +89,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "36faed55f5c7fca009034f977c14ca075b1b030e",
+      "defaultBranchLatestCommitSha": "464db79eb5ad08b399d9c03a9289339379a6d3c8",
       "timestamp": "2025-07-27T10-55-30"
     }
   ]

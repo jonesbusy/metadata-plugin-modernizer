@@ -17,13 +17,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-oras-storage-plugin/pull/33",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 2,
       "deletions": 1,
       "changedFiles": 2,
       "key": "2025-08-09T09-48-18.json",
       "path": "metadata-plugin-modernizer/jobcacher-oras-storage/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-17 / Build (linux-17)": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "f9fbc83bb8e45c9a15baa7bdf1ae39aaac34810e",
       "timestamp": "2025-08-09T09-48-18"
     },
     {
@@ -67,7 +89,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "97b4e27de63ae9852b632ca2613d8f749ed62ac6",
+      "defaultBranchLatestCommitSha": "f9fbc83bb8e45c9a15baa7bdf1ae39aaac34810e",
       "timestamp": "2025-07-27T10-44-24"
     }
   ]

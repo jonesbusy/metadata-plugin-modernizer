@@ -17,13 +17,34 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/oss-symbols-api-plugin/pull/217",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 0,
       "changedFiles": 1,
       "key": "2025-08-09T09-03-24.json",
       "path": "metadata-plugin-modernizer/oss-symbols-api/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "eafa5eb010025321e6353680ac5fd70dc3b3b50e",
       "timestamp": "2025-08-09T09-03-24"
     },
     {
@@ -67,7 +88,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "82f1b4b368e68ecd03afcc029b606b78afff6395",
+      "defaultBranchLatestCommitSha": "eafa5eb010025321e6353680ac5fd70dc3b3b50e",
       "timestamp": "2025-07-27T10-13-15"
     }
   ]

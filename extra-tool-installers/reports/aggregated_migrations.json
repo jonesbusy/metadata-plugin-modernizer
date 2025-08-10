@@ -17,13 +17,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/extra-tool-installers-plugin/pull/164",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 2,
       "deletions": 1,
       "changedFiles": 2,
       "key": "2025-08-09T09-26-42.json",
       "path": "metadata-plugin-modernizer/extra-tool-installers/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "70777d939f7dfa0f6f7577cade4aecf19a57378b",
       "timestamp": "2025-08-09T09-26-42"
     },
     {
@@ -67,7 +89,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "47886cb8de7c9f7798e281423b3851e655061789",
+      "defaultBranchLatestCommitSha": "70777d939f7dfa0f6f7577cade4aecf19a57378b",
       "timestamp": "2025-07-27T10-29-13"
     }
   ]

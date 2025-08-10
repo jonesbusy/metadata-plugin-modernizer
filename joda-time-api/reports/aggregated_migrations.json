@@ -17,13 +17,33 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/joda-time-api-plugin/pull/80",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 4,
       "deletions": 2,
       "changedFiles": 2,
       "key": "2025-08-09T08-52-02.json",
       "path": "metadata-plugin-modernizer/joda-time-api/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "d04fa7133991f3c5d2f71ac316e6afc20d518f77",
       "timestamp": "2025-08-09T08-52-02"
     },
     {
@@ -66,7 +86,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1c3ce991d1b9a76d546b98b8d287ac18c5917406",
+      "defaultBranchLatestCommitSha": "d04fa7133991f3c5d2f71ac316e6afc20d518f77",
       "timestamp": "2025-07-27T10-03-42"
     }
   ]
