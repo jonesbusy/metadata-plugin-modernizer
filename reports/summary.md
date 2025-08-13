@@ -1,15 +1,15 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-08-10 11:42:48 UTC
+Generated on: 2025-08-13 00:37:32 UTC
 
 ## Overview
-- **Total Migrations**: 639
-- **Failed Migrations**: 382
-- **Success Rate**: 40.22%
+- **Total Migrations**: 640
+- **Failed Migrations**: 383
+- **Success Rate**: 40.16%
 
 ## Failures by Recipe
 - io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 344 failures
-- io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 29 failures
+- io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 30 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 2 failures
 - io.jenkins.tools.pluginmodernizer.MigrateToJUnit5: 2 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 2 failures
@@ -176,6 +176,7 @@ Generated on: 2025-08-10 11:42:48 UTC
 - [piwikanalytics](../piwikanalytics/reports/failed_migrations.csv)
 - [post-completed-build-result](../post-completed-build-result/reports/failed_migrations.csv)
 - [pretested-integration](../pretested-integration/reports/failed_migrations.csv)
+- [probely-security](../probely-security/reports/failed_migrations.csv)
 - [puppet](../puppet/reports/failed_migrations.csv)
 - [qmetry-for-jira-test-management](../qmetry-for-jira-test-management/reports/failed_migrations.csv)
 - [qmetry-test-management](../qmetry-test-management/reports/failed_migrations.csv)
