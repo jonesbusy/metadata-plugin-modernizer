@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
-  "totalApplications": 115,
+  "totalApplications": 116,
   "successCount": 40,
-  "failureCount": 29,
+  "failureCount": 30,
   "plugins": [
+    {
+      "pluginName": "probely-security",
+      "status": "fail",
+      "timestamp": "2025-08-12T18-39-24"
+    },
     {
       "pluginName": "matlab",
       "status": "fail",
