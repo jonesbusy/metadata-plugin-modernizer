@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/junit-attachments-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "330.v25180b_263160",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Migrate plugins to Java 25",
+      "migrationDescription": "Migrate plugins to Java 25 LTS.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/junit-attachments-plugin/pull/185",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 1,
+      "changedFiles": 2,
+      "key": "2025-08-09T09-51-05.json",
+      "path": "metadata-plugin-modernizer/junit-attachments/modernization-metadata",
+      "timestamp": "2025-08-09T09-51-05"
+    },
+    {
       "pluginVersion": "299.v2e00f511b_538",
       "jenkinsBaseline": "2.479",
       "targetBaseline": "2.492",

@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/openshift-k8s-credentials-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "280.vb_4938766c373",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.2",
+      "migrationName": "Migrate plugins to Java 25",
+      "migrationDescription": "Migrate plugins to Java 25 LTS.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/openshift-k8s-credentials-plugin/pull/280",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 4,
+      "deletions": 2,
+      "changedFiles": 2,
+      "key": "2025-08-09T10-01-43.json",
+      "path": "metadata-plugin-modernizer/openshift-k8s-credentials/modernization-metadata",
+      "timestamp": "2025-08-09T10-01-43"
+    },
+    {
       "pluginVersion": "276.v708b_2cd34a_9e",
       "jenkinsBaseline": "2.504",
       "targetBaseline": "2.504",
