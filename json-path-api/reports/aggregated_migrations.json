@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/json-path-api-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "2.9.0-178.vca_b_c71881321",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Migrate plugins to Java 25",
+      "migrationDescription": "Migrate plugins to Java 25 LTS.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/json-path-api-plugin/pull/94",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 1,
+      "changedFiles": 2,
+      "key": "2025-08-09T08-57-45.json",
+      "path": "metadata-plugin-modernizer/json-path-api/modernization-metadata",
+      "timestamp": "2025-08-09T08-57-45"
+    },
+    {
       "pluginVersion": "2.9.0-148.v22a_7ffe323ce",
       "jenkinsBaseline": "2.479",
       "targetBaseline": "2.492",
