@@ -15,11 +15,31 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/mariadb-api-plugin/pull/78",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 4,
   "deletions": 2,
   "changedFiles": 2,
   "key": "2025-08-09T09-01-28.json",
-  "path": "metadata-plugin-modernizer/mariadb-api/modernization-metadata"
+  "path": "metadata-plugin-modernizer/mariadb-api/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-21 / Build (linux-21)": "success",
+    "Tests / windows-17 / Build (windows-17)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "f72285c01bbcb793bf9acdb23ed897933d8293db"
 }
