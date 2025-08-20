@@ -8,6 +8,30 @@
       "targetBaseline": "2.492",
       "effectiveBaseline": "2.492",
       "jenkinsVersion": "2.492.3",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-08-17T09-41-53.json",
+      "path": "metadata-plugin-modernizer\\skip-notifications-trait\\modernization-metadata",
+      "timestamp": "2025-08-17T09-41-53"
+    },
+    {
+      "pluginVersion": "542.vf379a_767ced7",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
       "migrationName": "Migrate plugins to Java 25",
       "migrationDescription": "Migrate plugins to Java 25 LTS.",
       "tags": [
@@ -45,7 +69,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "f76748b9b787882f9663cbd62f15a9f55dcef6b2",
+      "defaultBranchLatestCommitSha": "87ce73da97a44f505ebc34ee5e944eba33ee79a2",
       "timestamp": "2025-08-09T10-20-44"
     },
     {
@@ -89,7 +113,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "f76748b9b787882f9663cbd62f15a9f55dcef6b2",
+      "defaultBranchLatestCommitSha": "87ce73da97a44f505ebc34ee5e944eba33ee79a2",
       "timestamp": "2025-07-27T11-11-27"
     }
   ]
