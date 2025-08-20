@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
-  "totalApplications": 411,
-  "successCount": 67,
+  "totalApplications": 412,
+  "successCount": 68,
   "failureCount": 344,
   "plugins": [
+    {
+      "pluginName": "skip-notifications-trait",
+      "status": "success",
+      "timestamp": "2025-08-17T09-41-53"
+    },
     {
       "pluginName": "kryptowire",
       "status": "fail",

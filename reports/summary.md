@@ -1,11 +1,11 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-08-17 00:40:30 UTC
+Generated on: 2025-08-20 00:34:34 UTC
 
 ## Overview
-- **Total Migrations**: 640
+- **Total Migrations**: 641
 - **Failed Migrations**: 383
-- **Success Rate**: 40.16%
+- **Success Rate**: 40.25%
 
 ## Failures by Recipe
 - io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 344 failures
