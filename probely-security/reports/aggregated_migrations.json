@@ -8,6 +8,30 @@
       "targetBaseline": "2.479",
       "effectiveBaseline": "2.479",
       "jenkinsVersion": "2.479.3",
+      "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+      "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/probely-security-plugin/pull/13",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 5,
+      "deletions": 1,
+      "changedFiles": 2,
+      "key": "2025-08-18T13-42-12.json",
+      "path": "metadata-plugin-modernizer/probely-security/modernization-metadata",
+      "timestamp": "2025-08-18T13-42-12"
+    },
+    {
+      "pluginVersion": "1.2.3",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.479",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
       "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
       "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
       "tags": [

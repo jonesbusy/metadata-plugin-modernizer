@@ -1,0 +1,30 @@
+{
+  "pluginName": "android-emulator",
+  "pluginRepository": "https://github.com/jenkinsci/android-emulator-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "664.ve25e686a_c00b_",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.479",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+      "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/android-emulator-plugin/pull/283",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 24,
+      "deletions": 24,
+      "changedFiles": 19,
+      "key": "2025-08-18T14-02-51.json",
+      "path": "metadata-plugin-modernizer/android-emulator/modernization-metadata",
+      "timestamp": "2025-08-18T14-02-51"
+    }
+  ]
+}
