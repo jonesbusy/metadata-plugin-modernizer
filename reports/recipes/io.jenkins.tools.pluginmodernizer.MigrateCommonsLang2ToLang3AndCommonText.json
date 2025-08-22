@@ -1,0 +1,18 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+  "totalApplications": 2,
+  "successCount": 2,
+  "failureCount": 0,
+  "plugins": [
+    {
+      "pluginName": "android-emulator",
+      "status": "success",
+      "timestamp": "2025-08-18T14-02-51"
+    },
+    {
+      "pluginName": "probely-security",
+      "status": "success",
+      "timestamp": "2025-08-18T13-42-12"
+    }
+  ]
+}
