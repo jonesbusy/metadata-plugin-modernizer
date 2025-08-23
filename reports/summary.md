@@ -1,6 +1,6 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-08-22 00:34:56 UTC
+Generated on: 2025-08-23 00:33:52 UTC
 
 ## Overview
 - **Total Migrations**: 643
@@ -237,9 +237,9 @@ Generated on: 2025-08-22 00:34:56 UTC
 | Status | Count | Percentage |
 |--------|-------|------------|
 | Total PRs | 189 | - |
-| Open PRs | 85 | 44.97% |
+| Open PRs | 84 | 44.44% |
 | Closed PRs | 7 | 3.70% |
-| Merged PRs | 97 | 51.32% |
+| Merged PRs | 98 | 51.85% |
 
 
 *Note: No. of Migrations != No. of PRs. A migration applied may trigger force push on already opened PR.*
