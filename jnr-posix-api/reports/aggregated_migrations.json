@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/jnr-posix-api-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "3.1.20-166.v50a_50932c65b_",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Migrate plugins to Java 25",
+      "migrationDescription": "Migrate plugins to Java 25 LTS.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/jnr-posix-api-plugin/pull/126",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 1,
+      "changedFiles": 2,
+      "key": "2025-08-09T08-59-38.json",
+      "path": "metadata-plugin-modernizer/jnr-posix-api/modernization-metadata",
+      "timestamp": "2025-08-09T08-59-38"
+    },
+    {
       "pluginVersion": "3.1.20-138.vdb_9db_a_39182f",
       "jenkinsBaseline": "2.479",
       "targetBaseline": "2.492",
