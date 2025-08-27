@@ -1,0 +1,7 @@
+{
+  "opted_out_plugins": [
+    "safe-batch-environment-filter",
+    "environment-filter-utils",
+    "generic-environment-filters"
+  ]
+}
