@@ -1,9 +1,19 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
-  "totalApplications": 116,
-  "successCount": 40,
+  "totalApplications": 118,
+  "successCount": 42,
   "failureCount": 30,
   "plugins": [
+    {
+      "pluginName": "safe-batch-environment-filter",
+      "status": "success",
+      "timestamp": "2025-08-27T12-37-22"
+    },
+    {
+      "pluginName": "safe-batch-environment-filter",
+      "status": "success",
+      "timestamp": "2025-08-23T16-08-02"
+    },
     {
       "pluginName": "probely-security",
       "status": "fail",
