@@ -1,0 +1,24 @@
+{
+  "pluginName": "absint-a3",
+  "pluginRepository": "https://github.com/jenkinsci/absint-a3-plugin.git",
+  "pluginVersion": "1.1.0",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.426",
+  "jenkinsVersion": "2.426.3",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/absint-a3-plugin/pull/10",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 18,
+  "deletions": 23,
+  "changedFiles": 2,
+  "key": "2025-09-02T14-04-22.json",
+  "path": "metadata-plugin-modernizer/absint-a3/modernization-metadata"
+}
