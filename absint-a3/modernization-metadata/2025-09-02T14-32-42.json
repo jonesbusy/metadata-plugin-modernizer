@@ -1,0 +1,25 @@
+{
+  "pluginName": "absint-a3",
+  "pluginRepository": "https://github.com/jenkinsci/absint-a3-plugin.git",
+  "pluginVersion": "1.1.0",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.426",
+  "effectiveBaseline": "2.426",
+  "jenkinsVersion": "2.426.3",
+  "migrationName": "Add XML declaration to Jelly files and create index.jelly if it doesn\u0027t exist",
+  "migrationDescription": "Ensure the XML declaration `\u003c?jelly escape-by-default\u003d\u0027true\u0027?\u003e` is present in all `.jelly` files and create index.jelly if it doesn\u0027t exist.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.FixJellyIssues",
+  "migrationStatus": "success",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-09-02T14-32-42.json",
+  "path": "metadata-plugin-modernizer/absint-a3/modernization-metadata"
+}
