@@ -1,0 +1,25 @@
+{
+  "pluginName": "absint-a3",
+  "pluginRepository": "https://github.com/jenkinsci/absint-a3-plugin.git",
+  "pluginVersion": "1.1.0",
+  "jenkinsBaseline": "2.462",
+  "targetBaseline": "2.426",
+  "effectiveBaseline": "2.462",
+  "jenkinsVersion": "2.462.3",
+  "migrationName": "Setup the Jenkinsfile",
+  "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+  "migrationStatus": "success",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-09-02T14-17-29.json",
+  "path": "metadata-plugin-modernizer/absint-a3/modernization-metadata"
+}
