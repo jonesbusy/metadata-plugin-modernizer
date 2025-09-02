@@ -1,0 +1,25 @@
+{
+  "pluginName": "absint-a3",
+  "pluginRepository": "https://github.com/jenkinsci/absint-a3-plugin.git",
+  "pluginVersion": "1.1.0",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.426",
+  "effectiveBaseline": "2.426",
+  "jenkinsVersion": "2.426.3",
+  "migrationName": "Setup dependabot",
+  "migrationDescription": "Setup dependabot for the Jenkins plugin if it doesn\u0027t exist.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/absint-a3-plugin/pull/12",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 10,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2025-09-02T14-22-13.json",
+  "path": "metadata-plugin-modernizer/absint-a3/modernization-metadata"
+}
