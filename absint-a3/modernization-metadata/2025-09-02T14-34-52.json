@@ -1,0 +1,25 @@
+{
+  "pluginName": "absint-a3",
+  "pluginRepository": "https://github.com/jenkinsci/absint-a3-plugin.git",
+  "pluginVersion": "1.1.0",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.426",
+  "effectiveBaseline": "2.426",
+  "jenkinsVersion": "2.426.3",
+  "migrationName": "Migrate to JUnit 5",
+  "migrationDescription": "Migrate tests to JUnit5.",
+  "tags": [
+    "testing",
+    "migration"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJUnit5",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-09-02T14-34-52.json",
+  "path": "metadata-plugin-modernizer/absint-a3/modernization-metadata"
+}
