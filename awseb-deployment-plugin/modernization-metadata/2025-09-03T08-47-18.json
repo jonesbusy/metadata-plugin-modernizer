@@ -1,0 +1,25 @@
+{
+  "pluginName": "awseb-deployment-plugin",
+  "pluginRepository": "https://github.com/jenkinsci/awseb-deployment-plugin.git",
+  "pluginVersion": "0.3.21",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.60",
+  "effectiveBaseline": "2.60",
+  "jenkinsVersion": "2.60.1",
+  "migrationName": "Setup the Jenkinsfile",
+  "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-09-03T08-47-18.json",
+  "path": "metadata-plugin-modernizer/awseb-deployment-plugin/modernization-metadata"
+}
