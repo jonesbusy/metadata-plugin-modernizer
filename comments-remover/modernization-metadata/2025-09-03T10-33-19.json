@@ -1,0 +1,25 @@
+{
+  "pluginName": "comments-remover",
+  "pluginRepository": "https://github.com/jenkinsci/comments-remover-plugin.git",
+  "pluginVersion": "1.1",
+  "jenkinsBaseline": "",
+  "targetBaseline": "1.625",
+  "effectiveBaseline": "1.625",
+  "jenkinsVersion": "1.625.3",
+  "migrationName": "Setup the Jenkinsfile",
+  "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-09-03T10-33-19.json",
+  "path": "metadata-plugin-modernizer/comments-remover/modernization-metadata"
+}
