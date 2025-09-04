@@ -1,0 +1,25 @@
+{
+  "pluginName": "onesky",
+  "pluginRepository": "https://github.com/jenkinsci/onesky-plugin.git",
+  "pluginVersion": "1.1",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.7",
+  "effectiveBaseline": "2.7",
+  "jenkinsVersion": "2.7.4",
+  "migrationName": "Setup the Jenkinsfile",
+  "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-09-04T06-55-08.json",
+  "path": "metadata-plugin-modernizer/onesky/modernization-metadata"
+}
