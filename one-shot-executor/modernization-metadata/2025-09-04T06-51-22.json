@@ -1,0 +1,25 @@
+{
+  "pluginName": "one-shot-executor",
+  "pluginRepository": "https://github.com/jenkinsci/one-shot-executor-plugin.git",
+  "pluginVersion": "1.2",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.9",
+  "effectiveBaseline": "2.9",
+  "jenkinsVersion": "2.9",
+  "migrationName": "Setup the Jenkinsfile",
+  "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-09-04T06-51-22.json",
+  "path": "metadata-plugin-modernizer/one-shot-executor/modernization-metadata"
+}
