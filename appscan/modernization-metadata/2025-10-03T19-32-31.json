@@ -1,0 +1,24 @@
+{
+  "pluginName": "appscan",
+  "pluginRepository": "https://github.com/jenkinsci/appscan-plugin.git",
+  "pluginVersion": "1.8.0",
+  "jenkinsBaseline": "2.426",
+  "targetBaseline": "2.426",
+  "effectiveBaseline": "2.426",
+  "jenkinsVersion": "2.426.3",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-10-03T19-32-31.json",
+  "path": "metadata-plugin-modernizer/appscan/modernization-metadata"
+}
