@@ -1,0 +1,24 @@
+{
+  "pluginName": "artifact-promotion",
+  "pluginRepository": "https://github.com/jenkinsci/artifact-promotion-plugin.git",
+  "pluginVersion": "0.5.2",
+  "jenkinsBaseline": "2.462",
+  "targetBaseline": "2.462",
+  "effectiveBaseline": "2.462",
+  "jenkinsVersion": "2.462.3",
+  "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.504 and Java 17",
+  "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.504 and Java 17.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-10-30T12-18-45.json",
+  "path": "metadata-plugin-modernizer/artifact-promotion/modernization-metadata"
+}
