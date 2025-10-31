@@ -1,0 +1,24 @@
+{
+  "pluginName": "pipeline-npm",
+  "pluginRepository": "https://github.com/jenkinsci/pipeline-npm-plugin.git",
+  "pluginVersion": "424.v57d3deb_ea_909",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+  "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/pipeline-npm-plugin/pull/233",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 8,
+  "deletions": 4,
+  "changedFiles": 2,
+  "key": "2025-10-31T15-38-07.json",
+  "path": "metadata-plugin-modernizer/pipeline-npm/modernization-metadata"
+}
