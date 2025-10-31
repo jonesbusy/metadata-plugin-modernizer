@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
-  "totalApplications": 121,
+  "totalApplications": 122,
   "successCount": 44,
-  "failureCount": 31,
+  "failureCount": 32,
   "plugins": [
+    {
+      "pluginName": "artifact-promotion",
+      "status": "fail",
+      "timestamp": "2025-10-30T12-18-45"
+    },
     {
       "pluginName": "appscan",
       "status": "fail",

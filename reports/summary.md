@@ -1,15 +1,15 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-10-16 00:35:08 UTC
+Generated on: 2025-10-31 00:35:34 UTC
 
 ## Overview
-- **Total Migrations**: 882
-- **Failed Migrations**: 566
-- **Success Rate**: 35.83%
+- **Total Migrations**: 883
+- **Failed Migrations**: 567
+- **Success Rate**: 35.79%
 
 ## Failures by Recipe
 - io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 522 failures
-- io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 31 failures
+- io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 32 failures
 - io.jenkins.tools.pluginmodernizer.MigrateToJUnit5: 4 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 2 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 2 failures
@@ -37,6 +37,7 @@ Generated on: 2025-10-16 00:35:08 UTC
 - [applatix](../applatix/reports/failed_migrations.csv)
 - [appscan](../appscan/reports/failed_migrations.csv)
 - [arachni-scanner](../arachni-scanner/reports/failed_migrations.csv)
+- [artifact-promotion](../artifact-promotion/reports/failed_migrations.csv)
 - [artifactory](../artifactory/reports/failed_migrations.csv)
 - [audit-log](../audit-log/reports/failed_migrations.csv)
 - [audit2db](../audit2db/reports/failed_migrations.csv)
