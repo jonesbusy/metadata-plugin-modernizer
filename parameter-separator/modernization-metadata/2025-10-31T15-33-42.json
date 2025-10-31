@@ -1,0 +1,24 @@
+{
+  "pluginName": "parameter-separator",
+  "pluginRepository": "https://github.com/jenkinsci/parameter-separator-plugin.git",
+  "pluginVersion": "296.v9b_a_90c81160d",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+  "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-10-31T15-33-42.json",
+  "path": "metadata-plugin-modernizer/parameter-separator/modernization-metadata"
+}
