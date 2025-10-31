@@ -1,0 +1,24 @@
+{
+  "pluginName": "locale",
+  "pluginRepository": "https://github.com/jenkinsci/locale-plugin.git",
+  "pluginVersion": "597.v7781ce70d4cf",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+  "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/locale-plugin/pull/338",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 3,
+  "deletions": 3,
+  "changedFiles": 1,
+  "key": "2025-10-31T15-24-28.json",
+  "path": "metadata-plugin-modernizer/locale/modernization-metadata"
+}
