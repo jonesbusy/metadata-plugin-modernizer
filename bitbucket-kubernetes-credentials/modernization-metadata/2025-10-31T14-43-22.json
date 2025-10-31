@@ -1,0 +1,24 @@
+{
+  "pluginName": "bitbucket-kubernetes-credentials",
+  "pluginRepository": "https://github.com/jenkinsci/bitbucket-kubernetes-credentials-plugin.git",
+  "pluginVersion": "569.va_1b_9b_fe8897c",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.3",
+  "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+  "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/bitbucket-kubernetes-credentials-plugin/pull/323",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2025-10-31T14-43-22.json",
+  "path": "metadata-plugin-modernizer/bitbucket-kubernetes-credentials/modernization-metadata"
+}
