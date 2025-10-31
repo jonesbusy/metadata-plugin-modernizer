@@ -1,0 +1,24 @@
+{
+  "pluginName": "skip-notifications-trait",
+  "pluginRepository": "https://github.com/jenkinsci/skip-notifications-trait-plugin.git",
+  "pluginVersion": "542.vf379a_767ced7",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+  "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/skip-notifications-trait-plugin/pull/289",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 3,
+  "deletions": 3,
+  "changedFiles": 1,
+  "key": "2025-10-31T15-53-20.json",
+  "path": "metadata-plugin-modernizer/skip-notifications-trait/modernization-metadata"
+}
