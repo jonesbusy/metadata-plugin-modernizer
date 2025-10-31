@@ -1,0 +1,24 @@
+{
+  "pluginName": "next-executions",
+  "pluginRepository": "https://github.com/jenkinsci/next-executions-plugin.git",
+  "pluginVersion": "446.v57a_a_1b_40702f",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+  "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/next-executions-plugin/pull/186",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 3,
+  "deletions": 3,
+  "changedFiles": 1,
+  "key": "2025-10-31T15-28-23.json",
+  "path": "metadata-plugin-modernizer/next-executions/modernization-metadata"
+}
