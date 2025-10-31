@@ -1,0 +1,24 @@
+{
+  "pluginName": "file-operations",
+  "pluginRepository": "https://github.com/jenkinsci/file-operations-plugin.git",
+  "pluginVersion": "353.vf3b_9b_a_f1f7f7",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.479",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.3",
+  "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+  "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2025-10-31T14-58-11.json",
+  "path": "metadata-plugin-modernizer/file-operations/modernization-metadata"
+}
