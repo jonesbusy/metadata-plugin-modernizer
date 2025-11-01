@@ -7,6 +7,29 @@
       "jenkinsBaseline": "2.504",
       "targetBaseline": "2.504",
       "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/openshift-k8s-credentials-plugin/pull/300",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "key": "2025-10-31T15-32-14.json",
+      "path": "metadata-plugin-modernizer/openshift-k8s-credentials/modernization-metadata",
+      "timestamp": "2025-10-31T15-32-14"
+    },
+    {
+      "pluginVersion": "280.vb_4938766c373",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
       "jenkinsVersion": "2.504.2",
       "migrationName": "Migrate plugins to Java 25",
       "migrationDescription": "Migrate plugins to Java 25 LTS.",
@@ -45,7 +68,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "48a7d78d2d3f4686c8804d7dba5ffc1e07ec6507",
+      "defaultBranchLatestCommitSha": "6b1d37fd63aec9d2a6fab6f3cca96f4edbaecb4e",
       "timestamp": "2025-08-09T10-01-43"
     },
     {
@@ -89,7 +112,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "48a7d78d2d3f4686c8804d7dba5ffc1e07ec6507",
+      "defaultBranchLatestCommitSha": "6b1d37fd63aec9d2a6fab6f3cca96f4edbaecb4e",
       "timestamp": "2025-07-27T10-55-30"
     }
   ]

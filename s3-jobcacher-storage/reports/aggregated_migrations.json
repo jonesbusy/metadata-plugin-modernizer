@@ -5,6 +5,29 @@
     {
       "pluginVersion": "46.v54b_1e939c810",
       "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/s3-jobcacher-storage-plugin/pull/41",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 9,
+      "deletions": 15,
+      "changedFiles": 2,
+      "key": "2025-10-31T15-50-35.json",
+      "path": "metadata-plugin-modernizer/s3-jobcacher-storage/modernization-metadata",
+      "timestamp": "2025-10-31T15-50-35"
+    },
+    {
+      "pluginVersion": "46.v54b_1e939c810",
+      "jenkinsBaseline": "2.492",
       "targetBaseline": "2.492",
       "effectiveBaseline": "2.492",
       "jenkinsVersion": "2.492.3",

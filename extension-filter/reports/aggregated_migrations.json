@@ -5,6 +5,29 @@
     {
       "pluginVersion": "250.v5f608d54f27d",
       "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/extension-filter-plugin/pull/141",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 3,
+      "deletions": 3,
+      "changedFiles": 1,
+      "key": "2025-10-31T14-53-47.json",
+      "path": "metadata-plugin-modernizer/extension-filter/modernization-metadata",
+      "timestamp": "2025-10-31T14-53-47"
+    },
+    {
+      "pluginVersion": "250.v5f608d54f27d",
+      "jenkinsBaseline": "2.492",
       "targetBaseline": "2.492",
       "effectiveBaseline": "2.492",
       "jenkinsVersion": "2.492.3",
