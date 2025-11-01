@@ -1,9 +1,159 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
-  "totalApplications": 42,
-  "successCount": 40,
-  "failureCount": 2,
+  "totalApplications": 72,
+  "successCount": 64,
+  "failureCount": 8,
   "plugins": [
+    {
+      "pluginName": "simple-priority-sorter",
+      "status": "success",
+      "timestamp": "2025-10-31T15-55-42"
+    },
+    {
+      "pluginName": "skip-notifications-trait",
+      "status": "success",
+      "timestamp": "2025-10-31T15-53-20"
+    },
+    {
+      "pluginName": "s3-jobcacher-storage",
+      "status": "success",
+      "timestamp": "2025-10-31T15-50-35"
+    },
+    {
+      "pluginName": "postgresql-fingerprint-storage",
+      "status": "success",
+      "timestamp": "2025-10-31T15-45-45"
+    },
+    {
+      "pluginName": "pipeline-cps-oras",
+      "status": "success",
+      "timestamp": "2025-10-31T15-43-36"
+    },
+    {
+      "pluginName": "pipeline-lib-oras",
+      "status": "success",
+      "timestamp": "2025-10-31T15-40-49"
+    },
+    {
+      "pluginName": "pipeline-npm",
+      "status": "success",
+      "timestamp": "2025-10-31T15-38-07"
+    },
+    {
+      "pluginName": "pipeline-cps-http",
+      "status": "fail",
+      "timestamp": "2025-10-31T15-35-16"
+    },
+    {
+      "pluginName": "parameter-separator",
+      "status": "fail",
+      "timestamp": "2025-10-31T15-33-42"
+    },
+    {
+      "pluginName": "openshift-k8s-credentials",
+      "status": "success",
+      "timestamp": "2025-10-31T15-32-14"
+    },
+    {
+      "pluginName": "nunit",
+      "status": "fail",
+      "timestamp": "2025-10-31T15-29-48"
+    },
+    {
+      "pluginName": "next-executions",
+      "status": "success",
+      "timestamp": "2025-10-31T15-28-23"
+    },
+    {
+      "pluginName": "login-theme",
+      "status": "fail",
+      "timestamp": "2025-10-31T15-25-47"
+    },
+    {
+      "pluginName": "locale",
+      "status": "success",
+      "timestamp": "2025-10-31T15-24-28"
+    },
+    {
+      "pluginName": "junit-attachments",
+      "status": "success",
+      "timestamp": "2025-10-31T15-21-56"
+    },
+    {
+      "pluginName": "jobcacher-oras-storage",
+      "status": "success",
+      "timestamp": "2025-10-31T15-18-48"
+    },
+    {
+      "pluginName": "jobcacher-artifactory-storage",
+      "status": "success",
+      "timestamp": "2025-10-31T15-15-59"
+    },
+    {
+      "pluginName": "jobcacher",
+      "status": "success",
+      "timestamp": "2025-10-31T15-13-18"
+    },
+    {
+      "pluginName": "jcaptcha-plugin",
+      "status": "success",
+      "timestamp": "2025-10-31T15-07-51"
+    },
+    {
+      "pluginName": "hidden-parameter",
+      "status": "success",
+      "timestamp": "2025-10-31T15-06-02"
+    },
+    {
+      "pluginName": "gitlab-kubernetes-credentials",
+      "status": "success",
+      "timestamp": "2025-10-31T15-03-01"
+    },
+    {
+      "pluginName": "flyway-runner",
+      "status": "fail",
+      "timestamp": "2025-10-31T15-00-21"
+    },
+    {
+      "pluginName": "file-operations",
+      "status": "fail",
+      "timestamp": "2025-10-31T14-58-11"
+    },
+    {
+      "pluginName": "extra-tool-installers",
+      "status": "success",
+      "timestamp": "2025-10-31T14-56-42"
+    },
+    {
+      "pluginName": "extension-filter",
+      "status": "success",
+      "timestamp": "2025-10-31T14-53-47"
+    },
+    {
+      "pluginName": "database-mariadb",
+      "status": "success",
+      "timestamp": "2025-10-31T14-51-26"
+    },
+    {
+      "pluginName": "coverage-badges-extension",
+      "status": "success",
+      "timestamp": "2025-10-31T14-48-48"
+    },
+    {
+      "pluginName": "build-history-metrics-plugin",
+      "status": "success",
+      "timestamp": "2025-10-31T14-45-54"
+    },
+    {
+      "pluginName": "bitbucket-kubernetes-credentials",
+      "status": "success",
+      "timestamp": "2025-10-31T14-43-22"
+    },
+    {
+      "pluginName": "artifactory-artifact-manager",
+      "status": "success",
+      "timestamp": "2025-10-31T14-40-30"
+    },
     {
       "pluginName": "skip-notifications-trait",
       "status": "success",
