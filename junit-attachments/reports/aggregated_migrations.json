@@ -5,6 +5,29 @@
     {
       "pluginVersion": "330.v25180b_263160",
       "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/junit-attachments-plugin/pull/192",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 3,
+      "deletions": 3,
+      "changedFiles": 1,
+      "key": "2025-10-31T15-21-56.json",
+      "path": "metadata-plugin-modernizer/junit-attachments/modernization-metadata",
+      "timestamp": "2025-10-31T15-21-56"
+    },
+    {
+      "pluginVersion": "330.v25180b_263160",
+      "jenkinsBaseline": "2.492",
       "targetBaseline": "2.492",
       "effectiveBaseline": "2.492",
       "jenkinsVersion": "2.492.3",

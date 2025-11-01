@@ -5,6 +5,29 @@
     {
       "pluginVersion": "165.v1a_db_fb_13a_70e",
       "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/build-history-metrics-plugin/pull/81",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 3,
+      "deletions": 3,
+      "changedFiles": 1,
+      "key": "2025-10-31T14-45-54.json",
+      "path": "metadata-plugin-modernizer/build-history-metrics-plugin/modernization-metadata",
+      "timestamp": "2025-10-31T14-45-54"
+    },
+    {
+      "pluginVersion": "165.v1a_db_fb_13a_70e",
+      "jenkinsBaseline": "2.492",
       "targetBaseline": "2.492",
       "effectiveBaseline": "2.492",
       "jenkinsVersion": "2.492.3",

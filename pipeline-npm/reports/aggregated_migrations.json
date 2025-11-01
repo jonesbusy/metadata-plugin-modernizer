@@ -5,6 +5,29 @@
     {
       "pluginVersion": "424.v57d3deb_ea_909",
       "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/pipeline-npm-plugin/pull/233",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 8,
+      "deletions": 4,
+      "changedFiles": 2,
+      "key": "2025-10-31T15-38-07.json",
+      "path": "metadata-plugin-modernizer/pipeline-npm/modernization-metadata",
+      "timestamp": "2025-10-31T15-38-07"
+    },
+    {
+      "pluginVersion": "424.v57d3deb_ea_909",
+      "jenkinsBaseline": "2.492",
       "targetBaseline": "2.492",
       "effectiveBaseline": "2.492",
       "jenkinsVersion": "2.492.3",
@@ -45,7 +68,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "04d9e7bf902e542c1ec064c5d87a4036c33b326c",
+      "defaultBranchLatestCommitSha": "3cfd27d4d1b05ba5964d4dd283e2b47649392279",
       "timestamp": "2025-08-09T10-08-23"
     },
     {
@@ -89,7 +112,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "04d9e7bf902e542c1ec064c5d87a4036c33b326c",
+      "defaultBranchLatestCommitSha": "3cfd27d4d1b05ba5964d4dd283e2b47649392279",
       "timestamp": "2025-07-27T11-00-59"
     }
   ]
