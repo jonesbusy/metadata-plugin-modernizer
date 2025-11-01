@@ -1,18 +1,18 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-10-31 00:35:34 UTC
+Generated on: 2025-11-01 00:38:46 UTC
 
 ## Overview
-- **Total Migrations**: 883
-- **Failed Migrations**: 567
-- **Success Rate**: 35.79%
+- **Total Migrations**: 913
+- **Failed Migrations**: 573
+- **Success Rate**: 37.24%
 
 ## Failures by Recipe
 - io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 522 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 32 failures
+- io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 8 failures
 - io.jenkins.tools.pluginmodernizer.MigrateToJUnit5: 4 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 2 failures
-- io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 2 failures
 - io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText: 2 failures
 - io.jenkins.tools.pluginmodernizer.MigrateToJava25: 1 failures
 - io.jenkins.tools.pluginmodernizer.AddCodeOwner: 1 failures
@@ -108,6 +108,7 @@ Generated on: 2025-10-31 00:35:34 UTC
 - [file-operations](../file-operations/reports/failed_migrations.csv)
 - [files-found-trigger](../files-found-trigger/reports/failed_migrations.csv)
 - [flyway-api](../flyway-api/reports/failed_migrations.csv)
+- [flyway-runner](../flyway-runner/reports/failed_migrations.csv)
 - [fogbugz](../fogbugz/reports/failed_migrations.csv)
 - [fxcop-runner](../fxcop-runner/reports/failed_migrations.csv)
 - [gallio](../gallio/reports/failed_migrations.csv)
@@ -155,6 +156,7 @@ Generated on: 2025-10-31 00:35:34 UTC
 - [lifx-notifier](../lifx-notifier/reports/failed_migrations.csv)
 - [list-command](../list-command/reports/failed_migrations.csv)
 - [loadcomplete](../loadcomplete/reports/failed_migrations.csv)
+- [login-theme](../login-theme/reports/failed_migrations.csv)
 - [mailmap-resolver](../mailmap-resolver/reports/failed_migrations.csv)
 - [marathon](../marathon/reports/failed_migrations.csv)
 - [matlab](../matlab/reports/failed_migrations.csv)
@@ -167,6 +169,7 @@ Generated on: 2025-10-31 00:35:34 UTC
 - [multi-branch-project-plugin](../multi-branch-project-plugin/reports/failed_migrations.csv)
 - [multi-module-tests-publisher](../multi-module-tests-publisher/reports/failed_migrations.csv)
 - [nouvola-divecloud](../nouvola-divecloud/reports/failed_migrations.csv)
+- [nunit](../nunit/reports/failed_migrations.csv)
 - [one-shot-executor](../one-shot-executor/reports/failed_migrations.csv)
 - [onesky](../onesky/reports/failed_migrations.csv)
 - [openid4java](../openid4java/reports/failed_migrations.csv)
@@ -174,10 +177,12 @@ Generated on: 2025-10-31 00:35:34 UTC
 - [oracle-cloud-infrastructure-compute-classic](../oracle-cloud-infrastructure-compute-classic/reports/failed_migrations.csv)
 - [parallels-desktop](../parallels-desktop/reports/failed_migrations.csv)
 - [parameter-pool](../parameter-pool/reports/failed_migrations.csv)
+- [parameter-separator](../parameter-separator/reports/failed_migrations.csv)
 - [pending-changes](../pending-changes/reports/failed_migrations.csv)
 - [percentage-du-node-column](../percentage-du-node-column/reports/failed_migrations.csv)
 - [php-builtin-web-server](../php-builtin-web-server/reports/failed_migrations.csv)
 - [pipeline-build-step](../pipeline-build-step/reports/failed_migrations.csv)
+- [pipeline-cps-http](../pipeline-cps-http/reports/failed_migrations.csv)
 - [pipeline-dependency-walker](../pipeline-dependency-walker/reports/failed_migrations.csv)
 - [pipeline-multibranch-defaults](../pipeline-multibranch-defaults/reports/failed_migrations.csv)
 - [piwikanalytics](../piwikanalytics/reports/failed_migrations.csv)
@@ -244,10 +249,10 @@ Generated on: 2025-10-31 00:35:34 UTC
 
 | Status | Count | Percentage |
 |--------|-------|------------|
-| Total PRs | 210 | - |
-| Open PRs | 88 | 41.90% |
-| Closed PRs | 13 | 6.19% |
-| Merged PRs | 109 | 51.90% |
+| Total PRs | 234 | - |
+| Open PRs | 109 | 46.58% |
+| Closed PRs | 13 | 5.56% |
+| Merged PRs | 112 | 47.86% |
 
 
 *Note: No. of Migrations != No. of PRs. A migration applied may trigger force push on already opened PR.*
