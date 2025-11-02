@@ -16,13 +16,34 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/bitbucket-kubernetes-credentials-plugin/pull/323",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 1,
       "changedFiles": 1,
       "key": "2025-10-31T14-43-22.json",
       "path": "metadata-plugin-modernizer/bitbucket-kubernetes-credentials/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "124fea1166d53e98ae814bcbb8be402717181ebe",
       "timestamp": "2025-10-31T14-43-22"
     },
     {
@@ -67,7 +88,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "cbb2b20281c540796d57852e107c9b85d76533ca",
+      "defaultBranchLatestCommitSha": "124fea1166d53e98ae814bcbb8be402717181ebe",
       "timestamp": "2025-08-09T09-16-31"
     },
     {
@@ -110,7 +131,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "cbb2b20281c540796d57852e107c9b85d76533ca",
+      "defaultBranchLatestCommitSha": "124fea1166d53e98ae814bcbb8be402717181ebe",
       "timestamp": "2025-07-27T10-20-00"
     }
   ]

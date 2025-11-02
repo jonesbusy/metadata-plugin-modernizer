@@ -16,13 +16,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/coverage-badges-extension-plugin/pull/109",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 3,
       "deletions": 3,
       "changedFiles": 1,
       "key": "2025-10-31T14-48-48.json",
       "path": "metadata-plugin-modernizer/coverage-badges-extension/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "b390173d00ec1d4f9a62bc5fcc1da0efef800995",
       "timestamp": "2025-10-31T14-48-48"
     },
     {
@@ -68,7 +90,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "300a9c75475ad9a517822c63bdf6ea672ef4d6bb",
+      "defaultBranchLatestCommitSha": "b390173d00ec1d4f9a62bc5fcc1da0efef800995",
       "timestamp": "2025-08-09T09-21-03"
     },
     {
@@ -112,7 +134,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "300a9c75475ad9a517822c63bdf6ea672ef4d6bb",
+      "defaultBranchLatestCommitSha": "b390173d00ec1d4f9a62bc5fcc1da0efef800995",
       "timestamp": "2025-07-27T10-23-43"
     }
   ]

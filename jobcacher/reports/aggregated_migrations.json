@@ -16,13 +16,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-plugin/pull/463",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 3,
       "deletions": 3,
       "changedFiles": 1,
       "key": "2025-10-31T15-13-18.json",
       "path": "metadata-plugin-modernizer/jobcacher/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-17 / Build (linux-17)": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "1a7b9ecb95d2099eb3f4e9f0078c550079e4c72c",
       "timestamp": "2025-10-31T15-13-18"
     },
     {
@@ -68,7 +90,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "5bc3c89f89c6712f94ebde53a67576732e4b1da7",
+      "defaultBranchLatestCommitSha": "1a7b9ecb95d2099eb3f4e9f0078c550079e4c72c",
       "timestamp": "2025-08-09T09-43-25"
     },
     {
@@ -112,7 +134,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "5bc3c89f89c6712f94ebde53a67576732e4b1da7",
+      "defaultBranchLatestCommitSha": "1a7b9ecb95d2099eb3f4e9f0078c550079e4c72c",
       "timestamp": "2025-07-27T10-40-32"
     }
   ]
