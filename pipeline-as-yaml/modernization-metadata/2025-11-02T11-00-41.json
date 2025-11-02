@@ -1,0 +1,24 @@
+{
+  "pluginName": "pipeline-as-yaml",
+  "pluginRepository": "https://github.com/jenkinsci/pipeline-as-yaml-plugin.git",
+  "pluginVersion": "270.vc348a_45d9214",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.479",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.3",
+  "migrationName": "Upgrade parent version to latest available in the 5.x line",
+  "migrationDescription": "Upgrade the parent version to latest available in the 5.x line.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent5Version",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/pipeline-as-yaml-plugin/pull/149",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 3,
+  "deletions": 5,
+  "changedFiles": 2,
+  "key": "2025-11-02T11-00-41.json",
+  "path": "metadata-plugin-modernizer/pipeline-as-yaml/modernization-metadata"
+}
