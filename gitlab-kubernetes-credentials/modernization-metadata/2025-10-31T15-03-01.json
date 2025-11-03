@@ -14,7 +14,7 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/gitlab-kubernetes-credentials-plugin/pull/273",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "closed",
   "dryRun": false,
   "additions": 1,
   "deletions": 1,
