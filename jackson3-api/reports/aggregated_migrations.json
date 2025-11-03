@@ -1,0 +1,29 @@
+{
+  "pluginName": "jackson3-api",
+  "pluginRepository": "https://github.com/jenkinsci/jackson3-api-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "3.0.1-11.v1db_b_61c8b_e4d",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.1",
+      "migrationName": "Upgrade parent version to latest available in the 5.x line",
+      "migrationDescription": "Upgrade the parent version to latest available in the 5.x line.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent5Version",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/jackson3-api-plugin/pull/8",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 3,
+      "changedFiles": 2,
+      "key": "2025-11-02T10-55-59.json",
+      "path": "metadata-plugin-modernizer/jackson3-api/modernization-metadata",
+      "timestamp": "2025-11-02T10-55-59"
+    }
+  ]
+}
