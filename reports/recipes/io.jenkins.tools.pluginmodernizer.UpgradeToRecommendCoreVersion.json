@@ -1,9 +1,19 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
-  "totalApplications": 72,
+  "totalApplications": 74,
   "successCount": 64,
-  "failureCount": 8,
+  "failureCount": 10,
   "plugins": [
+    {
+      "pluginName": "nunit",
+      "status": "fail",
+      "timestamp": "2025-11-02T10-33-04"
+    },
+    {
+      "pluginName": "nunit",
+      "status": "fail",
+      "timestamp": "2025-11-02T10-31-18"
+    },
     {
       "pluginName": "simple-priority-sorter",
       "status": "success",

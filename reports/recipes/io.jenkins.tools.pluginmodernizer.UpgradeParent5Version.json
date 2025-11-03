@@ -1,0 +1,18 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeParent5Version",
+  "totalApplications": 2,
+  "successCount": 2,
+  "failureCount": 0,
+  "plugins": [
+    {
+      "pluginName": "pipeline-as-yaml",
+      "status": "success",
+      "timestamp": "2025-11-02T11-00-41"
+    },
+    {
+      "pluginName": "jackson3-api",
+      "status": "success",
+      "timestamp": "2025-11-02T10-55-59"
+    }
+  ]
+}
