@@ -1,6 +1,6 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-11-07 00:36:34 UTC
+Generated on: 2025-11-12 00:36:57 UTC
 
 ## Overview
 - **Total Migrations**: 917
