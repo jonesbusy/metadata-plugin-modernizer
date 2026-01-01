@@ -29,7 +29,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "master",
-      "defaultBranchLatestCommitSha": "ae33f1afa18ec0e8a993ec7704378ae0d573c085",
+      "defaultBranchLatestCommitSha": "c6b65d8c6f2a8bdcfa051018bc8dcb928b9d03c0",
       "timestamp": "2025-09-03T08-21-27"
     },
     {
@@ -59,7 +59,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "master",
-      "defaultBranchLatestCommitSha": "ae33f1afa18ec0e8a993ec7704378ae0d573c085",
+      "defaultBranchLatestCommitSha": "c6b65d8c6f2a8bdcfa051018bc8dcb928b9d03c0",
       "timestamp": "2025-07-23T08-11-14"
     },
     {
@@ -73,7 +73,7 @@
       ],
       "migrationId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
       "pullRequestUrl": "https://github.com/jenkinsci/allure-plugin/pull/388",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 10,
       "deletions": 0,
@@ -85,7 +85,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "master",
-      "defaultBranchLatestCommitSha": "ae33f1afa18ec0e8a993ec7704378ae0d573c085",
+      "defaultBranchLatestCommitSha": "c6b65d8c6f2a8bdcfa051018bc8dcb928b9d03c0",
       "timestamp": "2025-06-23T14-04-22"
     }
   ]
