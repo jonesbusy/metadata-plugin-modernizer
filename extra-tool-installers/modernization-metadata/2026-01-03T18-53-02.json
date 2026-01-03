@@ -1,0 +1,25 @@
+{
+  "pluginName": "extra-tool-installers",
+  "pluginRepository": "https://github.com/jenkinsci/extra-tool-installers-plugin.git",
+  "pluginVersion": "211.v880567f652f0",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.3",
+  "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+  "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/extra-tool-installers-plugin/pull/178",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 2,
+  "changedFiles": 1,
+  "key": "2026-01-03T18-53-02.json",
+  "path": "metadata-plugin-modernizer/extra-tool-installers/modernization-metadata"
+}
