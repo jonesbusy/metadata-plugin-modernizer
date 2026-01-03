@@ -1,0 +1,25 @@
+{
+  "pluginName": "pipeline-lib-oras",
+  "pluginRepository": "https://github.com/jenkinsci/pipeline-lib-oras-plugin.git",
+  "pluginVersion": "46.va_0ee7b_f1b_02a_",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.3",
+  "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+  "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/pipeline-lib-oras-plugin/pull/32",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 2,
+  "changedFiles": 1,
+  "key": "2026-01-03T19-41-07.json",
+  "path": "metadata-plugin-modernizer/pipeline-lib-oras/modernization-metadata"
+}
