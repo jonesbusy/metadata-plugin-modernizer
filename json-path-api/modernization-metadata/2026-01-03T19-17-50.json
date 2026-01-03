@@ -1,0 +1,25 @@
+{
+  "pluginName": "json-path-api",
+  "pluginRepository": "https://github.com/jenkinsci/json-path-api-plugin.git",
+  "pluginVersion": "2.10.0-202.va_9cc16c1e476",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+  "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/json-path-api-plugin/pull/107",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 2,
+  "changedFiles": 1,
+  "key": "2026-01-03T19-17-50.json",
+  "path": "metadata-plugin-modernizer/json-path-api/modernization-metadata"
+}
