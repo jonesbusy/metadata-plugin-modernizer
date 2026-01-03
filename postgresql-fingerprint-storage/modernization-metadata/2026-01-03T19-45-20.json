@@ -1,0 +1,25 @@
+{
+  "pluginName": "postgresql-fingerprint-storage",
+  "pluginRepository": "https://github.com/jenkinsci/postgresql-fingerprint-storage-plugin.git",
+  "pluginVersion": "386.v7a_364c62704d",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+  "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/postgresql-fingerprint-storage-plugin/pull/391",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2026-01-03T19-45-20.json",
+  "path": "metadata-plugin-modernizer/postgresql-fingerprint-storage/modernization-metadata"
+}
