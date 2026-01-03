@@ -1,0 +1,25 @@
+{
+  "pluginName": "jobcacher-oras-storage",
+  "pluginRepository": "https://github.com/jenkinsci/jobcacher-oras-storage-plugin.git",
+  "pluginVersion": "86.v37b_94609150a_",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.3",
+  "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+  "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-oras-storage-plugin/pull/48",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2026-01-03T19-13-28.json",
+  "path": "metadata-plugin-modernizer/jobcacher-oras-storage/modernization-metadata"
+}
