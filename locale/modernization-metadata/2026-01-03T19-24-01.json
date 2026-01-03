@@ -1,0 +1,25 @@
+{
+  "pluginName": "locale",
+  "pluginRepository": "https://github.com/jenkinsci/locale-plugin.git",
+  "pluginVersion": "614.va_6a_5a_1a_f2b_38",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.3",
+  "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+  "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/locale-plugin/pull/350",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 2,
+  "changedFiles": 1,
+  "key": "2026-01-03T19-24-01.json",
+  "path": "metadata-plugin-modernizer/locale/modernization-metadata"
+}
