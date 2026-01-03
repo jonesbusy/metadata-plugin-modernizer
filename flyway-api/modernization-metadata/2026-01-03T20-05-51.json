@@ -1,0 +1,25 @@
+{
+  "pluginName": "flyway-api",
+  "pluginRepository": "https://github.com/jenkinsci/flyway-api-plugin.git",
+  "pluginVersion": "11.20.0-390.v5771332b_b_a_47",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.479",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.3",
+  "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+  "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2026-01-03T20-05-51.json",
+  "path": "metadata-plugin-modernizer/flyway-api/modernization-metadata"
+}
