@@ -1,0 +1,25 @@
+{
+  "pluginName": "extension-filter",
+  "pluginRepository": "https://github.com/jenkinsci/extension-filter-plugin.git",
+  "pluginVersion": "268.v953673b_16e81",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.3",
+  "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+  "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/extension-filter-plugin/pull/146",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 2,
+  "changedFiles": 1,
+  "key": "2026-01-03T18-51-29.json",
+  "path": "metadata-plugin-modernizer/extension-filter/modernization-metadata"
+}
