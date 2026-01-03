@@ -1,0 +1,25 @@
+{
+  "pluginName": "oss-symbols-api",
+  "pluginRepository": "https://github.com/jenkinsci/oss-symbols-api-plugin.git",
+  "pluginVersion": "424.ved751e062911",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+  "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/oss-symbols-api-plugin/pull/237",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 2,
+  "changedFiles": 1,
+  "key": "2026-01-03T19-33-32.json",
+  "path": "metadata-plugin-modernizer/oss-symbols-api/modernization-metadata"
+}
