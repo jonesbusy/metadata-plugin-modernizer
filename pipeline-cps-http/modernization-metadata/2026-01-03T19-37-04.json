@@ -1,0 +1,25 @@
+{
+  "pluginName": "pipeline-cps-http",
+  "pluginRepository": "https://github.com/jenkinsci/pipeline-cps-http-plugin.git",
+  "pluginVersion": "171.v419323d0e4b_c",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+  "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/pipeline-cps-http-plugin/pull/66",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 2,
+  "changedFiles": 1,
+  "key": "2026-01-03T19-37-04.json",
+  "path": "metadata-plugin-modernizer/pipeline-cps-http/modernization-metadata"
+}
