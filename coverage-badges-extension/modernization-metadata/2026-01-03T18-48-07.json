@@ -1,0 +1,25 @@
+{
+  "pluginName": "coverage-badges-extension",
+  "pluginRepository": "https://github.com/jenkinsci/coverage-badges-extension-plugin.git",
+  "pluginVersion": "197.vb_390173d00ec",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.3",
+  "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+  "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/coverage-badges-extension-plugin/pull/114",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 2,
+  "changedFiles": 1,
+  "key": "2026-01-03T18-48-07.json",
+  "path": "metadata-plugin-modernizer/coverage-badges-extension/modernization-metadata"
+}
