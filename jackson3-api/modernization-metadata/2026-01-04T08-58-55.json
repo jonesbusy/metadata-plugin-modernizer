@@ -1,0 +1,25 @@
+{
+  "pluginName": "jackson3-api",
+  "pluginRepository": "https://github.com/jenkinsci/jackson3-api-plugin.git",
+  "pluginVersion": "3.0.3-29.v1fda_758ca_92b_",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.1",
+  "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+  "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/jackson3-api-plugin/pull/19",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 4,
+  "deletions": 5,
+  "changedFiles": 1,
+  "key": "2026-01-04T08-58-55.json",
+  "path": "metadata-plugin-modernizer/jackson3-api/modernization-metadata"
+}
