@@ -1,0 +1,24 @@
+{
+  "pluginName": "coverage-badges-extension",
+  "pluginRepository": "https://github.com/jenkinsci/coverage-badges-extension-plugin.git",
+  "pluginVersion": "197.vb_390173d00ec",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.3",
+  "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+  "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/coverage-badges-extension-plugin/pull/115",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 3,
+  "deletions": 3,
+  "changedFiles": 1,
+  "key": "2026-01-04T09-12-33.json",
+  "path": "metadata-plugin-modernizer/coverage-badges-extension/modernization-metadata"
+}
