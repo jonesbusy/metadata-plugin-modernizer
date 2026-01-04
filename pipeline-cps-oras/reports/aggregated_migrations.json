@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/pipeline-cps-oras-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "50.v764a_6877d7f1",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/pipeline-cps-oras-plugin/pull/34",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-01-03T19-43-00.json",
+      "path": "metadata-plugin-modernizer/pipeline-cps-oras/modernization-metadata",
+      "timestamp": "2026-01-03T19-43-00"
+    },
+    {
       "pluginVersion": "26.v2fc834c2e7a_9",
       "jenkinsBaseline": "2.492",
       "targetBaseline": "2.504",
@@ -44,7 +68,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "234b2498632b249f13f99963c7dded99f634e640",
+      "defaultBranchLatestCommitSha": "4db34597b634c17c723cb6d2cf1b0ca51e2c1b4f",
       "timestamp": "2025-10-31T15-43-36"
     },
     {
@@ -89,7 +113,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "234b2498632b249f13f99963c7dded99f634e640",
+      "defaultBranchLatestCommitSha": "4db34597b634c17c723cb6d2cf1b0ca51e2c1b4f",
       "timestamp": "2025-08-30T13-01-25"
     },
     {
@@ -135,7 +159,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "234b2498632b249f13f99963c7dded99f634e640",
+      "defaultBranchLatestCommitSha": "4db34597b634c17c723cb6d2cf1b0ca51e2c1b4f",
       "timestamp": "2025-08-09T10-12-49"
     },
     {
@@ -176,7 +200,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "234b2498632b249f13f99963c7dded99f634e640",
+      "defaultBranchLatestCommitSha": "4db34597b634c17c723cb6d2cf1b0ca51e2c1b4f",
       "timestamp": "2025-07-01T12-36-53"
     }
   ]

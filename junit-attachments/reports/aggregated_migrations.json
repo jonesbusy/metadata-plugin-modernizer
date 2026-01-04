@@ -4,6 +4,30 @@
   "migrations": [
     {
       "pluginVersion": "330.v25180b_263160",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/junit-attachments-plugin/pull/200",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-01-03T19-22-25.json",
+      "path": "metadata-plugin-modernizer/junit-attachments/modernization-metadata",
+      "timestamp": "2026-01-03T19-22-25"
+    },
+    {
+      "pluginVersion": "330.v25180b_263160",
       "jenkinsBaseline": "2.492",
       "targetBaseline": "2.504",
       "effectiveBaseline": "2.492",
@@ -44,7 +68,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1fb9120dbb79d067c365ff81acbeed5c15e2f25b",
+      "defaultBranchLatestCommitSha": "0824da5c467907c4e8c9792672e134b10902efdc",
       "timestamp": "2025-10-31T15-21-56"
     },
     {
@@ -90,7 +114,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1fb9120dbb79d067c365ff81acbeed5c15e2f25b",
+      "defaultBranchLatestCommitSha": "0824da5c467907c4e8c9792672e134b10902efdc",
       "timestamp": "2025-08-09T09-51-05"
     },
     {
@@ -134,7 +158,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1fb9120dbb79d067c365ff81acbeed5c15e2f25b",
+      "defaultBranchLatestCommitSha": "0824da5c467907c4e8c9792672e134b10902efdc",
       "timestamp": "2025-07-27T10-46-12"
     }
   ]

@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/extension-filter-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "268.v953673b_16e81",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/extension-filter-plugin/pull/146",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-01-03T18-51-29.json",
+      "path": "metadata-plugin-modernizer/extension-filter/modernization-metadata",
+      "timestamp": "2026-01-03T18-51-29"
+    },
+    {
       "pluginVersion": "250.v5f608d54f27d",
       "jenkinsBaseline": "2.492",
       "targetBaseline": "2.504",
@@ -44,7 +68,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "b68f7f6709ed4ac12cc799bf3158ecc1cf1bc5d3",
+      "defaultBranchLatestCommitSha": "62dd451c70a11072efb00b01d4001507a0b731fa",
       "timestamp": "2025-10-31T14-53-47"
     },
     {
@@ -90,7 +114,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "b68f7f6709ed4ac12cc799bf3158ecc1cf1bc5d3",
+      "defaultBranchLatestCommitSha": "62dd451c70a11072efb00b01d4001507a0b731fa",
       "timestamp": "2025-08-09T09-24-43"
     },
     {
@@ -134,7 +158,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "b68f7f6709ed4ac12cc799bf3158ecc1cf1bc5d3",
+      "defaultBranchLatestCommitSha": "62dd451c70a11072efb00b01d4001507a0b731fa",
       "timestamp": "2025-07-27T10-27-20"
     }
   ]

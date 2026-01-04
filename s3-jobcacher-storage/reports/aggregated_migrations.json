@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/s3-jobcacher-storage-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "62.v260cb_8db_5b_fa_",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/s3-jobcacher-storage-plugin/pull/47",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-01-03T19-47-36.json",
+      "path": "metadata-plugin-modernizer/s3-jobcacher-storage/modernization-metadata",
+      "timestamp": "2026-01-03T19-47-36"
+    },
+    {
       "pluginVersion": "46.v54b_1e939c810",
       "jenkinsBaseline": "2.492",
       "targetBaseline": "2.504",
@@ -44,7 +68,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "370dd11cc7e645e7e476ffa10d795ca9679e3a6c",
+      "defaultBranchLatestCommitSha": "4c8d0a4f12a96fd11cabe0fa91fd7cc1c3ac7947",
       "timestamp": "2025-10-31T15-50-35"
     },
     {
@@ -90,7 +114,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "370dd11cc7e645e7e476ffa10d795ca9679e3a6c",
+      "defaultBranchLatestCommitSha": "4c8d0a4f12a96fd11cabe0fa91fd7cc1c3ac7947",
       "timestamp": "2025-08-09T10-18-49"
     },
     {
@@ -134,7 +158,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "370dd11cc7e645e7e476ffa10d795ca9679e3a6c",
+      "defaultBranchLatestCommitSha": "4c8d0a4f12a96fd11cabe0fa91fd7cc1c3ac7947",
       "timestamp": "2025-07-27T11-09-21"
     }
   ]

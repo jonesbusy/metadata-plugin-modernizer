@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/database-mariadb-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "182.v8f1d21b_7c825",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/database-mariadb-plugin/pull/102",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 1,
+      "changedFiles": 1,
+      "key": "2026-01-03T18-49-56.json",
+      "path": "metadata-plugin-modernizer/database-mariadb/modernization-metadata",
+      "timestamp": "2026-01-03T18-49-56"
+    },
+    {
       "pluginVersion": "164.v626f5b_6c0114",
       "jenkinsBaseline": "2.492",
       "targetBaseline": "2.504",
@@ -44,7 +68,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "cb244fccf5f6dc16834b32b9252c1044d3e28fdc",
+      "defaultBranchLatestCommitSha": "d898899660a07483ddea026169521520b69401be",
       "timestamp": "2025-10-31T14-51-26"
     },
     {
@@ -90,7 +114,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "cb244fccf5f6dc16834b32b9252c1044d3e28fdc",
+      "defaultBranchLatestCommitSha": "d898899660a07483ddea026169521520b69401be",
       "timestamp": "2025-08-09T09-22-47"
     },
     {
@@ -134,7 +158,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "cb244fccf5f6dc16834b32b9252c1044d3e28fdc",
+      "defaultBranchLatestCommitSha": "d898899660a07483ddea026169521520b69401be",
       "timestamp": "2025-07-27T10-25-36"
     }
   ]

@@ -8,6 +8,30 @@
       "targetBaseline": "2.504",
       "effectiveBaseline": "2.504",
       "jenkinsVersion": "2.504.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/extra-tool-installers-plugin/pull/178",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-01-03T18-53-02.json",
+      "path": "metadata-plugin-modernizer/extra-tool-installers/modernization-metadata",
+      "timestamp": "2026-01-03T18-53-02"
+    },
+    {
+      "pluginVersion": "211.v880567f652f0",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
       "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
       "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
       "tags": [
@@ -30,7 +54,7 @@
       },
       "checkRunsSummary": "pending",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "d089a526fa5382569ab8b31ff5fca0c5baab9c0f",
+      "defaultBranchLatestCommitSha": "86acd3427009847a231ef20c55d78df14088facc",
       "timestamp": "2025-11-18T05-51-04"
     },
     {
@@ -75,7 +99,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "d089a526fa5382569ab8b31ff5fca0c5baab9c0f",
+      "defaultBranchLatestCommitSha": "86acd3427009847a231ef20c55d78df14088facc",
       "timestamp": "2025-10-31T14-56-42"
     },
     {
@@ -121,7 +145,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "d089a526fa5382569ab8b31ff5fca0c5baab9c0f",
+      "defaultBranchLatestCommitSha": "86acd3427009847a231ef20c55d78df14088facc",
       "timestamp": "2025-08-09T09-26-42"
     },
     {
@@ -165,7 +189,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "d089a526fa5382569ab8b31ff5fca0c5baab9c0f",
+      "defaultBranchLatestCommitSha": "86acd3427009847a231ef20c55d78df14088facc",
       "timestamp": "2025-07-27T10-29-13"
     }
   ]

@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/json-path-api-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "2.10.0-202.va_9cc16c1e476",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/json-path-api-plugin/pull/107",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-01-03T19-17-50.json",
+      "path": "metadata-plugin-modernizer/json-path-api/modernization-metadata",
+      "timestamp": "2026-01-03T19-17-50"
+    },
+    {
       "pluginVersion": "2.9.0-178.vca_b_c71881321",
       "jenkinsBaseline": "2.492",
       "targetBaseline": "2.492",
@@ -43,7 +67,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "a9cc16c1e476e54c7a5ed5aa2d6a4d9565b4076a",
+      "defaultBranchLatestCommitSha": "29a82674ee5f035d8a43779c45073ad0a7d7a521",
       "timestamp": "2025-08-09T08-57-45"
     },
     {
@@ -86,7 +110,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "a9cc16c1e476e54c7a5ed5aa2d6a4d9565b4076a",
+      "defaultBranchLatestCommitSha": "29a82674ee5f035d8a43779c45073ad0a7d7a521",
       "timestamp": "2025-07-27T10-08-21"
     }
   ]
