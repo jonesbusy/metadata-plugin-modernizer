@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/nunit-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "617.vb_152b_0a_7d168",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/nunit-plugin/pull/171",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-01-03T19-30-15.json",
+      "path": "metadata-plugin-modernizer/nunit/modernization-metadata",
+      "timestamp": "2026-01-03T19-30-15"
+    },
+    {
       "pluginVersion": "593.v76f7a_5f959c1",
       "jenkinsBaseline": "2.492",
       "targetBaseline": "2.492",
@@ -114,7 +138,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "2058f397233430dc37d7d9d2568fc0f4d27483e6",
+      "defaultBranchLatestCommitSha": "6fed602639a48acb71ed7b42a3dc3c7c32d6e81a",
       "timestamp": "2025-08-09T10-00-01"
     },
     {
@@ -158,7 +182,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "2058f397233430dc37d7d9d2568fc0f4d27483e6",
+      "defaultBranchLatestCommitSha": "6fed602639a48acb71ed7b42a3dc3c7c32d6e81a",
       "timestamp": "2025-07-27T10-53-30"
     }
   ]

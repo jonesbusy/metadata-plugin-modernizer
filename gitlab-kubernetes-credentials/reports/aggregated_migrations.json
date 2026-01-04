@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/gitlab-kubernetes-credentials-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "538.v99cc6503c421",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/gitlab-kubernetes-credentials-plugin/pull/288",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 1,
+      "changedFiles": 1,
+      "key": "2026-01-03T19-02-42.json",
+      "path": "metadata-plugin-modernizer/gitlab-kubernetes-credentials/modernization-metadata",
+      "timestamp": "2026-01-03T19-02-42"
+    },
+    {
       "pluginVersion": "484.v2fea_0cc92b_d3",
       "jenkinsBaseline": "2.504",
       "targetBaseline": "2.504",

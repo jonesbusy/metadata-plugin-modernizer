@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/oss-symbols-api-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "424.ved751e062911",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/oss-symbols-api-plugin/pull/237",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-01-03T19-33-32.json",
+      "path": "metadata-plugin-modernizer/oss-symbols-api/modernization-metadata",
+      "timestamp": "2026-01-03T19-33-32"
+    },
+    {
       "pluginVersion": "392.v27a_482d90083",
       "jenkinsBaseline": "2.492",
       "targetBaseline": "2.492",
@@ -44,7 +68,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "91770f482541ed13d47e9961c457f9095917ee43",
+      "defaultBranchLatestCommitSha": "1a8dbc37ea386ed6016c25b52f7883e1e660ee1e",
       "timestamp": "2025-08-09T09-03-24"
     },
     {
@@ -88,7 +112,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "91770f482541ed13d47e9961c457f9095917ee43",
+      "defaultBranchLatestCommitSha": "1a8dbc37ea386ed6016c25b52f7883e1e660ee1e",
       "timestamp": "2025-07-27T10-13-15"
     }
   ]

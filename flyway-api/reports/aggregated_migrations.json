@@ -3,6 +3,101 @@
   "pluginRepository": "https://github.com/jenkinsci/flyway-api-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "11.20.0-390.v5771332b_b_a_47",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.479",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2026-01-03T20-12-36.json",
+      "path": "metadata-plugin-modernizer/flyway-api/modernization-metadata",
+      "timestamp": "2026-01-03T20-12-36"
+    },
+    {
+      "pluginVersion": "11.20.0-390.v5771332b_b_a_47",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.479",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 1,
+      "changedFiles": 1,
+      "key": "2026-01-03T20-05-51.json",
+      "path": "metadata-plugin-modernizer/flyway-api/modernization-metadata",
+      "timestamp": "2026-01-03T20-05-51"
+    },
+    {
+      "pluginVersion": "11.20.0-390.v5771332b_b_a_47",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.479",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 1,
+      "changedFiles": 1,
+      "key": "2026-01-03T19-56-38.json",
+      "path": "metadata-plugin-modernizer/flyway-api/modernization-metadata",
+      "timestamp": "2026-01-03T19-56-38"
+    },
+    {
+      "pluginVersion": "11.20.0-390.v5771332b_b_a_47",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.479",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 1,
+      "changedFiles": 1,
+      "key": "2026-01-03T18-57-51.json",
+      "path": "metadata-plugin-modernizer/flyway-api/modernization-metadata",
+      "timestamp": "2026-01-03T18-57-51"
+    },
+    {
       "pluginVersion": "11.10.5-329.v87c0226c37d2",
       "jenkinsBaseline": "2.479",
       "targetBaseline": "2.479",
@@ -43,7 +138,7 @@
       },
       "checkRunsSummary": "failure",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1982043dd1fb4f8d832f1772270f45a808d2c913",
+      "defaultBranchLatestCommitSha": "5771332bba47fefddeb3a21aa5ce4085625113fc",
       "timestamp": "2025-08-09T11-32-33"
     },
     {

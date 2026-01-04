@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/jobcacher-artifactory-storage-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "218.vb_b_f388660e8b_",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-artifactory-storage-plugin/pull/118",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-01-03T19-11-42.json",
+      "path": "metadata-plugin-modernizer/jobcacher-artifactory-storage/modernization-metadata",
+      "timestamp": "2026-01-03T19-11-42"
+    },
+    {
       "pluginVersion": "198.vd6fa_ec5e1028",
       "jenkinsBaseline": "2.492",
       "targetBaseline": "2.504",
@@ -44,7 +68,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "f87d67b8e1cf3c5d842ff2f2baa1545fecc5f27a",
+      "defaultBranchLatestCommitSha": "92a8d8493c2b32c6b1e6400130da99e9acbc91f4",
       "timestamp": "2025-10-31T15-15-59"
     },
     {
@@ -90,7 +114,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "f87d67b8e1cf3c5d842ff2f2baa1545fecc5f27a",
+      "defaultBranchLatestCommitSha": "92a8d8493c2b32c6b1e6400130da99e9acbc91f4",
       "timestamp": "2025-08-09T09-45-55"
     },
     {
@@ -134,7 +158,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "f87d67b8e1cf3c5d842ff2f2baa1545fecc5f27a",
+      "defaultBranchLatestCommitSha": "92a8d8493c2b32c6b1e6400130da99e9acbc91f4",
       "timestamp": "2025-07-27T10-42-28"
     }
   ]

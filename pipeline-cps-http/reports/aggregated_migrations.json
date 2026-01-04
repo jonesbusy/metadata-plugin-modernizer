@@ -8,6 +8,30 @@
       "targetBaseline": "2.492",
       "effectiveBaseline": "2.492",
       "jenkinsVersion": "2.492.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/pipeline-cps-http-plugin/pull/66",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-01-03T19-37-04.json",
+      "path": "metadata-plugin-modernizer/pipeline-cps-http/modernization-metadata",
+      "timestamp": "2026-01-03T19-37-04"
+    },
+    {
+      "pluginVersion": "171.v419323d0e4b_c",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
       "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
       "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
       "tags": [
@@ -53,7 +77,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "e86031b6db0ab6bf0995e0b7693259a4dfee56e3",
+      "defaultBranchLatestCommitSha": "6bff6ee982d56d7a661b4257ce113c5c9b629ce6",
       "timestamp": "2025-08-09T10-06-33"
     },
     {
@@ -97,7 +121,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "e86031b6db0ab6bf0995e0b7693259a4dfee56e3",
+      "defaultBranchLatestCommitSha": "6bff6ee982d56d7a661b4257ce113c5c9b629ce6",
       "timestamp": "2025-07-27T10-59-10"
     }
   ]

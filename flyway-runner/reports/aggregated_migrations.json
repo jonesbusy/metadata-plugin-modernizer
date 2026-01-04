@@ -8,6 +8,30 @@
       "targetBaseline": "2.492",
       "effectiveBaseline": "2.492",
       "jenkinsVersion": "2.492.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/flyway-runner-plugin/pull/137",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 1,
+      "changedFiles": 1,
+      "key": "2026-01-03T19-00-05.json",
+      "path": "metadata-plugin-modernizer/flyway-runner/modernization-metadata",
+      "timestamp": "2026-01-03T19-00-05"
+    },
+    {
+      "pluginVersion": "254.vc1b_de1957ddb_",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
       "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
       "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
       "tags": [
@@ -68,7 +92,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "58837a2043bc2d3321e95e363fbecf3c8b2e6574",
+      "defaultBranchLatestCommitSha": "b1ebe2af3d536b519e687c6889a83dc4fb7c826d",
       "timestamp": "2025-08-09T09-32-09"
     },
     {
@@ -112,7 +136,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "58837a2043bc2d3321e95e363fbecf3c8b2e6574",
+      "defaultBranchLatestCommitSha": "b1ebe2af3d536b519e687c6889a83dc4fb7c826d",
       "timestamp": "2025-07-27T10-32-46"
     }
   ]

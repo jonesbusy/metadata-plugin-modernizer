@@ -3,6 +3,78 @@
   "pluginRepository": "https://github.com/jenkinsci/next-executions-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "491.vd59a_b_12e9c1b_",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2026-01-03T19-28-32.json",
+      "path": "metadata-plugin-modernizer/next-executions/modernization-metadata",
+      "timestamp": "2026-01-03T19-28-32"
+    },
+    {
+      "pluginVersion": "491.vd59a_b_12e9c1b_",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/next-executions-plugin/pull/203",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-01-03T17-48-34.json",
+      "path": "metadata-plugin-modernizer/next-executions/modernization-metadata",
+      "timestamp": "2026-01-03T17-48-34"
+    },
+    {
+      "pluginVersion": "491.vd59a_b_12e9c1b_",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2026-01-03T13-59-24.json",
+      "path": "metadata-plugin-modernizer/next-executions/modernization-metadata",
+      "timestamp": "2026-01-03T13-59-24"
+    },
+    {
       "pluginVersion": "446.v57a_a_1b_40702f",
       "jenkinsBaseline": "2.492",
       "targetBaseline": "2.504",
@@ -44,7 +116,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "3fb232f7465bb8b9cb30800cd042e2878c13652f",
+      "defaultBranchLatestCommitSha": "8a5d6e8c03880b175a1f30ed7f987cf6baa263df",
       "timestamp": "2025-10-31T15-28-23"
     },
     {
@@ -90,7 +162,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "3fb232f7465bb8b9cb30800cd042e2878c13652f",
+      "defaultBranchLatestCommitSha": "8a5d6e8c03880b175a1f30ed7f987cf6baa263df",
       "timestamp": "2025-08-09T09-57-26"
     },
     {
@@ -134,7 +206,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "3fb232f7465bb8b9cb30800cd042e2878c13652f",
+      "defaultBranchLatestCommitSha": "8a5d6e8c03880b175a1f30ed7f987cf6baa263df",
       "timestamp": "2025-07-27T10-51-37"
     }
   ]

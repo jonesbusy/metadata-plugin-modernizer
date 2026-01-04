@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/jnr-posix-api-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "3.1.21-186.vb_7ec9b_23ce83",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/jnr-posix-api-plugin/pull/138",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-01-03T19-19-21.json",
+      "path": "metadata-plugin-modernizer/jnr-posix-api/modernization-metadata",
+      "timestamp": "2026-01-03T19-19-21"
+    },
+    {
       "pluginVersion": "3.1.20-166.v50a_50932c65b_",
       "jenkinsBaseline": "2.492",
       "targetBaseline": "2.492",
@@ -44,7 +68,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "b7ec9b23ce83822ef186851caa0d228c32927b0a",
+      "defaultBranchLatestCommitSha": "8e009b59e0916be33fd9807da0ea2bcd602b9b72",
       "timestamp": "2025-08-09T08-59-38"
     },
     {
@@ -88,7 +112,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "b7ec9b23ce83822ef186851caa0d228c32927b0a",
+      "defaultBranchLatestCommitSha": "8e009b59e0916be33fd9807da0ea2bcd602b9b72",
       "timestamp": "2025-07-27T10-10-03"
     }
   ]

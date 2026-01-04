@@ -3,6 +3,30 @@
   "pluginRepository": "https://github.com/jenkinsci/jsoup-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "1.22.1-76.v9cdb_2456c0e3",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/jsoup-plugin/pull/38",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-01-03T19-20-48.json",
+      "path": "metadata-plugin-modernizer/jsoup/modernization-metadata",
+      "timestamp": "2026-01-03T19-20-48"
+    },
+    {
       "pluginVersion": "1.21.1-58.vfc578e6e2610",
       "jenkinsBaseline": "",
       "targetBaseline": "2.492",
@@ -43,7 +67,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "3fa93b989f79ac6df524985e8e86a355bb274e8b",
+      "defaultBranchLatestCommitSha": "9cdb2456c0e3be0ed3702c7785b032e445ab2f0a",
       "timestamp": "2025-08-09T08-55-51"
     },
     {
@@ -86,7 +110,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "3fa93b989f79ac6df524985e8e86a355bb274e8b",
+      "defaultBranchLatestCommitSha": "9cdb2456c0e3be0ed3702c7785b032e445ab2f0a",
       "timestamp": "2025-07-27T10-06-49"
     }
   ]

@@ -8,6 +8,30 @@
       "targetBaseline": "2.504",
       "effectiveBaseline": "2.504",
       "jenkinsVersion": "2.504.3",
+      "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
+      "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/openshift-k8s-credentials-plugin/pull/311",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 1,
+      "changedFiles": 1,
+      "key": "2026-01-03T19-31-58.json",
+      "path": "metadata-plugin-modernizer/openshift-k8s-credentials/modernization-metadata",
+      "timestamp": "2026-01-03T19-31-58"
+    },
+    {
+      "pluginVersion": "280.vb_4938766c373",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
       "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
       "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
       "tags": [
