@@ -1,0 +1,243 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+  "totalApplications": 47,
+  "successCount": 44,
+  "failureCount": 3,
+  "plugins": [
+    {
+      "pluginName": "flyway-api",
+      "status": "fail",
+      "timestamp": "2026-01-03T20-05-51"
+    },
+    {
+      "pluginName": "flyway-api",
+      "status": "fail",
+      "timestamp": "2026-01-03T19-56-38"
+    },
+    {
+      "pluginName": "skip-notifications-trait",
+      "status": "success",
+      "timestamp": "2026-01-03T19-49-35"
+    },
+    {
+      "pluginName": "s3-jobcacher-storage",
+      "status": "success",
+      "timestamp": "2026-01-03T19-47-36"
+    },
+    {
+      "pluginName": "postgresql-fingerprint-storage",
+      "status": "success",
+      "timestamp": "2026-01-03T19-45-20"
+    },
+    {
+      "pluginName": "pipeline-cps-oras",
+      "status": "success",
+      "timestamp": "2026-01-03T19-43-00"
+    },
+    {
+      "pluginName": "pipeline-lib-oras",
+      "status": "success",
+      "timestamp": "2026-01-03T19-41-07"
+    },
+    {
+      "pluginName": "pipeline-npm",
+      "status": "success",
+      "timestamp": "2026-01-03T19-38-47"
+    },
+    {
+      "pluginName": "pipeline-cps-http",
+      "status": "success",
+      "timestamp": "2026-01-03T19-37-04"
+    },
+    {
+      "pluginName": "parameter-separator",
+      "status": "success",
+      "timestamp": "2026-01-03T19-35-20"
+    },
+    {
+      "pluginName": "oss-symbols-api",
+      "status": "success",
+      "timestamp": "2026-01-03T19-33-32"
+    },
+    {
+      "pluginName": "openshift-k8s-credentials",
+      "status": "success",
+      "timestamp": "2026-01-03T19-31-58"
+    },
+    {
+      "pluginName": "nunit",
+      "status": "success",
+      "timestamp": "2026-01-03T19-30-15"
+    },
+    {
+      "pluginName": "next-executions",
+      "status": "success",
+      "timestamp": "2026-01-03T19-28-32"
+    },
+    {
+      "pluginName": "mariadb-api",
+      "status": "success",
+      "timestamp": "2026-01-03T19-27-03"
+    },
+    {
+      "pluginName": "login-theme",
+      "status": "success",
+      "timestamp": "2026-01-03T19-25-38"
+    },
+    {
+      "pluginName": "locale",
+      "status": "success",
+      "timestamp": "2026-01-03T19-24-01"
+    },
+    {
+      "pluginName": "junit-attachments",
+      "status": "success",
+      "timestamp": "2026-01-03T19-22-25"
+    },
+    {
+      "pluginName": "jsoup",
+      "status": "success",
+      "timestamp": "2026-01-03T19-20-48"
+    },
+    {
+      "pluginName": "jnr-posix-api",
+      "status": "success",
+      "timestamp": "2026-01-03T19-19-21"
+    },
+    {
+      "pluginName": "json-path-api",
+      "status": "success",
+      "timestamp": "2026-01-03T19-17-50"
+    },
+    {
+      "pluginName": "json-api",
+      "status": "success",
+      "timestamp": "2026-01-03T19-16-22"
+    },
+    {
+      "pluginName": "joda-time-api",
+      "status": "success",
+      "timestamp": "2026-01-03T19-14-53"
+    },
+    {
+      "pluginName": "jobcacher-oras-storage",
+      "status": "success",
+      "timestamp": "2026-01-03T19-13-28"
+    },
+    {
+      "pluginName": "jobcacher-artifactory-storage",
+      "status": "success",
+      "timestamp": "2026-01-03T19-11-42"
+    },
+    {
+      "pluginName": "jobcacher",
+      "status": "success",
+      "timestamp": "2026-01-03T19-09-51"
+    },
+    {
+      "pluginName": "jcaptcha-plugin",
+      "status": "success",
+      "timestamp": "2026-01-03T19-07-48"
+    },
+    {
+      "pluginName": "hidden-parameter",
+      "status": "success",
+      "timestamp": "2026-01-03T19-06-15"
+    },
+    {
+      "pluginName": "gson-api",
+      "status": "success",
+      "timestamp": "2026-01-03T19-04-18"
+    },
+    {
+      "pluginName": "gitlab-kubernetes-credentials",
+      "status": "success",
+      "timestamp": "2026-01-03T19-02-42"
+    },
+    {
+      "pluginName": "flyway-runner",
+      "status": "success",
+      "timestamp": "2026-01-03T19-00-05"
+    },
+    {
+      "pluginName": "flyway-api",
+      "status": "fail",
+      "timestamp": "2026-01-03T18-57-51"
+    },
+    {
+      "pluginName": "file-operations",
+      "status": "success",
+      "timestamp": "2026-01-03T18-56-07"
+    },
+    {
+      "pluginName": "extended-read-permission",
+      "status": "success",
+      "timestamp": "2026-01-03T18-54-25"
+    },
+    {
+      "pluginName": "extra-tool-installers",
+      "status": "success",
+      "timestamp": "2026-01-03T18-53-02"
+    },
+    {
+      "pluginName": "extension-filter",
+      "status": "success",
+      "timestamp": "2026-01-03T18-51-29"
+    },
+    {
+      "pluginName": "database-mariadb",
+      "status": "success",
+      "timestamp": "2026-01-03T18-49-56"
+    },
+    {
+      "pluginName": "coverage-badges-extension",
+      "status": "success",
+      "timestamp": "2026-01-03T18-48-07"
+    },
+    {
+      "pluginName": "commons-math3-api",
+      "status": "success",
+      "timestamp": "2026-01-03T18-46-25"
+    },
+    {
+      "pluginName": "byte-buddy-api",
+      "status": "success",
+      "timestamp": "2026-01-03T18-44-58"
+    },
+    {
+      "pluginName": "build-history-metrics-plugin",
+      "status": "success",
+      "timestamp": "2026-01-03T18-43-33"
+    },
+    {
+      "pluginName": "bitbucket-kubernetes-credentials",
+      "status": "success",
+      "timestamp": "2026-01-03T18-42-05"
+    },
+    {
+      "pluginName": "asm-api",
+      "status": "success",
+      "timestamp": "2026-01-03T18-40-17"
+    },
+    {
+      "pluginName": "artifactory-client-api",
+      "status": "success",
+      "timestamp": "2026-01-03T18-38-26"
+    },
+    {
+      "pluginName": "artifactory-artifact-manager",
+      "status": "success",
+      "timestamp": "2026-01-03T18-36-46"
+    },
+    {
+      "pluginName": "next-executions",
+      "status": "success",
+      "timestamp": "2026-01-03T17-48-34"
+    },
+    {
+      "pluginName": "next-executions",
+      "status": "success",
+      "timestamp": "2026-01-03T13-59-24"
+    }
+  ]
+}

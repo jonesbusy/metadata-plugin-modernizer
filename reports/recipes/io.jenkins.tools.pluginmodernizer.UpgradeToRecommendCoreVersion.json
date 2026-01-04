@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
-  "totalApplications": 76,
+  "totalApplications": 77,
   "successCount": 66,
-  "failureCount": 10,
+  "failureCount": 11,
   "plugins": [
+    {
+      "pluginName": "flyway-api",
+      "status": "fail",
+      "timestamp": "2026-01-03T20-12-36"
+    },
     {
       "pluginName": "extended-read-permission",
       "status": "success",
