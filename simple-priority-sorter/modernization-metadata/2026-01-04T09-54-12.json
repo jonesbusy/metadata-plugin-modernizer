@@ -1,0 +1,24 @@
+{
+  "pluginName": "simple-priority-sorter",
+  "pluginRepository": "https://github.com/jenkinsci/simple-priority-sorter-plugin.git",
+  "pluginVersion": "8.v96183e297829",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.3",
+  "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+  "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+  "tags": [
+    "developer"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/simple-priority-sorter-plugin/pull/11",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 3,
+  "deletions": 3,
+  "changedFiles": 1,
+  "key": "2026-01-04T09-54-12.json",
+  "path": "metadata-plugin-modernizer/simple-priority-sorter/modernization-metadata"
+}
