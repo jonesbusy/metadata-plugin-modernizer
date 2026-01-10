@@ -1,0 +1,25 @@
+{
+  "pluginName": "openshift-k8s-credentials",
+  "pluginRepository": "https://github.com/jenkinsci/openshift-k8s-credentials-plugin.git",
+  "pluginVersion": "280.vb_4938766c373",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Switch from Dependabot to Renovate",
+  "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/openshift-k8s-credentials-plugin/pull/314",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 6,
+  "deletions": 12,
+  "changedFiles": 2,
+  "key": "2026-01-10T20-28-21.json",
+  "path": "metadata-plugin-modernizer/openshift-k8s-credentials/modernization-metadata"
+}
