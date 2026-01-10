@@ -1,0 +1,25 @@
+{
+  "pluginName": "parameter-separator",
+  "pluginRepository": "https://github.com/jenkinsci/parameter-separator-plugin.git",
+  "pluginVersion": "322.vc4a_ff1cde55a_",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Switch from Dependabot to Renovate",
+  "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/parameter-separator-plugin/pull/146",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 6,
+  "deletions": 10,
+  "changedFiles": 2,
+  "key": "2026-01-10T20-31-04.json",
+  "path": "metadata-plugin-modernizer/parameter-separator/modernization-metadata"
+}
