@@ -17,13 +17,34 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/mariadb-api-plugin/pull/91",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 2,
       "changedFiles": 1,
       "key": "2026-01-03T19-27-03.json",
       "path": "metadata-plugin-modernizer/mariadb-api/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "753054e3a9c44f7e1b459d72beb554fa0646a3b6",
       "timestamp": "2026-01-03T19-27-03"
     },
     {
@@ -67,7 +88,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "7e6f9d93127d2689e9849965c682b5a7377d5d4a",
+      "defaultBranchLatestCommitSha": "753054e3a9c44f7e1b459d72beb554fa0646a3b6",
       "timestamp": "2025-08-09T09-01-28"
     },
     {
@@ -110,7 +131,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "7e6f9d93127d2689e9849965c682b5a7377d5d4a",
+      "defaultBranchLatestCommitSha": "753054e3a9c44f7e1b459d72beb554fa0646a3b6",
       "timestamp": "2025-07-27T10-11-39"
     }
   ]

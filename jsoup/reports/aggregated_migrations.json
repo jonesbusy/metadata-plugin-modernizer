@@ -17,13 +17,34 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/jsoup-plugin/pull/38",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 2,
       "changedFiles": 1,
       "key": "2026-01-03T19-20-48.json",
       "path": "metadata-plugin-modernizer/jsoup/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "4306d8e75d7363d812cd68f7ac2eb8a0c269df8e",
       "timestamp": "2026-01-03T19-20-48"
     },
     {
@@ -67,7 +88,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "9cdb2456c0e3be0ed3702c7785b032e445ab2f0a",
+      "defaultBranchLatestCommitSha": "4306d8e75d7363d812cd68f7ac2eb8a0c269df8e",
       "timestamp": "2025-08-09T08-55-51"
     },
     {
@@ -110,7 +131,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "9cdb2456c0e3be0ed3702c7785b032e445ab2f0a",
+      "defaultBranchLatestCommitSha": "4306d8e75d7363d812cd68f7ac2eb8a0c269df8e",
       "timestamp": "2025-07-27T10-06-49"
     }
   ]

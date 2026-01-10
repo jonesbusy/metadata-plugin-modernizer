@@ -5,6 +5,29 @@
     {
       "pluginVersion": "182.v8f1d21b_7c825",
       "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/database-mariadb-plugin/pull/103",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 3,
+      "deletions": 3,
+      "changedFiles": 1,
+      "key": "2026-01-04T09-14-09.json",
+      "path": "metadata-plugin-modernizer/database-mariadb/modernization-metadata",
+      "timestamp": "2026-01-04T09-14-09"
+    },
+    {
+      "pluginVersion": "182.v8f1d21b_7c825",
+      "jenkinsBaseline": "2.504",
       "targetBaseline": "2.504",
       "effectiveBaseline": "2.504",
       "jenkinsVersion": "2.504.3",
@@ -17,13 +40,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/database-mariadb-plugin/pull/102",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 0,
       "deletions": 1,
       "changedFiles": 1,
       "key": "2026-01-03T18-49-56.json",
       "path": "metadata-plugin-modernizer/database-mariadb/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-17 / Build (linux-17)": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "be81d7f0b2f6296ae3b80f3122945123c6835c68",
       "timestamp": "2026-01-03T18-49-56"
     },
     {
@@ -68,7 +113,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "d898899660a07483ddea026169521520b69401be",
+      "defaultBranchLatestCommitSha": "be81d7f0b2f6296ae3b80f3122945123c6835c68",
       "timestamp": "2025-10-31T14-51-26"
     },
     {
@@ -114,7 +159,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "d898899660a07483ddea026169521520b69401be",
+      "defaultBranchLatestCommitSha": "be81d7f0b2f6296ae3b80f3122945123c6835c68",
       "timestamp": "2025-08-09T09-22-47"
     },
     {
@@ -158,7 +203,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "d898899660a07483ddea026169521520b69401be",
+      "defaultBranchLatestCommitSha": "be81d7f0b2f6296ae3b80f3122945123c6835c68",
       "timestamp": "2025-07-27T10-25-36"
     }
   ]

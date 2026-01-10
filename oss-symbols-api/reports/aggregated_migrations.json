@@ -17,13 +17,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/oss-symbols-api-plugin/pull/237",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 2,
       "changedFiles": 1,
       "key": "2026-01-03T19-33-32.json",
       "path": "metadata-plugin-modernizer/oss-symbols-api/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "39dac7ea52b3c0671ae29104749c2dc38e1c5e50",
       "timestamp": "2026-01-03T19-33-32"
     },
     {
@@ -68,7 +90,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1a8dbc37ea386ed6016c25b52f7883e1e660ee1e",
+      "defaultBranchLatestCommitSha": "39dac7ea52b3c0671ae29104749c2dc38e1c5e50",
       "timestamp": "2025-08-09T09-03-24"
     },
     {
@@ -112,7 +134,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1a8dbc37ea386ed6016c25b52f7883e1e660ee1e",
+      "defaultBranchLatestCommitSha": "39dac7ea52b3c0671ae29104749c2dc38e1c5e50",
       "timestamp": "2025-07-27T10-13-15"
     }
   ]

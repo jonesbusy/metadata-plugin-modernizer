@@ -5,6 +5,29 @@
     {
       "pluginVersion": "576.v7a_67396e2e0b_",
       "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/skip-notifications-trait-plugin/pull/301",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 3,
+      "deletions": 3,
+      "changedFiles": 1,
+      "key": "2026-01-04T09-52-35.json",
+      "path": "metadata-plugin-modernizer/skip-notifications-trait/modernization-metadata",
+      "timestamp": "2026-01-04T09-52-35"
+    },
+    {
+      "pluginVersion": "576.v7a_67396e2e0b_",
+      "jenkinsBaseline": "2.504",
       "targetBaseline": "2.504",
       "effectiveBaseline": "2.504",
       "jenkinsVersion": "2.504.3",
@@ -17,13 +40,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/skip-notifications-trait-plugin/pull/300",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 2,
       "changedFiles": 1,
       "key": "2026-01-03T19-49-35.json",
       "path": "metadata-plugin-modernizer/skip-notifications-trait/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "26dfd21793bd163202e8fda17a21cb09102ef60c",
       "timestamp": "2026-01-03T19-49-35"
     },
     {
@@ -68,7 +113,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "db40d864935e17910413ade03040491bf426f9a0",
+      "defaultBranchLatestCommitSha": "26dfd21793bd163202e8fda17a21cb09102ef60c",
       "timestamp": "2025-10-31T15-53-20"
     },
     {
@@ -138,7 +183,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "db40d864935e17910413ade03040491bf426f9a0",
+      "defaultBranchLatestCommitSha": "26dfd21793bd163202e8fda17a21cb09102ef60c",
       "timestamp": "2025-08-09T10-20-44"
     },
     {
@@ -182,7 +227,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "db40d864935e17910413ade03040491bf426f9a0",
+      "defaultBranchLatestCommitSha": "26dfd21793bd163202e8fda17a21cb09102ef60c",
       "timestamp": "2025-07-27T11-11-27"
     }
   ]
