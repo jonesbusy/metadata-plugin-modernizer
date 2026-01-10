@@ -1,0 +1,25 @@
+{
+  "pluginName": "jnr-posix-api",
+  "pluginRepository": "https://github.com/jenkinsci/jnr-posix-api-plugin.git",
+  "pluginVersion": "3.1.21-186.vb_7ec9b_23ce83",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Switch from Dependabot to Renovate",
+  "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/jnr-posix-api-plugin/pull/139",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 6,
+  "deletions": 12,
+  "changedFiles": 2,
+  "key": "2026-01-10T20-19-02.json",
+  "path": "metadata-plugin-modernizer/jnr-posix-api/modernization-metadata"
+}
