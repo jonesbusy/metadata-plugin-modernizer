@@ -14,11 +14,30 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/simple-priority-sorter-plugin/pull/11",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 3,
   "deletions": 3,
   "changedFiles": 1,
   "key": "2026-01-04T09-54-12.json",
-  "path": "metadata-plugin-modernizer/simple-priority-sorter/modernization-metadata"
+  "path": "metadata-plugin-modernizer/simple-priority-sorter/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "Code Coverage": "success",
+    "ESLint": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "failure",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-21 / Build (linux-21)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "88ac7d2db61eb83b076b92445ff14c0e9d110cfb"
 }
