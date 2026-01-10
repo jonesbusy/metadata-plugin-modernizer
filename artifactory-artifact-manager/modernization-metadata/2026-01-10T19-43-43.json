@@ -1,0 +1,25 @@
+{
+  "pluginName": "artifactory-artifact-manager",
+  "pluginRepository": "https://github.com/jenkinsci/artifactory-artifact-manager-plugin.git",
+  "pluginVersion": "275.v941a_4e4a_7df3",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Switch from Dependabot to Renovate",
+  "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/artifactory-artifact-manager-plugin/pull/142",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 6,
+  "deletions": 12,
+  "changedFiles": 2,
+  "key": "2026-01-10T19-43-43.json",
+  "path": "metadata-plugin-modernizer/artifactory-artifact-manager/modernization-metadata"
+}
