@@ -8,6 +8,52 @@
       "targetBaseline": "2.492",
       "effectiveBaseline": "2.492",
       "jenkinsVersion": "2.492.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2026-01-04T10-03-54.json",
+      "path": "metadata-plugin-modernizer/parameter-separator/modernization-metadata",
+      "timestamp": "2026-01-04T10-03-54"
+    },
+    {
+      "pluginVersion": "296.v9b_a_90c81160d",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2026-01-04T09-39-55.json",
+      "path": "metadata-plugin-modernizer/parameter-separator/modernization-metadata",
+      "timestamp": "2026-01-04T09-39-55"
+    },
+    {
+      "pluginVersion": "296.v9b_a_90c81160d",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
       "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
       "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
       "tags": [
@@ -17,13 +63,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/parameter-separator-plugin/pull/144",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 2,
       "changedFiles": 1,
       "key": "2026-01-03T19-35-20.json",
       "path": "metadata-plugin-modernizer/parameter-separator/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "1a68b9e9370526c99c72e31d239cf6a0bd9fc08f",
       "timestamp": "2026-01-03T19-35-20"
     },
     {
@@ -92,7 +160,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "d798046a4a851e06cfcd65a44e155ab9a5f93cb7",
+      "defaultBranchLatestCommitSha": "1a68b9e9370526c99c72e31d239cf6a0bd9fc08f",
       "timestamp": "2025-08-09T10-04-06"
     },
     {
@@ -136,7 +204,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "d798046a4a851e06cfcd65a44e155ab9a5f93cb7",
+      "defaultBranchLatestCommitSha": "1a68b9e9370526c99c72e31d239cf6a0bd9fc08f",
       "timestamp": "2025-07-27T10-57-20"
     }
   ]

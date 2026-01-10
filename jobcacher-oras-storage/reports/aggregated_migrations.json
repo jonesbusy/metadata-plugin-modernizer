@@ -5,6 +5,29 @@
     {
       "pluginVersion": "86.v37b_94609150a_",
       "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-oras-storage-plugin/pull/49",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 3,
+      "deletions": 3,
+      "changedFiles": 1,
+      "key": "2026-01-04T09-32-05.json",
+      "path": "metadata-plugin-modernizer/jobcacher-oras-storage/modernization-metadata",
+      "timestamp": "2026-01-04T09-32-05"
+    },
+    {
+      "pluginVersion": "86.v37b_94609150a_",
+      "jenkinsBaseline": "2.504",
       "targetBaseline": "2.504",
       "effectiveBaseline": "2.504",
       "jenkinsVersion": "2.504.3",
@@ -17,13 +40,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-oras-storage-plugin/pull/48",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 0,
       "deletions": 1,
       "changedFiles": 1,
       "key": "2026-01-03T19-13-28.json",
       "path": "metadata-plugin-modernizer/jobcacher-oras-storage/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-17 / Build (linux-17)": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "76987d01ea1bdde3db339f5f381465f8683de30f",
       "timestamp": "2026-01-03T19-13-28"
     },
     {
@@ -68,7 +113,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "af236d0f5bdd0689b32828ed1b4ed1a06c1b8244",
+      "defaultBranchLatestCommitSha": "76987d01ea1bdde3db339f5f381465f8683de30f",
       "timestamp": "2025-10-31T15-18-48"
     },
     {
@@ -114,7 +159,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "af236d0f5bdd0689b32828ed1b4ed1a06c1b8244",
+      "defaultBranchLatestCommitSha": "76987d01ea1bdde3db339f5f381465f8683de30f",
       "timestamp": "2025-08-09T09-48-18"
     },
     {
@@ -158,7 +203,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "af236d0f5bdd0689b32828ed1b4ed1a06c1b8244",
+      "defaultBranchLatestCommitSha": "76987d01ea1bdde3db339f5f381465f8683de30f",
       "timestamp": "2025-07-27T10-44-24"
     }
   ]

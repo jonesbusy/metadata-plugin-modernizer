@@ -5,6 +5,29 @@
     {
       "pluginVersion": "46.va_0ee7b_f1b_02a_",
       "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/pipeline-lib-oras-plugin/pull/33",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 3,
+      "deletions": 3,
+      "changedFiles": 1,
+      "key": "2026-01-04T09-45-00.json",
+      "path": "metadata-plugin-modernizer/pipeline-lib-oras/modernization-metadata",
+      "timestamp": "2026-01-04T09-45-00"
+    },
+    {
+      "pluginVersion": "46.va_0ee7b_f1b_02a_",
+      "jenkinsBaseline": "2.504",
       "targetBaseline": "2.504",
       "effectiveBaseline": "2.504",
       "jenkinsVersion": "2.504.3",
@@ -17,13 +40,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/pipeline-lib-oras-plugin/pull/32",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 2,
       "changedFiles": 1,
       "key": "2026-01-03T19-41-07.json",
       "path": "metadata-plugin-modernizer/pipeline-lib-oras/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "26b7e635be49a7a22ee1a308eea8c91045382bc8",
       "timestamp": "2026-01-03T19-41-07"
     },
     {
@@ -68,7 +113,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "06f6a80c4f2ba136ca723c6f1566dff68701e707",
+      "defaultBranchLatestCommitSha": "26b7e635be49a7a22ee1a308eea8c91045382bc8",
       "timestamp": "2025-10-31T15-40-49"
     },
     {
@@ -113,7 +158,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "06f6a80c4f2ba136ca723c6f1566dff68701e707",
+      "defaultBranchLatestCommitSha": "26b7e635be49a7a22ee1a308eea8c91045382bc8",
       "timestamp": "2025-08-30T13-03-41"
     },
     {
@@ -159,7 +204,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "06f6a80c4f2ba136ca723c6f1566dff68701e707",
+      "defaultBranchLatestCommitSha": "26b7e635be49a7a22ee1a308eea8c91045382bc8",
       "timestamp": "2025-08-09T10-10-22"
     },
     {
@@ -203,7 +248,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "06f6a80c4f2ba136ca723c6f1566dff68701e707",
+      "defaultBranchLatestCommitSha": "26b7e635be49a7a22ee1a308eea8c91045382bc8",
       "timestamp": "2025-07-27T11-02-56"
     }
   ]

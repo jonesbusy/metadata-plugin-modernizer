@@ -17,13 +17,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/jnr-posix-api-plugin/pull/138",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 2,
       "changedFiles": 1,
       "key": "2026-01-03T19-19-21.json",
       "path": "metadata-plugin-modernizer/jnr-posix-api/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "da056279e20d22abbab8497453ba4de9315f71ef",
       "timestamp": "2026-01-03T19-19-21"
     },
     {
@@ -68,7 +90,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "8e009b59e0916be33fd9807da0ea2bcd602b9b72",
+      "defaultBranchLatestCommitSha": "da056279e20d22abbab8497453ba4de9315f71ef",
       "timestamp": "2025-08-09T08-59-38"
     },
     {
@@ -112,7 +134,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "8e009b59e0916be33fd9807da0ea2bcd602b9b72",
+      "defaultBranchLatestCommitSha": "da056279e20d22abbab8497453ba4de9315f71ef",
       "timestamp": "2025-07-27T10-10-03"
     }
   ]

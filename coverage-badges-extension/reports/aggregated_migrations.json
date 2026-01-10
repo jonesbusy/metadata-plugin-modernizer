@@ -5,6 +5,29 @@
     {
       "pluginVersion": "197.vb_390173d00ec",
       "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/coverage-badges-extension-plugin/pull/115",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 3,
+      "deletions": 3,
+      "changedFiles": 1,
+      "key": "2026-01-04T09-12-33.json",
+      "path": "metadata-plugin-modernizer/coverage-badges-extension/modernization-metadata",
+      "timestamp": "2026-01-04T09-12-33"
+    },
+    {
+      "pluginVersion": "197.vb_390173d00ec",
+      "jenkinsBaseline": "2.504",
       "targetBaseline": "2.504",
       "effectiveBaseline": "2.504",
       "jenkinsVersion": "2.504.3",
@@ -17,13 +40,35 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/coverage-badges-extension-plugin/pull/114",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 2,
       "changedFiles": 1,
       "key": "2026-01-03T18-48-07.json",
       "path": "metadata-plugin-modernizer/coverage-badges-extension/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-17 / Build (windows-17)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "114c5a8bbff9eac2930f17663e4c884053c93843",
       "timestamp": "2026-01-03T18-48-07"
     },
     {
@@ -68,7 +113,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "8b48d51ca7c803410989ea5ecfe558a986d061a4",
+      "defaultBranchLatestCommitSha": "114c5a8bbff9eac2930f17663e4c884053c93843",
       "timestamp": "2025-10-31T14-48-48"
     },
     {
@@ -114,7 +159,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "8b48d51ca7c803410989ea5ecfe558a986d061a4",
+      "defaultBranchLatestCommitSha": "114c5a8bbff9eac2930f17663e4c884053c93843",
       "timestamp": "2025-08-09T09-21-03"
     },
     {
@@ -158,7 +203,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "8b48d51ca7c803410989ea5ecfe558a986d061a4",
+      "defaultBranchLatestCommitSha": "114c5a8bbff9eac2930f17663e4c884053c93843",
       "timestamp": "2025-07-27T10-23-43"
     }
   ]
