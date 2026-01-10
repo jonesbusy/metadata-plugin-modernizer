@@ -14,11 +14,19 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/postgresql-fingerprint-storage-plugin/pull/392",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "closed",
   "dryRun": false,
   "additions": 3,
   "deletions": 3,
   "changedFiles": 1,
   "key": "2026-01-04T09-48-46.json",
-  "path": "metadata-plugin-modernizer/postgresql-fingerprint-storage/modernization-metadata"
+  "path": "metadata-plugin-modernizer/postgresql-fingerprint-storage/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": "failure",
+    "Jenkins Security Scan": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "4f85b928986506b98079914e5fc220b0f7e84cf8"
 }
