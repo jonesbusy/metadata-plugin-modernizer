@@ -1,0 +1,25 @@
+{
+  "pluginName": "database-mariadb",
+  "pluginRepository": "https://github.com/jenkinsci/database-mariadb-plugin.git",
+  "pluginVersion": "182.v8f1d21b_7c825",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Switch from Dependabot to Renovate",
+  "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/database-mariadb-plugin/pull/104",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 6,
+  "deletions": 12,
+  "changedFiles": 2,
+  "key": "2026-01-10T19-54-20.json",
+  "path": "metadata-plugin-modernizer/database-mariadb/modernization-metadata"
+}
