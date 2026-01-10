@@ -1,2 +1,4 @@
 migrationId,migrationStatus
 io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion,fail
+io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion,fail
+io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion,fail

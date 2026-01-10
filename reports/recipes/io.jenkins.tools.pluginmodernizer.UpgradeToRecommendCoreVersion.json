@@ -1,9 +1,164 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
-  "totalApplications": 77,
-  "successCount": 66,
-  "failureCount": 11,
+  "totalApplications": 108,
+  "successCount": 92,
+  "failureCount": 16,
   "plugins": [
+    {
+      "pluginName": "parameter-separator",
+      "status": "fail",
+      "timestamp": "2026-01-04T10-03-54"
+    },
+    {
+      "pluginName": "simple-priority-sorter",
+      "status": "success",
+      "timestamp": "2026-01-04T09-54-12"
+    },
+    {
+      "pluginName": "skip-notifications-trait",
+      "status": "success",
+      "timestamp": "2026-01-04T09-52-35"
+    },
+    {
+      "pluginName": "s3-jobcacher-storage",
+      "status": "success",
+      "timestamp": "2026-01-04T09-50-43"
+    },
+    {
+      "pluginName": "postgresql-fingerprint-storage",
+      "status": "success",
+      "timestamp": "2026-01-04T09-48-46"
+    },
+    {
+      "pluginName": "pipeline-cps-oras",
+      "status": "success",
+      "timestamp": "2026-01-04T09-46-43"
+    },
+    {
+      "pluginName": "pipeline-lib-oras",
+      "status": "success",
+      "timestamp": "2026-01-04T09-45-00"
+    },
+    {
+      "pluginName": "pipeline-npm",
+      "status": "success",
+      "timestamp": "2026-01-04T09-43-12"
+    },
+    {
+      "pluginName": "pipeline-cps-http",
+      "status": "fail",
+      "timestamp": "2026-01-04T09-41-24"
+    },
+    {
+      "pluginName": "parameter-separator",
+      "status": "fail",
+      "timestamp": "2026-01-04T09-39-55"
+    },
+    {
+      "pluginName": "openshift-k8s-credentials",
+      "status": "success",
+      "timestamp": "2026-01-04T09-38-29"
+    },
+    {
+      "pluginName": "nunit",
+      "status": "success",
+      "timestamp": "2026-01-04T09-36-55"
+    },
+    {
+      "pluginName": "login-theme",
+      "status": "fail",
+      "timestamp": "2026-01-04T09-35-02"
+    },
+    {
+      "pluginName": "locale",
+      "status": "success",
+      "timestamp": "2026-01-04T09-33-48"
+    },
+    {
+      "pluginName": "jobcacher-oras-storage",
+      "status": "success",
+      "timestamp": "2026-01-04T09-32-05"
+    },
+    {
+      "pluginName": "jobcacher-artifactory-storage",
+      "status": "success",
+      "timestamp": "2026-01-04T09-30-28"
+    },
+    {
+      "pluginName": "jobcacher",
+      "status": "success",
+      "timestamp": "2026-01-04T09-28-47"
+    },
+    {
+      "pluginName": "jcaptcha-plugin",
+      "status": "success",
+      "timestamp": "2026-01-04T09-26-47"
+    },
+    {
+      "pluginName": "hidden-parameter",
+      "status": "success",
+      "timestamp": "2026-01-04T09-25-22"
+    },
+    {
+      "pluginName": "gitlab-kubernetes-credentials",
+      "status": "success",
+      "timestamp": "2026-01-04T09-23-46"
+    },
+    {
+      "pluginName": "flyway-runner",
+      "status": "fail",
+      "timestamp": "2026-01-04T09-22-03"
+    },
+    {
+      "pluginName": "file-operations",
+      "status": "success",
+      "timestamp": "2026-01-04T09-20-37"
+    },
+    {
+      "pluginName": "extended-read-permission",
+      "status": "success",
+      "timestamp": "2026-01-04T09-18-54"
+    },
+    {
+      "pluginName": "extra-tool-installers",
+      "status": "success",
+      "timestamp": "2026-01-04T09-17-31"
+    },
+    {
+      "pluginName": "extension-filter",
+      "status": "success",
+      "timestamp": "2026-01-04T09-15-44"
+    },
+    {
+      "pluginName": "database-mariadb",
+      "status": "success",
+      "timestamp": "2026-01-04T09-14-09"
+    },
+    {
+      "pluginName": "coverage-badges-extension",
+      "status": "success",
+      "timestamp": "2026-01-04T09-12-33"
+    },
+    {
+      "pluginName": "build-history-metrics-plugin",
+      "status": "success",
+      "timestamp": "2026-01-04T09-10-53"
+    },
+    {
+      "pluginName": "bitbucket-kubernetes-credentials",
+      "status": "success",
+      "timestamp": "2026-01-04T09-09-23"
+    },
+    {
+      "pluginName": "artifactory-artifact-manager",
+      "status": "success",
+      "timestamp": "2026-01-04T09-07-44"
+    },
+    {
+      "pluginName": "next-executions",
+      "status": "success",
+      "timestamp": "2026-01-04T08-52-43"
+    },
     {
       "pluginName": "flyway-api",
       "status": "fail",

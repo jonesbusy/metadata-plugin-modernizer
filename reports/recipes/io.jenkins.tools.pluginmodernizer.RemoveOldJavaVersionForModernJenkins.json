@@ -1,9 +1,19 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
-  "totalApplications": 47,
-  "successCount": 44,
+  "totalApplications": 49,
+  "successCount": 46,
   "failureCount": 3,
   "plugins": [
+    {
+      "pluginName": "simple-priority-sorter",
+      "status": "success",
+      "timestamp": "2026-01-04T10-03-28"
+    },
+    {
+      "pluginName": "jackson3-api",
+      "status": "success",
+      "timestamp": "2026-01-04T08-58-55"
+    },
     {
       "pluginName": "flyway-api",
       "status": "fail",
