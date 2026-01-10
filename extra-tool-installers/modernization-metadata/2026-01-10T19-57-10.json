@@ -1,0 +1,25 @@
+{
+  "pluginName": "extra-tool-installers",
+  "pluginRepository": "https://github.com/jenkinsci/extra-tool-installers-plugin.git",
+  "pluginVersion": "211.v880567f652f0",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Switch from Dependabot to Renovate",
+  "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/extra-tool-installers-plugin/pull/180",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 6,
+  "deletions": 12,
+  "changedFiles": 2,
+  "key": "2026-01-10T19-57-10.json",
+  "path": "metadata-plugin-modernizer/extra-tool-installers/modernization-metadata"
+}
