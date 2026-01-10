@@ -1,0 +1,25 @@
+{
+  "pluginName": "jackson3-api",
+  "pluginRepository": "https://github.com/jenkinsci/jackson3-api-plugin.git",
+  "pluginVersion": "3.0.3-29.v1fda_758ca_92b_",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.1",
+  "migrationName": "Switch from Dependabot to Renovate",
+  "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/jackson3-api-plugin/pull/20",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 6,
+  "deletions": 12,
+  "changedFiles": 2,
+  "key": "2026-01-10T20-08-08.json",
+  "path": "metadata-plugin-modernizer/jackson3-api/modernization-metadata"
+}
