@@ -4,6 +4,30 @@
   "migrations": [
     {
       "pluginVersion": "409.v90cc23075442",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Switch from Dependabot to Renovate",
+      "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/file-operations-plugin/pull/193",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 6,
+      "deletions": 12,
+      "changedFiles": 2,
+      "key": "2026-01-10T19-59-50.json",
+      "path": "metadata-plugin-modernizer/file-operations/modernization-metadata",
+      "timestamp": "2026-01-10T19-59-50"
+    },
+    {
+      "pluginVersion": "409.v90cc23075442",
       "jenkinsBaseline": "2.504",
       "targetBaseline": "2.516",
       "effectiveBaseline": "2.504",
@@ -16,13 +40,33 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/file-operations-plugin/pull/192",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 1,
       "changedFiles": 1,
       "key": "2026-01-04T09-20-37.json",
       "path": "metadata-plugin-modernizer/file-operations/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "212e493d25f2e15a90f1edd9f11063954958d00e",
       "timestamp": "2026-01-04T09-20-37"
     },
     {
@@ -68,7 +112,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "518c658b7f1d80c4362f06afaa34268225b68d66",
+      "defaultBranchLatestCommitSha": "212e493d25f2e15a90f1edd9f11063954958d00e",
       "timestamp": "2026-01-03T18-56-07"
     },
     {
@@ -137,7 +181,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "518c658b7f1d80c4362f06afaa34268225b68d66",
+      "defaultBranchLatestCommitSha": "212e493d25f2e15a90f1edd9f11063954958d00e",
       "timestamp": "2025-08-09T09-29-47"
     },
     {

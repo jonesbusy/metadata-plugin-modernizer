@@ -8,6 +8,30 @@
       "targetBaseline": "2.492",
       "effectiveBaseline": "2.492",
       "jenkinsVersion": "2.492.3",
+      "migrationName": "Switch from Dependabot to Renovate",
+      "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/byte-buddy-api-plugin/pull/111",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 6,
+      "deletions": 12,
+      "changedFiles": 2,
+      "key": "2026-01-10T19-50-24.json",
+      "path": "metadata-plugin-modernizer/byte-buddy-api/modernization-metadata",
+      "timestamp": "2026-01-10T19-50-24"
+    },
+    {
+      "pluginVersion": "1.18.3-207.v3e9992b_a_e0b_e",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
       "migrationName": "Remove old Java version on Jenkinsfile for modern Jenkins versions",
       "migrationDescription": "Remove old Java version on Jenkinsfile for modern Jenkins versions.",
       "tags": [
