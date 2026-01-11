@@ -1,0 +1,25 @@
+{
+  "pluginName": "git-version-monitor",
+  "pluginRepository": "https://github.com/jenkinsci/git-version-monitor-plugin.git",
+  "pluginVersion": "7.v2a_0f40b_9f2f4",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Switch from Dependabot to Renovate",
+  "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/git-version-monitor-plugin/pull/19",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 6,
+  "deletions": 12,
+  "changedFiles": 2,
+  "key": "2026-01-11T07-56-40.json",
+  "path": "metadata-plugin-modernizer/git-version-monitor/modernization-metadata"
+}
