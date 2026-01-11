@@ -1,0 +1,13 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.SetupRenovate",
+  "totalApplications": 1,
+  "successCount": 1,
+  "failureCount": 0,
+  "plugins": [
+    {
+      "pluginName": "flyway-runner",
+      "status": "success",
+      "timestamp": "2026-01-10T20-35-21"
+    }
+  ]
+}
