@@ -1,0 +1,25 @@
+{
+  "pluginName": "scm-filter-branch-pr",
+  "pluginRepository": "https://github.com/jenkinsci/scm-filter-branch-pr-plugin.git",
+  "pluginVersion": "222.v72301ecb_a_ee7",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.479",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.1",
+  "migrationName": "Switch from Dependabot to Renovate",
+  "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/scm-filter-branch-pr-plugin/pull/118",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 6,
+  "deletions": 12,
+  "changedFiles": 2,
+  "key": "2026-01-11T08-29-43.json",
+  "path": "metadata-plugin-modernizer/scm-filter-branch-pr/modernization-metadata"
+}
