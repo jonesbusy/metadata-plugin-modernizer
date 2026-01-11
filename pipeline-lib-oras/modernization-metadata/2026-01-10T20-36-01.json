@@ -15,11 +15,31 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/pipeline-lib-oras-plugin/pull/34",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 6,
   "deletions": 12,
   "changedFiles": 2,
   "key": "2026-01-10T20-36-01.json",
-  "path": "metadata-plugin-modernizer/pipeline-lib-oras/modernization-metadata"
+  "path": "metadata-plugin-modernizer/pipeline-lib-oras/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-25 / Build (linux-25)": "success",
+    "Tests / windows-21 / Build (windows-21)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "0f117c086befd7d919c8b79fccc3c0126a92eebb"
 }
