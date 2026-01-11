@@ -4,6 +4,30 @@
   "migrations": [
     {
       "pluginVersion": "211.v880567f652f0",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Switch from Dependabot to Renovate",
+      "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/extra-tool-installers-plugin/pull/180",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 6,
+      "deletions": 12,
+      "changedFiles": 2,
+      "key": "2026-01-10T19-57-10.json",
+      "path": "metadata-plugin-modernizer/extra-tool-installers/modernization-metadata",
+      "timestamp": "2026-01-10T19-57-10"
+    },
+    {
+      "pluginVersion": "211.v880567f652f0",
       "jenkinsBaseline": "2.504",
       "targetBaseline": "2.516",
       "effectiveBaseline": "2.504",
@@ -16,13 +40,33 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/extra-tool-installers-plugin/pull/179",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 3,
       "deletions": 3,
       "changedFiles": 1,
       "key": "2026-01-04T09-17-31.json",
       "path": "metadata-plugin-modernizer/extra-tool-installers/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "57f6cea09cc0ed5733d6f5ebff56c66095855dd0",
       "timestamp": "2026-01-04T09-17-31"
     },
     {
@@ -68,7 +112,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "b2a4760728185d915f9bf16dcc430adc0b3f269e",
+      "defaultBranchLatestCommitSha": "57f6cea09cc0ed5733d6f5ebff56c66095855dd0",
       "timestamp": "2026-01-03T18-53-02"
     },
     {
@@ -99,7 +143,7 @@
       },
       "checkRunsSummary": "pending",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "b2a4760728185d915f9bf16dcc430adc0b3f269e",
+      "defaultBranchLatestCommitSha": "57f6cea09cc0ed5733d6f5ebff56c66095855dd0",
       "timestamp": "2025-11-18T05-51-04"
     },
     {
@@ -144,7 +188,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "b2a4760728185d915f9bf16dcc430adc0b3f269e",
+      "defaultBranchLatestCommitSha": "57f6cea09cc0ed5733d6f5ebff56c66095855dd0",
       "timestamp": "2025-10-31T14-56-42"
     },
     {
@@ -190,7 +234,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "b2a4760728185d915f9bf16dcc430adc0b3f269e",
+      "defaultBranchLatestCommitSha": "57f6cea09cc0ed5733d6f5ebff56c66095855dd0",
       "timestamp": "2025-08-09T09-26-42"
     },
     {
@@ -234,7 +278,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "b2a4760728185d915f9bf16dcc430adc0b3f269e",
+      "defaultBranchLatestCommitSha": "57f6cea09cc0ed5733d6f5ebff56c66095855dd0",
       "timestamp": "2025-07-27T10-29-13"
     }
   ]

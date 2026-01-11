@@ -4,6 +4,30 @@
   "migrations": [
     {
       "pluginVersion": "182.v8f1d21b_7c825",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Switch from Dependabot to Renovate",
+      "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/database-mariadb-plugin/pull/104",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 6,
+      "deletions": 12,
+      "changedFiles": 2,
+      "key": "2026-01-10T19-54-20.json",
+      "path": "metadata-plugin-modernizer/database-mariadb/modernization-metadata",
+      "timestamp": "2026-01-10T19-54-20"
+    },
+    {
+      "pluginVersion": "182.v8f1d21b_7c825",
       "jenkinsBaseline": "2.504",
       "targetBaseline": "2.516",
       "effectiveBaseline": "2.504",
@@ -16,13 +40,34 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/database-mariadb-plugin/pull/103",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 3,
       "deletions": 3,
       "changedFiles": 1,
       "key": "2026-01-04T09-14-09.json",
       "path": "metadata-plugin-modernizer/database-mariadb/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "9efa1342f5bd664cef1f1b3e760934b000eaf7df",
       "timestamp": "2026-01-04T09-14-09"
     },
     {
@@ -68,7 +113,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "be81d7f0b2f6296ae3b80f3122945123c6835c68",
+      "defaultBranchLatestCommitSha": "9efa1342f5bd664cef1f1b3e760934b000eaf7df",
       "timestamp": "2026-01-03T18-49-56"
     },
     {
@@ -113,7 +158,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "be81d7f0b2f6296ae3b80f3122945123c6835c68",
+      "defaultBranchLatestCommitSha": "9efa1342f5bd664cef1f1b3e760934b000eaf7df",
       "timestamp": "2025-10-31T14-51-26"
     },
     {
@@ -159,7 +204,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "be81d7f0b2f6296ae3b80f3122945123c6835c68",
+      "defaultBranchLatestCommitSha": "9efa1342f5bd664cef1f1b3e760934b000eaf7df",
       "timestamp": "2025-08-09T09-22-47"
     },
     {
@@ -203,7 +248,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "be81d7f0b2f6296ae3b80f3122945123c6835c68",
+      "defaultBranchLatestCommitSha": "9efa1342f5bd664cef1f1b3e760934b000eaf7df",
       "timestamp": "2025-07-27T10-25-36"
     }
   ]

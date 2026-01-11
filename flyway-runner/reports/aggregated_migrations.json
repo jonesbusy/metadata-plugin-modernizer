@@ -3,6 +3,54 @@
   "pluginRepository": "https://github.com/jenkinsci/flyway-runner-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "282.v7e837c0b_ff13",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Setup Renovate",
+      "migrationDescription": "Setup Renovate for the Jenkins plugin if it doesn't exist.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupRenovate",
+      "migrationStatus": "success",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2026-01-10T20-35-21.json",
+      "path": "metadata-plugin-modernizer/flyway-runner/modernization-metadata",
+      "timestamp": "2026-01-10T20-35-21"
+    },
+    {
+      "pluginVersion": "282.v7e837c0b_ff13",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Switch from Dependabot to Renovate",
+      "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/flyway-runner-plugin/pull/139",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 15,
+      "changedFiles": 1,
+      "key": "2026-01-10T20-02-35.json",
+      "path": "metadata-plugin-modernizer/flyway-runner/modernization-metadata",
+      "timestamp": "2026-01-10T20-02-35"
+    },
+    {
       "pluginVersion": "254.vc1b_de1957ddb_",
       "jenkinsBaseline": "2.492",
       "targetBaseline": "2.492",
@@ -68,7 +116,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1025d166c8f12eeb6af5e80a521e9015846eefc2",
+      "defaultBranchLatestCommitSha": "7e837c0bff13fe6331e939967d7863d352b22979",
       "timestamp": "2026-01-03T19-00-05"
     },
     {
@@ -137,7 +185,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1025d166c8f12eeb6af5e80a521e9015846eefc2",
+      "defaultBranchLatestCommitSha": "7e837c0bff13fe6331e939967d7863d352b22979",
       "timestamp": "2025-08-09T09-32-09"
     },
     {
@@ -181,7 +229,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1025d166c8f12eeb6af5e80a521e9015846eefc2",
+      "defaultBranchLatestCommitSha": "7e837c0bff13fe6331e939967d7863d352b22979",
       "timestamp": "2025-07-27T10-32-46"
     }
   ]
