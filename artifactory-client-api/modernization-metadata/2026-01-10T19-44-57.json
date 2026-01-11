@@ -15,11 +15,31 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/artifactory-client-api-plugin/pull/83",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 6,
   "deletions": 12,
   "changedFiles": 2,
   "key": "2026-01-10T19-44-57.json",
-  "path": "metadata-plugin-modernizer/artifactory-client-api/modernization-metadata"
+  "path": "metadata-plugin-modernizer/artifactory-client-api/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-25 / Build (linux-25)": "success",
+    "Tests / windows-21 / Build (windows-21)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "407f862d0b54aed567cd5553aa7a09bab249efc0"
 }
