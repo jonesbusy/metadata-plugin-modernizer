@@ -7,7 +7,7 @@
   "effectiveBaseline": "2.516",
   "jenkinsVersion": "2.516.3",
   "migrationName": "Setup Renovate",
-  "migrationDescription": "Setup Renovate for the Jenkins plugin if it doesn\u0027t exist.",
+  "migrationDescription": "Setup Renovate for the Jenkins plugin if it doesn't exist.",
   "tags": [
     "skip-verification",
     "chore"
@@ -15,11 +15,32 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.SetupRenovate",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/flyway-runner-plugin/pull/141",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 6,
   "deletions": 0,
   "changedFiles": 1,
   "key": "2026-01-10T21-33-57.json",
-  "path": "metadata-plugin-modernizer/flyway-runner/modernization-metadata"
+  "path": "metadata-plugin-modernizer/flyway-runner/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "Code Coverage": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-21 / Build (linux-21)": "success",
+    "Tests / linux-25 / Build (linux-25)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "f2a9f4cc0669c5c927a21796af9ac73fc5825337"
 }
