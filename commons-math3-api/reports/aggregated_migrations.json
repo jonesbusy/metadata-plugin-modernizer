@@ -17,13 +17,33 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/commons-math3-api-plugin/pull/50",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 6,
       "deletions": 12,
       "changedFiles": 2,
       "key": "2026-01-10T19-51-37.json",
       "path": "metadata-plugin-modernizer/commons-math3-api/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "51e8dff5b0b9c32e85878ce22a8c416e009d3f94",
       "timestamp": "2026-01-10T19-51-37"
     },
     {
@@ -68,7 +88,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "924664ddf693cd643e76ffa44338403c81ce4e2b",
+      "defaultBranchLatestCommitSha": "51e8dff5b0b9c32e85878ce22a8c416e009d3f94",
       "timestamp": "2026-01-03T18-46-25"
     },
     {
@@ -112,7 +132,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "924664ddf693cd643e76ffa44338403c81ce4e2b",
+      "defaultBranchLatestCommitSha": "51e8dff5b0b9c32e85878ce22a8c416e009d3f94",
       "timestamp": "2025-08-09T08-44-34"
     },
     {
@@ -155,7 +175,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "924664ddf693cd643e76ffa44338403c81ce4e2b",
+      "defaultBranchLatestCommitSha": "51e8dff5b0b9c32e85878ce22a8c416e009d3f94",
       "timestamp": "2025-07-27T09-58-36"
     }
   ]

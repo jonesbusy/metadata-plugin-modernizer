@@ -17,13 +17,33 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/jnr-posix-api-plugin/pull/139",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 6,
       "deletions": 12,
       "changedFiles": 2,
       "key": "2026-01-10T20-19-02.json",
       "path": "metadata-plugin-modernizer/jnr-posix-api/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "34c3429cf9241269ba7dc73c3590cee49370e553",
       "timestamp": "2026-01-10T20-19-02"
     },
     {
@@ -69,7 +89,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "da056279e20d22abbab8497453ba4de9315f71ef",
+      "defaultBranchLatestCommitSha": "34c3429cf9241269ba7dc73c3590cee49370e553",
       "timestamp": "2026-01-03T19-19-21"
     },
     {
@@ -114,7 +134,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "da056279e20d22abbab8497453ba4de9315f71ef",
+      "defaultBranchLatestCommitSha": "34c3429cf9241269ba7dc73c3590cee49370e553",
       "timestamp": "2025-08-09T08-59-38"
     },
     {
@@ -158,7 +178,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "da056279e20d22abbab8497453ba4de9315f71ef",
+      "defaultBranchLatestCommitSha": "34c3429cf9241269ba7dc73c3590cee49370e553",
       "timestamp": "2025-07-27T10-10-03"
     }
   ]

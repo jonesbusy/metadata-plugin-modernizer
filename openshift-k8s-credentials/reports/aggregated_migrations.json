@@ -17,13 +17,34 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/openshift-k8s-credentials-plugin/pull/314",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 6,
       "deletions": 12,
       "changedFiles": 2,
       "key": "2026-01-10T20-28-21.json",
       "path": "metadata-plugin-modernizer/openshift-k8s-credentials/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "1a53d0185c25367ca69387462dc49a59c951a0de",
       "timestamp": "2026-01-10T20-28-21"
     },
     {
@@ -67,7 +88,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "8a13e43e1619dbed9dfe779f68bb6ec173999ca8",
+      "defaultBranchLatestCommitSha": "1a53d0185c25367ca69387462dc49a59c951a0de",
       "timestamp": "2026-01-04T09-38-29"
     },
     {
@@ -113,7 +134,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "8a13e43e1619dbed9dfe779f68bb6ec173999ca8",
+      "defaultBranchLatestCommitSha": "1a53d0185c25367ca69387462dc49a59c951a0de",
       "timestamp": "2026-01-03T19-31-58"
     },
     {
@@ -158,7 +179,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "8a13e43e1619dbed9dfe779f68bb6ec173999ca8",
+      "defaultBranchLatestCommitSha": "1a53d0185c25367ca69387462dc49a59c951a0de",
       "timestamp": "2025-10-31T15-32-14"
     },
     {
@@ -204,7 +225,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "8a13e43e1619dbed9dfe779f68bb6ec173999ca8",
+      "defaultBranchLatestCommitSha": "1a53d0185c25367ca69387462dc49a59c951a0de",
       "timestamp": "2025-08-09T10-01-43"
     },
     {
@@ -248,7 +269,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "8a13e43e1619dbed9dfe779f68bb6ec173999ca8",
+      "defaultBranchLatestCommitSha": "1a53d0185c25367ca69387462dc49a59c951a0de",
       "timestamp": "2025-07-27T10-55-30"
     }
   ]
