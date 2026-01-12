@@ -17,13 +17,34 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/gitlab-kubernetes-credentials-plugin/pull/291",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 6,
       "deletions": 10,
       "changedFiles": 2,
       "key": "2026-01-10T20-04-04.json",
       "path": "metadata-plugin-modernizer/gitlab-kubernetes-credentials/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "f408afa6ac1ec69954b4724ba0bf2d3f72202441",
       "timestamp": "2026-01-10T20-04-04"
     },
     {
@@ -67,7 +88,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "d35d92dd6934dcf9ebf4fe4a3d66df9836690d00",
+      "defaultBranchLatestCommitSha": "f408afa6ac1ec69954b4724ba0bf2d3f72202441",
       "timestamp": "2026-01-04T09-23-46"
     },
     {
@@ -113,7 +134,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "d35d92dd6934dcf9ebf4fe4a3d66df9836690d00",
+      "defaultBranchLatestCommitSha": "f408afa6ac1ec69954b4724ba0bf2d3f72202441",
       "timestamp": "2026-01-03T19-02-42"
     },
     {
@@ -155,7 +176,7 @@
       },
       "checkRunsSummary": "failure",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "d35d92dd6934dcf9ebf4fe4a3d66df9836690d00",
+      "defaultBranchLatestCommitSha": "f408afa6ac1ec69954b4724ba0bf2d3f72202441",
       "timestamp": "2025-10-31T15-03-01"
     },
     {
@@ -201,7 +222,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "d35d92dd6934dcf9ebf4fe4a3d66df9836690d00",
+      "defaultBranchLatestCommitSha": "f408afa6ac1ec69954b4724ba0bf2d3f72202441",
       "timestamp": "2025-08-09T09-34-26"
     },
     {
@@ -245,7 +266,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "d35d92dd6934dcf9ebf4fe4a3d66df9836690d00",
+      "defaultBranchLatestCommitSha": "f408afa6ac1ec69954b4724ba0bf2d3f72202441",
       "timestamp": "2025-07-27T10-34-49"
     }
   ]

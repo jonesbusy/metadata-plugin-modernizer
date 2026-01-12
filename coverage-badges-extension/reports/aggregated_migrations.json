@@ -17,13 +17,33 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/coverage-badges-extension-plugin/pull/116",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 6,
       "deletions": 12,
       "changedFiles": 2,
       "key": "2026-01-10T19-52-59.json",
       "path": "metadata-plugin-modernizer/coverage-badges-extension/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "fb59e8773ccdb9b2d33b48dd20ae6cbe33e2832a",
       "timestamp": "2026-01-10T19-52-59"
     },
     {
@@ -66,7 +86,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "299c05ecd58d7b7d17e68e693ec04739db18e5e5",
+      "defaultBranchLatestCommitSha": "fb59e8773ccdb9b2d33b48dd20ae6cbe33e2832a",
       "timestamp": "2026-01-04T09-12-33"
     },
     {
@@ -112,7 +132,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "299c05ecd58d7b7d17e68e693ec04739db18e5e5",
+      "defaultBranchLatestCommitSha": "fb59e8773ccdb9b2d33b48dd20ae6cbe33e2832a",
       "timestamp": "2026-01-03T18-48-07"
     },
     {
@@ -157,7 +177,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "299c05ecd58d7b7d17e68e693ec04739db18e5e5",
+      "defaultBranchLatestCommitSha": "fb59e8773ccdb9b2d33b48dd20ae6cbe33e2832a",
       "timestamp": "2025-10-31T14-48-48"
     },
     {
@@ -203,7 +223,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "299c05ecd58d7b7d17e68e693ec04739db18e5e5",
+      "defaultBranchLatestCommitSha": "fb59e8773ccdb9b2d33b48dd20ae6cbe33e2832a",
       "timestamp": "2025-08-09T09-21-03"
     },
     {
@@ -247,7 +267,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "299c05ecd58d7b7d17e68e693ec04739db18e5e5",
+      "defaultBranchLatestCommitSha": "fb59e8773ccdb9b2d33b48dd20ae6cbe33e2832a",
       "timestamp": "2025-07-27T10-23-43"
     }
   ]

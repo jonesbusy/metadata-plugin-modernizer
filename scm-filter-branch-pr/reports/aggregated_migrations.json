@@ -1,0 +1,53 @@
+{
+  "pluginName": "scm-filter-branch-pr",
+  "pluginRepository": "https://github.com/jenkinsci/scm-filter-branch-pr-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "222.v72301ecb_a_ee7",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.1",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/scm-filter-branch-pr-plugin/pull/119",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 10,
+      "deletions": 13,
+      "changedFiles": 3,
+      "key": "2026-01-11T08-33-51.json",
+      "path": "metadata-plugin-modernizer/scm-filter-branch-pr/modernization-metadata",
+      "timestamp": "2026-01-11T08-33-51"
+    },
+    {
+      "pluginVersion": "222.v72301ecb_a_ee7",
+      "jenkinsBaseline": "2.479",
+      "targetBaseline": "2.479",
+      "effectiveBaseline": "2.479",
+      "jenkinsVersion": "2.479.1",
+      "migrationName": "Switch from Dependabot to Renovate",
+      "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/scm-filter-branch-pr-plugin/pull/118",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 6,
+      "deletions": 12,
+      "changedFiles": 2,
+      "key": "2026-01-11T08-29-43.json",
+      "path": "metadata-plugin-modernizer/scm-filter-branch-pr/modernization-metadata",
+      "timestamp": "2026-01-11T08-29-43"
+    }
+  ]
+}

@@ -5,6 +5,29 @@
     {
       "pluginVersion": "386.v7a_364c62704d",
       "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/postgresql-fingerprint-storage-plugin/pull/397",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-01-11T08-48-06.json",
+      "path": "metadata-plugin-modernizer/postgresql-fingerprint-storage/modernization-metadata",
+      "timestamp": "2026-01-11T08-48-06"
+    },
+    {
+      "pluginVersion": "386.v7a_364c62704d",
+      "jenkinsBaseline": "2.492",
       "targetBaseline": "2.492",
       "effectiveBaseline": "2.492",
       "jenkinsVersion": "2.492.3",
@@ -17,13 +40,34 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/postgresql-fingerprint-storage-plugin/pull/393",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 6,
       "deletions": 12,
       "changedFiles": 2,
       "key": "2026-01-10T20-39-00.json",
       "path": "metadata-plugin-modernizer/postgresql-fingerprint-storage/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "36c05e7d3b26424d3974866385deae498f7094bb",
       "timestamp": "2026-01-10T20-39-00"
     },
     {
@@ -54,7 +98,7 @@
       },
       "checkRunsSummary": "failure",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "4f85b928986506b98079914e5fc220b0f7e84cf8",
+      "defaultBranchLatestCommitSha": "36c05e7d3b26424d3974866385deae498f7094bb",
       "timestamp": "2026-01-04T09-48-46"
     },
     {
@@ -100,7 +144,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "4f85b928986506b98079914e5fc220b0f7e84cf8",
+      "defaultBranchLatestCommitSha": "36c05e7d3b26424d3974866385deae498f7094bb",
       "timestamp": "2026-01-03T19-45-20"
     },
     {
@@ -131,7 +175,7 @@
       },
       "checkRunsSummary": "failure",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "4f85b928986506b98079914e5fc220b0f7e84cf8",
+      "defaultBranchLatestCommitSha": "36c05e7d3b26424d3974866385deae498f7094bb",
       "timestamp": "2025-10-31T15-45-45"
     },
     {
@@ -177,7 +221,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "4f85b928986506b98079914e5fc220b0f7e84cf8",
+      "defaultBranchLatestCommitSha": "36c05e7d3b26424d3974866385deae498f7094bb",
       "timestamp": "2025-08-09T10-16-15"
     },
     {
@@ -221,7 +265,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "4f85b928986506b98079914e5fc220b0f7e84cf8",
+      "defaultBranchLatestCommitSha": "36c05e7d3b26424d3974866385deae498f7094bb",
       "timestamp": "2025-07-27T11-06-51"
     }
   ]

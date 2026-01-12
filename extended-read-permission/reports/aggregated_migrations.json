@@ -17,13 +17,33 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/extended-read-permission-plugin/pull/46",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 6,
       "deletions": 11,
       "changedFiles": 2,
       "key": "2026-01-10T19-58-22.json",
       "path": "metadata-plugin-modernizer/extended-read-permission/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "8fc859b50c312cb3a38b4e51594a39e85fb3f0ec",
       "timestamp": "2026-01-10T19-58-22"
     },
     {
@@ -66,7 +86,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "2dd867f2832ac371b4bf337a3aead6441fe1d453",
+      "defaultBranchLatestCommitSha": "8fc859b50c312cb3a38b4e51594a39e85fb3f0ec",
       "timestamp": "2026-01-04T09-18-54"
     },
     {
@@ -111,7 +131,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "2dd867f2832ac371b4bf337a3aead6441fe1d453",
+      "defaultBranchLatestCommitSha": "8fc859b50c312cb3a38b4e51594a39e85fb3f0ec",
       "timestamp": "2026-01-03T18-54-25"
     },
     {
@@ -155,7 +175,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "2dd867f2832ac371b4bf337a3aead6441fe1d453",
+      "defaultBranchLatestCommitSha": "8fc859b50c312cb3a38b4e51594a39e85fb3f0ec",
       "timestamp": "2025-11-18T08-20-43"
     }
   ]
