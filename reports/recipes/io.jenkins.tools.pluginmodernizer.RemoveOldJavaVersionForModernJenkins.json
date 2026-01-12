@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
-  "totalApplications": 49,
-  "successCount": 46,
+  "totalApplications": 50,
+  "successCount": 47,
   "failureCount": 3,
   "plugins": [
+    {
+      "pluginName": "oras-java-api",
+      "status": "success",
+      "timestamp": "2026-01-11T07-53-16"
+    },
     {
       "pluginName": "simple-priority-sorter",
       "status": "success",
