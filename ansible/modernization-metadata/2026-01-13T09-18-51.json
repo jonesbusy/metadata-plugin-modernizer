@@ -1,0 +1,25 @@
+{
+  "pluginName": "ansible",
+  "pluginRepository": "https://github.com/jenkinsci/ansible-plugin.git",
+  "pluginVersion": "588.v2a_a_a_f345e34f",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Switch from Dependabot to Renovate",
+  "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/ansible-plugin/pull/362",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 6,
+  "deletions": 12,
+  "changedFiles": 2,
+  "key": "2026-01-13T09-18-51.json",
+  "path": "metadata-plugin-modernizer/ansible/modernization-metadata"
+}
