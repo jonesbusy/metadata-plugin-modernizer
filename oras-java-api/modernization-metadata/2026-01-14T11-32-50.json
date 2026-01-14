@@ -1,0 +1,24 @@
+{
+  "pluginName": "oras-java-api",
+  "pluginRepository": "https://github.com/jenkinsci/oras-java-api-plugin.git",
+  "pluginVersion": "0.3.1-126.vb_58a_7a_7b_ce43",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.1",
+  "migrationName": "Upgrade parent version to latest available in the 6.x line",
+  "migrationDescription": "Upgrade the parent version to latest available in the 6.x line.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/oras-java-api-plugin/pull/75",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2026-01-14T11-32-50.json",
+  "path": "metadata-plugin-modernizer/oras-java-api/modernization-metadata"
+}
