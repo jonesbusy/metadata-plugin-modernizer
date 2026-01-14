@@ -1,0 +1,24 @@
+{
+  "pluginName": "extension-filter",
+  "pluginRepository": "https://github.com/jenkinsci/extension-filter-plugin.git",
+  "pluginVersion": "268.v953673b_16e81",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Upgrade parent version to latest available in the 6.x line",
+  "migrationDescription": "Upgrade the parent version to latest available in the 6.x line.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/extension-filter-plugin/pull/152",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2026-01-14T10-45-41.json",
+  "path": "metadata-plugin-modernizer/extension-filter/modernization-metadata"
+}
