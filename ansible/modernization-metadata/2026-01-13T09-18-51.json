@@ -15,11 +15,19 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/ansible-plugin/pull/362",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 6,
   "deletions": 12,
   "changedFiles": 2,
   "key": "2026-01-13T09-18-51.json",
-  "path": "metadata-plugin-modernizer/ansible/modernization-metadata"
+  "path": "metadata-plugin-modernizer/ansible/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": null,
+    "Jenkins Security Scan": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "pending",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "34b48e979c862f28ee5bec47e929953267a71a0f"
 }
