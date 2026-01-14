@@ -1,0 +1,24 @@
+{
+  "pluginName": "oss-symbols-api",
+  "pluginRepository": "https://github.com/jenkinsci/oss-symbols-api-plugin.git",
+  "pluginVersion": "424.ved751e062911",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Upgrade parent version to latest available in the 6.x line",
+  "migrationDescription": "Upgrade the parent version to latest available in the 6.x line.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/oss-symbols-api-plugin/pull/241",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2026-01-14T11-35-00.json",
+  "path": "metadata-plugin-modernizer/oss-symbols-api/modernization-metadata"
+}
