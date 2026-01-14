@@ -1,0 +1,24 @@
+{
+  "pluginName": "pipeline-cps-oras",
+  "pluginRepository": "https://github.com/jenkinsci/pipeline-cps-oras-plugin.git",
+  "pluginVersion": "50.v764a_6877d7f1",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Upgrade parent version to latest available in the 6.x line",
+  "migrationDescription": "Upgrade the parent version to latest available in the 6.x line.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/pipeline-cps-oras-plugin/pull/42",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2026-01-14T11-47-50.json",
+  "path": "metadata-plugin-modernizer/pipeline-cps-oras/modernization-metadata"
+}
