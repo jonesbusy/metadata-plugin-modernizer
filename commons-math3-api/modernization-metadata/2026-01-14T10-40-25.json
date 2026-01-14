@@ -1,0 +1,24 @@
+{
+  "pluginName": "commons-math3-api",
+  "pluginRepository": "https://github.com/jenkinsci/commons-math3-api-plugin.git",
+  "pluginVersion": "3.6.1-70.v4fe220fa_63dd",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Upgrade parent version to latest available in the 6.x line",
+  "migrationDescription": "Upgrade the parent version to latest available in the 6.x line.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/commons-math3-api-plugin/pull/53",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2026-01-14T10-40-25.json",
+  "path": "metadata-plugin-modernizer/commons-math3-api/modernization-metadata"
+}
