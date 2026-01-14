@@ -1,0 +1,25 @@
+{
+  "pluginName": "simple-priority-sorter",
+  "pluginRepository": "https://github.com/jenkinsci/simple-priority-sorter-plugin.git",
+  "pluginVersion": "36.v0c14c3a_9f60d",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+  "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/simple-priority-sorter-plugin/pull/20",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2026-01-14T12-47-10.json",
+  "path": "metadata-plugin-modernizer/simple-priority-sorter/modernization-metadata"
+}
