@@ -1,0 +1,25 @@
+{
+  "pluginName": "scm-filter-branch-pr",
+  "pluginRepository": "https://github.com/jenkinsci/scm-filter-branch-pr-plugin.git",
+  "pluginVersion": "264.v39ce4f34d572",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+  "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/scm-filter-branch-pr-plugin/pull/123",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2026-01-14T12-43-50.json",
+  "path": "metadata-plugin-modernizer/scm-filter-branch-pr/modernization-metadata"
+}
