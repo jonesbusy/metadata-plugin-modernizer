@@ -1,0 +1,24 @@
+{
+  "pluginName": "jsoup",
+  "pluginRepository": "https://github.com/jenkinsci/jsoup-plugin.git",
+  "pluginVersion": "1.22.1-76.v9cdb_2456c0e3",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Upgrade parent version to latest available in the 6.x line",
+  "migrationDescription": "Upgrade the parent version to latest available in the 6.x line.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/jsoup-plugin/pull/42",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2026-01-14T11-17-55.json",
+  "path": "metadata-plugin-modernizer/jsoup/modernization-metadata"
+}
