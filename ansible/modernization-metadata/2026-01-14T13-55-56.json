@@ -1,0 +1,25 @@
+{
+  "pluginName": "ansible",
+  "pluginRepository": "https://github.com/jenkinsci/ansible-plugin.git",
+  "pluginVersion": "635.v34b_48e979c86",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+  "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/ansible-plugin/pull/372",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2026-01-14T13-55-56.json",
+  "path": "metadata-plugin-modernizer/ansible/modernization-metadata"
+}
