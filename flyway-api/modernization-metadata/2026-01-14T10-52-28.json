@@ -1,0 +1,24 @@
+{
+  "pluginName": "flyway-api",
+  "pluginRepository": "https://github.com/jenkinsci/flyway-api-plugin.git",
+  "pluginVersion": "11.20.1-398.v4cea_08266fa_6",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.479",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.3",
+  "migrationName": "Upgrade parent version to latest available in the 6.x line",
+  "migrationDescription": "Upgrade the parent version to latest available in the 6.x line.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/flyway-api-plugin/pull/229",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2026-01-14T10-52-28.json",
+  "path": "metadata-plugin-modernizer/flyway-api/modernization-metadata"
+}
