@@ -1,0 +1,24 @@
+{
+  "pluginName": "jobcacher",
+  "pluginRepository": "https://github.com/jenkinsci/jobcacher-plugin.git",
+  "pluginVersion": "808.v153db_9fd7b_d2",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Upgrade parent version to latest available in the 6.x line",
+  "migrationDescription": "Upgrade the parent version to latest available in the 6.x line.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-plugin/pull/492",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2026-01-14T11-06-28.json",
+  "path": "metadata-plugin-modernizer/jobcacher/modernization-metadata"
+}
