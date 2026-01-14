@@ -16,13 +16,21 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/postgresql-fingerprint-storage-plugin/pull/397",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "closed",
       "dryRun": false,
       "additions": 2,
       "deletions": 2,
       "changedFiles": 1,
       "key": "2026-01-11T08-48-06.json",
       "path": "metadata-plugin-modernizer/postgresql-fingerprint-storage/modernization-metadata",
+      "checkRuns": {
+        "Jenkins": "failure",
+        "Jenkins Security Scan": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "failure",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "e4c28adf8280960ff6b84b2aa0ad6c5103f2178f",
       "timestamp": "2026-01-11T08-48-06"
     },
     {
@@ -67,7 +75,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "36c05e7d3b26424d3974866385deae498f7094bb",
+      "defaultBranchLatestCommitSha": "e4c28adf8280960ff6b84b2aa0ad6c5103f2178f",
       "timestamp": "2026-01-10T20-39-00"
     },
     {
@@ -98,7 +106,7 @@
       },
       "checkRunsSummary": "failure",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "36c05e7d3b26424d3974866385deae498f7094bb",
+      "defaultBranchLatestCommitSha": "e4c28adf8280960ff6b84b2aa0ad6c5103f2178f",
       "timestamp": "2026-01-04T09-48-46"
     },
     {
@@ -144,7 +152,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "36c05e7d3b26424d3974866385deae498f7094bb",
+      "defaultBranchLatestCommitSha": "e4c28adf8280960ff6b84b2aa0ad6c5103f2178f",
       "timestamp": "2026-01-03T19-45-20"
     },
     {
@@ -175,7 +183,7 @@
       },
       "checkRunsSummary": "failure",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "36c05e7d3b26424d3974866385deae498f7094bb",
+      "defaultBranchLatestCommitSha": "e4c28adf8280960ff6b84b2aa0ad6c5103f2178f",
       "timestamp": "2025-10-31T15-45-45"
     },
     {
@@ -221,7 +229,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "36c05e7d3b26424d3974866385deae498f7094bb",
+      "defaultBranchLatestCommitSha": "e4c28adf8280960ff6b84b2aa0ad6c5103f2178f",
       "timestamp": "2025-08-09T10-16-15"
     },
     {
@@ -265,7 +273,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "36c05e7d3b26424d3974866385deae498f7094bb",
+      "defaultBranchLatestCommitSha": "e4c28adf8280960ff6b84b2aa0ad6c5103f2178f",
       "timestamp": "2025-07-27T11-06-51"
     }
   ]
