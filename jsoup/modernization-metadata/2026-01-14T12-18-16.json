@@ -1,0 +1,25 @@
+{
+  "pluginName": "jsoup",
+  "pluginRepository": "https://github.com/jenkinsci/jsoup-plugin.git",
+  "pluginVersion": "1.22.1-76.v9cdb_2456c0e3",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+  "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/jsoup-plugin/pull/43",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 0,
+  "changedFiles": 1,
+  "key": "2026-01-14T12-18-16.json",
+  "path": "metadata-plugin-modernizer/jsoup/modernization-metadata"
+}
