@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
-  "totalApplications": 50,
-  "successCount": 47,
+  "totalApplications": 51,
+  "successCount": 48,
   "failureCount": 3,
   "plugins": [
+    {
+      "pluginName": "ansible",
+      "status": "success",
+      "timestamp": "2026-01-13T12-24-27"
+    },
     {
       "pluginName": "oras-java-api",
       "status": "success",
