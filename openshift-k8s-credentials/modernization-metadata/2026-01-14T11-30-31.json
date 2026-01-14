@@ -1,0 +1,24 @@
+{
+  "pluginName": "openshift-k8s-credentials",
+  "pluginRepository": "https://github.com/jenkinsci/openshift-k8s-credentials-plugin.git",
+  "pluginVersion": "280.vb_4938766c373",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Upgrade parent version to latest available in the 6.x line",
+  "migrationDescription": "Upgrade the parent version to latest available in the 6.x line.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/openshift-k8s-credentials-plugin/pull/318",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2026-01-14T11-30-31.json",
+  "path": "metadata-plugin-modernizer/openshift-k8s-credentials/modernization-metadata"
+}
