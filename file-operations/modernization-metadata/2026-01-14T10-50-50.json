@@ -1,0 +1,24 @@
+{
+  "pluginName": "file-operations",
+  "pluginRepository": "https://github.com/jenkinsci/file-operations-plugin.git",
+  "pluginVersion": "409.v90cc23075442",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Upgrade parent version to latest available in the 6.x line",
+  "migrationDescription": "Upgrade the parent version to latest available in the 6.x line.",
+  "tags": [
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/file-operations-plugin/pull/197",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 1,
+  "deletions": 1,
+  "changedFiles": 1,
+  "key": "2026-01-14T10-50-50.json",
+  "path": "metadata-plugin-modernizer/file-operations/modernization-metadata"
+}
