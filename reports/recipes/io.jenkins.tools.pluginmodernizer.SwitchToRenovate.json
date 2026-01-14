@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.SwitchToRenovate",
-  "totalApplications": 47,
-  "successCount": 47,
+  "totalApplications": 48,
+  "successCount": 48,
   "failureCount": 0,
   "plugins": [
+    {
+      "pluginName": "ansible",
+      "status": "success",
+      "timestamp": "2026-01-13T09-18-51"
+    },
     {
       "pluginName": "scm-filter-branch-pr",
       "status": "success",

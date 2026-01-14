@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
-  "totalApplications": 111,
-  "successCount": 95,
+  "totalApplications": 112,
+  "successCount": 96,
   "failureCount": 16,
   "plugins": [
+    {
+      "pluginName": "ansible",
+      "status": "success",
+      "timestamp": "2026-01-13T09-24-10"
+    },
     {
       "pluginName": "postgresql-fingerprint-storage",
       "status": "success",
