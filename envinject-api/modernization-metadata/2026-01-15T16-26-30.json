@@ -1,0 +1,25 @@
+{
+  "pluginName": "envinject-api",
+  "pluginRepository": "https://github.com/jenkinsci/envinject-api-plugin.git",
+  "pluginVersion": "1.236.v35fd4d7eb_515",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.479",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.1",
+  "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+  "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2026-01-15T16-26-30.json",
+  "path": "metadata-plugin-modernizer/envinject-api/modernization-metadata"
+}
