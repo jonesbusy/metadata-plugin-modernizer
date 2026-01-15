@@ -1,0 +1,25 @@
+{
+  "pluginName": "ivy",
+  "pluginRepository": "https://github.com/jenkinsci/ivy-plugin.git",
+  "pluginVersion": "582.v35fb_da_0312f7",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.479",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.3",
+  "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+  "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/ivy-plugin/pull/235",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 5,
+  "deletions": 4,
+  "changedFiles": 4,
+  "key": "2026-01-15T16-35-39.json",
+  "path": "metadata-plugin-modernizer/ivy/modernization-metadata"
+}
