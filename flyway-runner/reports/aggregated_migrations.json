@@ -8,6 +8,29 @@
       "targetBaseline": "2.516",
       "effectiveBaseline": "2.516",
       "jenkinsVersion": "2.516.3",
+      "migrationName": "Upgrade parent version to latest available in the 6.x line",
+      "migrationDescription": "Upgrade the parent version to latest available in the 6.x line.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/flyway-runner-plugin/pull/145",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "key": "2026-01-14T10-54-22.json",
+      "path": "metadata-plugin-modernizer/flyway-runner/modernization-metadata",
+      "timestamp": "2026-01-14T10-54-22"
+    },
+    {
+      "pluginVersion": "282.v7e837c0b_ff13",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
       "migrationName": "Setup Renovate",
       "migrationDescription": "Setup Renovate for the Jenkins plugin if it doesn't exist.",
       "tags": [
