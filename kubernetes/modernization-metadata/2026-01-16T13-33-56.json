@@ -1,0 +1,25 @@
+{
+  "pluginName": "kubernetes",
+  "pluginRepository": "https://github.com/jenkinsci/kubernetes-plugin.git",
+  "pluginVersion": "4416.v2ea_b_5372da_a_e",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.3",
+  "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+  "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/kubernetes-plugin/pull/2797",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 33,
+  "deletions": 28,
+  "changedFiles": 24,
+  "key": "2026-01-16T13-33-56.json",
+  "path": "metadata-plugin-modernizer/kubernetes/modernization-metadata"
+}
