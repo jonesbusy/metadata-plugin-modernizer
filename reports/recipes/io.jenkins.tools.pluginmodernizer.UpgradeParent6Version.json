@@ -1,0 +1,243 @@
+{
+  "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+  "totalApplications": 47,
+  "successCount": 47,
+  "failureCount": 0,
+  "plugins": [
+    {
+      "pluginName": "simple-priority-sorter",
+      "status": "success",
+      "timestamp": "2026-01-14T12-00-05"
+    },
+    {
+      "pluginName": "skip-notifications-trait",
+      "status": "success",
+      "timestamp": "2026-01-14T11-57-53"
+    },
+    {
+      "pluginName": "scm-filter-branch-pr",
+      "status": "success",
+      "timestamp": "2026-01-14T11-55-32"
+    },
+    {
+      "pluginName": "s3-jobcacher-storage",
+      "status": "success",
+      "timestamp": "2026-01-14T11-53-23"
+    },
+    {
+      "pluginName": "postgresql-fingerprint-storage",
+      "status": "success",
+      "timestamp": "2026-01-14T11-50-40"
+    },
+    {
+      "pluginName": "pipeline-cps-oras",
+      "status": "success",
+      "timestamp": "2026-01-14T11-47-50"
+    },
+    {
+      "pluginName": "pipeline-lib-oras",
+      "status": "success",
+      "timestamp": "2026-01-14T11-45-14"
+    },
+    {
+      "pluginName": "pipeline-npm",
+      "status": "success",
+      "timestamp": "2026-01-14T11-42-34"
+    },
+    {
+      "pluginName": "pipeline-cps-http",
+      "status": "success",
+      "timestamp": "2026-01-14T11-40-10"
+    },
+    {
+      "pluginName": "parameter-separator",
+      "status": "success",
+      "timestamp": "2026-01-14T11-37-33"
+    },
+    {
+      "pluginName": "oss-symbols-api",
+      "status": "success",
+      "timestamp": "2026-01-14T11-35-00"
+    },
+    {
+      "pluginName": "oras-java-api",
+      "status": "success",
+      "timestamp": "2026-01-14T11-32-50"
+    },
+    {
+      "pluginName": "openshift-k8s-credentials",
+      "status": "success",
+      "timestamp": "2026-01-14T11-30-31"
+    },
+    {
+      "pluginName": "nunit",
+      "status": "success",
+      "timestamp": "2026-01-14T11-28-03"
+    },
+    {
+      "pluginName": "next-executions",
+      "status": "success",
+      "timestamp": "2026-01-14T11-25-27"
+    },
+    {
+      "pluginName": "mariadb-api",
+      "status": "success",
+      "timestamp": "2026-01-14T11-22-47"
+    },
+    {
+      "pluginName": "login-theme",
+      "status": "success",
+      "timestamp": "2026-01-14T11-21-15"
+    },
+    {
+      "pluginName": "locale",
+      "status": "success",
+      "timestamp": "2026-01-14T11-19-36"
+    },
+    {
+      "pluginName": "jsoup",
+      "status": "success",
+      "timestamp": "2026-01-14T11-17-55"
+    },
+    {
+      "pluginName": "jnr-posix-api",
+      "status": "success",
+      "timestamp": "2026-01-14T11-16-23"
+    },
+    {
+      "pluginName": "json-path-api",
+      "status": "success",
+      "timestamp": "2026-01-14T11-14-47"
+    },
+    {
+      "pluginName": "json-api",
+      "status": "success",
+      "timestamp": "2026-01-14T11-13-16"
+    },
+    {
+      "pluginName": "joda-time-api",
+      "status": "success",
+      "timestamp": "2026-01-14T11-11-44"
+    },
+    {
+      "pluginName": "jobcacher-oras-storage",
+      "status": "success",
+      "timestamp": "2026-01-14T11-10-11"
+    },
+    {
+      "pluginName": "jobcacher-artifactory-storage",
+      "status": "success",
+      "timestamp": "2026-01-14T11-08-20"
+    },
+    {
+      "pluginName": "jobcacher",
+      "status": "success",
+      "timestamp": "2026-01-14T11-06-28"
+    },
+    {
+      "pluginName": "jcaptcha-plugin",
+      "status": "success",
+      "timestamp": "2026-01-14T11-04-38"
+    },
+    {
+      "pluginName": "jackson3-api",
+      "status": "success",
+      "timestamp": "2026-01-14T11-03-07"
+    },
+    {
+      "pluginName": "hidden-parameter",
+      "status": "success",
+      "timestamp": "2026-01-14T11-01-23"
+    },
+    {
+      "pluginName": "git-version-monitor",
+      "status": "success",
+      "timestamp": "2026-01-14T10-59-30"
+    },
+    {
+      "pluginName": "gson-api",
+      "status": "success",
+      "timestamp": "2026-01-14T10-57-55"
+    },
+    {
+      "pluginName": "gitlab-kubernetes-credentials",
+      "status": "success",
+      "timestamp": "2026-01-14T10-56-17"
+    },
+    {
+      "pluginName": "flyway-runner",
+      "status": "success",
+      "timestamp": "2026-01-14T10-54-22"
+    },
+    {
+      "pluginName": "flyway-api",
+      "status": "success",
+      "timestamp": "2026-01-14T10-52-28"
+    },
+    {
+      "pluginName": "file-operations",
+      "status": "success",
+      "timestamp": "2026-01-14T10-50-50"
+    },
+    {
+      "pluginName": "extended-read-permission",
+      "status": "success",
+      "timestamp": "2026-01-14T10-49-02"
+    },
+    {
+      "pluginName": "extra-tool-installers",
+      "status": "success",
+      "timestamp": "2026-01-14T10-47-31"
+    },
+    {
+      "pluginName": "extension-filter",
+      "status": "success",
+      "timestamp": "2026-01-14T10-45-41"
+    },
+    {
+      "pluginName": "database-mariadb",
+      "status": "success",
+      "timestamp": "2026-01-14T10-44-01"
+    },
+    {
+      "pluginName": "coverage-badges-extension",
+      "status": "success",
+      "timestamp": "2026-01-14T10-42-18"
+    },
+    {
+      "pluginName": "commons-math3-api",
+      "status": "success",
+      "timestamp": "2026-01-14T10-40-25"
+    },
+    {
+      "pluginName": "byte-buddy-api",
+      "status": "success",
+      "timestamp": "2026-01-14T10-38-45"
+    },
+    {
+      "pluginName": "build-history-metrics-plugin",
+      "status": "success",
+      "timestamp": "2026-01-14T10-37-08"
+    },
+    {
+      "pluginName": "bitbucket-kubernetes-credentials",
+      "status": "success",
+      "timestamp": "2026-01-14T10-35-26"
+    },
+    {
+      "pluginName": "asm-api",
+      "status": "success",
+      "timestamp": "2026-01-14T10-33-36"
+    },
+    {
+      "pluginName": "artifactory-client-api",
+      "status": "success",
+      "timestamp": "2026-01-14T10-31-51"
+    },
+    {
+      "pluginName": "artifactory-artifact-manager",
+      "status": "success",
+      "timestamp": "2026-01-14T10-30-01"
+    }
+  ]
+}

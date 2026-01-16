@@ -1,11 +1,11 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2026-01-14 00:40:46 UTC
+Generated on: 2026-01-16 00:40:43 UTC
 
 ## Overview
-- **Total Migrations**: 1059
-- **Failed Migrations**: 584
-- **Success Rate**: 44.85%
+- **Total Migrations**: 1162
+- **Failed Migrations**: 585
+- **Success Rate**: 49.66%
 
 ## Failures by Recipe
 - io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 522 failures
@@ -13,8 +13,8 @@ Generated on: 2026-01-14 00:40:46 UTC
 - io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 16 failures
 - io.jenkins.tools.pluginmodernizer.MigrateToJUnit5: 4 failures
 - io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins: 3 failures
+- io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText: 3 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 2 failures
-- io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText: 2 failures
 - io.jenkins.tools.pluginmodernizer.MigrateToJava25: 1 failures
 - io.jenkins.tools.pluginmodernizer.AddCodeOwner: 1 failures
 - io.jenkins.tools.pluginmodernizer.SetupDependabot: 1 failures
@@ -100,6 +100,7 @@ Generated on: 2026-01-14 00:40:46 UTC
 - [ecs-publisher](../ecs-publisher/reports/failed_migrations.csv)
 - [emmacoveragecolumn](../emmacoveragecolumn/reports/failed_migrations.csv)
 - [emotional-jenkins-plugin](../emotional-jenkins-plugin/reports/failed_migrations.csv)
+- [envinject-api](../envinject-api/reports/failed_migrations.csv)
 - [environment-manager](../environment-manager/reports/failed_migrations.csv)
 - [exclusive-label-plugin](../exclusive-label-plugin/reports/failed_migrations.csv)
 - [extreme-feedback](../extreme-feedback/reports/failed_migrations.csv)
@@ -250,10 +251,10 @@ Generated on: 2026-01-14 00:40:46 UTC
 
 | Status | Count | Percentage |
 |--------|-------|------------|
-| Total PRs | 363 | - |
-| Open PRs | 84 | 23.14% |
-| Closed PRs | 21 | 5.79% |
-| Merged PRs | 258 | 71.07% |
+| Total PRs | 465 | - |
+| Open PRs | 182 | 39.14% |
+| Closed PRs | 21 | 4.52% |
+| Merged PRs | 262 | 56.34% |
 
 
 *Note: No. of Migrations != No. of PRs. A migration applied may trigger force push on already opened PR.*
