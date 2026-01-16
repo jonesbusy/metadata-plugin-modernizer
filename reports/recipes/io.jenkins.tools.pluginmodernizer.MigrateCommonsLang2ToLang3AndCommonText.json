@@ -1,9 +1,289 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
-  "totalApplications": 14,
-  "successCount": 12,
-  "failureCount": 2,
+  "totalApplications": 70,
+  "successCount": 67,
+  "failureCount": 3,
   "plugins": [
+    {
+      "pluginName": "active-directory",
+      "status": "success",
+      "timestamp": "2026-01-15T16-40-01"
+    },
+    {
+      "pluginName": "ivy",
+      "status": "success",
+      "timestamp": "2026-01-15T16-35-39"
+    },
+    {
+      "pluginName": "powershell",
+      "status": "success",
+      "timestamp": "2026-01-15T16-33-23"
+    },
+    {
+      "pluginName": "envinject-api",
+      "status": "fail",
+      "timestamp": "2026-01-15T16-26-30"
+    },
+    {
+      "pluginName": "pipeline-utility-steps",
+      "status": "success",
+      "timestamp": "2026-01-15T16-24-02"
+    },
+    {
+      "pluginName": "pipeline-build-step",
+      "status": "success",
+      "timestamp": "2026-01-15T16-18-47"
+    },
+    {
+      "pluginName": "git-parameter",
+      "status": "success",
+      "timestamp": "2026-01-15T14-52-42"
+    },
+    {
+      "pluginName": "docker-workflow",
+      "status": "success",
+      "timestamp": "2026-01-15T14-44-19"
+    },
+    {
+      "pluginName": "ssh-slaves",
+      "status": "success",
+      "timestamp": "2026-01-15T14-36-20"
+    },
+    {
+      "pluginName": "ansible",
+      "status": "success",
+      "timestamp": "2026-01-14T13-55-56"
+    },
+    {
+      "pluginName": "simple-priority-sorter",
+      "status": "success",
+      "timestamp": "2026-01-14T12-47-10"
+    },
+    {
+      "pluginName": "skip-notifications-trait",
+      "status": "success",
+      "timestamp": "2026-01-14T12-45-32"
+    },
+    {
+      "pluginName": "scm-filter-branch-pr",
+      "status": "success",
+      "timestamp": "2026-01-14T12-43-50"
+    },
+    {
+      "pluginName": "s3-jobcacher-storage",
+      "status": "success",
+      "timestamp": "2026-01-14T12-42-24"
+    },
+    {
+      "pluginName": "postgresql-fingerprint-storage",
+      "status": "success",
+      "timestamp": "2026-01-14T12-40-34"
+    },
+    {
+      "pluginName": "pipeline-cps-oras",
+      "status": "success",
+      "timestamp": "2026-01-14T12-38-40"
+    },
+    {
+      "pluginName": "pipeline-lib-oras",
+      "status": "success",
+      "timestamp": "2026-01-14T12-37-01"
+    },
+    {
+      "pluginName": "pipeline-npm",
+      "status": "success",
+      "timestamp": "2026-01-14T12-35-20"
+    },
+    {
+      "pluginName": "pipeline-cps-http",
+      "status": "success",
+      "timestamp": "2026-01-14T12-33-44"
+    },
+    {
+      "pluginName": "parameter-separator",
+      "status": "success",
+      "timestamp": "2026-01-14T12-32-10"
+    },
+    {
+      "pluginName": "oss-symbols-api",
+      "status": "success",
+      "timestamp": "2026-01-14T12-30-36"
+    },
+    {
+      "pluginName": "oras-java-api",
+      "status": "success",
+      "timestamp": "2026-01-14T12-29-02"
+    },
+    {
+      "pluginName": "openshift-k8s-credentials",
+      "status": "success",
+      "timestamp": "2026-01-14T12-27-37"
+    },
+    {
+      "pluginName": "nunit",
+      "status": "success",
+      "timestamp": "2026-01-14T12-26-08"
+    },
+    {
+      "pluginName": "next-executions",
+      "status": "success",
+      "timestamp": "2026-01-14T12-24-29"
+    },
+    {
+      "pluginName": "mariadb-api",
+      "status": "success",
+      "timestamp": "2026-01-14T12-22-56"
+    },
+    {
+      "pluginName": "login-theme",
+      "status": "success",
+      "timestamp": "2026-01-14T12-21-29"
+    },
+    {
+      "pluginName": "locale",
+      "status": "success",
+      "timestamp": "2026-01-14T12-19-53"
+    },
+    {
+      "pluginName": "jsoup",
+      "status": "success",
+      "timestamp": "2026-01-14T12-18-16"
+    },
+    {
+      "pluginName": "jnr-posix-api",
+      "status": "success",
+      "timestamp": "2026-01-14T12-16-49"
+    },
+    {
+      "pluginName": "json-path-api",
+      "status": "success",
+      "timestamp": "2026-01-14T12-15-20"
+    },
+    {
+      "pluginName": "json-api",
+      "status": "success",
+      "timestamp": "2026-01-14T12-13-54"
+    },
+    {
+      "pluginName": "joda-time-api",
+      "status": "success",
+      "timestamp": "2026-01-14T12-12-29"
+    },
+    {
+      "pluginName": "jobcacher-oras-storage",
+      "status": "success",
+      "timestamp": "2026-01-14T12-11-05"
+    },
+    {
+      "pluginName": "jobcacher-artifactory-storage",
+      "status": "success",
+      "timestamp": "2026-01-14T12-09-30"
+    },
+    {
+      "pluginName": "jobcacher",
+      "status": "success",
+      "timestamp": "2026-01-14T12-07-49"
+    },
+    {
+      "pluginName": "jcaptcha-plugin",
+      "status": "success",
+      "timestamp": "2026-01-14T12-06-04"
+    },
+    {
+      "pluginName": "jackson3-api",
+      "status": "success",
+      "timestamp": "2026-01-14T12-04-36"
+    },
+    {
+      "pluginName": "hidden-parameter",
+      "status": "success",
+      "timestamp": "2026-01-14T12-03-06"
+    },
+    {
+      "pluginName": "git-version-monitor",
+      "status": "success",
+      "timestamp": "2026-01-14T12-01-24"
+    },
+    {
+      "pluginName": "gson-api",
+      "status": "success",
+      "timestamp": "2026-01-14T11-59-46"
+    },
+    {
+      "pluginName": "gitlab-kubernetes-credentials",
+      "status": "success",
+      "timestamp": "2026-01-14T11-57-42"
+    },
+    {
+      "pluginName": "flyway-api",
+      "status": "success",
+      "timestamp": "2026-01-14T11-53-02"
+    },
+    {
+      "pluginName": "file-operations",
+      "status": "success",
+      "timestamp": "2026-01-14T11-50-49"
+    },
+    {
+      "pluginName": "extended-read-permission",
+      "status": "success",
+      "timestamp": "2026-01-14T11-48-24"
+    },
+    {
+      "pluginName": "extra-tool-installers",
+      "status": "success",
+      "timestamp": "2026-01-14T11-46-39"
+    },
+    {
+      "pluginName": "extension-filter",
+      "status": "success",
+      "timestamp": "2026-01-14T11-44-27"
+    },
+    {
+      "pluginName": "database-mariadb",
+      "status": "success",
+      "timestamp": "2026-01-14T11-42-13"
+    },
+    {
+      "pluginName": "coverage-badges-extension",
+      "status": "success",
+      "timestamp": "2026-01-14T11-40-02"
+    },
+    {
+      "pluginName": "commons-math3-api",
+      "status": "success",
+      "timestamp": "2026-01-14T11-37-30"
+    },
+    {
+      "pluginName": "byte-buddy-api",
+      "status": "success",
+      "timestamp": "2026-01-14T11-35-18"
+    },
+    {
+      "pluginName": "build-history-metrics-plugin",
+      "status": "success",
+      "timestamp": "2026-01-14T11-33-27"
+    },
+    {
+      "pluginName": "bitbucket-kubernetes-credentials",
+      "status": "success",
+      "timestamp": "2026-01-14T11-31-32"
+    },
+    {
+      "pluginName": "asm-api",
+      "status": "success",
+      "timestamp": "2026-01-14T11-29-17"
+    },
+    {
+      "pluginName": "artifactory-client-api",
+      "status": "success",
+      "timestamp": "2026-01-14T11-27-21"
+    },
+    {
+      "pluginName": "artifactory-artifact-manager",
+      "status": "success",
+      "timestamp": "2026-01-14T11-25-14"
+    },
     {
       "pluginName": "docker-commons",
       "status": "success",
