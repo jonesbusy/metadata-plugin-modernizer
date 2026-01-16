@@ -1,0 +1,25 @@
+{
+  "pluginName": "scmskip",
+  "pluginRepository": "https://github.com/jenkinsci/scmskip-plugin.git",
+  "pluginVersion": "82.v24fc1c6f381b_",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.479",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.3",
+  "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+  "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/scmskip-plugin/pull/70",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 8,
+  "deletions": 3,
+  "changedFiles": 3,
+  "key": "2026-01-16T14-40-41.json",
+  "path": "metadata-plugin-modernizer/scmskip/modernization-metadata"
+}
