@@ -15,11 +15,19 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/oss-symbols-api-plugin/pull/242",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "closed",
   "dryRun": false,
   "additions": 9,
   "deletions": 1,
   "changedFiles": 2,
   "key": "2026-01-14T12-30-36.json",
-  "path": "metadata-plugin-modernizer/oss-symbols-api/modernization-metadata"
+  "path": "metadata-plugin-modernizer/oss-symbols-api/modernization-metadata",
+  "checkRuns": {
+    "Jenkins": "failure",
+    "Jenkins Security Scan": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "cb7a29c179e0ee54d7d00a8cc1d6891c86fbd68e"
 }

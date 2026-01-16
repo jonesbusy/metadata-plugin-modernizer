@@ -14,11 +14,31 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/byte-buddy-api-plugin/pull/114",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 1,
   "deletions": 1,
   "changedFiles": 1,
   "key": "2026-01-14T10-38-45.json",
-  "path": "metadata-plugin-modernizer/byte-buddy-api/modernization-metadata"
+  "path": "metadata-plugin-modernizer/byte-buddy-api/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-25 / Build (linux-25)": "success",
+    "Tests / windows-21 / Build (windows-21)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "f2a1f552cc7eb09554c7449006bf6b08d5d0b756"
 }

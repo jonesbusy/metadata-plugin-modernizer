@@ -14,11 +14,31 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/json-api-plugin/pull/103",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 1,
   "deletions": 1,
   "changedFiles": 1,
   "key": "2026-01-14T11-13-16.json",
-  "path": "metadata-plugin-modernizer/json-api/modernization-metadata"
+  "path": "metadata-plugin-modernizer/json-api/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-25 / Build (linux-25)": "success",
+    "Tests / windows-21 / Build (windows-21)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "bccdb620db5592206937b252555f8beb1433216b"
 }
