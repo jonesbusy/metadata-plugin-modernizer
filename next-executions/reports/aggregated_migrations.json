@@ -3,6 +3,53 @@
   "pluginRepository": "https://github.com/jenkinsci/next-executions-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "517.vc2c2ca_1b_c808",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+      "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/next-executions-plugin/pull/211",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-01-14T12-24-29.json",
+      "path": "metadata-plugin-modernizer/next-executions/modernization-metadata",
+      "timestamp": "2026-01-14T12-24-29"
+    },
+    {
+      "pluginVersion": "517.vc2c2ca_1b_c808",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Upgrade parent version to latest available in the 6.x line",
+      "migrationDescription": "Upgrade the parent version to latest available in the 6.x line.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/next-executions-plugin/pull/210",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "key": "2026-01-14T11-25-27.json",
+      "path": "metadata-plugin-modernizer/next-executions/modernization-metadata",
+      "timestamp": "2026-01-14T11-25-27"
+    },
+    {
       "pluginVersion": "491.vd59a_b_12e9c1b_",
       "jenkinsBaseline": "2.516",
       "targetBaseline": "2.516",
@@ -43,7 +90,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "c2c2ca1bc808d55469814bba5281ce1230b99e6c",
+      "defaultBranchLatestCommitSha": "504b2b2c856b2b19e23d2c93094b42da3e14ef4f",
       "timestamp": "2026-01-10T20-25-32"
     },
     {
@@ -86,7 +133,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "c2c2ca1bc808d55469814bba5281ce1230b99e6c",
+      "defaultBranchLatestCommitSha": "504b2b2c856b2b19e23d2c93094b42da3e14ef4f",
       "timestamp": "2026-01-04T08-52-43"
     },
     {
@@ -156,7 +203,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "c2c2ca1bc808d55469814bba5281ce1230b99e6c",
+      "defaultBranchLatestCommitSha": "504b2b2c856b2b19e23d2c93094b42da3e14ef4f",
       "timestamp": "2026-01-03T17-48-34"
     },
     {
@@ -225,7 +272,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "c2c2ca1bc808d55469814bba5281ce1230b99e6c",
+      "defaultBranchLatestCommitSha": "504b2b2c856b2b19e23d2c93094b42da3e14ef4f",
       "timestamp": "2025-10-31T15-28-23"
     },
     {
@@ -271,7 +318,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "c2c2ca1bc808d55469814bba5281ce1230b99e6c",
+      "defaultBranchLatestCommitSha": "504b2b2c856b2b19e23d2c93094b42da3e14ef4f",
       "timestamp": "2025-08-09T09-57-26"
     },
     {
@@ -315,7 +362,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "c2c2ca1bc808d55469814bba5281ce1230b99e6c",
+      "defaultBranchLatestCommitSha": "504b2b2c856b2b19e23d2c93094b42da3e14ef4f",
       "timestamp": "2025-07-27T10-51-37"
     }
   ]

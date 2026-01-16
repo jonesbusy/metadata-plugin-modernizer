@@ -3,6 +3,53 @@
   "pluginRepository": "https://github.com/jenkinsci/simple-priority-sorter-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "36.v0c14c3a_9f60d",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+      "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/simple-priority-sorter-plugin/pull/20",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-01-14T12-47-10.json",
+      "path": "metadata-plugin-modernizer/simple-priority-sorter/modernization-metadata",
+      "timestamp": "2026-01-14T12-47-10"
+    },
+    {
+      "pluginVersion": "36.v0c14c3a_9f60d",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.516",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Upgrade parent version to latest available in the 6.x line",
+      "migrationDescription": "Upgrade the parent version to latest available in the 6.x line.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/simple-priority-sorter-plugin/pull/19",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "key": "2026-01-14T12-00-05.json",
+      "path": "metadata-plugin-modernizer/simple-priority-sorter/modernization-metadata",
+      "timestamp": "2026-01-14T12-00-05"
+    },
+    {
       "pluginVersion": "8.v96183e297829",
       "jenkinsBaseline": "2.516",
       "targetBaseline": "2.516",
@@ -67,7 +114,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "65104c3dea1811fd765ec39f14f4a383372bd373",
+      "defaultBranchLatestCommitSha": "0c14c3a9f60d391c0de16d0382333c4c220768dc",
       "timestamp": "2026-01-10T19-21-30"
     },
     {
@@ -112,7 +159,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "65104c3dea1811fd765ec39f14f4a383372bd373",
+      "defaultBranchLatestCommitSha": "0c14c3a9f60d391c0de16d0382333c4c220768dc",
       "timestamp": "2026-01-04T10-03-28"
     },
     {
@@ -154,7 +201,7 @@
       },
       "checkRunsSummary": "failure",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "65104c3dea1811fd765ec39f14f4a383372bd373",
+      "defaultBranchLatestCommitSha": "0c14c3a9f60d391c0de16d0382333c4c220768dc",
       "timestamp": "2026-01-04T09-54-12"
     },
     {
@@ -198,7 +245,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "65104c3dea1811fd765ec39f14f4a383372bd373",
+      "defaultBranchLatestCommitSha": "0c14c3a9f60d391c0de16d0382333c4c220768dc",
       "timestamp": "2025-10-31T15-55-42"
     }
   ]

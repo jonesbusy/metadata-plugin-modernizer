@@ -1,0 +1,30 @@
+{
+  "pluginName": "powershell",
+  "pluginRepository": "https://github.com/jenkinsci/powershell-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "2.3",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+      "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/powershell-plugin/pull/40",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 10,
+      "deletions": 2,
+      "changedFiles": 2,
+      "key": "2026-01-15T16-33-23.json",
+      "path": "metadata-plugin-modernizer/powershell/modernization-metadata",
+      "timestamp": "2026-01-15T16-33-23"
+    }
+  ]
+}

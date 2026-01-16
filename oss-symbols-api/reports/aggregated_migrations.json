@@ -8,6 +8,53 @@
       "targetBaseline": "2.492",
       "effectiveBaseline": "2.492",
       "jenkinsVersion": "2.492.3",
+      "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+      "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/oss-symbols-api-plugin/pull/242",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 9,
+      "deletions": 1,
+      "changedFiles": 2,
+      "key": "2026-01-14T12-30-36.json",
+      "path": "metadata-plugin-modernizer/oss-symbols-api/modernization-metadata",
+      "timestamp": "2026-01-14T12-30-36"
+    },
+    {
+      "pluginVersion": "424.ved751e062911",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Upgrade parent version to latest available in the 6.x line",
+      "migrationDescription": "Upgrade the parent version to latest available in the 6.x line.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/oss-symbols-api-plugin/pull/241",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "key": "2026-01-14T11-35-00.json",
+      "path": "metadata-plugin-modernizer/oss-symbols-api/modernization-metadata",
+      "timestamp": "2026-01-14T11-35-00"
+    },
+    {
+      "pluginVersion": "424.ved751e062911",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
       "migrationName": "Switch from Dependabot to Renovate",
       "migrationDescription": "Switch from Dependabot to Renovate for the Jenkins plugin.",
       "tags": [
