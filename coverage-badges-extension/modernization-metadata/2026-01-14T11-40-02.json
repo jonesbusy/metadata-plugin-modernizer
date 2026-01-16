@@ -15,11 +15,31 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/coverage-badges-extension-plugin/pull/121",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 1,
   "deletions": 0,
   "changedFiles": 1,
   "key": "2026-01-14T11-40-02.json",
-  "path": "metadata-plugin-modernizer/coverage-badges-extension/modernization-metadata"
+  "path": "metadata-plugin-modernizer/coverage-badges-extension/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-25 / Build (linux-25)": "success",
+    "Tests / windows-21 / Build (windows-21)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "b8d9232829461ed0b66cd6d82ca547523c1ccc99"
 }

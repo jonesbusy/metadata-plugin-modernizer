@@ -14,11 +14,31 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/file-operations-plugin/pull/197",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 1,
   "deletions": 1,
   "changedFiles": 1,
   "key": "2026-01-14T10-50-50.json",
-  "path": "metadata-plugin-modernizer/file-operations/modernization-metadata"
+  "path": "metadata-plugin-modernizer/file-operations/modernization-metadata",
+  "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "ESLint": "success",
+    "Incrementals": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
+    "Jenkins": "success",
+    "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-25 / Build (linux-25)": "success",
+    "Tests / windows-21 / Build (windows-21)": "success",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "success",
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "7980a7b3026071e1374ef69bdfc7a8b5e06ecbfe"
 }
