@@ -1,0 +1,25 @@
+{
+  "pluginName": "log-parser",
+  "pluginRepository": "https://github.com/jenkinsci/log-parser-plugin.git",
+  "pluginVersion": "3.0.2",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+  "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+  "migrationStatus": "fail",
+  "pullRequestUrl": "",
+  "pullRequestStatus": "",
+  "dryRun": false,
+  "additions": 0,
+  "deletions": 0,
+  "changedFiles": 0,
+  "key": "2026-01-19T16-30-37.json",
+  "path": "metadata-plugin-modernizer/log-parser/modernization-metadata"
+}
