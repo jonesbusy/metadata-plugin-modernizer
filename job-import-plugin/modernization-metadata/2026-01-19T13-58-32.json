@@ -1,0 +1,25 @@
+{
+  "pluginName": "job-import-plugin",
+  "pluginRepository": "https://github.com/jenkinsci/job-import-plugin.git",
+  "pluginVersion": "122.v35289550f1e6",
+  "jenkinsBaseline": "2.479",
+  "targetBaseline": "2.479",
+  "effectiveBaseline": "2.479",
+  "jenkinsVersion": "2.479.3",
+  "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+  "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/job-import-plugin/pull/159",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 12,
+  "deletions": 8,
+  "changedFiles": 5,
+  "key": "2026-01-19T13-58-32.json",
+  "path": "metadata-plugin-modernizer/job-import-plugin/modernization-metadata"
+}
