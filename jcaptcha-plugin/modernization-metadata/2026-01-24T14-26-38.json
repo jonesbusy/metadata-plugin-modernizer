@@ -1,0 +1,25 @@
+{
+  "pluginName": "jcaptcha-plugin",
+  "pluginRepository": "https://github.com/jenkinsci/jcaptcha-plugin.git",
+  "pluginVersion": "66.vf5a_222f99e7b_",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Setup auto-merge workflows",
+  "migrationDescription": "Setup auto-merge workflows for safe dependency updates and bom.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.AutoMergeWorkflows",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/jcaptcha-plugin/pull/48",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 20,
+  "deletions": 0,
+  "changedFiles": 2,
+  "key": "2026-01-24T14-26-38.json",
+  "path": "metadata-plugin-modernizer/jcaptcha-plugin/modernization-metadata"
+}
