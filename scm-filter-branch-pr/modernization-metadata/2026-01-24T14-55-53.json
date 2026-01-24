@@ -1,0 +1,25 @@
+{
+  "pluginName": "scm-filter-branch-pr",
+  "pluginRepository": "https://github.com/jenkinsci/scm-filter-branch-pr-plugin.git",
+  "pluginVersion": "264.v39ce4f34d572",
+  "jenkinsBaseline": "2.516",
+  "targetBaseline": "2.516",
+  "effectiveBaseline": "2.516",
+  "jenkinsVersion": "2.516.3",
+  "migrationName": "Setup auto-merge workflows",
+  "migrationDescription": "Setup auto-merge workflows for safe dependency updates and bom.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.AutoMergeWorkflows",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/scm-filter-branch-pr-plugin/pull/125",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 20,
+  "deletions": 0,
+  "changedFiles": 2,
+  "key": "2026-01-24T14-55-53.json",
+  "path": "metadata-plugin-modernizer/scm-filter-branch-pr/modernization-metadata"
+}
