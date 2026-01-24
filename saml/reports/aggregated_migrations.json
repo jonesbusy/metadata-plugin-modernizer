@@ -1,0 +1,30 @@
+{
+  "pluginName": "saml",
+  "pluginRepository": "https://github.com/jenkinsci/saml-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "4.595.vec7523b_5d543",
+      "jenkinsBaseline": "2.504",
+      "targetBaseline": "2.504",
+      "effectiveBaseline": "2.504",
+      "jenkinsVersion": "2.504.3",
+      "migrationName": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text",
+      "migrationDescription": "Migrate Commons Lang from 2 to 3 and StringEscapeUtils to Commons Text.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/saml-plugin/pull/763",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 18,
+      "deletions": 17,
+      "changedFiles": 15,
+      "key": "2026-01-19T08-05-26.json",
+      "path": "metadata-plugin-modernizer/saml/modernization-metadata",
+      "timestamp": "2026-01-19T08-05-26"
+    }
+  ]
+}
