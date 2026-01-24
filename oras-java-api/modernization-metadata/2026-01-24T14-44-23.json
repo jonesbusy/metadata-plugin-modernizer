@@ -1,0 +1,25 @@
+{
+  "pluginName": "oras-java-api",
+  "pluginRepository": "https://github.com/jenkinsci/oras-java-api-plugin.git",
+  "pluginVersion": "0.3.1-126.vb_58a_7a_7b_ce43",
+  "jenkinsBaseline": "2.504",
+  "targetBaseline": "2.504",
+  "effectiveBaseline": "2.504",
+  "jenkinsVersion": "2.504.1",
+  "migrationName": "Setup auto-merge workflows",
+  "migrationDescription": "Setup auto-merge workflows for safe dependency updates and bom.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.AutoMergeWorkflows",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/oras-java-api-plugin/pull/78",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 20,
+  "deletions": 0,
+  "changedFiles": 2,
+  "key": "2026-01-24T14-44-23.json",
+  "path": "metadata-plugin-modernizer/oras-java-api/modernization-metadata"
+}
