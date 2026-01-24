@@ -1,19 +1,19 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2026-01-16 00:40:43 UTC
+Generated on: 2026-01-24 00:39:15 UTC
 
 ## Overview
-- **Total Migrations**: 1162
-- **Failed Migrations**: 585
-- **Success Rate**: 49.66%
+- **Total Migrations**: 1181
+- **Failed Migrations**: 587
+- **Success Rate**: 50.30%
 
 ## Failures by Recipe
 - io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 522 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 32 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 16 failures
+- io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText: 5 failures
 - io.jenkins.tools.pluginmodernizer.MigrateToJUnit5: 4 failures
 - io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins: 3 failures
-- io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText: 3 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 2 failures
 - io.jenkins.tools.pluginmodernizer.MigrateToJava25: 1 failures
 - io.jenkins.tools.pluginmodernizer.AddCodeOwner: 1 failures
@@ -158,6 +158,7 @@ Generated on: 2026-01-16 00:40:43 UTC
 - [lifx-notifier](../lifx-notifier/reports/failed_migrations.csv)
 - [list-command](../list-command/reports/failed_migrations.csv)
 - [loadcomplete](../loadcomplete/reports/failed_migrations.csv)
+- [log-parser](../log-parser/reports/failed_migrations.csv)
 - [login-theme](../login-theme/reports/failed_migrations.csv)
 - [mailmap-resolver](../mailmap-resolver/reports/failed_migrations.csv)
 - [marathon](../marathon/reports/failed_migrations.csv)
@@ -251,10 +252,10 @@ Generated on: 2026-01-16 00:40:43 UTC
 
 | Status | Count | Percentage |
 |--------|-------|------------|
-| Total PRs | 465 | - |
-| Open PRs | 182 | 39.14% |
-| Closed PRs | 21 | 4.52% |
-| Merged PRs | 262 | 56.34% |
+| Total PRs | 482 | - |
+| Open PRs | 102 | 21.16% |
+| Closed PRs | 23 | 4.77% |
+| Merged PRs | 357 | 74.07% |
 
 
 *Note: No. of Migrations != No. of PRs. A migration applied may trigger force push on already opened PR.*
