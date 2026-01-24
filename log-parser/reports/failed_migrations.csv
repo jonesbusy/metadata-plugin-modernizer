@@ -1,0 +1,3 @@
+migrationId,migrationStatus
+io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText,fail
+io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText,fail

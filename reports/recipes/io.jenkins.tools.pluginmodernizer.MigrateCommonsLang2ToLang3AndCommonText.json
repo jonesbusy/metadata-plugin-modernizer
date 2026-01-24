@@ -1,9 +1,104 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
-  "totalApplications": 70,
-  "successCount": 67,
-  "failureCount": 3,
+  "totalApplications": 89,
+  "successCount": 84,
+  "failureCount": 5,
   "plugins": [
+    {
+      "pluginName": "log-parser",
+      "status": "fail",
+      "timestamp": "2026-01-19T16-30-37"
+    },
+    {
+      "pluginName": "log-parser",
+      "status": "fail",
+      "timestamp": "2026-01-19T14-30-01"
+    },
+    {
+      "pluginName": "github-oauth",
+      "status": "success",
+      "timestamp": "2026-01-19T14-20-20"
+    },
+    {
+      "pluginName": "job-import-plugin",
+      "status": "success",
+      "timestamp": "2026-01-19T13-58-32"
+    },
+    {
+      "pluginName": "saml",
+      "status": "success",
+      "timestamp": "2026-01-19T08-05-26"
+    },
+    {
+      "pluginName": "jira",
+      "status": "success",
+      "timestamp": "2026-01-19T06-58-56"
+    },
+    {
+      "pluginName": "xunit",
+      "status": "success",
+      "timestamp": "2026-01-16T16-03-41"
+    },
+    {
+      "pluginName": "gitlab-oauth",
+      "status": "success",
+      "timestamp": "2026-01-16T16-02-03"
+    },
+    {
+      "pluginName": "testng-plugin",
+      "status": "success",
+      "timestamp": "2026-01-16T15-01-17"
+    },
+    {
+      "pluginName": "Office-365-Connector",
+      "status": "success",
+      "timestamp": "2026-01-16T14-55-50"
+    },
+    {
+      "pluginName": "throttle-concurrents",
+      "status": "success",
+      "timestamp": "2026-01-16T14-53-54"
+    },
+    {
+      "pluginName": "filesystem-list-parameter-plugin",
+      "status": "success",
+      "timestamp": "2026-01-16T14-49-47"
+    },
+    {
+      "pluginName": "scmskip",
+      "status": "success",
+      "timestamp": "2026-01-16T14-40-41"
+    },
+    {
+      "pluginName": "cloudbees-jenkins-advisor",
+      "status": "success",
+      "timestamp": "2026-01-16T13-49-23"
+    },
+    {
+      "pluginName": "extra-columns",
+      "status": "success",
+      "timestamp": "2026-01-16T13-43-48"
+    },
+    {
+      "pluginName": "nodelabelparameter",
+      "status": "success",
+      "timestamp": "2026-01-16T13-42-16"
+    },
+    {
+      "pluginName": "kubernetes",
+      "status": "success",
+      "timestamp": "2026-01-16T13-33-56"
+    },
+    {
+      "pluginName": "copyartifact",
+      "status": "success",
+      "timestamp": "2026-01-16T09-59-35"
+    },
+    {
+      "pluginName": "docker-plugin",
+      "status": "success",
+      "timestamp": "2026-01-16T09-59-16"
+    },
     {
       "pluginName": "active-directory",
       "status": "success",
