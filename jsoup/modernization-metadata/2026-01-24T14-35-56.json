@@ -1,0 +1,25 @@
+{
+  "pluginName": "jsoup",
+  "pluginRepository": "https://github.com/jenkinsci/jsoup-plugin.git",
+  "pluginVersion": "1.22.1-76.v9cdb_2456c0e3",
+  "jenkinsBaseline": "",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Setup auto-merge workflows",
+  "migrationDescription": "Setup auto-merge workflows for safe dependency updates and bom.",
+  "tags": [
+    "skip-verification",
+    "chore"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.AutoMergeWorkflows",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/jsoup-plugin/pull/44",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 20,
+  "deletions": 0,
+  "changedFiles": 2,
+  "key": "2026-01-24T14-35-56.json",
+  "path": "metadata-plugin-modernizer/jsoup/modernization-metadata"
+}
