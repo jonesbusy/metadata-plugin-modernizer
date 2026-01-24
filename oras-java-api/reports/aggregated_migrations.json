@@ -17,13 +17,33 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/oras-java-api-plugin/pull/76",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 0,
       "changedFiles": 1,
       "key": "2026-01-14T12-29-02.json",
       "path": "metadata-plugin-modernizer/oras-java-api/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "e44bdddff68edabe028fb50598f66adf4ade36ca",
       "timestamp": "2026-01-14T12-29-02"
     },
     {
@@ -40,13 +60,33 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/oras-java-api-plugin/pull/75",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 1,
       "changedFiles": 1,
       "key": "2026-01-14T11-32-50.json",
       "path": "metadata-plugin-modernizer/oras-java-api/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "e44bdddff68edabe028fb50598f66adf4ade36ca",
       "timestamp": "2026-01-14T11-32-50"
     },
     {
@@ -90,7 +130,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "7ec8805b34a1012ddf6a71f6fab4b329394c614d",
+      "defaultBranchLatestCommitSha": "e44bdddff68edabe028fb50598f66adf4ade36ca",
       "timestamp": "2026-01-11T07-53-16"
     },
     {
@@ -133,7 +173,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "7ec8805b34a1012ddf6a71f6fab4b329394c614d",
+      "defaultBranchLatestCommitSha": "e44bdddff68edabe028fb50598f66adf4ade36ca",
       "timestamp": "2025-08-30T12-51-49"
     }
   ]

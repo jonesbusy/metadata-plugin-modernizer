@@ -17,13 +17,21 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/oss-symbols-api-plugin/pull/242",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "closed",
       "dryRun": false,
       "additions": 9,
       "deletions": 1,
       "changedFiles": 2,
       "key": "2026-01-14T12-30-36.json",
       "path": "metadata-plugin-modernizer/oss-symbols-api/modernization-metadata",
+      "checkRuns": {
+        "Jenkins": "failure",
+        "Jenkins Security Scan": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "failure",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "cb7a29c179e0ee54d7d00a8cc1d6891c86fbd68e",
       "timestamp": "2026-01-14T12-30-36"
     },
     {
@@ -40,13 +48,33 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/oss-symbols-api-plugin/pull/241",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 1,
       "changedFiles": 1,
       "key": "2026-01-14T11-35-00.json",
       "path": "metadata-plugin-modernizer/oss-symbols-api/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "cb7a29c179e0ee54d7d00a8cc1d6891c86fbd68e",
       "timestamp": "2026-01-14T11-35-00"
     },
     {
@@ -90,7 +118,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1ae7b458eebfd4346c0912dff36f5c785fa75d49",
+      "defaultBranchLatestCommitSha": "cb7a29c179e0ee54d7d00a8cc1d6891c86fbd68e",
       "timestamp": "2026-01-10T20-29-40"
     },
     {
@@ -136,7 +164,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1ae7b458eebfd4346c0912dff36f5c785fa75d49",
+      "defaultBranchLatestCommitSha": "cb7a29c179e0ee54d7d00a8cc1d6891c86fbd68e",
       "timestamp": "2026-01-03T19-33-32"
     },
     {
@@ -181,7 +209,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1ae7b458eebfd4346c0912dff36f5c785fa75d49",
+      "defaultBranchLatestCommitSha": "cb7a29c179e0ee54d7d00a8cc1d6891c86fbd68e",
       "timestamp": "2025-08-09T09-03-24"
     },
     {
@@ -225,7 +253,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1ae7b458eebfd4346c0912dff36f5c785fa75d49",
+      "defaultBranchLatestCommitSha": "cb7a29c179e0ee54d7d00a8cc1d6891c86fbd68e",
       "timestamp": "2025-07-27T10-13-15"
     }
   ]

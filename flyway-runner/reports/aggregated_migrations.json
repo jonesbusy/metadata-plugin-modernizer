@@ -16,13 +16,34 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/flyway-runner-plugin/pull/145",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 1,
       "changedFiles": 1,
       "key": "2026-01-14T10-54-22.json",
       "path": "metadata-plugin-modernizer/flyway-runner/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "267a575e4634a03c62667fc5cb411d713561c424",
       "timestamp": "2026-01-14T10-54-22"
     },
     {
@@ -67,7 +88,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "f2a9f4cc0669c5c927a21796af9ac73fc5825337",
+      "defaultBranchLatestCommitSha": "267a575e4634a03c62667fc5cb411d713561c424",
       "timestamp": "2026-01-10T21-33-57"
     },
     {
@@ -136,7 +157,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "f2a9f4cc0669c5c927a21796af9ac73fc5825337",
+      "defaultBranchLatestCommitSha": "267a575e4634a03c62667fc5cb411d713561c424",
       "timestamp": "2026-01-10T20-02-35"
     },
     {
@@ -205,7 +226,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "f2a9f4cc0669c5c927a21796af9ac73fc5825337",
+      "defaultBranchLatestCommitSha": "267a575e4634a03c62667fc5cb411d713561c424",
       "timestamp": "2026-01-03T19-00-05"
     },
     {
@@ -274,7 +295,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "f2a9f4cc0669c5c927a21796af9ac73fc5825337",
+      "defaultBranchLatestCommitSha": "267a575e4634a03c62667fc5cb411d713561c424",
       "timestamp": "2025-08-09T09-32-09"
     },
     {
@@ -318,7 +339,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "f2a9f4cc0669c5c927a21796af9ac73fc5825337",
+      "defaultBranchLatestCommitSha": "267a575e4634a03c62667fc5cb411d713561c424",
       "timestamp": "2025-07-27T10-32-46"
     }
   ]

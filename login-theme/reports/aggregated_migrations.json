@@ -17,13 +17,33 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/login-theme-plugin/pull/168",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 0,
       "changedFiles": 1,
       "key": "2026-01-14T12-21-29.json",
       "path": "metadata-plugin-modernizer/login-theme/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "113047ec503aeb49ab77882ac26e3fd0b7bb0d94",
       "timestamp": "2026-01-14T12-21-29"
     },
     {
@@ -40,13 +60,33 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeParent6Version",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/login-theme-plugin/pull/167",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 1,
       "deletions": 1,
       "changedFiles": 1,
       "key": "2026-01-14T11-21-15.json",
       "path": "metadata-plugin-modernizer/login-theme/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "113047ec503aeb49ab77882ac26e3fd0b7bb0d94",
       "timestamp": "2026-01-14T11-21-15"
     },
     {
@@ -90,7 +130,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1eff4020fcaa1848f43d9a14983a33ccebd49d7d",
+      "defaultBranchLatestCommitSha": "113047ec503aeb49ab77882ac26e3fd0b7bb0d94",
       "timestamp": "2026-01-10T20-23-04"
     },
     {
@@ -159,7 +199,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1eff4020fcaa1848f43d9a14983a33ccebd49d7d",
+      "defaultBranchLatestCommitSha": "113047ec503aeb49ab77882ac26e3fd0b7bb0d94",
       "timestamp": "2026-01-03T19-25-38"
     },
     {
@@ -228,7 +268,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1eff4020fcaa1848f43d9a14983a33ccebd49d7d",
+      "defaultBranchLatestCommitSha": "113047ec503aeb49ab77882ac26e3fd0b7bb0d94",
       "timestamp": "2025-08-09T09-55-19"
     },
     {
@@ -272,7 +312,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "1eff4020fcaa1848f43d9a14983a33ccebd49d7d",
+      "defaultBranchLatestCommitSha": "113047ec503aeb49ab77882ac26e3fd0b7bb0d94",
       "timestamp": "2025-07-27T10-49-47"
     }
   ]
